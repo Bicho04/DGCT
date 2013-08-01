@@ -571,7 +571,7 @@ abbr,acronym { border:0;
     text-align: left;
 }
 
-#nav-enlaces .current a, #nav-enlaces li:hover > a {
+ #nav-enlaces li:hover > a {
     background: #ccc;
     box-shadow:0 2px 2px rgba(0,0,0, .7);
     -moz-box-shadow:0 2px 2px rgba(0,0,0, .7);

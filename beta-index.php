@@ -62,7 +62,7 @@ body,td,th {
                     <h2>Enlaces de Interes</h2>
                     <ul><li class="Enl-int"><a href="http://www.cabildoccr.gov.py/"><img src="imagenes/enlace.png"> Centro Cultural el Cabildo</a></li>
 
-                        <li class="Enl-int"><a href="http://www.latam.citibank.com/paraguay/lapy/centro_cultural/main.htm"><img src="imagenes/enlace.png"> Centro Cultural Citi Banck</a></li>
+                        <li class="Enl-int"><a href="http://www.latam.citibank.com/paraguay/lapy/centro_cultural/main.htm"><img src="imagenes/enlace.png"> Centro Cultural Citi Bank</a></li>
 
                         <li class="Enl-int"><a href="http://www.ccpa.edu.py/"><img src="imagenes/enlace.png"> Centro Cultural Paraguayo Americano</a></li>
 

@@ -117,9 +117,9 @@
                   <div class="titulo2 ">Enlaces de Interes</div>
                   <nav id="menu-enlaces">
                     <ul id="nav-enlaces">
-                      <li><a href="http://www.cabildoccr.gov.py/"><img src="imagenes/vinheta.png"> Centro Cultural el Cavildo</a></li>
+                      <li><a href="http://www.cabildoccr.gov.py/"><img src="imagenes/vinheta.png"> Centro Cultural el Cabildo</a></li>
 
-                      <li><a href="http://www.latam.citibank.com/paraguay/lapy/centro_cultural/main.htm"><img src="imagenes/vinheta.png"> Centro Cultural Citi Banck</a></li>
+                      <li><a href="http://www.latam.citibank.com/paraguay/lapy/centro_cultural/main.htm"><img src="imagenes/vinheta.png"> Centro Cultural Citi Bank</a></li>
 
                       <li><a href="http://www.ccpa.edu.py/"><img src="imagenes/vinheta.png"> Centro Cultural Paraguayo Americano</a></li>
 

@@ -744,7 +744,7 @@ abbr,acronym { border:0;
 
 }
 .hovercal li .titulo2{
-    width: 285px;
+    min-width: 50px;
     display:inline-block;
 } 
 

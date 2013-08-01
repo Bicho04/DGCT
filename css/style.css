@@ -246,10 +246,10 @@ transform : scale(1.1);
 .nota span a{
     font-size: 12px;
     padding: 2px 3px;
-    background: #ccc;
+    background: #81cD1E;
     color:#333;
     border-radius: 3px;
-    box-shadow: 0 0 2px 1px #ddd;
+    /*box-shadow: 0 0 2px 1px #ddd;*/
 }
 .nota span a:hover{
     background: #555;

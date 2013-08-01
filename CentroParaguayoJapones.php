@@ -27,17 +27,6 @@
         <section id="logoasu"> <img src="imagenes/logo.png" alt="logo Asu"></section>
       </section>
 
-    
-        <aside id="menu-social">
-          <ul id="nav-social">
-            <li><a href="mailto:direcciondeturismo@mca.gov.py"><img src="imagenes/email.png" width="45"></a></li>
-            <li><a href="https://www.facebook.com/CulturaAsu"><img src="imagenes/facebook.png" width="45"></a></li>
-            <!--<li><a href="#"><img src="imagenes/twitter.png" width="45"></a></li>
-            <li><a href="#"><img src="imagenes/skype.png" width="45"></a></li>
-            <li><a href="#"><img src="imagenes/youtube.png" width="45"></a></li>
-            <li><a href="#"><img src="imagenes/googleplus.png" width="45"></a></li> -->
-          </ul>
-      </aside>
     </header>
     <section id="banner">
 <!-- ******************************************************* -->
@@ -69,7 +58,7 @@
       <div class="titulo"><h1>Centro Paraguayo Japones</h1></div>
       <ul class="hovercal">
         <li>
-          <div class="titulo2">Agenda de la ciudad</div>
+          <div class="titulo2">Ver Agenda</div>
           <div id="cal">
             <section id="calendario">
               <div id="calendar">
@@ -117,6 +106,15 @@
                     <li><a href="CPJ-Sala-Anfiteatro.php">Anfiteatro</a></li>
                     <li><a href="CPJ-Sala-Biblioteca.php">Biblioteca</a></li>
                 </ul>
+                <ul id="nav-social">
+                  <li><a href="mailto:direcciondeturismo@mca.gov.py"><img src="imagenes/email.png" width="45"></a></li>
+                  <li><a href="https://www.facebook.com/CulturaAsu"><img src="imagenes/facebook.png" width="45"></a></li>
+                  <!--<li><a href="#"><img src="imagenes/twitter.png" width="45"></a></li>
+                  <li><a href="#"><img src="imagenes/skype.png" width="45"></a></li>
+                  <li><a href="#"><img src="imagenes/youtube.png" width="45"></a></li>
+                  <li><a href="#"><img src="imagenes/googleplus.png" width="45"></a></li> -->
+                </ul>
+                </aside>
             </nav>
              <!-- InstanceBeginEditable name="INFO" -->
            

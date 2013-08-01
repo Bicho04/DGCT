@@ -2,7 +2,7 @@
 <html lang="es"><?php $entidad="c81e7";?><!-- InstanceBegin template="/Templates/InstitutoMunicipalDeArte.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>Instituto Musnicipal de Arte</title> 
+    <title>Instituto Municipal de Arte</title> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -59,7 +59,7 @@
       <div class="titulo"><h1>Instituto Municipal de Arte</h1></div>
       <ul class="hovercal">
         <li>
-          <div class="titulo2">Agenda de la ciudad</div>
+          <div class="titulo2">Ver Agenda</div>
           <div id="cal">
             <section id="calendario">
               <div id="calendar">
@@ -75,7 +75,7 @@
              
       <div id="cont-central">
             <ul id="nav-inst"><!--
-              --><li class="col-2"><a href="#">El I.M.A.</a><!-- 
+              --><li class="col-2"><a href="#">El IMA</a><!-- 
                 --><ul><!-- 
                     --><li><a href="IMA-Resena-Historica.php">Reseña histórica</a></li><!-- 
                     --><li><a href="IMA-Mision-Vision.php">Misión/Visión</a></li><!-- 
