@@ -11,18 +11,30 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex,follow" />
+    <
 
     <?php include("ajax.inc.php");?>
 
-<style type="text/css">
-body,td,th {
-	font-family: maven_promedium;
-}
-</style>
+    <style type="text/css">
+    body,td,th {
+    	font-family: maven_promedium;
+    }
+    </style>
 </head>
 
-<body onLoad="cargado();">
+<body onLoad="cargado();"> 
+    <!-- ******************************* ANALYTICS ******************************************* -->
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-42889888-1', 'culturayturismoasu.com.py');
+          ga('send', 'pageview');
+
+        </script>
+    <!-- ************************************************************************************* -->
         <header id="cabecera">
           <section id="logo-grupo">
 
@@ -59,32 +71,33 @@ body,td,th {
 
 
                 <aside id="Enlaces-interes">
-                    <h2>Enlaces de Interes</h2>
-                    <ul><li class="Enl-int"><a href="http://www.cabildoccr.gov.py/"><img src="imagenes/enlace.png"> Centro Cultural el Cabildo</a></li>
+                    <h2>Mas eventos en...</h2>
+                    <ul>
+                        <li class="Enl-int"><a href="http://www.cabildoccr.gov.py/" target="_blanck"><img src="imagenes/enlace.png"> Centro Cultural el Cabildo</a></li>
 
-                        <li class="Enl-int"><a href="http://www.latam.citibank.com/paraguay/lapy/centro_cultural/main.htm"><img src="imagenes/enlace.png"> Centro Cultural Citi Bank</a></li>
+                        <li class="Enl-int"><a href="http://www.latam.citibank.com/paraguay/lapyco/centro_cultural/main.htm" target="_blanck"><img src="imagenes/enlace.png"> Centro Cultural Citibank</a></li>
 
-                        <li class="Enl-int"><a href="http://www.ccpa.edu.py/"><img src="imagenes/enlace.png"> Centro Cultural Paraguayo Americano</a></li>
+                        <li class="Enl-int"><a href="http://www.ccpa.edu.py/" target="_blanck"><img src="imagenes/enlace.png"> Centro Cultural Paraguayo Americano</a></li>
 
-                        <li class="Enl-int"><a href="http://www.goethe.de/ins/pa/asu/esindex.htm?wt_sc=asuncion"><img src="imagenes/enlace.png"> Instituto Cultural Paraguayo Alem&aacute;n</a></li>
+                        <li class="Enl-int"><a href="http://www.goethe.de/ins/pa/asu/esindex.htm?wt_sc=asuncion" target="_blanck"><img src="imagenes/enlace.png"> Instituto Cultural Paraguayo Alem&aacute;n</a></li>
 
-                        <li class="Enl-int"><a href="http://www.ambafrance-py.org/Alianza-Francesa-de-Asuncion"><img src="imagenes/enlace.png"> Alianza Francesa</a></li>
+                        <li class="Enl-int"><a href="http://www.ambafrance-py.org/Alianza-Francesa-de-Asuncion" target="_blanck"><img src="imagenes/enlace.png"> Alianza Francesa</a></li>
 
-                        <li class="Enl-int"><a href="http://www.juandesalazar.org.py/"><img src="imagenes/enlace.png"> Centro Cultural Juan de Salazar</a></li>
+                        <li class="Enl-int"><a href="http://www.juandesalazar.org.py/" target="_blanck"><img src="imagenes/enlace.png"> Centro Cultural Juan de Salazar</a></li>
 
-                        <li class="Enl-int"><a href="http://www.embajada-argentina.org.py/V2/cultura/"><img src="imagenes/enlace.png"> Centro Cultural Embajada de Argentina</a></li>
+                        <li class="Enl-int"><a href="http://www.embajada-argentina.org.py/V2/cultura/" target="_blanck"><img src="imagenes/enlace.png"> Centro Cultural Embajada de Argentina</a></li>
 
-                        <li class="Enl-int"><a href="http://www.cultura.gov.py/"><img src="imagenes/enlace.png"> Secretaria Nacional de Cultura</a></li>
+                        <li class="Enl-int"><a href="http://www.cultura.gov.py/" target="_blanck"><img src="imagenes/enlace.png"> Secretaria Nacional de Cultura</a></li>
 
-                        <li class="Enl-int"><a href="http://www.senatur.gov.py/"><img src="imagenes/enlace.png"> Secretaria Nacional de Turismo</a></li>
+                        <li class="Enl-int"><a href="http://www.senatur.gov.py/" target="_blanck"><img src="imagenes/enlace.png"> Secretaria Nacional de Turismo</a></li>
 
-                        <li class="Enl-int"><a href="http://www.asuncionconvention.com/"><img src="imagenes/enlace.png"> Asunci&oacute;n Convention Bureau</a></li>
+                        <li class="Enl-int"><a href="http://www.asuncionconvention.com/" target="_blanck"><img src="imagenes/enlace.png"> Asunci&oacute;n Convention Bureau</a></li>
 
-                        <li class="Enl-int"><a href="http://www.bcp.gov.py/"><img src="imagenes/enlace.png"> Centro Cultural Banco Central</a></li>
+                        <li class="Enl-int"><a href="http://www.bcp.gov.py/" target="_blanck"><img src="imagenes/enlace.png"> Centro Cultural Banco Central</a></li>
 
-                        <li class="Enl-int"><a href="http://www.quickguide.com.py/index.php?option=com_eventlist&view=categoryevents&id=1&Itemid=132"><img src="imagenes/enlace.png"> Gu&iacute;a de Asunci&oacute;n</a></li>
+                        <li class="Enl-int"><a href="http://www.quickguide.com.py/index.php?option=com_eventlist&view=categoryevents&id=1&Itemid=132" target="_blanck"><img src="imagenes/enlace.png"> Gu&iacute;a de Asunci&oacute;n</a></li>
 
-                        <li class="Enl-int"><a href="http://www.aihpy.org.py"><img src="imagenes/enlace.png"> Asociaci&oacute;n de Industriales del Paraguay</a></li>
+                        <li class="Enl-int"><a href="http://www.aihpy.org.py" target="_blanck"><img src="imagenes/enlace.png"> Asociaci&oacute;n de Industriales del Paraguay</a></li>
                     </ul>
                 </aside>
             </section>
@@ -116,7 +129,7 @@ body,td,th {
                          <nav id="menu-temas">
                             <nav id="menu-temas">
                              <ul id="nav-temas">
-                                <h2>Ver por tema</h2>
+                                <h2>Buscar por tema</h2>
                             <?php include_once("listar.temas.inc.php");?>
                             </ul>
 
@@ -125,7 +138,7 @@ body,td,th {
                        
             <section id="Turismo">
                     <form class="form">
-                        <h3>&iexcl;Recibi en tu correo todas las actividades de la Cuidad de Asunci&oacute;n!</h3>
+                        <h3>&iexcl;Recibí en tu correo todas las actividades de la Ciudad de Asunci&oacute;n!</h3>
                         <p class="name">
                             <input type="text" placeholder="Nombre y Apellido"name="nombre" id="name" />
                         </p>

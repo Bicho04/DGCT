@@ -155,7 +155,6 @@ abbr,acronym { border:0;
     -webkit-box-shadow:0 2px 2px rgba(0,0,0, .7);
     text-shadow:0 2px 2px rgba(255,255,255, 0.7);
 }
-
 /**********************contenidos*****************************************/
 #contenido{
     margin: 20px auto 0 auto;
@@ -257,6 +256,11 @@ abbr,acronym { border:0;
     background-size: 100% 100% ;
     background-position: bottom;
     }
+.titulo2 h1{
+    font-size: 24px;
+    font-style: normal;
+}
+    
 
 
 #cont-central{
@@ -268,8 +272,7 @@ abbr,acronym { border:0;
 #agenda{
     width: 100%;
     min-height: 30px;
-
-   
+    padding-bottom:25px; 
     border-right: solid 1px #91CD2E;
 }
 #agenda .titulo{   
@@ -289,7 +292,7 @@ abbr,acronym { border:0;
     font-family: 'maven_promedium';
     font-size: .9em;  
     line-height: 18px;
-    border-top: solid 1px #91CD2E;
+    border-bottom: solid 1px #91CD2E;
 
 
 }
@@ -308,31 +311,33 @@ abbr,acronym { border:0;
     background: #333;
     font-size:24px;
 }
-.nota h2{
-    padding: 3px 5px;
-    color: #91CD2E;
-    margin: 0 5px 5px 5px;
+.nota h2 {
+    margin: 0px 7px 5px 7px;
+}
+.nota h2 a{
+    color: #333;
     line-height: 24px;
-    font-size:24px;
+    font-size:22px;
 }
 .nota h2 a:hover{
-    color: #008000;
+    color: #81BD1E;
+    text-decoration:underline;
 }
 .nota h4{
+    display: inline-block;
     margin: 5px 13px;
-    color: #91CD2E;
+    color: #81BD1E;
     font-size:14px;
 
 }
 
 .nota span{
-    width: 150px;
-    margin: 3px 10px;
+    display: block;
+    margin: 10px 10px 5px 10px;
 }
 
 .nota span a{
-    width: 100%;
-    margin: 0 3px;
+    margin: 5px 3px;
     padding: 2px 3px;
     background: #eee;
     color:#333;
@@ -346,6 +351,7 @@ abbr,acronym { border:0;
     background: #91CD2E;
 }
 .nota p{
+    font-size: 16px;
     font-family: 'maven_promedium';
     margin: 3px 20px 3px 20px;
 }
@@ -421,13 +427,13 @@ abbr,acronym { border:0;
 .ampliacion-nota p{
     font-family: 'maven_promedium';
     margin: 5px 35px 3px 35px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
 
 }
 
 .ampliacion-nota a{
-    font-size: 14px;
+    font-size: 16px;
     color: #7c2;
 }
 .ampliacion-nota a:hover{
@@ -537,6 +543,7 @@ abbr,acronym { border:0;
     position: absolute;
     top: 620px;
     right: 0;
+    font-size: 22px;
 }
 
 #menu-enlaces {

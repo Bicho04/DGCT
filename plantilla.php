@@ -1,9 +1,10 @@
 <?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/DGCT.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es">
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="content-type" content="text/html;charset=8859-2"/>
     <title>Direccion General de Cultura y Cultura</title>
+
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -20,13 +21,26 @@
 </head>
 
 <body>
+   <!-- ******************************* ANALYTICS ******************************************* 
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-42889888-1', 'culturayturismoasu.com.py');
+          ga('send', 'pageview');
+
+        </script>
+    ************************************************************************************* -->
   <section id="contenido">
     <header id="cabecera">
       <section id="logo-grupo">
 
       <section id="logocult"> <a href="beta-index.php"><img src="imagenes/logo-08.png" alt="Direccion General de Cultura y Turismo" ></a></section>
-      <section id="logoasu"> <img src="imagenes/logo.png" alt="logo Asu" widt="120"></section>
+      <section id="logoasu"> <a href="beta-index.php"><img src="imagenes/logo.png" alt="logo Asu" widt="120"></a></section>
 
+     
       </section>}
 
       <aside>
@@ -41,6 +55,7 @@
           </ul>
         </nav>
       </aside>
+
     </header>
     <section id="banner">
 <!-- ******************************************************* -->
@@ -72,7 +87,7 @@
     <section id="derecha">
       <section id="agenda">
               
-        <div class="titulo"><h1>En Agenda</h1></div>
+        <div class="titulo">En Agenda</div>
 
         <section id="cont-nota">
         
@@ -90,7 +105,7 @@
 
     <section id="izquierda">
       
-        <div class="titulo2 ">Agenda de la Ciudad</div>
+        <div class="titulo2 "><h1>Agenda Asunci&oacute;n</h1></div>
 
       <div id="cal">
         <section id="calendario">
@@ -114,34 +129,34 @@
               </div>
                 <aside id="enlaces">               
                   <!-- <img src="imagenes/T-enlaces.png"> -->
-                  <div class="titulo2 ">Enlaces de Interes</div>
+                  <div class="titulo2 ">Mas eventos en...</div>
                   <nav id="menu-enlaces">
                     <ul id="nav-enlaces">
-                      <li><a href="http://www.cabildoccr.gov.py/"><img src="imagenes/vinheta.png"> Centro Cultural el Cabildo</a></li>
+                      <li class="Enl-int"><a href="http://www.cabildoccr.gov.py/" target="_blanck"><img src="imagenes/vinheta.png"> Centro Cultural el Cabildo</a></li>
 
-                      <li><a href="http://www.latam.citibank.com/paraguay/lapy/centro_cultural/main.htm"><img src="imagenes/vinheta.png"> Centro Cultural Citi Bank</a></li>
+                        <li class="Enl-int"><a href="http://www.latam.citibank.com/paraguay/lapyco/centro_cultural/main.htm" target="_blanck"><img src="imagenes/vinheta.png"> Centro Cultural Citibank</a></li>
 
-                      <li><a href="http://www.ccpa.edu.py/"><img src="imagenes/vinheta.png"> Centro Cultural Paraguayo Americano</a></li>
+                        <li class="Enl-int"><a href="http://www.ccpa.edu.py/" target="_blanck"><img src="imagenes/vinheta.png"> Centro Cultural Paraguayo Americano</a></li>
 
-                      <li><a href="http://www.goethe.de/ins/pa/asu/esindex.htm?wt_sc=asuncion"><img src="imagenes/vinheta.png"> Instituto Cultural Paraguayo Alem&aacute;n</a></li>
+                        <li class="Enl-int"><a href="http://www.goethe.de/ins/pa/asu/esindex.htm?wt_sc=asuncion" target="_blanck"><img src="imagenes/vinheta.png"> Instituto Cultural Paraguayo Alem&aacute;n</a></li>
 
-                      <li><a href="http://www.ambafrance-py.org/Alianza-Francesa-de-Asuncion"><img src="imagenes/vinheta.png"> Alianza Francesa</a></li>
+                        <li class="Enl-int"><a href="http://www.ambafrance-py.org/Alianza-Francesa-de-Asuncion" target="_blanck"><img src="imagenes/vinheta.png"> Alianza Francesa</a></li>
 
-                      <li><a href="http://www.juandesalazar.org.py/"><img src="imagenes/vinheta.png"> Centro Cultural Juan de Salazar</a></li>
+                        <li class="Enl-int"><a href="http://www.juandesalazar.org.py/" target="_blanck"><img src="imagenes/vinheta.png"> Centro Cultural Juan de Salazar</a></li>
 
-                      <li><a href="http://www.embajada-argentina.org.py/V2/cultura/"><img src="imagenes/vinheta.png"> Centro Cultural Embajada de Argentina</a></li>
+                        <li class="Enl-int"><a href="http://www.embajada-argentina.org.py/V2/cultura/" target="_blanck"><img src="imagenes/vinheta.png"> Centro Cultural Embajada de Argentina</a></li>
 
-                      <li><a href="http://www.cultura.gov.py/"><img src="imagenes/vinheta.png"> Secretaria Nacional de Cultura</a></li>
+                        <li class="Enl-int"><a href="http://www.cultura.gov.py/" target="_blanck"><img src="imagenes/vinheta.png"> Secretaria Nacional de Cultura</a></li>
 
-                      <li><a href="http://www.senatur.gov.py/"><img src="imagenes/vinheta.png"> Secretaria Nacional de Turismo</a></li>
+                        <li class="Enl-int"><a href="http://www.senatur.gov.py/" target="_blanck"><img src="imagenes/vinheta.png"> Secretaria Nacional de Turismo</a></li>
 
-                      <li><a href="http://www.asuncionconvention.com/"><img src="imagenes/vinheta.png"> Asunci&oacute;n Convention Bureau</a></li>
+                        <li class="Enl-int"><a href="http://www.asuncionconvention.com/" target="_blanck"><img src="imagenes/vinheta.png"> Asunci&oacute;n Convention Bureau</a></li>
 
-                      <li><a href="http://www.bcp.gov.py/"><img src="imagenes/vinheta.png"> Centro Cultural Banco Central</a></li>
+                        <li class="Enl-int"><a href="http://www.bcp.gov.py/" target="_blanck"><img src="imagenes/vinheta.png"> Centro Cultural Banco Central</a></li>
 
-                      <li><a href="http://www.quickguide.com.py/index.php?option=com_eventlist&view=categoryevents&id=1&Itemid=132"><img src="imagenes/vinheta.png"> Gu&iacute;a de Asunci&oacute;n</a></li>
+                        <li class="Enl-int"><a href="http://www.quickguide.com.py/index.php?option=com_eventlist&view=categoryevents&id=1&Itemid=132" target="_blanck"><img src="imagenes/vinheta.png"> Gu&iacute;a de Asunci&oacute;n</a></li>
 
-                      <li><a href="http://www.aihpy.org.py"><img src="imagenes/vinheta.png"> Asociaci&oacute;n de Industriales del Paraguay</a></li>
+                        <li class="Enl-int"><a href="http://www.aihpy.org.py" target="_blanck"><img src="imagenes/vinheta.png"> Asociaci&oacute;n de Industriales del Paraguay</a></li>
                     </ul>
                   </nav>
                     <div class="sombra"><img  src="imagenes/sombra2.png" align="bottom"/></div>

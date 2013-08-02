@@ -64,7 +64,7 @@ a {
 #cabecera {
     width: 1024px;
     height: 210px;
-    margin: 0 auto;
+    margin: -20px auto 0 auto;
     padding: 0 0 0 0;
     position: relative;
 }
@@ -156,7 +156,6 @@ transform : scale(1.1);
     padding: 0px 0 15px 0;
     border-radius: 15px;
     background: #91CD2E;
-    border: solid 1px #ddd;
 }
 #hoy h2{
     
@@ -171,7 +170,6 @@ transform : scale(1.1);
     padding: 10px 0 15px 0;
     border-radius: 15px;
     background: #91CD2E;
-    border: solid 1px #ddd;
     box-shadow: 0 0px 6px 2px #ff0;
 }
 
@@ -191,7 +189,6 @@ transform : scale(1.1);
     background: #91CD2E;
     padding:10px 0;
     color:#1a1a1a;
-    border: solid 1px #ddd;
 
 }
 #Enlaces-interes h2{
@@ -232,36 +229,37 @@ transform : scale(1.1);
 }
 .nota h3 a{
     text-decoration: none;
-    color: #333;
+    color: #222;
 }
 .nota h3 a:hover{
     text-decoration: none;
     color: #666;
 }
 .nota span{
-    width: 150px;
-    margin: 5px 0;
+    margin: 7px 0;
+    display: block;
 }
 
 .nota span a{
     font-size: 12px;
     padding: 2px 3px;
-    background: #81cD1E;
+    background: #91DD2E;
     color:#333;
     border-radius: 3px;
-    /*box-shadow: 0 0 2px 1px #ddd;*/
+    box-shadow: 0 0 2px 1px #9D2;
 }
 .nota span a:hover{
     background: #555;
     color:#ddd;
 }
 .nota h4{
-    margin:5px 0;
+    margin:7px 0;
     color: #333;
     font-size:13px;
+    display: block;
 }
 .nota p{
-    font-size:14px;
+    font-size:16px;
     margin: 5px 5px 5px 10px;
 }
 .nota img{
@@ -289,13 +287,14 @@ transform : scale(1.1);
 }
 
 #calendario{
+    text-align: center;
     margin: 0 7px 10px 7px;
     color:#91CD2E;
     background: url(../imagenes/bg.png);
     border-radius: 15px;
     padding: 10px 0;
-    box-shadow : 0 2px 2px rgba(0, 0, 0, 0.9);
-    border: solid 1px #ccc;
+    
+    border: solid 1px #444;
 
 }
 #calendario h1{
@@ -305,16 +304,16 @@ transform : scale(1.1);
 
 #menu-temas {
     margin: 0 auto;
-    width: 95%
+    width: 95%;
+    text-align:center;
 }
 
-#menu-temas h2{
+#nav-temas h2{
     font-family: 'maven_probold';
     font-size: 28px;
-    margin: 0 auto 10px auto;
     color: #91CD2E;
-    margin-top: 20px;
-    text-align: center;
+    margin: 20px 0px 10px -30px;
+    display: block;
 }
 
 #nav-temas {
@@ -351,8 +350,7 @@ transform : scale(1.1);
     color:#91CD2E;
     background: url(../imagenes/bg.png);
     border-radius: 15px;
-    box-shadow : 0 2px 2px rgba(0, 0, 0, 0.9);
-    border: solid 1px #ccc;
+    
 }
 #menu-Logos img {
     width: 138px;
@@ -395,7 +393,7 @@ transform : scale(1.1);
 
 .form{
     font-family: 'maven_probold';
-    font-size: 1em;
+    font-size:14px;
     text-align: center;
     width: 520px;
     margin: 0 auto;
@@ -456,8 +454,6 @@ transform : scale(1.1);
     margin: 20px 7px;
     color:#333;
     background: #91CD2E;
-    border: solid 1px #ddd;
     border-radius: 15px;
-    box-shadow : 0 2px 2px rgba(0, 0, 0, 0.9);
-    border: solid 1px #ccc;
+    
 }

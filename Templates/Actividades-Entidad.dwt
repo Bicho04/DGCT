@@ -20,7 +20,7 @@
 
 </head>
 
-<body>
+<body><? Php include_once ("alytics.php");?>
  
   <section id="contenido">
     <header id="cabecera">

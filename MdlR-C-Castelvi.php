@@ -18,26 +18,31 @@
 </head>
 
 <body>
+   <!-- ******************************* ANALYTICS ******************************************* 
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-42889888-1', 'culturayturismoasu.com.py');
+          ga('send', 'pageview');
+
+        </script>
+    ************************************************************************************* -->
  
   <section id="contenido">
     <header id="cabecera">
       <section id="logo-grupo">
         <section id="logocult"><a href="beta-index.php"><img src="imagenes/logo-03.png" alt="Manzana de la Rivera" ></a></section>
          
-        <section id="logoasu"> <img src="imagenes/logo.png" alt="logo Asu"></section>
+        <section id="logoasu"> <a href="beta-index.php"><img src="imagenes/logo.png" alt="logo Asu" widt="120"></a></section>
+
+        <aside id="inicio">
+          <a href="beta-index.php"><strong>DGCyT</strong> Volver al inicio ></a>
+        </aside>
       </section>
 
-    
-        <aside id="menu-social">
-          <ul id="nav-social">
-            <li><a href="mailto:direcciondeturismo@mca.gov.py"><img src="imagenes/email.png" width="45"></a></li>
-            <li><a href="https://www.facebook.com/CulturaAsu"><img src="imagenes/facebook.png" width="45"></a></li>
-            <!--<li><a href="#"><img src="imagenes/twitter.png" width="45"></a></li>
-            <li><a href="#"><img src="imagenes/skype.png" width="45"></a></li>
-            <li><a href="#"><img src="imagenes/youtube.png" width="45"></a></li>
-            <li><a href="#"><img src="imagenes/googleplus.png" width="45"></a></li> -->
-          </ul>
-      </aside>
     </header>
     <section id="banner">
 <!-- ******************************************************* -->
@@ -68,7 +73,7 @@
       <div class="titulo"><h1>Manzana de la Rivera</h1></div>
       <ul class="hovercal">
         <li>
-          <div class="titulo2">Agenda de la ciudad</div>
+          <div class="titulo2">Ver Calendario</div>
           <div id="cal">
             <section id="calendario">
               <div id="calendar">
@@ -111,9 +116,21 @@
                     <li><a href="MdlR-p-Leonor.php">El Patio Leonor</a></li>
                     <li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li>
                 </ul>
+
+                <aside id="menu-social">
+                  <ul id="nav-social">
+                    <li><a href="mailto:direcciondeturismo@mca.gov.py"><img src="imagenes/email.png" width="45"></a></li>
+                    <li><a href="https://www.facebook.com/CulturaAsu"><img src="imagenes/facebook.png" width="45"></a></li>
+                    <!--<li><a href="#"><img src="imagenes/twitter.png" width="45"></a></li>
+                    <li><a href="#"><img src="imagenes/skype.png" width="45"></a></li>
+                    <li><a href="#"><img src="imagenes/youtube.png" width="45"></a></li>
+                    <li><a href="#"><img src="imagenes/googleplus.png" width="45"></a></li> -->
+                  </ul>
+                </aside>
+
             </nav>
-              <!-- InstanceBeginEditable name="INFO" -->9 Casas
-              <section id="cont-info"><div class="info">
+              <!-- InstanceBeginEditable name="INFO" -->
+              <section id="cont-info"><div class="info"><h3>9 Casas</h3>
                <h2>CASA  CASTELVÍ</h2>
                  <p>La , que antiguamente se llamaba Casa Serra, es una construcción de 1804, realizada  todavía con el sistema colonial y es la mejor conservada de la Manzana.  &nbsp;Tiene las puertas, las ventanas, las rejas y uno de los pisos originales.  &nbsp;Es una casa pre-francista, ubicada a 15 metros de la calle; extrañamente  tiene un jardín exterior que se integró al área urbana eliminando la muralla  (Patio Arecayá). El catalán que construye esta casa, el señor José Castelví,  era vice alcalde de la ciudad de Asunción en 1800. &nbsp;Esta casa ha sido restaurada  muy criteriosamente por el Centro Histórico, trabajando especialmente en esa  restauración la Arq. Beatriz Chase.</p>
                  <p>En Casa  Castelví funcionan los espacios Domingo Martínez de Irala (tres salas, una de  ellas con aire acondicionado split), Samudio (una sala) y Julia Elena Bibolini  (una sala), destinadas a exposiciones de artes visuales (pintura, grabado,  dibujo, fotografías, instalación, esculturas), a disposición de artistas  nacionales y extranjeros con trayectoria conocida. Las obras son colocadas  sobre paneles de madera (resguardando las originales), y cuenta con luces spots  y dicroicas. Personal capacitado para realizar los montajes.</p>

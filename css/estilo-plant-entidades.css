@@ -38,9 +38,6 @@
 border:0;
 margin:0;
 padding:0;
--moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
 }
 body{
     font-family: 'maven_promedium',;
@@ -224,6 +221,25 @@ abbr,acronym { border:0;
     -moz-transform:scale(1.1);
 }
 
+#inicio{
+    font-family: 'maven_probold';
+    font-size: 11px;
+    color: #ccc;
+    position: absolute;
+    bottom: 0;
+    right: 210px;
+}
+#inicio a {
+    color: #999;
+}
+#inicio a strong{
+    color: #666;
+    font-style:inherit;
+}
+#inicio a >strong:hover{
+    color:#91cd2e;
+}
+
  
 /**********************AGENDA*****************************/
 
@@ -254,7 +270,7 @@ abbr,acronym { border:0;
     box-sizing: border-box;
     padding: 3px 30px 0 30px; 
     height: 50px;
-    font-size: 22px;
+    font-size: 24px;
     background: url(../imagenes/T-bg2.png) no-repeat;
     background-size: 100% 100% ;
     background-position: bottom;
@@ -280,6 +296,7 @@ abbr,acronym { border:0;
     text-align: center;
     margin: 0px 0px 0 0px;
 
+
 }
 #nav-inst .col-2{
     width: 50%;
@@ -300,13 +317,20 @@ abbr,acronym { border:0;
     width: 14.2857142857%;
 }
 
+#nav-inst * {
+    -moz-transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
 #nav-inst ul {
     
     display: none;
+
 }
 
 #nav-inst li:hover > ul {
     display: block;
+
 }
 
 #nav-inst {
@@ -323,6 +347,7 @@ abbr,acronym { border:0;
     content: ""; 
     clear: both; 
     display: block;
+
 }
 
 #nav-inst li {
@@ -342,6 +367,7 @@ abbr,acronym { border:0;
 
 #nav-inst .col-5 a:hover , #nav-inst li a:hover , #nav-inst .col-5 a:active , #nav-inst li a:active{
     background: #91CD2E;
+
 }
 
 #nav-inst ul {
@@ -349,7 +375,8 @@ abbr,acronym { border:0;
     border-radius: 0px; 
     padding: 0;
     position: absolute; 
-    top: 100%;}
+    top: 100%;
+}
 
 #nav-inst ul li {
 
@@ -497,7 +524,7 @@ abbr,acronym { border:0;
 .nota p{
     font-family: 'maven_promedium';
     margin: 5px 30px 3px 30px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
 }
 .nota a:hover{
@@ -576,13 +603,13 @@ abbr,acronym { border:0;
 .ampliacion-nota p{
     font-family: 'maven_promedium';
     margin: 5px 35px 3px 35px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
 
 }
 
 .ampliacion-nota a{
-    font-size: 14px;
+    font-size: 16px;
     color: #7c2;
 }
 .ampliacion-nota a:hover{
@@ -660,7 +687,7 @@ abbr,acronym { border:0;
 .info p{
     font-family: 'maven_promedium';
     margin: 5px 40px 3px 40px;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 19px;
 
 }
@@ -691,6 +718,7 @@ abbr,acronym { border:0;
     color: #91CD2E;
     margin: 0;
     font-family: 'maven_probold';
+
 
 }
 #iconos .icono:hover{
@@ -746,6 +774,7 @@ abbr,acronym { border:0;
 .hovercal li .titulo2{
     min-width: 50px;
     display:inline-block;
+    background: #333;
 } 
 
 .hovercal li div a {
