@@ -1,5 +1,6 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/centroParaguayoJapones.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es"><?php $entidad="a87ff";?><!-- InstanceBegin template="/Templates/centroParaguayoJapones.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
     <title>Centro Paraguayo Japonés</title> 

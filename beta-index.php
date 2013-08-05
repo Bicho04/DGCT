@@ -11,7 +11,8 @@
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <
+
+    <link rel="icon" type="ico" href="imagenes/favicon.ico" />
 
     <?php include("ajax.inc.php");?>
 
@@ -59,6 +60,15 @@
         </header>
 
        <section id="contenido">
+                         <nav id="menu-Logos">
+                             <ul id="nav-logos">   
+                                <li><a href="TeatroMunicipal.php"><img src="imagenes/logo-04.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
+                                <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
+                                <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
+                                <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
+                                <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+                            </ul>
+                         </nav>
             <section id="con-izq">
                 <section id="hoy">
                     <h2>HOY en Agenda</h2>
@@ -103,16 +113,6 @@
             </section>
             
             <section id="col-der">
-                         <nav id="menu-Logos">
-                             <ul id="nav-logos">   
-                                <li><a href="TeatroMunicipal.php"><img src="imagenes/logo-04.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
-        </ul>
-                            </ul>
-                         </nav>
                 <section id="calendario">
 
                     <h1><b>Agenda de Asunci&oacute;n</b></h1>

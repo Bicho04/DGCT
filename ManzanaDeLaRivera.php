@@ -1,8 +1,9 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es"><?php $entidad="eccbc";?><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>Manzana de la Rivera, Centro Cultural de la Ciudad de AsucniÃ³n</title> 
+    <title>Manzana de la Rivera, Centro Cultural de la Ciudad de Asucnión</title> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -65,7 +66,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciÃ³n de AcciÃ³n Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -95,16 +96,16 @@
                     --><li><a href="MdlR-C-Viola.php">Casa Viola</a></li><!-- 
                     --><li><a href="MdlR-C-Clari.php">Casa Clari</a></li><!--  
                     --><li><a href="MdlR-C-Clari-Mestre.php">Casa Clari-Mestre</a></li><!--  
-                    --><li><a href="MdlR-C-Vertua.php">Casa VertÃºa</a></li><!--  
+                    --><li><a href="MdlR-C-Vertua.php">Casa Vertúa</a></li><!--  
                     --><li><a href="MdlR-C-Emesa.php">Casa Emesa</a></li><!--  
-                    --><li><a href="MdlR-C-Castelvi.php">Casa CastelvÃ­</a></li><!--  
+                    --><li><a href="MdlR-C-Castelvi.php">Casa Castelví</a></li><!--  
                     --><li><a href="MdlR-C-Serra.php">Casa Serra I y II</a></li><!--  
                     --><li><a href="MdlR-p-Leonor.php">Patio Leonor</a></li><!--  
                     --><li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li><!--  
-                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala GarcÃ­a Lorca</a></li><!--  
+                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala García Lorca</a></li><!--  
                 --></ul><!-- 
               --></li><!-- 
-              --><li class="col-4"><a href="MdlR-QuienFue.php">Â¿QuiÃ©n Fue?</a></li><!-- 
+              --><li class="col-4"><a href="MdlR-QuienFue.php">¿Quién Fue?</a></li><!-- 
               --><li class="col-4"><a href="MdlR-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 

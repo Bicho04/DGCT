@@ -1,5 +1,6 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es"><?php $entidad="c4ca4";?><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
     <!-- InstanceBeginEditable name="doctitle" -->
