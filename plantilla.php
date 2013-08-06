@@ -10,6 +10,8 @@
 
     <link rel="stylesheet" type="text/css" href="css/estilo-plant.css" />
     <link rel="stylesheet" type="text/css" href="css/calendario-plant.css" />
+
+    <link rel="icon" type="ico" href="imagenes/favicon.ico" />    
     
  <?php $noscript=true;include("ajax.inc.php");?>
 
@@ -21,7 +23,7 @@
 </head>
 
 <body>
-   <!-- ******************************* ANALYTICS ******************************************* 
+    <!-- ******************************* ANALYTICS *******************************************  -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,7 +34,7 @@
           ga('send', 'pageview');
 
         </script>
-    ************************************************************************************* -->
+    <!-- ************************************************************************************* --> -->
   <section id="contenido">
     <header id="cabecera">
       <section id="logo-grupo">
@@ -40,7 +42,10 @@
       <section id="logocult"> <a href="beta-index.php"><img src="imagenes/logo-08.png" alt="Direccion General de Cultura y Turismo" ></a></section>
       <section id="logoasu"> <a href="beta-index.php"><img src="imagenes/logo.png" alt="logo Asu" widt="120"></a></section>
 
-     
+        <aside id="inicio">
+          <a href="beta-index.php"><strong>DGCyT</strong> Volver al inicio ></a>
+        </aside>
+
       </section>}
 
       <aside>

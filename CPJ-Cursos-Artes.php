@@ -1,8 +1,9 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/centroParaguayoJapones.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es"><!-- InstanceBegin template="/Templates/centroParaguayoJapones.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="a87ff";?>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>Centro Paraguayo Japon茅s</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
+<title>Centro Paraguayo Japon&eacute;s</title> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -66,12 +67,12 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercci贸n de Acci贸n Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercci髇 de Acci髇 Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
     <section id="central">
-      <div class="titulo"><h1>Centro Paraguayo Japon茅s</h1></div>
+      <div class="titulo"><h1>Centro Paraguayo Japon&eacute;s</h1></div>
       <ul class="hovercal">
         <li>
           <div class="titulo2">Ver Calendario</div>
@@ -93,13 +94,13 @@
               --><li class="col-4"><a href="CPJ-historia.php">Historia</a></li><!-- 
               --><li class="col-4"><a href="#">Salas</a><!-- 
                 --><ul><!-- 
-                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust铆n P铆o Barrios</a></li><!--
+                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust&iacute;n P&iacute;o Barrios</a></li><!--
                     --><li><a href="CPJ-Sala-Seminario.php">Sala Seminario Branislava Susnik</a><!--
                     --><li><a href="CPJ-Sala-Anfiteatro.php">Anfiteatro Oscar Cardozo Ocampo</a></li><!--
                     --><li><a href="CPJ-Sala-Exposicion.php">Sala de Exposiciones Jacinto Rivero</a></li><!--
                     --><li><a href="CPJ-Sala-Reuniones.php">Sala de Reuniones Agustina Miranda</a></li><!--
                     --><li><a href="CPJ-Sala-Biblioteca.php">Biblioteca Herib Campos Cervera</a></li><!--
-                    --><li><a href="CPJ-Sala-Fisioterapia.php">Sala de Fisioterapia y Rehabilitaci贸n</a></li><!--
+                    --><li><a href="CPJ-Sala-Fisioterapia.php">Sala de Fisioterapia y Rehabilitaci&oacute;n</a></li><!--
                 --></ul><!-- 
               --></li><!-- 
               --><li class="col-4"><a href="CPJ-">Cursos</a><!-- 
@@ -108,7 +109,7 @@
                     --><li><a href="CPJ-Cursos-Musica.php">Musica</a><!--
                     --><li><a href="CPJ-Cursos-Artes.php">Artes Visuales</a></li><!--
                     --><li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio </a></li><!--
-                    --><li><a href="CPJ-Cursos-Gimnasia.php">En Gimnasia Art谩stica</a></li><!--
+                    --><li><a href="CPJ-Cursos-Gimnasia.php">En Gimnasia Art&aacute;stica</a></li><!--
               	--></ul><!-- 
               --></li><!-- 
               --><li class="col-4"><a href="CPJ-Contacto.php">Contacto</a></li><!-- 
@@ -139,7 +140,7 @@
              <section id="cont-info">
                 <div class="info">
                     <h3>Cursos</h3>
-                    <h2>En Artes Visuales</h2><p>el Centro Paraguayo Japon茅s ofrece Clases de Dibujo Art铆stico y Pintura al 贸leo para ni帽os, j贸venes y adultos. </p>
+                    <h2>En Artes Visuales</h2><p>el Centro Paraguayo Japon閟 ofrece Clases de Dibujo Art韘tico y Pintura al 髄eo para ninos, j髒enes y adultos. </p>
                 </div>
               </section>
                   <!-- InstanceEndEditable --></div>  

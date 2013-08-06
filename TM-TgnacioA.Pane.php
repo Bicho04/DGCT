@@ -1,7 +1,8 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="c4ca4";?>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
     <!-- InstanceBeginEditable name="doctitle" -->
     <title>Teatro Municioal Ignacio A. Pane</title> 
 	<!-- InstanceEndEditable -->
@@ -68,7 +69,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercci�n de Acci�n Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -152,7 +153,7 @@
               <!-- InstanceBeginEditable name="INFO" -->Sala
               <section id="cont-info"><div class="info"><h3>&nbsp;</h3>
                  <h2>Ignacio A. Pane</h2>
-                     <p>El salón principal, con capacidad para 600  personas (600 butacas). La sala se divide en: Platea, Palcos Vip, Palco  Tertulia y Palco Paraíso. Además cuenta cuatro camerinos individuales con baños  privados y dos camerinos colectivos. El mismo posee 12 varas totalmente  computarizadas para subir y bajar escenografías y telones panorámicos. También  cuenta con una sala de luces y sonido totalmente equipada. </p>
+                     <p>El sal�n principal, con capacidad para 600  personas (600 butacas). La sala se divide en: Platea, Palcos Vip, Palco  Tertulia y Palco Para�so. Adem�s cuenta cuatro camerinos individuales con banos  privados y dos camerinos colectivos. El mismo posee 12 varas totalmente  computarizadas para subir y bajar escenograf�as y telones panor�micos. Tambi�n  cuenta con una sala de luces y sonido totalmente equipada. </p>
                    
                  </ul>
                  <p>&nbsp;</p>

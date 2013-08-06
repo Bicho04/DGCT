@@ -1,7 +1,8 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="c4ca4";?>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
     <!-- InstanceBeginEditable name="doctitle" -->
     <title>Teatro Municioal Ignacio A. Pane</title> 
 	<!-- InstanceEndEditable -->
@@ -68,7 +69,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciÃ³n de AcciÃ³n Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -153,34 +154,35 @@
               <section id="cont-info">
                 <div class="info">
                  <h3>Integrantes OCMA</h3>
-                 <h2>Orquesta de CÃ¡mara Municipal de AsunciÃ³n</h2>
+                 <img src="imagenes/fotos/ocma.jpg" width="720" height="480" alt="OCMA">
+                 <h2>Orquesta de Cámara Municipal de Asunción</h2>
                  <p><strong>Director</strong><strong> </strong><br>
-Miguel A. EcheverrÃ­aÂ  </p>
-                 <p align="left"><strong>ConcertinoÂ Â Â Â Â Â Â  </strong><br>
-                   RubÃ©n Jara Â Â Â Â Â Â Â Â Â Â Â Â Â Â Â  </p>
-                 <p align="left"><strong>ViolÃ­nÂ Â Â Â Â Â Â  </strong><br>
-                   Azucena AraujoÂ Â Â Â Â Â Â Â Â  Â Â Â Â Â Â Â Â  <br>
+Miguel A. Echeverría  </p>
+                 <p align="left"><strong>Concertino        </strong><br>
+                   Rubén Jara                 </p>
+                 <p align="left"><strong>Violín        </strong><br>
+                   Azucena Araujo                   <br>
                    Juan Carlos Alvarenga<br>
-                   Ada AntÃºnez<br>
-                   FÃ¡tima SÃ¡nchezÂ Â Â Â Â Â Â Â Â  <br>
+                   Ada Antúnez<br>
+                   Fátima Sánchez          <br>
                    Jaime Castillo <br>
                    Gustavo Barrientos</p>
                  <p align="left"><strong>Viola</strong><br>
-                   IvÃ¡n Celano <br>
+                   Iván Celano <br>
                    Oscar Mendoza</p>
                  <p align="left"><strong>Violoncello</strong><br>
-                   Juan ChÃ¡vez<br>
-                   Oswaldo RodrÃ­guez </p>
+                   Juan Chávez<br>
+                   Oswaldo Rodríguez </p>
                  <p align="left"><strong>Contrabajo</strong><br>
-                   Carlos BalbuenaÂ Â Â Â Â Â Â Â  </p>
+                   Carlos Balbuena         </p>
                  <p align="left"><strong>Flauta</strong><br>
-                   SimÃ³n Santander</p>
+                   Simón Santander</p>
                  <p align="left"><strong>Clarinete</strong><br>
                    Carlos Jara</p>
-                 <p align="left"><strong>ClavecÃ­n</strong><br>
-                   CÃ©sar Barrios</p>
+                 <p align="left"><strong>Clavecín</strong><br>
+                   César Barrios</p>
                  <p align="left"><strong>Secretario</strong><br>
-                   A. MartÃ­nez Medina</p>
+                   A. Martínez Medina</p>
                 </div>
               </section>
               <!-- InstanceEndEditable --></div>  

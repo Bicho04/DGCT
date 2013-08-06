@@ -1,7 +1,8 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="c4ca4";?>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
     <!-- InstanceBeginEditable name="doctitle" -->
     <title>Teatro Municioal Ignacio A. Pane</title> 
 	<!-- InstanceEndEditable -->
@@ -68,7 +69,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercci√≥n de Acci√≥n Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciÛn de AcciÛn Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -152,14 +153,14 @@
               <!-- InstanceBeginEditable name="INFO" -->
               <section id="cont-info">
                 <div class="info">
-                 <h3>Rese√±a historica</h3>
-                 <p>El Ballet Cl√°sico y Moderno Municipal sale de los par√°metros convencionales de compa√±√≠as de danzas. No se puede catalogar a la compa√±√≠a como cl√°sica o moderna pues su repertorio y sus bailarines interpretan perfectamente un &quot;Lago de los Cisnes&quot; o &quot;Don Quijote&quot; hasta las piezas m√°s audaces de core√≥grafos contempor√°neos como Oscar Araiz, Hilda Riveros y Ana Mar√≠a Stekelman. Tambi√©n otra caracter√≠stica de la compa√±√≠a es interpretar los cl√°sicos con un esp√≠ritu innovador y en los √∫ltimos a√±os ha sumado a su repertorio obras como &quot;Madame Butterfly&quot;, &quot;Los Tres Mosqueteros&quot;, &quot;La Viuda Alegre&quot;, &quot;Pas de deux Paraguayo&quot;, &quot;Despertar Campesino&quot;, &quot;Madame Lynch&quot;, &quot;Francesco&quot; que fueron estrenos mundiales en Paraguay.</p>
-                 <p>El Ballet Cl√°sico Municipal fue creado en la Ciudad de Asunci√≥n en 1972. Tala Ern de Retivoff fue su fundadora y su primera Directora. Pocos a√±os m√°s tarde Teresa Capurro fusiona con el Ballet Moderno Municipal creado en 1971 por Mar√≠a Retivoff, adoptando el nombre de Ballet Cl√°sico y Moderno Municipal.</p>
-                 <p>Posteriormente tienen a su cargo la Direcci√≥n de la Compa√±√≠a: Teresa Capurro, Nidia Neumayer, Elizabeth Laurent, Alcy Acu√±a, Emilio Barrientos, Miguel Florenci√°√±ez, Nicole Dijkhuis, Rub√©n Franco. En 1990, Miguel Bonn√≠n asume la direcci√≥n implementando una reestructuraci√≥n de la Compa√±√≠a aumentando los horarios de trabajo para elevar el nivel t√©cnico y art√≠stico. Desde este a√±o tambi√©n realiza audiciones peri√≥dicas para que los bailarines puedan acceder al ballet. </p>
-                 <p>En 1992 se crea la Asociaci√≥n de Amigos del Ballet Municipal desempe√±ado un papel fundamental de apoyo al desarrollo del Ballet. </p>
-                 <p>En estos 40 a√±os la Compa√±√≠a Municipal de la Ciudad de Asunci√≥n ha realizado grandes espect√°culos, funciones de gala, de beneficencia, y difusi√≥n gratuita.La Compa√±√≠a se presenta en Asunci√≥n y en ciudades del interior del Paraguay asi como tambi√©n en el extranjero en pa√≠ses como Brasil, Argentina, Uruguay, Panam√° y Cuba. Cuenta con repertorio variado con m√°s de cien obras presentadas, estrenadas e interpretadas tanto por grandes figuras nacionales e internacionales como Ana Botafogo, Cecilia Kerche, Nydia Neumayer, Karina Olmedo, Juan Pablo Ledo, Miguel √Ångel Serrano, Alejandro Parente, Natalie Quernet y Olivie Patey, entre otros.</p>
-                   <p>Tambi√©n ha contado con creadores y maestros nacionales e internacionales como Mario Galizzi, Jaime Pinto, Osvaldo Beiro, Francoise Adret, Rafael Saladrigas, Doris Petroni, Misha Bart, Dulce D√≠az Somonte, Oliver Patey, Vitalij Iacovlev, Lupe Calzadilla, Francisco Carvallo, Robson Maia, Carmi√±a Mart√≠nez, Mary Carmen Niella, Marilyn Candia, entre otros.</p>
-                 <p>Actualmente el Ballet Cl√°sico y Moderno Municipal es el elenco oficial del Teatro Municipal de la ciudad de Asunci√≥n.</p>
+                 <h3>Resena historica</h3>
+                 <p>El Ballet Cl·sico y Moderno Municipal sale de los par·metros convencionales de companÌas de danzas. No se puede catalogar a la companÌa como cl·sica o moderna pues su repertorio y sus bailarines interpretan perfectamente un &quot;Lago de los Cisnes&quot; o &quot;Don Quijote&quot; hasta las piezas m·s audaces de coreÛgrafos contempor·neos como Oscar Araiz, Hilda Riveros y Ana MarÌa Stekelman. TambiÈn otra caracterÌstica de la companÌa es interpretar los cl·sicos con un espÌritu innovador y en los ˙ltimos anos ha sumado a su repertorio obras como &quot;Madame Butterfly&quot;, &quot;Los Tres Mosqueteros&quot;, &quot;La Viuda Alegre&quot;, &quot;Pas de deux Paraguayo&quot;, &quot;Despertar Campesino&quot;, &quot;Madame Lynch&quot;, &quot;Francesco&quot; que fueron estrenos mundiales en Paraguay.</p>
+                 <p>El Ballet Cl·sico Municipal fue creado en la Ciudad de AsunciÛn en 1972. Tala Ern de Retivoff fue su fundadora y su primera Directora. Pocos anos m·s tarde Teresa Capurro fusiona con el Ballet Moderno Municipal creado en 1971 por MarÌa Retivoff, adoptando el nombre de Ballet Cl·sico y Moderno Municipal.</p>
+                 <p>Posteriormente tienen a su cargo la DirecciÛn de la CompanÌa: Teresa Capurro, Nidia Neumayer, Elizabeth Laurent, Alcy Acuna, Emilio Barrientos, Miguel Florenci·nez, Nicole Dijkhuis, RubÈn Franco. En 1990, Miguel BonnÌn asume la direcciÛn implementando una reestructuraciÛn de la CompanÌa aumentando los horarios de trabajo para elevar el nivel tÈcnico y artÌstico. Desde este ano tambiÈn realiza audiciones periÛdicas para que los bailarines puedan acceder al ballet. </p>
+                 <p>En 1992 se crea la AsociaciÛn de Amigos del Ballet Municipal desempenado un papel fundamental de apoyo al desarrollo del Ballet. </p>
+                 <p>En estos 40 anos la CompanÌa Municipal de la Ciudad de AsunciÛn ha realizado grandes espect·culos, funciones de gala, de beneficencia, y difusiÛn gratuita.La CompanÌa se presenta en AsunciÛn y en ciudades del interior del Paraguay asi como tambiÈn en el extranjero en paÌses como Brasil, Argentina, Uruguay, Panam· y Cuba. Cuenta con repertorio variado con m·s de cien obras presentadas, estrenadas e interpretadas tanto por grandes figuras nacionales e internacionales como Ana Botafogo, Cecilia Kerche, Nydia Neumayer, Karina Olmedo, Juan Pablo Ledo, Miguel ¡ngel Serrano, Alejandro Parente, Natalie Quernet y Olivie Patey, entre otros.</p>
+                   <p>TambiÈn ha contado con creadores y maestros nacionales e internacionales como Mario Galizzi, Jaime Pinto, Osvaldo Beiro, Francoise Adret, Rafael Saladrigas, Doris Petroni, Misha Bart, Dulce DÌaz Somonte, Oliver Patey, Vitalij Iacovlev, Lupe Calzadilla, Francisco Carvallo, Robson Maia, Carmina MartÌnez, Mary Carmen Niella, Marilyn Candia, entre otros.</p>
+                 <p>Actualmente el Ballet Cl·sico y Moderno Municipal es el elenco oficial del Teatro Municipal de la ciudad de AsunciÛn.</p>
                 </div>
               </section>
               <!-- InstanceEndEditable --></div>  

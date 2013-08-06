@@ -1,7 +1,8 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="c4ca4";?>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
     <!-- InstanceBeginEditable name="doctitle" -->
     <title>Teatro Municioal Ignacio A. Pane</title> 
 	<!-- InstanceEndEditable -->
@@ -68,7 +69,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercci√≥n de Acci√≥n Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciÛn de AcciÛn Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -153,21 +154,22 @@
               <section id="cont-info">
                 <div class="info">
                  <h3>MIGUEL ANGEL ECHEVERRIA</h3>
+                 <img src="imagenes/fotos/Foto del Director.jpg" width="214" height="215" alt="Director Ocma">
                  <h2>Director OCMA</h2>
-                 <p>Director de  Orquesta, violinista y violista, es tambi√©n autor de varias obras de aires  nacionales estrenadas con la OSCA  y la OCM. Realiz√≥  estudios de perfeccionamiento de viol√≠n y viola en la Facultad de M√∫sica de la Universidad de Laval  de Qu√©bec (Canad√°) durante dos a√±os, donde tambi√©n¬† curs√≥ otros estudios musicales. En varias  ocasiones actu√≥ con la   Orquesta Sinf√≥nica de Qu√©bec y la Orquesta de C√°mara del  maestro Andr√© Martin.<br>
-                   A su  regreso a Paraguay, fue invitado a ingresar en la Orquesta Sinf√≥nica  y la Orquesta  de C√°mara del Estado de Para√≠ba (Brasil) donde permaneci√≥ por dos a√±os,  matricul√°ndose en la Facultad  de M√∫sica de Para√≠ba, donde sigui√≥ estudios de perfeccionamiento de armon√≠a,  contrapunto, arreglos orquestales y direcci√≥n orquestal. Entre 1989 y 1990 se  desempe√±√≥ como Director del Conservatorio Municipal de M√∫sica de Asunci√≥n,  creando la primera Orquesta Juvenil de la Instituci√≥n. Fue  el primer director del Conservatorio Amati de Filadelfia (Chaco Paraguayo). En  1992 actu√≥ con Philom√∫sica en la Expo-Sevilla (Espa√±a). En 1993 fue invitado a  integrar y dirigir la   Orquesta Sinf√≥nica y de C√°mara de Hutchinson, Kansas (Estados  Unidos). Ese mismo a√±o se presenta en el Centro Cultural San Mart√≠n de Buenos  Aires (Argentina).<br>
-                   Fue el  primer presidente de Juventudes Musicales del Paraguay. Es concertino de la Orquesta Sinf√≥nica  de la Ciudad  de Asunci√≥n (OSCA) y Director Titular de la Orquesta de C√°mara Municipal (OCM).<br>
-                   Ha  realizado varias grabaciones fonogr√°ficas como solista, arreglador o director  de orquesta. Es formador de varios j√≥venes violinistas.<br>
-                   En 1999 fue  invitado por la   Symphonicum Europae Fundation, para integrar la gran Orquesta  Sinf√≥nica con m√°s de 100 m√∫sicos provenientes de 50 pa√≠ses para ofrecer el 'Concierto  del Milenio' en el<br>
-                   Lincoln  Center de Nueva York, bajo la direcci√≥n del maestro Piero Gamba.<br>
-                   Desde el  a√±o 2002 se desempe√±a como profesor itinerante del proyecto 'Sonidos de la Tierra'.<br>
-                   En el a√±o 2003 ha sido galardonado  con el premio 'Oscar Trinidad'.<br>
-                   En el a√±o  2004 present√≥ el primer disco compacto de la Orquesta de C√°mara  Municipal.<br>
-                   En el a√±o  2006 fue declarado 'Hijo Dilecto de la Ciudad de Asunci√≥n' por la Junta Municipal.<br>
-                   En febrero  del 2009 fue invitado como solista de viol√≠n por la Orquesta Sinf√≥nica  de la Universidad  de Saint Louis, Missouri, dirigida por el maestro Le√≥n Burke III y la Saint Louis Civic  Orchestra dirigida por Edward Dolbashian.<br>
-                   Actualmente  es Vice-Presidente de Autores Paraguayos Asociados (APA) y docente de la Facultad de M√∫sica de la Universidad Evang√©lica  del Paraguay.<br>
-                   En  el a√±o 2010 ha colaborado de la Orquesta de Cuerdas de la ciudad de  Formosa¬† Argentina.<br>
-                  En el 2011 fue distinguido  por&nbsp;la Universidad Evang√©lica&nbsp;del Paraguay con el t√≠tulo de &ldquo;DR.  HONORIS CAUSA&rdquo; por su larga y fruct√≠fera labor docente, as√≠ como su importante  apoyo por quince a√±os ininterrumpidos a&nbsp;la Facultad&nbsp;de M√∫sica del  CEMTA (Centro de Estudios Teol√≥gicos Menonitas de Asunci√≥n).</p>
+                 <p>Director de  Orquesta, violinista y violista, es tambiÈn autor de varias obras de aires  nacionales estrenadas con la OSCA  y la OCM. RealizÛ  estudios de perfeccionamiento de violÌn y viola en la Facultad de M˙sica de la Universidad de Laval  de QuÈbec (Canad·) durante dos anos, donde tambiÈn† cursÛ otros estudios musicales. En varias  ocasiones actuÛ con la   Orquesta SinfÛnica de QuÈbec y la Orquesta de C·mara del  maestro AndrÈ Martin.<br>
+                   A su  regreso a Paraguay, fue invitado a ingresar en la Orquesta SinfÛnica  y la Orquesta  de C·mara del Estado de ParaÌba (Brasil) donde permaneciÛ por dos anos,  matricul·ndose en la Facultad  de M˙sica de ParaÌba, donde siguiÛ estudios de perfeccionamiento de armonÌa,  contrapunto, arreglos orquestales y direcciÛn orquestal. Entre 1989 y 1990 se  desempenÛ como Director del Conservatorio Municipal de M˙sica de AsunciÛn,  creando la primera Orquesta Juvenil de la InstituciÛn. Fue  el primer director del Conservatorio Amati de Filadelfia (Chaco Paraguayo). En  1992 actuÛ con Philom˙sica en la Expo-Sevilla (Espana). En 1993 fue invitado a  integrar y dirigir la   Orquesta SinfÛnica y de C·mara de Hutchinson, Kansas (Estados  Unidos). Ese mismo ano se presenta en el Centro Cultural San MartÌn de Buenos  Aires (Argentina).<br>
+                   Fue el  primer presidente de Juventudes Musicales del Paraguay. Es concertino de la Orquesta SinfÛnica  de la Ciudad  de AsunciÛn (OSCA) y Director Titular de la Orquesta de C·mara Municipal (OCM).<br>
+                   Ha  realizado varias grabaciones fonogr·ficas como solista, arreglador o director  de orquesta. Es formador de varios jÛvenes violinistas.<br>
+                   En 1999 fue  invitado por la   Symphonicum Europae Fundation, para integrar la gran Orquesta  SinfÛnica con m·s de 100 m˙sicos provenientes de 50 paÌses para ofrecer el 'Concierto  del Milenio' en el<br>
+                   Lincoln  Center de Nueva York, bajo la direcciÛn del maestro Piero Gamba.<br>
+                   Desde el  ano 2002 se desempena como profesor itinerante del proyecto 'Sonidos de la Tierra'.<br>
+                   En el ano 2003 ha sido galardonado  con el premio 'Oscar Trinidad'.<br>
+                   En el ano  2004 presentÛ el primer disco compacto de la Orquesta de C·mara  Municipal.<br>
+                   En el ano  2006 fue declarado 'Hijo Dilecto de la Ciudad de AsunciÛn' por la Junta Municipal.<br>
+                   En febrero  del 2009 fue invitado como solista de violÌn por la Orquesta SinfÛnica  de la Universidad  de Saint Louis, Missouri, dirigida por el maestro LeÛn Burke III y la Saint Louis Civic  Orchestra dirigida por Edward Dolbashian.<br>
+                   Actualmente  es Vice-Presidente de Autores Paraguayos Asociados (APA) y docente de la Facultad de M˙sica de la Universidad EvangÈlica  del Paraguay.<br>
+                   En  el ano 2010 ha colaborado de la Orquesta de Cuerdas de la ciudad de  Formosa† Argentina.<br>
+                  En el 2011 fue distinguido  por&nbsp;la Universidad EvangÈlica&nbsp;del Paraguay con el tÌtulo de &ldquo;DR.  HONORIS CAUSA&rdquo; por su larga y fructÌfera labor docente, asÌ como su importante  apoyo por quince anos ininterrumpidos a&nbsp;la Facultad&nbsp;de M˙sica del  CEMTA (Centro de Estudios TeolÛgicos Menonitas de AsunciÛn).</p>
 </div>
               </section>
               <!-- InstanceEndEditable --></div>  

@@ -1,8 +1,9 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/centroParaguayoJapones.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es"><!-- InstanceBegin template="/Templates/centroParaguayoJapones.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="a87ff";?>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>Centro Paraguayo Japon茅s</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
+<title>Centro Paraguayo Japon&eacute;s</title> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -66,12 +67,12 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercci贸n de Acci贸n Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercci髇 de Acci髇 Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
     <section id="central">
-      <div class="titulo"><h1>Centro Paraguayo Japon茅s</h1></div>
+      <div class="titulo"><h1>Centro Paraguayo Japon&eacute;s</h1></div>
       <ul class="hovercal">
         <li>
           <div class="titulo2">Ver Calendario</div>
@@ -93,13 +94,13 @@
               --><li class="col-4"><a href="CPJ-historia.php">Historia</a></li><!-- 
               --><li class="col-4"><a href="#">Salas</a><!-- 
                 --><ul><!-- 
-                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust铆n P铆o Barrios</a></li><!--
+                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust&iacute;n P&iacute;o Barrios</a></li><!--
                     --><li><a href="CPJ-Sala-Seminario.php">Sala Seminario Branislava Susnik</a><!--
                     --><li><a href="CPJ-Sala-Anfiteatro.php">Anfiteatro Oscar Cardozo Ocampo</a></li><!--
                     --><li><a href="CPJ-Sala-Exposicion.php">Sala de Exposiciones Jacinto Rivero</a></li><!--
                     --><li><a href="CPJ-Sala-Reuniones.php">Sala de Reuniones Agustina Miranda</a></li><!--
                     --><li><a href="CPJ-Sala-Biblioteca.php">Biblioteca Herib Campos Cervera</a></li><!--
-                    --><li><a href="CPJ-Sala-Fisioterapia.php">Sala de Fisioterapia y Rehabilitaci贸n</a></li><!--
+                    --><li><a href="CPJ-Sala-Fisioterapia.php">Sala de Fisioterapia y Rehabilitaci&oacute;n</a></li><!--
                 --></ul><!-- 
               --></li><!-- 
               --><li class="col-4"><a href="CPJ-">Cursos</a><!-- 
@@ -108,7 +109,7 @@
                     --><li><a href="CPJ-Cursos-Musica.php">Musica</a><!--
                     --><li><a href="CPJ-Cursos-Artes.php">Artes Visuales</a></li><!--
                     --><li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio </a></li><!--
-                    --><li><a href="CPJ-Cursos-Gimnasia.php">En Gimnasia Art谩stica</a></li><!--
+                    --><li><a href="CPJ-Cursos-Gimnasia.php">En Gimnasia Art&aacute;stica</a></li><!--
               	--></ul><!-- 
               --></li><!-- 
               --><li class="col-4"><a href="CPJ-Contacto.php">Contacto</a></li><!-- 
@@ -139,13 +140,13 @@
              <section id="cont-info">
                 <div class="info">
                     <h3>Sala</h3>
-                   <h2>Teatro Agust铆n P铆o Barrios</h2><p>Cuenta con platea con 468 c贸modas y modernas butacas con asientos rebatibles y 2 palcos con 10 butacas cada uno. Totalmente climatizada.</p>
+                   <h2>Teatro Agust韓 P韔 Barrios</h2><p>Cuenta con platea con 468 c髆odas y modernas butacas con asientos rebatibles y 2 palcos con 10 butacas cada uno. Totalmente climatizada.</p>
 <p>Con camarines grupales e individuales con  sanitarios y duchas.</p>
-<p>Con sistema de sonido e iluminaci贸n de 煤ltima generaci贸n.</p>
-<p>Sistema de audio compuesto por "line array" de la marca Electro Voice que entrega 16.000 watts de potencia. Mesa de audio digital  Yamaha LSQ para monitoreo y Yamaha M7CL para sala. Micr贸fonos de la linea SEINHEISER y SHUERE de uso profesional.</p>
+<p>Con sistema de sonido e iluminaci髇 de 鷏tima generaci髇.</p>
+<p>Sistema de audio compuesto por "line array" de la marca Electro Voice que entrega 16.000 watts de potencia. Mesa de audio digital  Yamaha LSQ para monitoreo y Yamaha M7CL para sala. Micr骹onos de la linea SEINHEISER y SHUERE de uso profesional.</p>
 <p>Amplio Foyer de acceso totalmente alfombrado y sistema independiente de acondicionamiento de aire.</p>
-<p>Sistema de Iluminaci贸n compuesto por Gabinete de 96 canales de 2,5 KW digital norma DMX 512 de la marca STRAND, consola de control de iluminaci贸n digital de la marca MA LIGHTING, artefactos elipsoidales planos, convexos, asim茅tricos todos de 1000 W; cabezales m贸viles Spot y Wash de 700 W de la marca VARILITE.</p>
-<p>Proyector multimedia de 7500 l煤menes y ojo de pez para abarcar gran amplitud a corta distancia NEC; spliter de 48 canales para realizaci贸n de monitoreo en escenario de 20 mts de longitud marca  Wirwind.</p>
+<p>Sistema de Iluminaci髇 compuesto por Gabinete de 96 canales de 2,5 KW digital norma DMX 512 de la marca STRAND, consola de control de iluminaci髇 digital de la marca MA LIGHTING, artefactos elipsoidales planos, convexos, asim閠ricos todos de 1000 W; cabezales m髒iles Spot y Wash de 700 W de la marca VARILITE.</p>
+<p>Proyector multimedia de 7500 l鷐enes y ojo de pez para abarcar gran amplitud a corta distancia NEC; spliter de 48 canales para realizaci髇 de monitoreo en escenario de 20 mts de longitud marca  Wirwind.</p>
                 </div>
               </section>
                   <!-- InstanceEndEditable --></div>  

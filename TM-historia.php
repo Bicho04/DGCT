@@ -1,7 +1,8 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="c4ca4";?>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
     <!-- InstanceBeginEditable name="doctitle" -->
     <title>Teatro Municioal Ignacio A. Pane</title> 
 	<!-- InstanceEndEditable -->
@@ -68,7 +69,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercci√≥n de Acci√≥n Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciÛn de AcciÛn Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -154,20 +155,20 @@
                 <div class="info">
                  <h3>Teatro Municipal</h3>
                  <h2>Historia</h2>
-                 <p>La historia del Teatro Municipal Ignacio A. Pane comienza cuando la sala de sesiones del Congreso Nacional, construida en 1843, cambia su destina administrativo por uno vinculado con las artes. En 1853, el Maestro Francisco Dupuis recibe licencia para ense√±ar m√∫sica en las oficinas y en los corredores, y dos a√±os despu√©s el edificio quedo convertido en Teatro Municipal. La inauguraci√≥n se realiz√≥ el 04 de noviembre de 1855.</p>
-                  <p>El Teatro Nacional desde entonces el mayor centro de irradiaci√≥n de la cultura en t√©rminos de teatro y m√∫sica para los asuncenos. Incluso en la guerra de la Triple Alianza, el teatro nacional sigui√≥ funcionando en las medidas de sus ya reducidas posibilidades, como un faro de la cultura y,tambi√©n, de sentido y sentimiento de patria. Desde t√©rminos de la guerra hasta mil novecientos ochenta y tantos, actuaron en el Teatro Nacional numerosos artistas paraguayos y extranjeros.</p>
-                  <p>Gracias a que Asunci√≥n tiene su teatro abierto, artistas y m√∫sicos en gira llegan y contribuyen notablemente a la formaci√≥n del gusto en el cada d√≠a m√°s exigente p√∫blico paraguayo.</p>
-                  <p>Es solo un acto de justicia recordar que durante la primera mitad del siglo XX no  existi√≥ en Asunci√≥n un edificio destinado a la cultura con las glorias del Teatro Municipal. M√°s a√∫n entre 1940 y 1960, el escenario del Teatro Municipal reuni√≥ a los mayores representantes de las artes esc√©nicas en el Paraguay. En esa √©poca el viejo Teatro Municipal era conocido ya por todos como √©l. Teatro Municipal Ignacio A. Pane.</p>
-                  <p>En t√©rminos de historia edilicia, la segunda mitad del siglo XX vio en el Teatro Municipal un edificio que mantuvo sus caracter√≠sticas esenciales, pero que progresivamente fue objeto de adiciones al margen de su estilo constructivo. Una parte considerable de la madera usada en la construcci√≥n del teatro se hallaba en avanzad deterioro en las dos √∫ltimas d√©cadas del siglo XX. Por otra arte. Crec√≠an los del uso del edificio. Todo esto motivo el cierre del teatro durante muchos a√±os.</p>
-                  <p>En 1997 comenz√≥ el proceso restaurativo del edificio. Se comenzaron excavaciones en lo que fue el primer teatro en tiempos de la presidencia de Don Carlos Antonio L√≥pez. Junto con los trabajos arqueol√≥gicos se realizaron tambi√©n investigaciones hist√≥ricas que demostraron que en ese lugar Los Trabajos prosiguieron hasta completar las obras en su totalidad, y de esa manera en 2006, el teatro quedo oficialmente habilitado para su uso.</p>
-                  <p> Al poco tiempo de su habilitaci√≥n el Teatro Municipal recobraba el brillo de sus antiguas glorias con un remozamiento edilicio que hoy es orgullo de la ciudad y con una programaci√≥n que goza del entusiasta apoyo del p√∫blico. </p>
-                  <p>Se√±oras y Se√±ores El edificio cuenta con las siguientes instrucciones de salida de emergencia.</p>
-                  <p>En el sector de platea se encuentran ubicadas dos puertas de salida de emergencia. A la derecha, con solo pulsar podr√° acceder a la calle chile. Por el lado izquierdo, se puede acceder a la calle de Alberdi. </p>
-                  <p>A dem√°s de las puertas de ingreso y de salida cuentan con amplias puertas para la evacuaci√≥n </p>
-                  <p>El primer nivel, tiene el mismo mecanismo pero las salidas de urgencias por los costados dan rumbo  a las escaleras que est√°n plenamente se√±alizados.</p>
+                 <p>La historia del Teatro Municipal Ignacio A. Pane comienza cuando la sala de sesiones del Congreso Nacional, construida en 1843, cambia su destina administrativo por uno vinculado con las artes. En 1853, el Maestro Francisco Dupuis recibe licencia para ensenar m˙sica en las oficinas y en los corredores, y dos anos despuÈs el edificio quedo convertido en Teatro Municipal. La inauguraciÛn se realizÛ el 04 de noviembre de 1855.</p>
+                  <p>El Teatro Nacional desde entonces el mayor centro de irradiaciÛn de la cultura en tÈrminos de teatro y m˙sica para los asuncenos. Incluso en la guerra de la Triple Alianza, el teatro nacional siguiÛ funcionando en las medidas de sus ya reducidas posibilidades, como un faro de la cultura y,tambiÈn, de sentido y sentimiento de patria. Desde tÈrminos de la guerra hasta mil novecientos ochenta y tantos, actuaron en el Teatro Nacional numerosos artistas paraguayos y extranjeros.</p>
+                  <p>Gracias a que AsunciÛn tiene su teatro abierto, artistas y m˙sicos en gira llegan y contribuyen notablemente a la formaciÛn del gusto en el cada dÌa m·s exigente p˙blico paraguayo.</p>
+                  <p>Es solo un acto de justicia recordar que durante la primera mitad del siglo XX no  existiÛ en AsunciÛn un edificio destinado a la cultura con las glorias del Teatro Municipal. M·s a˙n entre 1940 y 1960, el escenario del Teatro Municipal reuniÛ a los mayores representantes de las artes escÈnicas en el Paraguay. En esa Època el viejo Teatro Municipal era conocido ya por todos como Èl. Teatro Municipal Ignacio A. Pane.</p>
+                  <p>En tÈrminos de historia edilicia, la segunda mitad del siglo XX vio en el Teatro Municipal un edificio que mantuvo sus caracterÌsticas esenciales, pero que progresivamente fue objeto de adiciones al margen de su estilo constructivo. Una parte considerable de la madera usada en la construcciÛn del teatro se hallaba en avanzad deterioro en las dos ˙ltimas dÈcadas del siglo XX. Por otra arte. CrecÌan los del uso del edificio. Todo esto motivo el cierre del teatro durante muchos anos.</p>
+                  <p>En 1997 comenzÛ el proceso restaurativo del edificio. Se comenzaron excavaciones en lo que fue el primer teatro en tiempos de la presidencia de Don Carlos Antonio LÛpez. Junto con los trabajos arqueolÛgicos se realizaron tambiÈn investigaciones histÛricas que demostraron que en ese lugar Los Trabajos prosiguieron hasta completar las obras en su totalidad, y de esa manera en 2006, el teatro quedo oficialmente habilitado para su uso.</p>
+                  <p> Al poco tiempo de su habilitaciÛn el Teatro Municipal recobraba el brillo de sus antiguas glorias con un remozamiento edilicio que hoy es orgullo de la ciudad y con una programaciÛn que goza del entusiasta apoyo del p˙blico. </p>
+                  <p>Senoras y Senores El edificio cuenta con las siguientes instrucciones de salida de emergencia.</p>
+                  <p>En el sector de platea se encuentran ubicadas dos puertas de salida de emergencia. A la derecha, con solo pulsar podr· acceder a la calle chile. Por el lado izquierdo, se puede acceder a la calle de Alberdi. </p>
+                  <p>A dem·s de las puertas de ingreso y de salida cuentan con amplias puertas para la evacuaciÛn </p>
+                  <p>El primer nivel, tiene el mismo mecanismo pero las salidas de urgencias por los costados dan rumbo  a las escaleras que est·n plenamente senalizados.</p>
                   <p>El segundo nivel de los palcos tertulias se encuentra con las puertas laterales por izquierda y derecha para acceder a las escaleras tanto hacia la calle de chile y de Alberdi.</p>
-                  <p>El tercer nivel, Palcos Para√≠so, tambi√©n cuentan con dos salidas de emergencias por los laterales de izquierda y derecha para la salida a las escaleras. Todas las salidas est√°n debidamente se√±alizadas. </p>
-                  <p> Rogamos mantener en silencio sus aparatos celulares por favor no la utilizaci√≥n de c√°maras con flashes, Agradecemos su colaboraci√≥n y consideraci√≥n. Que disfruten del Espect√°culo.</p>
+                  <p>El tercer nivel, Palcos ParaÌso, tambiÈn cuentan con dos salidas de emergencias por los laterales de izquierda y derecha para la salida a las escaleras. Todas las salidas est·n debidamente senalizadas. </p>
+                  <p> Rogamos mantener en silencio sus aparatos celulares por favor no la utilizaciÛn de c·maras con flashes, Agradecemos su colaboraciÛn y consideraciÛn. Que disfruten del Espect·culo.</p>
                 </div>
               </section>
               <!-- InstanceEndEditable --></div>  

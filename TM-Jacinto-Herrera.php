@@ -1,7 +1,8 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="c4ca4";?>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
     <!-- InstanceBeginEditable name="doctitle" -->
     <title>Teatro Municioal Ignacio A. Pane</title> 
 	<!-- InstanceEndEditable -->
@@ -68,7 +69,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciÃ³n de AcciÃ³n Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -154,7 +155,7 @@
                 <div class="info">
                  <h3>Sala</h3>
                  <h2>Jacinto Herrera</h2>
-                 <p>Es utilizado por el Ballet ClÃ¡sico y Moderno Municipal de AsunciÃ³n en horario diurno, mientras que en el horario vespertino es utilizado por el IMA para los ensayos diarios.</p>
+                 <p>Es utilizado por el Ballet Clásico y Moderno Municipal de Asunción en horario diurno, mientras que en el horario vespertino es utilizado por el IMA para los ensayos diarios.</p>
                 </div>
               </section>
               <!-- InstanceEndEditable --></div>  

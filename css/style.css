@@ -64,7 +64,7 @@ a {
 #cabecera {
     width: 1024px;
     height: 210px;
-    margin: -20px auto 0 auto;
+    margin: 0 auto 0 auto;
     padding: 0 0 0 0;
     position: relative;
 }
@@ -253,7 +253,7 @@ transform : scale(1.1);
     margin:7px 0;
     color: #333;
     font-size:13px;
-    display: block;
+    display:inline-block;
 }
 .nota p{
     font-size:16px;

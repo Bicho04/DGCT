@@ -1,8 +1,9 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es"><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="eccbc";?>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>Manzana de la Rivera, Centro Cultural de la Ciudad de AsucniÃ³n</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
+<title>Manzana de la Rivera, Centro Cultural de la Ciudad de Asucni&oacute;n</title> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -65,7 +66,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciÃ³n de AcciÃ³n Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -95,16 +96,16 @@
                     --><li><a href="MdlR-C-Viola.php">Casa Viola</a></li><!-- 
                     --><li><a href="MdlR-C-Clari.php">Casa Clari</a></li><!--  
                     --><li><a href="MdlR-C-Clari-Mestre.php">Casa Clari-Mestre</a></li><!--  
-                    --><li><a href="MdlR-C-Vertua.php">Casa VertÃºa</a></li><!--  
+                    --><li><a href="MdlR-C-Vertua.php">Casa Vert&uacute;a</a></li><!--  
                     --><li><a href="MdlR-C-Emesa.php">Casa Emesa</a></li><!--  
-                    --><li><a href="MdlR-C-Castelvi.php">Casa CastelvÃ­</a></li><!--  
+                    --><li><a href="MdlR-C-Castelvi.php">Casa Castelv&iacute;</a></li><!--  
                     --><li><a href="MdlR-C-Serra.php">Casa Serra I y II</a></li><!--  
                     --><li><a href="MdlR-p-Leonor.php">Patio Leonor</a></li><!--  
                     --><li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li><!--  
-                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala GarcÃ­a Lorca</a></li><!--  
+                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala Garc&iacute;a Lorca</a></li><!--  
                 --></ul><!-- 
               --></li><!-- 
-              --><li class="col-4"><a href="MdlR-QuienFue.php">Â¿QuiÃ©n Fue?</a></li><!-- 
+              --><li class="col-4"><a href="MdlR-QuienFue.php">&iquest;Qui&eacute;n Fue?</a></li><!-- 
               --><li class="col-4"><a href="MdlR-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
@@ -134,9 +135,9 @@
                <div class="info">
                  <h3>9 Casas</h3>
                  <h2>CASA BALLARIO</h2>
-                 <p>La Ãºltima casa restaurada es la CASA  BALLARIO, de estilo neoclÃ¡sico, fue construida en 1901. &nbsp;Con la  habilitaciÃ³n de esta casa, el 7 de junio de 1996, quedÃ³ completa la obra de  restauraciÃ³n y recuperaciÃ³n de la Manzana histÃ³rica. Actualmente funcionan aquÃ­  oficinas administrativas de la DirecciÃ³n General de Cultura y Turismo y del Centro  Cultural de la Ciudad.</p>
+                 <p>La última casa restaurada es la CASA  BALLARIO, de estilo neoclásico, fue construida en 1901. &nbsp;Con la  habilitación de esta casa, el 7 de junio de 1996, quedó completa la obra de  restauración y recuperación de la Manzana histórica. Actualmente funcionan aquí  oficinas administrativas de la Dirección General de Cultura y Turismo y del Centro  Cultural de la Ciudad.</p>
                  <p>&nbsp;</p>
-                 <p>Asimismo, se encuentra en esta casa el  Taller de RestauraciÃ³n y Mantenimiento que forma parte del Museo Memoria de la  Ciudad, a cargo de una profesional en RestauraciÃ³n.</p>
+                 <p>Asimismo, se encuentra en esta casa el  Taller de Restauración y Mantenimiento que forma parte del Museo Memoria de la  Ciudad, a cargo de una profesional en Restauración.</p>
                </div>
               </section>
               <!-- InstanceEndEditable --></div>  
