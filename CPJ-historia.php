@@ -1,9 +1,8 @@
-<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/centroParaguayoJapones.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="a87ff";?>
+<html lang="es"><!-- InstanceBegin template="/Templates/centroParaguayoJapones.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
-<title>Centro Paraguayo Japon&eacute;s</title> 
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title>Centro Paraguayo JaponĂŠs</title> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -67,12 +66,12 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciĂłn de AcciĂłn Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
     <section id="central">
-      <div class="titulo"><h1>Centro Paraguayo Japon&eacute;s</h1></div>
+      <div class="titulo"><h1>Centro Paraguayo JaponĂŠs</h1></div>
       <ul class="hovercal">
         <li>
           <div class="titulo2">Ver Calendario</div>
@@ -94,13 +93,13 @@
               --><li class="col-4"><a href="CPJ-historia.php">Historia</a></li><!-- 
               --><li class="col-4"><a href="#">Salas</a><!-- 
                 --><ul><!-- 
-                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust&iacute;n P&iacute;o Barrios</a></li><!--
+                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro AgustĂ­n PĂ­o Barrios</a></li><!--
                     --><li><a href="CPJ-Sala-Seminario.php">Sala Seminario Branislava Susnik</a><!--
                     --><li><a href="CPJ-Sala-Anfiteatro.php">Anfiteatro Oscar Cardozo Ocampo</a></li><!--
                     --><li><a href="CPJ-Sala-Exposicion.php">Sala de Exposiciones Jacinto Rivero</a></li><!--
                     --><li><a href="CPJ-Sala-Reuniones.php">Sala de Reuniones Agustina Miranda</a></li><!--
                     --><li><a href="CPJ-Sala-Biblioteca.php">Biblioteca Herib Campos Cervera</a></li><!--
-                    --><li><a href="CPJ-Sala-Fisioterapia.php">Sala de Fisioterapia y Rehabilitaci&oacute;n</a></li><!--
+                    --><li><a href="CPJ-Sala-Fisioterapia.php">Sala de Fisioterapia y RehabilitaciĂłn</a></li><!--
                 --></ul><!-- 
               --></li><!-- 
               --><li class="col-4"><a href="CPJ-">Cursos</a><!-- 
@@ -109,7 +108,7 @@
                     --><li><a href="CPJ-Cursos-Musica.php">Musica</a><!--
                     --><li><a href="CPJ-Cursos-Artes.php">Artes Visuales</a></li><!--
                     --><li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio </a></li><!--
-                    --><li><a href="CPJ-Cursos-Gimnasia.php">En Gimnasia Art&aacute;stica</a></li><!--
+                    --><li><a href="CPJ-Cursos-Gimnasia.php">En Gimnasia ArtĂĄstica</a></li><!--
               	--></ul><!-- 
               --></li><!-- 
               --><li class="col-4"><a href="CPJ-Contacto.php">Contacto</a></li><!-- 
@@ -140,29 +139,29 @@
              <section id="cont-info">
                 <div class="info">
                     <h3>Historia</h3>
-                    <h2>El Centro Paraguayo Japonés</h2>
- <P>El Centro Paraguayo Japonés Para el Desarrollo de los RecursosHumanos, es la primera Institución integral para las actividades deeducación social en el Paraguay. Fue inaugurado el 23 de agosto de1988. Construida sobre una superficie de 7000 m2. Donado por elGobierno y Pueblo del Japón a gracias a una asistencia financiera noreembolsable de carácter general  por valor de 1.541.000.000 yenes.</P>
-<P>Su construcción se inició el 2 de octubre de 1986 con la palada
-inicial realizada por sus Altezas Imperiales, el Príncipe  Hitachi y
-la Princesa Hanako quienes visitaron en aquella ocasión el Paraguay
+                    <h2>El Centro Paraguayo JaponĂŠs</h2>
+ <P>El Centro Paraguayo JaponĂŠs Para el Desarrollo de los RecursosHumanos, es la primera InstituciĂłn integral para las actividades deeducaciĂłn social en el Paraguay. Fue inaugurado el 23 de agosto de1988. Construida sobre una superficie de 7000 m2. Donado por elGobierno y Pueblo del JapĂłn a gracias a una asistencia financiera noreembolsable de carĂĄcter general  por valor de 1.541.000.000 yenes.</P>
+<P>Su construcciĂłn se iniciĂł el 2 de octubre de 1986 con la palada
+inicial realizada por sus Altezas Imperiales, el PrĂ­ncipe  Hitachi y
+la Princesa Hanako quienes visitaron en aquella ocasiĂłn el Paraguay
 para asistir a los actos conmemorativos del cincuentenario de la
-emigración Japonesa.</P>
+emigraciĂłn Japonesa.</P>
 
-<h2>Es administrada por la Municipalidad de Asunción al servicio de la ciudadanía</h2>
-<p>El Centro Paraguayo Japonés para el Desarrollo de Recursos Humanos, en el transcurso del tiempo, adquirió una identidad propia y a lo largo de estos 25 anos ha cumplido con su objetivo de servir a la comunidad.</p>
-<p>Como su nombre lo indica, uno de los ejes del Centro Paraguayo Japonés es la promoción de los Recursos Humanos, centrado principalmente en la formación de jóvenes paraguayos para posibilitar su ingreso al mercado de trabajo, habilitándolos en el campo de la informática, el conocimiento de idiomas, las artes plásticas, la música, la danza y los deportes.</p>
-<p>Fue creado como punto insustituible de encuentro, cooperación e
-integración de ciudadanos paraguayos y japoneses.</p>
-<p>Los institutos de formación, los artistas y trabajadores culturales encuentran en este Centro un espacio y un punto de apoyo para el desarrollo de sus actividades en condiciones flexibles.</p>
-<p>El CPJ es frecuentemente utilizado por delegaciones diplomáticas, grupos de artistas y agentes culturales, nacionales e internacionales, gremios de profesionales, académicas, empresariales y uno de los sitios permanentes para los programas educativos y culturales que encara la Municipalidad de Asunción.</p>
+<h2>Es administrada por la Municipalidad de AsunciĂłn al servicio de la ciudadanĂ­a</h2>
+<p>El Centro Paraguayo JaponĂŠs para el Desarrollo de Recursos Humanos, en el transcurso del tiempo, adquiriĂł una identidad propia y a lo largo de estos 25 aĂąos ha cumplido con su objetivo de servir a la comunidad.</p>
+<p>Como su nombre lo indica, uno de los ejes del Centro Paraguayo JaponĂŠs es la promociĂłn de los Recursos Humanos, centrado principalmente en la formaciĂłn de jĂłvenes paraguayos para posibilitar su ingreso al mercado de trabajo, habilitĂĄndolos en el campo de la informĂĄtica, el conocimiento de idiomas, las artes plĂĄsticas, la mĂşsica, la danza y los deportes.</p>
+<p>Fue creado como punto insustituible de encuentro, cooperaciĂłn e
+integraciĂłn de ciudadanos paraguayos y japoneses.</p>
+<p>Los institutos de formaciĂłn, los artistas y trabajadores culturales encuentran en este Centro un espacio y un punto de apoyo para el desarrollo de sus actividades en condiciones flexibles.</p>
+<p>El CPJ es frecuentemente utilizado por delegaciones diplomĂĄticas, grupos de artistas y agentes culturales, nacionales e internacionales, gremios de profesionales, acadĂŠmicas, empresariales y uno de los sitios permanentes para los programas educativos y culturales que encara la Municipalidad de AsunciĂłn.</p>
 <a name="recursosHumanos"></a><h2>Para el Desarrollo de los Recursos Humanos</h2>
-<p>En 25 anos de trayectoria el Centro Paraguayo Japonés ha contribuido con la ciudadanía en el desarrollo de los recursos humanos ofreciendo cursos de capacitación a costos muy accesibles, dirigidos a ninos, jóvenes y adultos insertándolos en el campo laboral con herramientas sustentables.</p>
-<p>Ofrece cursos de idiomas, computación, danza, música, artes visuales, y deportes.</p> 
-<p>Idiomas: clases de Inglés, japonés, portugués, francés, alemán, italiano, mandarín  y castellano para extranjeros. En horarios manana, tarde y noche. En niveles kinder, ninos, junior, jóvenes y adultos</p> 
-<p>Cuenta con un importante laboratorio audiovisual con proyector y conexión a  Internet</p>
-<p>Computación: Clases de operador básico y avanzado, dactilografía computarizada y Programador.</p>
-<p>Con equipos con  Procesador Intel Dual Core de 8 GHZ, 5GB de Memoria RAM, Disco Duro de 500 GB, Lector Grabador de DVD y Monitor de 19'' LCD, y todas las máquinas cuentan con sistema operativo  indows Seven profesional. Conexión a Internet.</p>
-<p>Clases especiales para ninos, jóvenes, adultos y grupos especiales para la tercera edad.</p>
+<p>En 25 aĂąos de trayectoria el Centro Paraguayo JaponĂŠs ha contribuido con la ciudadanĂ­a en el desarrollo de los recursos humanos ofreciendo cursos de capacitaciĂłn a costos muy accesibles, dirigidos a niĂąos, jĂłvenes y adultos insertĂĄndolos en el campo laboral con herramientas sustentables.</p>
+<p>Ofrece cursos de idiomas, computaciĂłn, danza, mĂşsica, artes visuales, y deportes.</p> 
+<p>Idiomas: clases de InglĂŠs, japonĂŠs, portuguĂŠs, francĂŠs, alemĂĄn, italiano, mandarĂ­n  y castellano para extranjeros. En horarios maĂąana, tarde y noche. En niveles kinder, niĂąos, junior, jĂłvenes y adultos</p> 
+<p>Cuenta con un importante laboratorio audiovisual con proyector y conexiĂłn a  Internet</p>
+<p>ComputaciĂłn: Clases de operador bĂĄsico y avanzado, dactilografĂ­a computarizada y Programador.</p>
+<p>Con equipos con  Procesador Intel Dual Core de 8 GHZ, 5GB de Memoria RAM, Disco Duro de 500 GB, Lector Grabador de DVD y Monitor de 19'' LCD, y todas las mĂĄquinas cuentan con sistema operativo  indows Seven profesional. ConexiĂłn a Internet.</p>
+<p>Clases especiales para niĂąos, jĂłvenes, adultos y grupos especiales para la tercera edad.</p>
                 </div>
               </section>
                   <!-- InstanceEndEditable --></div>  

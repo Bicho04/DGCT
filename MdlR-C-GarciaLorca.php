@@ -1,9 +1,8 @@
-<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="eccbc";?>
+<html lang="es"><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
-<title>Manzana de la Rivera, Centro Cultural de la Ciudad de Asucni&oacute;n</title> 
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title>Manzana de la Rivera, Centro Cultural de la Ciudad de AsucniĂłn</title> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -66,7 +65,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciĂłn de AcciĂłn Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -96,16 +95,16 @@
                     --><li><a href="MdlR-C-Viola.php">Casa Viola</a></li><!-- 
                     --><li><a href="MdlR-C-Clari.php">Casa Clari</a></li><!--  
                     --><li><a href="MdlR-C-Clari-Mestre.php">Casa Clari-Mestre</a></li><!--  
-                    --><li><a href="MdlR-C-Vertua.php">Casa Vert&uacute;a</a></li><!--  
+                    --><li><a href="MdlR-C-Vertua.php">Casa VertĂşa</a></li><!--  
                     --><li><a href="MdlR-C-Emesa.php">Casa Emesa</a></li><!--  
-                    --><li><a href="MdlR-C-Castelvi.php">Casa Castelv&iacute;</a></li><!--  
+                    --><li><a href="MdlR-C-Castelvi.php">Casa CastelvĂ­</a></li><!--  
                     --><li><a href="MdlR-C-Serra.php">Casa Serra I y II</a></li><!--  
                     --><li><a href="MdlR-p-Leonor.php">Patio Leonor</a></li><!--  
                     --><li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li><!--  
-                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala Garc&iacute;a Lorca</a></li><!--  
+                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala GarcĂ­a Lorca</a></li><!--  
                 --></ul><!-- 
               --></li><!-- 
-              --><li class="col-4"><a href="MdlR-QuienFue.php">&iquest;Qui&eacute;n Fue?</a></li><!-- 
+              --><li class="col-4"><a href="MdlR-QuienFue.php">ÂżQuiĂŠn Fue?</a></li><!-- 
               --><li class="col-4"><a href="MdlR-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
@@ -134,12 +133,12 @@
                <section id="cont-info">
                <div class="info">
                  <h3>9 Casas</h3>
-                 <h2>GARCÍA LORCA</h2>
-                 <p>Como ya lo mencionamos, la Manzana de la  Rivera estaba compuesta por nueve casas y un predio baldío, donde en 1993 se  pensó construir un teatro experimental como culminación &nbsp;del Proyecto  Manzana de la Rivera. Para esto se convocó a un concurso de ideas para  arquitectos jóvenes, el premio Ricardo Boettner, y resultó ganadora la idea presentada  por el Arq. Javier Corvalán. En 1997 se iniciaron los trabajos y el Salón  Multiuso &ldquo;García Lorca&rdquo; fue inaugurado el 26 de junio de 1999, con la visita  del presidente del gobierno espanol José María Aznar.</p>
+                 <h2>GARCĂA LORCA</h2>
+                 <p>Como ya lo mencionamos, la Manzana de la  Rivera estaba compuesta por nueve casas y un predio baldĂ­o, donde en 1993 se  pensĂł construir un teatro experimental como culminaciĂłn &nbsp;del Proyecto  Manzana de la Rivera. Para esto se convocĂł a un concurso de ideas para  arquitectos jĂłvenes, el premio Ricardo Boettner, y resultĂł ganadora la idea presentada  por el Arq. Javier CorvalĂĄn. En 1997 se iniciaron los trabajos y el SalĂłn  Multiuso &ldquo;GarcĂ­a Lorca&rdquo; fue inaugurado el 26 de junio de 1999, con la visita  del presidente del gobierno espaĂąol JosĂŠ MarĂ­a Aznar.</p>
                  <p>&nbsp;</p>
-                 <p>La Sala García Lorca es utilizada para  espectáculos de danza, teatro, música, encuentros culturales y otros. Tiene  capacidad para 250 personas (sillas movibles) y personal técnico capacitado en  luces y sonido (equipamiento básico). Tiene un costo de usufructo, regido por ordenanza  municipal tributaria.</p>
+                 <p>La Sala GarcĂ­a Lorca es utilizada para  espectĂĄculos de danza, teatro, mĂşsica, encuentros culturales y otros. Tiene  capacidad para 250 personas (sillas movibles) y personal tĂŠcnico capacitado en  luces y sonido (equipamiento bĂĄsico). Tiene un costo de usufructo, regido por ordenanza  municipal tributaria.</p>
                  <p>(Los interesados en usufructuar deben  dirigirse a la Unidad de Espacios del CCC, para retirar requisitos y  condiciones de uso. <br>
-                   Teléfonos 442-448, 447-683, int. 109;  de lunes a viernes, de 7:30 a<br>
+                   TelĂŠfonos 442-448, 447-683, int. 109;  de lunes a viernes, de 7:30 a<br>
                    15:30 h. E-mail: <a href="mailto:direccion.manzana.rivera@gmail.com">direccion.manzana.rivera@gmail.com</a>;<br>
   <a href="http://www.facebook.com/">www.facebook.com</a>).</p>
                </div>

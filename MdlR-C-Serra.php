@@ -1,9 +1,8 @@
-<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="eccbc";?>
+<html lang="es"><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
-<title>Manzana de la Rivera, Centro Cultural de la Ciudad de Asucni&oacute;n</title> 
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title>Manzana de la Rivera, Centro Cultural de la Ciudad de AsucniĂłn</title> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -66,7 +65,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciĂłn de AcciĂłn Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -96,16 +95,16 @@
                     --><li><a href="MdlR-C-Viola.php">Casa Viola</a></li><!-- 
                     --><li><a href="MdlR-C-Clari.php">Casa Clari</a></li><!--  
                     --><li><a href="MdlR-C-Clari-Mestre.php">Casa Clari-Mestre</a></li><!--  
-                    --><li><a href="MdlR-C-Vertua.php">Casa Vert&uacute;a</a></li><!--  
+                    --><li><a href="MdlR-C-Vertua.php">Casa VertĂşa</a></li><!--  
                     --><li><a href="MdlR-C-Emesa.php">Casa Emesa</a></li><!--  
-                    --><li><a href="MdlR-C-Castelvi.php">Casa Castelv&iacute;</a></li><!--  
+                    --><li><a href="MdlR-C-Castelvi.php">Casa CastelvĂ­</a></li><!--  
                     --><li><a href="MdlR-C-Serra.php">Casa Serra I y II</a></li><!--  
                     --><li><a href="MdlR-p-Leonor.php">Patio Leonor</a></li><!--  
                     --><li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li><!--  
-                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala Garc&iacute;a Lorca</a></li><!--  
+                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala GarcĂ­a Lorca</a></li><!--  
                 --></ul><!-- 
               --></li><!-- 
-              --><li class="col-4"><a href="MdlR-QuienFue.php">&iquest;Qui&eacute;n Fue?</a></li><!-- 
+              --><li class="col-4"><a href="MdlR-QuienFue.php">ÂżQuiĂŠn Fue?</a></li><!-- 
               --><li class="col-4"><a href="MdlR-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
@@ -135,11 +134,11 @@
                <div class="info">
                  <h3>9 Casas</h3>
                  <h2>CASA SERRA</h2>
-                 <p>La recuperación posterior de las otras  casas como la  1 y la CASA SERRA 2, que son también tipologías de  viviendas neoclásicas de habitaciones ubicadas sobre la calle, tienen dos  zaguanes, por lo que suponemos eran dos casas gemelas que se unieron.</p>
-                 <p>En una de estas casas actualmente  funciona el Depto. de Audiovisuales, que desarrolla diversos programas para  estudiantes de primaria, tercer ciclo y educación media de escuelas y colegios  de Asunción y ciudades aledanas. Dichos programas son: &ldquo;Viaje gratis&rdquo;, videos  sobre patrimonio histórico de Asunción; &ldquo;Conociendo Asunción&rdquo;, recorrido por los  espacios de la Manzana de la Rivera y del centro histórico; &ldquo;Cine de grandes  para pequenos&rdquo;, exhibición de películas relevantes de la filmografía universal;  &ldquo;Conciertos al mediodía - Asaje rire&rdquo;, con la actuación de los elencos  municipales (Banda, Ballet y Conjunto Folklórico, Orquesta Sinfónica, Orquesta  de Cámara) y artistas invitados.<br>
-                   Asimismo, este Depto. tiene a su cargo la  Videoteca Municipal, inaugurada el 31 de marzo de 1995 tras un convenio con la  &nbsp;Fundación Cabildo; ofrece videos con temas educativos, ecológicos,  artísticos y culturales, dirigidos especialmente a estudiantes e instituciones educativas.</p>
-                 <p>Estos programas son gratuitos y se los  realiza según calendario elaborado en conjunto entre el Depto. de  Audiovisuales, las escuelas y colegios y los centros municipales. Se cuenta con  personal capacitado para las visitas guiadas y recorridos y personal técnico  para las exhibiciones de videos y películas. Las funciones se realizan en el Auditorio  Ruy Díaz de Guzmán y la Sala García Lorca.</p>
-                 <p>(Los interesados en participar de  estos programas deben dirigirse al Depto. de Audiovisuales del CCC, teléfonos  442-448, 447-683, int. 109; de lunes a viernes, de 7:00 a 12:30 h. E-mail: <a href="mailto:direccion.manzana.rivera@gmail.com">direccion.manzana.rivera@gmail.com</a>; <a href="http://www.facebook.com/">www.facebook.com</a>).</p>
+                 <p>La recuperaciĂłn posterior de las otras  casas como la  1 y la CASA SERRA 2, que son tambiĂŠn tipologĂ­as de  viviendas neoclĂĄsicas de habitaciones ubicadas sobre la calle, tienen dos  zaguanes, por lo que suponemos eran dos casas gemelas que se unieron.</p>
+                 <p>En una de estas casas actualmente  funciona el Depto. de Audiovisuales, que desarrolla diversos programas para  estudiantes de primaria, tercer ciclo y educaciĂłn media de escuelas y colegios  de AsunciĂłn y ciudades aledaĂąas. Dichos programas son: &ldquo;Viaje gratis&rdquo;, videos  sobre patrimonio histĂłrico de AsunciĂłn; &ldquo;Conociendo AsunciĂłn&rdquo;, recorrido por los  espacios de la Manzana de la Rivera y del centro histĂłrico; &ldquo;Cine de grandes  para pequeĂąos&rdquo;, exhibiciĂłn de pelĂ­culas relevantes de la filmografĂ­a universal;  &ldquo;Conciertos al mediodĂ­a â Asaje rire&rdquo;, con la actuaciĂłn de los elencos  municipales (Banda, Ballet y Conjunto FolklĂłrico, Orquesta SinfĂłnica, Orquesta  de CĂĄmara) y artistas invitados.<br>
+                   Asimismo, este Depto. tiene a su cargo la  Videoteca Municipal, inaugurada el 31 de marzo de 1995 tras un convenio con la  &nbsp;FundaciĂłn Cabildo; ofrece videos con temas educativos, ecolĂłgicos,  artĂ­sticos y culturales, dirigidos especialmente a estudiantes e instituciones educativas.</p>
+                 <p>Estos programas son gratuitos y se los  realiza segĂşn calendario elaborado en conjunto entre el Depto. de  Audiovisuales, las escuelas y colegios y los centros municipales. Se cuenta con  personal capacitado para las visitas guiadas y recorridos y personal tĂŠcnico  para las exhibiciones de videos y pelĂ­culas. Las funciones se realizan en el Auditorio  Ruy DĂ­az de GuzmĂĄn y la Sala GarcĂ­a Lorca.</p>
+                 <p>(Los interesados en participar de  estos programas deben dirigirse al Depto. de Audiovisuales del CCC, telĂŠfonos  442-448, 447-683, int. 109; de lunes a viernes, de 7:00 a 12:30 h. E-mail: <a href="mailto:direccion.manzana.rivera@gmail.com">direccion.manzana.rivera@gmail.com</a>; <a href="http://www.facebook.com/">www.facebook.com</a>).</p>
                </div>
               </section>
               <!-- InstanceEndEditable --></div>  

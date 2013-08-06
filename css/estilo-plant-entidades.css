@@ -91,20 +91,23 @@ abbr,acronym { border:0;
 }
 
 #logoasu{
+    width: 180px;
+    height: 180px;
     position: absolute; 
-    top:5px;
+    top:10px;
     z-index: 10;
-    right: 100px
+    right: 20px
 }
 
 
 #logocult {
     position: absolute;
+    top:5px;
     left:80px;
     z-index: 10;
     background: #fff;
     padding: 5px;
-    border-radius:  0 0 15px 15px;
+    border-radius: 15px;
     border-bottom: solid 2px #333;
 }
 #logocult img{
@@ -190,9 +193,8 @@ abbr,acronym { border:0;
     width: 1024px;
     position: absolute;
     display:inline-block;
-    top: 350px;
+    top: 320px;
     z-index: 15;
-    text-align: center;
 }
 #nav-logos a {
     text-decoration:none;
@@ -210,7 +212,7 @@ abbr,acronym { border:0;
     float: left;
     list-style: none;
     text-align: center;
-    background: url(../imagenes/fongo-logos2.png) center center;
+    background: url(../imagenes/fongo-logos.png) center center;
 }
 
 #nav-logos .current a, #nav-logos li:hover > a {
@@ -221,7 +223,7 @@ abbr,acronym { border:0;
 
 #inicio{
     font-family: 'maven_probold';
-    font-size: 12px;
+    font-size: 11px;
     color: #ccc;
     position: absolute;
     bottom: 0;
@@ -229,9 +231,6 @@ abbr,acronym { border:0;
 }
 #inicio a {
     color: #999;
-}
-#inicio a:hover{
-    color: #666;
 }
 #inicio a strong{
     color: #666;
@@ -251,7 +250,6 @@ abbr,acronym { border:0;
     width: 1064px;
     min-height: 300px;
     display: inline-block;
-    top: 30px;
 
     
     
@@ -506,7 +504,7 @@ abbr,acronym { border:0;
 }
 .nota span{
     width: 150px;
-    margin: 5px 10px;
+    margin: 5px 20px;
 }
 
 .nota span a{
@@ -531,10 +529,6 @@ abbr,acronym { border:0;
 }
 .nota a:hover{
     color: #91CD2E;
-}
-.nota img{
-    float: left;
-    margin: 10px 20px;
 }
 
 #iconos{

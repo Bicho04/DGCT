@@ -1,9 +1,8 @@
-<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="eccbc";?>
+<html lang="es"><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
-<title>Manzana de la Rivera, Centro Cultural de la Ciudad de Asucni&oacute;n</title> 
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title>Manzana de la Rivera, Centro Cultural de la Ciudad de AsucniĂłn</title> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -66,7 +65,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciĂłn de AcciĂłn Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -96,16 +95,16 @@
                     --><li><a href="MdlR-C-Viola.php">Casa Viola</a></li><!-- 
                     --><li><a href="MdlR-C-Clari.php">Casa Clari</a></li><!--  
                     --><li><a href="MdlR-C-Clari-Mestre.php">Casa Clari-Mestre</a></li><!--  
-                    --><li><a href="MdlR-C-Vertua.php">Casa Vert&uacute;a</a></li><!--  
+                    --><li><a href="MdlR-C-Vertua.php">Casa VertĂşa</a></li><!--  
                     --><li><a href="MdlR-C-Emesa.php">Casa Emesa</a></li><!--  
-                    --><li><a href="MdlR-C-Castelvi.php">Casa Castelv&iacute;</a></li><!--  
+                    --><li><a href="MdlR-C-Castelvi.php">Casa CastelvĂ­</a></li><!--  
                     --><li><a href="MdlR-C-Serra.php">Casa Serra I y II</a></li><!--  
                     --><li><a href="MdlR-p-Leonor.php">Patio Leonor</a></li><!--  
                     --><li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li><!--  
-                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala Garc&iacute;a Lorca</a></li><!--  
+                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala GarcĂ­a Lorca</a></li><!--  
                 --></ul><!-- 
               --></li><!-- 
-              --><li class="col-4"><a href="MdlR-QuienFue.php">&iquest;Qui&eacute;n Fue?</a></li><!-- 
+              --><li class="col-4"><a href="MdlR-QuienFue.php">ÂżQuiĂŠn Fue?</a></li><!-- 
               --><li class="col-4"><a href="MdlR-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
@@ -133,11 +132,11 @@
               <!-- InstanceBeginEditable name="INFO" -->
               <section id="cont-info"><div class="info"><h3>9 Casas</h3>
                  <h2>CASA CLARI-MESTRE</h2>
-                 <p>La , de estilo  neoclásico, colindante con la Casa Clari, data de 1912. Fue muy destruida a  través del tiempo. En el momento de la restauración tenía un techo de zinc que  uponemos &nbsp;fue posterior; el cielo raso  era de cartón, que había sido destruido totalmente cuando lo sacaron, estaba  hecho con relieves y sin colores y, finalmente, se pone &nbsp;un techo de  tejas. Tuvo varios usos, y debido a su diferencia de nivel fue posible la  creación de un espacio como Auditorio.</p>
-                 <p>Este Auditorio se llama Ruy Díaz de  Guzmán, y en él se realizan presentaciones de libros, encuentros, conferencias,  paneles debates, recitales, espectáculos teatrales, danza, etc. Tiene capacidad  para<br>
-                   100 personas (butacas fijas), piso  alfombrado, cuenta con aire acondicionado, un camerino, dos personales técnicos  y equipamiento básico en cuanto a luces y sonido. Puede ser utilizado de lunes  a<br>
-                   sábados, en horas de la manana y la  tarde. Tiene un costo de usufructo, regido por ordenanza municipal tributaria.</p>
-                 <p>(Los interesados en usufructuar el  Auditorio deben dirigirse a la Unidad de Espacios del CCC, para retirar  requisitos y condiciones de uso. Teléfonos 442-448, 447-683, int. 109; de lunes  a viernes, de 7:30 a 15:30 h. E-mail: <a href="mailto:direccion.manzana.rivera@gmail.com">direccion.manzana.rivera@gmail.com</a>;<br>
+                 <p>La , de estilo  neoclĂĄsico, colindante con la Casa Clari, data de 1912. Fue muy destruida a  travĂŠs del tiempo. En el momento de la restauraciĂłn tenĂ­a un techo de zinc que Â uponemos &nbsp;fue posterior; el cielo raso  era de cartĂłn, que habĂ­a sido destruido totalmente cuando lo sacaron, estaba  hecho con relieves y sin colores y, finalmente, se pone &nbsp;un techo de  tejas. Tuvo varios usos, y debido a su diferencia de nivel fue posible la  creaciĂłn de un espacio como Auditorio.</p>
+                 <p>Este Auditorio se llama Ruy DĂ­az de  GuzmĂĄn, y en ĂŠl se realizan presentaciones de libros, encuentros, conferencias,  paneles debates, recitales, espectĂĄculos teatrales, danza, etc. Tiene capacidad  para<br>
+                   100 personas (butacas fijas), piso  alfombrado, cuenta con aire acondicionado, un camerino, dos personales tĂŠcnicos  y equipamiento bĂĄsico en cuanto a luces y sonido. Puede ser utilizado de lunes  a<br>
+                   sĂĄbados, en horas de la maĂąana y la  tarde. Tiene un costo de usufructo, regido por ordenanza municipal tributaria.</p>
+                 <p>(Los interesados en usufructuar el  Auditorio deben dirigirse a la Unidad de Espacios del CCC, para retirar  requisitos y condiciones de uso. TelĂŠfonos 442-448, 447-683, int. 109; de lunes  a viernes, de 7:30 a 15:30 h. E-mail: <a href="mailto:direccion.manzana.rivera@gmail.com">direccion.manzana.rivera@gmail.com</a>;<br>
                    <a href="http://www.facebook.com/">www.facebook.com</a>).</p>
                </div>
               </section>

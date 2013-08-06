@@ -1,8 +1,7 @@
-<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="c4ca4";?>
+<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
     <!-- InstanceBeginEditable name="doctitle" -->
     <title>Teatro Municioal Ignacio A. Pane</title> 
 	<!-- InstanceEndEditable -->
@@ -69,7 +68,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciĂłn de AcciĂłn Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -154,53 +153,51 @@
               <section id="cont-info">
                 <div class="info">
                  <h3>Integrantes</h3>
-                 
-                 <p>Orquesta Sinfónica de la Ciudad de Asunción (OSCA)<br>
-                   <strong>Director: Mo. Luis Szarán</strong><br>
-                   
-                  <img src="imagenes/fotos/ciclo beethoven.jpg" width="720" height="480" alt="OSCA"> <strong>Integrantes:</strong></p>
+                 <p>Orquesta SinfĂłnica de la Ciudad de AsunciĂłn (OSCA)<br>
+                   <strong>Director: Mo. Luis SzarĂĄn</strong><br>
+                  <strong>Integrantes:</strong></p>
                  <strong><br clear="all">
                  </strong>
                  <p><strong>Violines  I</strong><br>
-                   Miguel A. Echeverría<br>
+                   Miguel A. EcheverrĂ­a<br>
                    (Concertino)<br>
-                   José María Calvo<br>
-                   Rubén Darío Jara<br>
-                   María Liz Calvo<br>
+                   JosĂŠ MarĂ­a Calvo<br>
+                   RubĂŠn DarĂ­o Jara<br>
+                   MarĂ­a Liz Calvo<br>
                    Juan Carlos Alvarenga<br>
                    Azucena Araujo<br>
                    Jaime Castillo<br>
-                   Fátima Sánchez<br>
+                   FĂĄtima SĂĄnchez<br>
                    Gustavo Barrientos<br>
-                   Ada Antúnez<br>
+                   Ada AntĂşnez<br>
                    <br>
   <strong>Violines  II</strong><br>
-                   José Miguel Echeverría<br>
+                   JosĂŠ Miguel EcheverrĂ­a<br>
                    (Solista)<br>
                    Gladys Barreto<br>
-                   Fredeslinda Benítez<br>
+                   Fredeslinda BenĂ­tez<br>
                    Liliana Cardozo<br>
                    Paola Franco<br>
                    Jorge Zayas<br>
-                   Sonia Martínez<br>
-                   Blas Vivé<br>
+                   Sonia MartĂ­nez<br>
+                   Blas VivĂŠ<br>
                    Paola Goydy</p>
                  <p><strong>Violas</strong><br>
                    Luis Graziani (solista)<br>
-                   Iván Celano<br>
+                   IvĂĄn Celano<br>
                    Oscar Mendoza<br>
-                   Saúl Gaona<br>
-                   Andrés Báez Méndez<br>
-                   Gloria Brítez Scolari<br>
-                   Karina Florentín<br>
-                   Rubén M. Jimenez</p>
+                   SaĂşl Gaona<br>
+                   AndrĂŠs BĂĄez MĂŠndez<br>
+                   Gloria BrĂ­tez Scolari<br>
+                   Karina FlorentĂ­n<br>
+                   RubĂŠn M. Jimenez</p>
                  <p><strong>Violoncellos</strong><br>
-                   Oswaldo Rodríguez (solista)<br>
+                   Oswaldo RodrĂ­guez (solista)<br>
                    Glenda Campos<br>
-                   Diógenes Acevedo<br>
-                   Modesto Gómez<br>
-                   Jorge Servián<br>
-                   Liza Raquel González</p>
+                   DiĂłgenes Acevedo<br>
+                   Modesto GĂłmez<br>
+                   Jorge ServiĂĄn<br>
+                   Liza Raquel GonzĂĄlez</p>
                  <p><strong>Contrabajos</strong><br>
                    Carlos Balbuena (solista)<br>
                    Lucas Franco<br>
@@ -208,57 +205,57 @@
                    Miguel Angel Sosa<br>
                    Eliodoro Fleitas</p>
                  <p><strong>Flautas</strong><br>
-                   Simón Santander (solista)<br>
-                   Díosmedes Ruíz Diaz<br>
+                   SimĂłn Santander (solista)<br>
+                   DĂ­osmedes RuĂ­z Diaz<br>
                    Hugo Valenzuela</p>
                  <p><strong>Oboes</strong><br>
                    Gabriel Graziani (solista)<br>
-                   Martín Acosta Conde<br>
+                   MartĂ­n Acosta Conde<br>
                    Fanny Gamarra</p>
                  <p><strong>Clarinetes</strong><br>
                    Carlos Jara (solista)<br>
-                   Gustavo Pérez<br>
-                   Roberto Benítez</p>
+                   Gustavo PĂŠrez<br>
+                   Roberto BenĂ­tez</p>
                  <p><strong>Fagotes</strong><br>
                    Hilaria Ferrari (solista)<br>
-                   Tomás Ortiz</p>
+                   TomĂĄs Ortiz</p>
                  <p><strong>Cornos</strong><br>
                    Juan B. Reyes (solista)<br>
-                   Ramón Zaracho<br>
+                   RamĂłn Zaracho<br>
                    Giulio Andreotti<br>
                    Alcides Acosta<br>
-                   Ramón O. Peralbo </p>
+                   RamĂłn O. Peralbo </p>
                  <p><strong>Trompetas</strong><br>
                    Valeriano Benitez (solista)<br>
-                   Néstor R. Barreto<br>
+                   NĂŠstor R. Barreto<br>
   <strong>Trombones</strong><br>
-                   Pablino Bordón (solista)<br>
+                   Pablino BordĂłn (solista)<br>
                    Gabriel Ruiz<br>
-                   César Daniel Sánchez</p>
+                   CĂŠsar Daniel SĂĄnchez</p>
                  <p><strong>Tuba</strong><br>
                    Cayo Franco</p>
                  <p><strong>Timbal</strong><br>
-                   Benjamín Dos Santos</p>
-                 <p><strong>Percusión</strong><br>
-                   César Cipolla</p>
+                   BenjamĂ­n Dos Santos</p>
+                 <p><strong>PercusiĂłn</strong><br>
+                   CĂŠsar Cipolla</p>
                  <p><strong>Piano</strong><br>
-                   César Manuel Barrios</p>
+                   CĂŠsar Manuel Barrios</p>
                  <p><strong>Arpa</strong><br>
                    Marcos Lucena </p>
                  <p><strong>Secretario</strong><br>
-                   A.Martínez Medina</p>
+                   A.MartĂ­nez Medina</p>
                  <p><strong>Archivo  Musical</strong><br>
                    Guillermo Benitez</p>
                  <p><strong>Auxiliares</strong><br>
                    Hugo Escurra<br>
                    Mirko Scappini<br>
-                   Julián Balbuena<br>
+                   JuliĂĄn Balbuena<br>
                    Guillermo Bogado</p>
-                 <p><strong>Producción</strong><br>
+                 <p><strong>ProducciĂłn</strong><br>
                    Raquel Becko</p>
-                 <p><strong>Coordinación  General</strong><br>
+                 <p><strong>CoordinaciĂłnÂ  General</strong><br>
                    Elba Perito</p>
-                 <p><strong>Prensa  y Difusión</strong><br>
+                 <p><strong>Prensa  y DifusiĂłn</strong><br>
 Techi</p>
  </div>
               </section>

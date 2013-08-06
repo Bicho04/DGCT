@@ -1,9 +1,8 @@
-<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/centroParaguayoJapones.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="a87ff";?>
+<html lang="es"><!-- InstanceBegin template="/Templates/centroParaguayoJapones.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
-<title>Centro Paraguayo Japon&eacute;s</title> 
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title>Centro Paraguayo JaponĂŠs</title> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -67,12 +66,12 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciĂłn de AcciĂłn Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
     <section id="central">
-      <div class="titulo"><h1>Centro Paraguayo Japon&eacute;s</h1></div>
+      <div class="titulo"><h1>Centro Paraguayo JaponĂŠs</h1></div>
       <ul class="hovercal">
         <li>
           <div class="titulo2">Ver Calendario</div>
@@ -94,13 +93,13 @@
               --><li class="col-4"><a href="CPJ-historia.php">Historia</a></li><!-- 
               --><li class="col-4"><a href="#">Salas</a><!-- 
                 --><ul><!-- 
-                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust&iacute;n P&iacute;o Barrios</a></li><!--
+                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro AgustĂ­n PĂ­o Barrios</a></li><!--
                     --><li><a href="CPJ-Sala-Seminario.php">Sala Seminario Branislava Susnik</a><!--
                     --><li><a href="CPJ-Sala-Anfiteatro.php">Anfiteatro Oscar Cardozo Ocampo</a></li><!--
                     --><li><a href="CPJ-Sala-Exposicion.php">Sala de Exposiciones Jacinto Rivero</a></li><!--
                     --><li><a href="CPJ-Sala-Reuniones.php">Sala de Reuniones Agustina Miranda</a></li><!--
                     --><li><a href="CPJ-Sala-Biblioteca.php">Biblioteca Herib Campos Cervera</a></li><!--
-                    --><li><a href="CPJ-Sala-Fisioterapia.php">Sala de Fisioterapia y Rehabilitaci&oacute;n</a></li><!--
+                    --><li><a href="CPJ-Sala-Fisioterapia.php">Sala de Fisioterapia y RehabilitaciĂłn</a></li><!--
                 --></ul><!-- 
               --></li><!-- 
               --><li class="col-4"><a href="CPJ-">Cursos</a><!-- 
@@ -109,7 +108,7 @@
                     --><li><a href="CPJ-Cursos-Musica.php">Musica</a><!--
                     --><li><a href="CPJ-Cursos-Artes.php">Artes Visuales</a></li><!--
                     --><li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio </a></li><!--
-                    --><li><a href="CPJ-Cursos-Gimnasia.php">En Gimnasia Art&aacute;stica</a></li><!--
+                    --><li><a href="CPJ-Cursos-Gimnasia.php">En Gimnasia ArtĂĄstica</a></li><!--
               	--></ul><!-- 
               --></li><!-- 
               --><li class="col-4"><a href="CPJ-Contacto.php">Contacto</a></li><!-- 
@@ -141,20 +140,20 @@
                 <div class="info">
                     <h3>Cursos</h3>
                     <a href="CPJ-Cursos-Danza.html"><h2>Academia de Danza</h2>
-                    <p>La Academia de Danza del CPJ cuenta con reconocimiento del Ministerio de Educación y Cultura. Se dictan clases de danza Paraguaya, Kinder-Baby, Pre-Ballet, Clásica, Jazz, Espanola y Ritmos Latinos. Para ninos, jóvenes y adultos a partir de 4 anos.</p> 
+                    <p>La Academia de Danza del CPJ cuenta con reconocimiento del Ministerio de EducaciĂłn y Cultura. Se dictan clases de danza Paraguaya, Kinder-Baby, Pre-Ballet, ClĂĄsica, Jazz, EspaĂąola y Ritmos Latinos. Para niĂąos, jĂłvenes y adultos a partir de 4 aĂąos.</p> 
                     <p>Cuenta con Salas especialmente equipadas con pisos de madera, espejos y barras fijas.</p>
-                    <a href="CPJ-Cursos-Musica.html"><h2>Musica</h2><p>El Conservatorio de Música del Centro Paraguayo Japonés está reconocido por el Ministerio de Educación y Cultura. Ofrece clases individuales y grupales de Piano, Guitarra Popular  eléctrica y Clásica, Violín, Violonchelo, Arpa. Órgano,  Canto y Coro. Taller Musical Infantil</p>
-                    <a href="CPJ-Cursos-Artes.html"><h2>En Artes Visuales</h2><p>el Centro Paraguayo Japonés ofrece Clases de Dibujo Artístico y Pintura al óleo para ninos, jóvenes y adultos. </p>
-                    <a href="CPJ-Cursos-Gimnasio.html"><h2>Gimnasio</h2><p>El gimnasio del Centro Paraguayo Japonés es el más completo de nuestro medio para la práctica de artes marciales y Gimnasia Artística. Clases de: Aikido, Karate Do, Judo, Taekwondo, Jiu Jitsu, Kung Fu, Bozen Do, Yawara Undo, Hap Kido y IAI DO (manejo de la espada japonesa o katana). </p>
-                    <a href="CPJ-Cursos-Gimnasia.html"><h2>En Gimnasia Artística</h2><p> tenemos el gimnasio mejor equipado del país para
-                    la práctica de ésta disciplina. Con equipos reglamentarios utilizados
-                    y recomendados por la Federación Internacional de Gimnasia Artística,
-                    de la marca Senoh, para prácticas en suelo, anillas caballetes de
+                    <a href="CPJ-Cursos-Musica.html"><h2>Musica</h2><p>El Conservatorio de MĂşsica del Centro Paraguayo JaponĂŠs estĂĄ reconocido por el Ministerio de EducaciĂłn y Cultura. Ofrece clases individuales y grupales de Piano, Guitarra Popular  elĂŠctrica y ClĂĄsica, ViolĂ­n, Violonchelo, Arpa. Ărgano,  Canto y Coro. Taller Musical Infantil</p>
+                    <a href="CPJ-Cursos-Artes.html"><h2>En Artes Visuales</h2><p>el Centro Paraguayo JaponĂŠs ofrece Clases de Dibujo ArtĂ­stico y Pintura al Ăłleo para niĂąos, jĂłvenes y adultos. </p>
+                    <a href="CPJ-Cursos-Gimnasio.html"><h2>Gimnasio</h2><p>El gimnasio del Centro Paraguayo JaponĂŠs es el mĂĄs completo de nuestro medio para la prĂĄctica de artes marciales y Gimnasia ArtĂ­stica. Clases de: Aikido, Karate Do, Judo, Taekwondo, Jiu Jitsu, Kung Fu, Bozen Do, Yawara Undo, Hap Kido y IAI DO (manejo de la espada japonesa o katana). </p>
+                    <a href="CPJ-Cursos-Gimnasia.html"><h2>En Gimnasia ArtĂ­stica</h2><p> tenemos el gimnasio mejor equipado del paĂ­s para
+                    la prĂĄctica de ĂŠsta disciplina. Con equipos reglamentarios utilizados
+                    y recomendados por la FederaciĂłn Internacional de Gimnasia ArtĂ­stica,
+                    de la marca Senoh, para prĂĄcticas en suelo, anillas caballetes de
                     salto, trampolines, vigas.
                     </p>
-                    <a href="CPJ-Cursos-Fisiculturismo.html"><h2>Fisiculturismo y Musculación</h2><p>La Sala de Fisiculturismo y Musculación, cuenta con cintas caminadoras, bicicletas estáticas, barras, mancuernas, discos olímpicos y  equipos de musculación y steps para Gimnasia Aeróbica.</p>
-                      <h2>El Centro Paraguayo Japonés, cuenta  además con importantes espacios
-                    utilizados por la ciudadanía para la realización de diferentes
+                    <a href="CPJ-Cursos-Fisiculturismo.html"><h2>Fisiculturismo y MusculaciĂłn</h2><p>La Sala de Fisiculturismo y MusculaciĂłn, cuenta con cintas caminadoras, bicicletas estĂĄticas, barras, mancuernas, discos olĂ­mpicos y  equipos de musculaciĂłn y steps para Gimnasia AerĂłbica.</p>
+                      <h2>El Centro Paraguayo JaponĂŠs, cuenta  ademĂĄs con importantes espacios
+                    utilizados por la ciudadanĂ­a para la realizaciĂłn de diferentes
                     actividades y eventos a costos accesibles.</h2>
                 </div>
               </section>

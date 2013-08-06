@@ -1,9 +1,8 @@
-<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="eccbc";?>
+<html lang="es"><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
-<title>Manzana de la Rivera, Centro Cultural de la Ciudad de Asucni&oacute;n</title> 
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title>Manzana de la Rivera, Centro Cultural de la Ciudad de AsucniĂłn</title> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -66,7 +65,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciĂłn de AcciĂłn Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -96,16 +95,16 @@
                     --><li><a href="MdlR-C-Viola.php">Casa Viola</a></li><!-- 
                     --><li><a href="MdlR-C-Clari.php">Casa Clari</a></li><!--  
                     --><li><a href="MdlR-C-Clari-Mestre.php">Casa Clari-Mestre</a></li><!--  
-                    --><li><a href="MdlR-C-Vertua.php">Casa Vert&uacute;a</a></li><!--  
+                    --><li><a href="MdlR-C-Vertua.php">Casa VertĂşa</a></li><!--  
                     --><li><a href="MdlR-C-Emesa.php">Casa Emesa</a></li><!--  
-                    --><li><a href="MdlR-C-Castelvi.php">Casa Castelv&iacute;</a></li><!--  
+                    --><li><a href="MdlR-C-Castelvi.php">Casa CastelvĂ­</a></li><!--  
                     --><li><a href="MdlR-C-Serra.php">Casa Serra I y II</a></li><!--  
                     --><li><a href="MdlR-p-Leonor.php">Patio Leonor</a></li><!--  
                     --><li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li><!--  
-                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala Garc&iacute;a Lorca</a></li><!--  
+                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala GarcĂ­a Lorca</a></li><!--  
                 --></ul><!-- 
               --></li><!-- 
-              --><li class="col-4"><a href="MdlR-QuienFue.php">&iquest;Qui&eacute;n Fue?</a></li><!-- 
+              --><li class="col-4"><a href="MdlR-QuienFue.php">ÂżQuiĂŠn Fue?</a></li><!-- 
               --><li class="col-4"><a href="MdlR-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
@@ -134,11 +133,11 @@
               <section id="cont-info">
                 <div class="info">
                   <h3>Acerdad de la Manzana de la Rivera</h3>
-                  <p>Espacio para encuentros culturales, recreativos y de reflexión,  el Centro Cultural de la Ciudad es una institución dependiente de la Dirección  de Cultura y Turismo de la Municipalidad de Asunción. Funciona en el espacio  denominado &nbsp;Manzana de la Rivera, abarcando las calles Ayolas, El  Paraguayo  ndependiente, O'Leary y Benjamín  Constant.</p>
-                  <p>Entre los edificios de la ciudad de Asunción, sobre todo  los que corresponden a su centro histórico, no solamente tienen importancia los  edificios de la época colonial sino también los que se hicieron en<br>
-                    el siglo XIX y XX. Este es el caso de la Manzana de la  Rivera, que reúne construcciones de diversas épocas, y da una idea del texto urbano  de Asunción.</p>
-                  <p>Su denominación, Manzana de la Rivera, deriva del antiguo  nombre de la calle cercana, &ldquo;Calle de la Rivera&rdquo; (algunos historiadores dicen  que es la actual calle Colón, otros que se trata de Benjamín Constant), del  &nbsp;Cuartel &nbsp;General o de la Rivera (ubicado muy próximo a lo que ahora  es el Centro Cultural de la República El Cabildo) y del Puerto de la Rivera (el  actual Puerto). </p>
-                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La  Manzana de la Rivera -un complejo de nueve casas que resumen la arquitectura  del siglo XVIII en adelante- fue abriéndose al público a medida que se  terminaban la restauración, remodelación y  condicionamiento de los espacios. &nbsp;Estos  trabajos comenzados en 1991 fueron posibles gracias al apoyo del gobierno  espanol, a través de la Agencia Espanola de Cooperación Internacional (AECI,  ahora  ECID) y la Escuela Taller de  Asunción. </p>
+                  <p>Espacio para encuentros culturales, recreativos y de reflexiĂłn,  el Centro Cultural de la Ciudad es una instituciĂłn dependiente de la DirecciĂłn  de Cultura y Turismo de la Municipalidad de AsunciĂłn. Funciona en el espacio  denominado &nbsp;Manzana de la Rivera, abarcando las calles Ayolas, El  Paraguayo Â ndependiente, O'Leary y BenjamĂ­n  Constant.</p>
+                  <p>Entre los edificios de la ciudad de AsunciĂłn, sobre todo  los que corresponden a su centro histĂłrico, no solamente tienen importancia los  edificios de la ĂŠpoca colonial sino tambiĂŠn los que se hicieron en<br>
+                    el siglo XIX y XX. Este es el caso de la Manzana de la  Rivera, que reĂşne construcciones de diversas ĂŠpocas, y da una idea del texto urbano  de AsunciĂłn.</p>
+                  <p>Su denominaciĂłn, Manzana de la Rivera, deriva del antiguo  nombre de la calle cercana, &ldquo;Calle de la Rivera&rdquo; (algunos historiadores dicen  que es la actual calle ColĂłn, otros que se trata de BenjamĂ­n Constant), del  &nbsp;Cuartel &nbsp;General o de la Rivera (ubicado muy prĂłximo a lo que ahora  es el Centro Cultural de la RepĂşblica El Cabildo) y del Puerto de la Rivera (el  actual Puerto). </p>
+                  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La  Manzana de la Rivera -un complejo de nueve casas que resumen la arquitectura  del siglo XVIII en adelante- fue abriĂŠndose al pĂşblico a medida que se  terminaban la restauraciĂłn, remodelaciĂłn y Â condicionamiento de los espacios. &nbsp;Estos  trabajos comenzados en 1991 fueron posibles gracias al apoyo del gobierno  espaĂąol, a travĂŠs de la Agencia EspaĂąola de CooperaciĂłn Internacional (AECI,  ahora Â ECID) y la Escuela Taller de  AsunciĂłn. </p>
 <?php $entidad="eccbc";include("actividadesdeldia.inc.php");?>
                 </div>
               </section>

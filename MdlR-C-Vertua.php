@@ -1,9 +1,8 @@
-<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="eccbc";?>
+<html lang="es"><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
-<title>Manzana de la Rivera, Centro Cultural de la Ciudad de Asucni&oacute;n</title> 
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title>Manzana de la Rivera, Centro Cultural de la Ciudad de AsucniĂłn</title> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -66,7 +65,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciĂłn de AcciĂłn Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -96,16 +95,16 @@
                     --><li><a href="MdlR-C-Viola.php">Casa Viola</a></li><!-- 
                     --><li><a href="MdlR-C-Clari.php">Casa Clari</a></li><!--  
                     --><li><a href="MdlR-C-Clari-Mestre.php">Casa Clari-Mestre</a></li><!--  
-                    --><li><a href="MdlR-C-Vertua.php">Casa Vert&uacute;a</a></li><!--  
+                    --><li><a href="MdlR-C-Vertua.php">Casa VertĂşa</a></li><!--  
                     --><li><a href="MdlR-C-Emesa.php">Casa Emesa</a></li><!--  
-                    --><li><a href="MdlR-C-Castelvi.php">Casa Castelv&iacute;</a></li><!--  
+                    --><li><a href="MdlR-C-Castelvi.php">Casa CastelvĂ­</a></li><!--  
                     --><li><a href="MdlR-C-Serra.php">Casa Serra I y II</a></li><!--  
                     --><li><a href="MdlR-p-Leonor.php">Patio Leonor</a></li><!--  
                     --><li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li><!--  
-                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala Garc&iacute;a Lorca</a></li><!--  
+                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala GarcĂ­a Lorca</a></li><!--  
                 --></ul><!-- 
               --></li><!-- 
-              --><li class="col-4"><a href="MdlR-QuienFue.php">&iquest;Qui&eacute;n Fue?</a></li><!-- 
+              --><li class="col-4"><a href="MdlR-QuienFue.php">ÂżQuiĂŠn Fue?</a></li><!-- 
               --><li class="col-4"><a href="MdlR-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
@@ -132,13 +131,13 @@
             </nav>
               <!-- InstanceBeginEditable name="INFO" -->
               <section id="cont-info"><div class="info"><h3>9 Casas</h3>
-               <h2>CASA VERTÚA</h2>
-                 <p>La  era la única que tenía  posibilidades de tener una segunda planta. Construida en 1898, de estilo  neoclásico, &nbsp;en este recinto funcionaba una confitería bajo el mismo  nombre. En 1993 se<br>
+               <h2>CASA VERTĂA</h2>
+                 <p>La  era la Ăşnica que tenĂ­a  posibilidades de tener una segunda planta. Construida en 1898, de estilo  neoclĂĄsico, &nbsp;en este recinto funcionaba una confiterĂ­a bajo el mismo  nombre. En 1993 se<br>
 instala en esta casa la Biblioteca  Municipal. </p>
                  <p>&nbsp;</p>
-                 <p>La Biblioteca Municipal &quot;Augusto  Roa Bastos&rdquo; &nbsp;tiene un acervo de aproximadamente 32.000 volúmenes; cuenta  con dos salas de lectura, pupitres individuales (rescatados del Teatro Municipal  y que fueran utilizados en la primera Constituyente) y personal capacitado para  atención al público y catalogación de los libros. Asimismo, tiene una sala  destinada a literatura paraguaya, llamada &ldquo;Alfredo Seiferheld&rdquo;, y una  Hemeroteca, sitio para lectura actualizada y rápida sobre diversos aspectos del  arte y la cultura de diferentes países del mundo.</p>
-                 <p>En planta alta, la Casa de  Andalucía-Paraguay tiene un servicio de informática para uso gratuito de  Internet.</p>
-                 <p>El horario de atención al público es de  lunes a viernes, de 7 a 19 h, y sábados y domingos, de 8 a 18 h. Único  requisito para usufructo de la Biblioteca, presentación del documento de  identidad.</p>
+                 <p>La Biblioteca Municipal &quot;Augusto  Roa Bastos&rdquo; &nbsp;tiene un acervo de aproximadamente 32.000 volĂşmenes; cuenta  con dos salas de lectura, pupitres individuales (rescatados del Teatro Municipal  y que fueran utilizados en la primera Constituyente) y personal capacitado para  atenciĂłn al pĂşblico y catalogaciĂłn de los libros. Asimismo, tiene una sala  destinada a literatura paraguaya, llamada &ldquo;Alfredo Seiferheld&rdquo;, y una  Hemeroteca, sitio para lectura actualizada y rĂĄpida sobre diversos aspectos del  arte y la cultura de diferentes paĂ­ses del mundo.</p>
+                 <p>En planta alta, la Casa de  AndalucĂ­a-Paraguay tiene un servicio de informĂĄtica para uso gratuito de  Internet.</p>
+                 <p>El horario de atenciĂłn al pĂşblico es de  lunes a viernes, de 7 a 19 h, y sĂĄbados y domingos, de 8 a 18 h. Ănico  requisito para usufructo de la Biblioteca, presentaciĂłn del documento de  identidad.</p>
                </div>
               </section>
               <!-- InstanceEndEditable --></div>  

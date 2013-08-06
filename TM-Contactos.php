@@ -1,8 +1,7 @@
-<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="c4ca4";?>
+<html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
     <!-- InstanceBeginEditable name="doctitle" -->
     <title>Teatro Municioal Ignacio A. Pane</title> 
 	<!-- InstanceEndEditable -->
@@ -69,7 +68,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciĂłn de AcciĂłn Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
@@ -154,10 +153,10 @@
               <section id="cont-info">
                 <div class="info">
                  <h3>Contacto</h3>
-                 <h2>HORARIO DE ATENCIÓN</h2>
+                 <h2>HORARIO DE ATENCIĂN</h2>
 <p>El teatro atiende a todas las personas que acudan en el siguiente horario:</p>
 <p>Lunes a Viernes: de 08:00  a 16:00 hs.</p>
-<p>*Durante los días mencionados, contamos con visitas guiadas de 08:00 a 12:00. Las mismas pueden ser solicitadas con anticipación para escuelas y colegios.</p>
+<p>*Durante los dĂ­as mencionados, contamos con visitas guiadas de 08:00 a 12:00. Las mismas pueden ser solicitadas con anticipaciĂłn para escuelas y colegios.</p>
 <h2>CONTACTOS</h2>
     <div id="iconos">
 

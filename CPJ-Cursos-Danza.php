@@ -1,9 +1,8 @@
-<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><!-- InstanceBegin template="/Templates/centroParaguayoJapones.dwt" codeOutsideHTMLIsLocked="false" --><?php $entidad="a87ff";?>
+<html lang="es"><!-- InstanceBegin template="/Templates/centroParaguayoJapones.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
-<title>Centro Paraguayo Japon&eacute;s</title> 
+    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <title>Centro Paraguayo Japonés</title> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -67,12 +66,12 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercci�n de Acci�n Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
         </ul>
       </nav>
 
     <section id="central">
-      <div class="titulo"><h1>Centro Paraguayo Japon&eacute;s</h1></div>
+      <div class="titulo"><h1>Centro Paraguayo Japonés</h1></div>
       <ul class="hovercal">
         <li>
           <div class="titulo2">Ver Calendario</div>
@@ -94,13 +93,13 @@
               --><li class="col-4"><a href="CPJ-historia.php">Historia</a></li><!-- 
               --><li class="col-4"><a href="#">Salas</a><!-- 
                 --><ul><!-- 
-                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust&iacute;n P&iacute;o Barrios</a></li><!--
+                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agustín Pío Barrios</a></li><!--
                     --><li><a href="CPJ-Sala-Seminario.php">Sala Seminario Branislava Susnik</a><!--
                     --><li><a href="CPJ-Sala-Anfiteatro.php">Anfiteatro Oscar Cardozo Ocampo</a></li><!--
                     --><li><a href="CPJ-Sala-Exposicion.php">Sala de Exposiciones Jacinto Rivero</a></li><!--
                     --><li><a href="CPJ-Sala-Reuniones.php">Sala de Reuniones Agustina Miranda</a></li><!--
                     --><li><a href="CPJ-Sala-Biblioteca.php">Biblioteca Herib Campos Cervera</a></li><!--
-                    --><li><a href="CPJ-Sala-Fisioterapia.php">Sala de Fisioterapia y Rehabilitaci&oacute;n</a></li><!--
+                    --><li><a href="CPJ-Sala-Fisioterapia.php">Sala de Fisioterapia y Rehabilitación</a></li><!--
                 --></ul><!-- 
               --></li><!-- 
               --><li class="col-4"><a href="CPJ-">Cursos</a><!-- 
@@ -109,7 +108,7 @@
                     --><li><a href="CPJ-Cursos-Musica.php">Musica</a><!--
                     --><li><a href="CPJ-Cursos-Artes.php">Artes Visuales</a></li><!--
                     --><li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio </a></li><!--
-                    --><li><a href="CPJ-Cursos-Gimnasia.php">En Gimnasia Art&aacute;stica</a></li><!--
+                    --><li><a href="CPJ-Cursos-Gimnasia.php">En Gimnasia Artástica</a></li><!--
               	--></ul><!-- 
               --></li><!-- 
               --><li class="col-4"><a href="CPJ-Contacto.php">Contacto</a></li><!-- 
@@ -141,7 +140,7 @@
                 <div class="info">
                     <h3>Cursos</h3>
                     <h2>Academia de Danza</h2>
-  <p>La Academia de Danza del CPJ cuenta con reconocimiento del Ministerio de Educaci�n y Cultura. Se dictan clases de danza Paraguaya, Kinder-Baby, Pre-Ballet, Cl�sica, Jazz, Espanola y Ritmos Latinos. Para ninos, j�venes y adultos a partir de 4 anos.</p> 
+  <p>La Academia de Danza del CPJ cuenta con reconocimiento del Ministerio de Educación y Cultura. Se dictan clases de danza Paraguaya, Kinder-Baby, Pre-Ballet, Clásica, Jazz, Española y Ritmos Latinos. Para niños, jóvenes y adultos a partir de 4 años.</p> 
 <p>Cuenta con Salas especialmente equipadas con pisos de madera, espejos y barras fijas.</p>
                 </div>
               </section>
