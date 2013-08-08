@@ -1,0 +1,271 @@
+@charset "utf-8";
+* {
+border : 0;
+margin : 0;
+padding : 0;
+}
+body {
+background : #000;
+margin : 0 auto;
+background-image : url(../imagenes/fondo.png);
+background-size : 100%;
+background-repeat : no-repeat;
+}
+h1, h2, h3, h4, h5, h6 {
+font-family : Oswald, sans-serif;
+}
+a {
+color : #fff;
+text-decoration : none;
+}
+#cabecera {
+width : 102px;
+margin : auto;
+padding : 0 0 0 0;
+}
+#logos {
+width : 1024px;
+height : 60px;
+border-bottom : 5px solid #91CD2E;
+position : relative;
+}
+#logoasu {
+width : 180px;
+height : 180px;
+position : absolute;
+left : 10%;
+top : 10px;
+z-index : 10;
+float : left;
+}
+#logoasu img{
+width: 180px;
+}
+#logocult {
+width : 180px;
+height : 180px;
+position : absolute;
+top : 40px;
+left : 45%;
+z-index : 10;
+float : left;
+}
+#logoasu :hover {
+transform : scale(1.1);
+}
+#logocult :hover {
+transform : scale(1.1);
+}
+#nav-social {
+position : relative;
+right : 20%;
+width : 100px;
+display : inline-block;
+margin : 0 0 0 434px;
+}
+#nav-social a {
+text-decoration : none;
+display : block;
+}
+#nav-social li {
+min-width : 30px;
+min-height : 30px;
+float : left;
+margin : 4px 2px;
+position : relative;
+list-style : none;
+border-radius : 10px 10px 10px 10px;
+text-align : center;
+}
+#nav-social .current a, #nav-social li:hover > a {
+background : #fff;
+border-radius : 5px 5px 5px 5px;
+box-shadow : 0 2px 2px rgba(0, 0, 0, 0.7);
+text-shadow : 0 2px 2px rgba(255, 255, 255, 0.7);
+}
+#contenido {
+margin : 20% auto 0;
+width : 100%;
+min-height : 200px;
+max-width : 1024px;
+padding : 0;
+}
+.view-ninth .mask-1, .view-ninth .mask-2 {
+background-color : rgba(0, 0, 0, 0.5);
+height : 300px;
+width : 300px;
+vertical-align: middle;
+background : rgba(163, 206, 76, 0.5);
+opacity : 1;
+transition : all 0.3s 0.6s ease-in-out;
+}
+.view-ninth .mask-1 {
+left : auto;
+right : 0;
+transform : rotate(56.5deg), translateX(-180px);
+transform-origin : 100% 0%;
+}
+.view-ninth .mask-2 {
+top : auto;
+bottom : 0;
+transform : rotate(56.5deg), translateX(180px);
+transform-origin : 0% 100%;
+}
+.view-ninth .content {
+background : rgba(0, 0, 0, 0.9);
+height : 0;
+opacity : 1;
+width : 361px;
+overflow : hidden;
+transform : rotate(-33.5deg), translate(-112px,166px);
+transform-origin : 0% 100%;
+transition : all 0.4s 0.3s ease-in-out;
+}
+.view-ninth h2 {
+background : transparent;
+margin-top : 10px;
+border-bottom : 1px solid rgba(255, 255, 255, 0.2);
+}
+.view-ninth a.info {
+display : none;
+}
+.view-ninth:hover .content {
+height : 80px;
+width : 220px;
+opacity : 0.89999997615814208984375;
+top : 20px;
+transform : rotate(0deg), translate(0,0);
+}
+.view-ninth:hover .mask-1, .view-ninth:hover .mask-2 {
+transition-delay : 0s;
+}
+.view-ninth:hover .mask-1 {
+transform : rotate(60deg), translateX(1px);
+}
+.view-ninth:hover .mask-2 {
+transform : rotate(60deg), translateX(-1px);
+}
+.view {
+width : 205px;
+height : 120px;
+margin : 0 10px 20px 10px;
+border : #fff solid 5px;
+overflow : hidden;
+position : relative;
+text-align : center;
+display: inline-block;
+vertical-align: middle;
+box-shadow : 1px 1px 2px #e6e6e6;
+cursor : default;
+background : url(../images/bgimg.jpg) center center no-repeat #fff;
+border-radius : 10px 10px 10px 10px;
+}
+.view .mask, .view .content {
+vertical-align: middle;
+width : 205px;
+height : 120px;
+display: inline-block;
+position : absolute;
+overflow : hidden;
+top : 0;
+left : 0;
+}
+.view >img {
+width: 190px;
+display : inline-block;
+vertical-align: middle;
+}
+.view h2 {
+text-transform : uppercase;
+color : #fff;
+text-align : center;
+position : relative;
+font-size : 12px;
+padding : 10px 0 10px 90px;
+background : rgba(0, 0, 0, 0.8);
+margin : 10px 0 0 0;
+}
+.view p {
+font-family : Georgia, serif;
+font-style : italic;
+font-size : 12px;
+position : relative;
+color : #fff;
+padding : 10px 0 3px;
+text-align : center;
+}
+.view a.info {
+display : inline-block;
+text-decoration : none;
+background : #000;
+color : #fff;
+text-transform : uppercase;
+box-shadow : 0 0 1px #000;
+}
+.view a.info:hover {
+box-shadow : 0 0 5px #000;
+}
+.view-ninth .mask-1, .view-ninth .mask-2 {
+background-color : rgba(0, 0, 0, 0.5);
+height : 300px;
+width : 300px;
+background : rgba(163, 206, 76, 0.5);
+opacity : 1;
+transition : all 0.3s 0.6s ease-in-out;
+}
+.view-ninth .mask-1 {
+left : auto;
+right : 0;
+transform : rotate(56.5deg), translateX(-180px);
+transform-origin : 100% 0%;
+}
+.view-ninth .mask-2 {
+top : auto;
+bottom : 0;
+transform : rotate(56.5deg), translateX(180px);
+transform-origin : 0% 100%;
+}
+.view-ninth .content {
+background : rgba(0, 0, 0, 0.9);
+height : 0;
+opacity : 1;
+width : 361px;
+overflow : hidden;
+transform : rotate(-33.5deg), translate(-112px,166px);
+transform-origin : 0% 100%;
+transition : all 0.4s 0.3s ease-in-out;
+}
+.view-ninth h2 {
+background : transparent;
+margin-top : 10px;
+border-bottom : 1px solid rgba(255, 255, 255, 0.2);
+}
+.view-ninth a.info {
+display : none;
+}
+.view-ninth:hover .content {
+height : 80px;
+width : 220px;
+opacity : 0.89999997615814208984375;
+top : 20px;
+transform : rotate(0deg), translate(0,0);
+}
+.view-ninth:hover .mask-1, .view-ninth:hover .mask-2 {
+transition-delay : 0s;
+}
+.view-ninth:hover .mask-1 {
+transform : rotate(60deg), translateX(1px);
+}
+.view-ninth:hover .mask-2 {
+transform : rotate(60deg), translateX(-1px);
+}
+
+
+
+@font-face {
+{
+font-family : "'Oswald'";
+font-style : normal;
+font-weight : 400;
+src : local('Oswald Regular'), local('Oswald-Regular'), url(http://themes.googleusercontent.com/static/fonts/oswald/v7/Y_TKV6o8WovbUd3m_X9aAA.ttf) format('truetype');
+}

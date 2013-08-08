@@ -18,7 +18,7 @@
 </head>
 
 <body>
-   <!-- ******************************* ANALYTICS ******************************************* 
+    <!-- ******************************* ANALYTICS *******************************************  -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -29,14 +29,16 @@
           ga('send', 'pageview');
 
         </script>
-    ************************************************************************************* -->
+    <!-- *************************************************************************************  -->
  
   <section id="contenido">
     <header id="cabecera">
       <section id="logo-grupo">
-        <section id="logocult"><a href="beta-index.php"><img src="imagenes/logo-01.png" alt="Centro Paraguayo Japones" ></a></section>
-         
-        <section id="logoasu"> <a href="beta-index.php"><img src="imagenes/logo.png" alt="logo Asu" widt="120"></a></section>
+
+            <section id="logocult"> <a href="beta-index.php"> <img src="imagenes/DGCT2.png" alt="Direccion General de Cultura y Turismo" ></a></section>
+            <section id="logoasu"> <a href="beta-index.php"> <img src="imagenes/Logo-Asu.png" alt="logo Asu"></a></section>
+            <section id="logoasurohayhu"> <a href="beta-index.php"> <img src="imagenes/Logo-Rohayhu-Asu.png" alt="logo Asu"></a></section>
+
 
         <aside id="inicio">
           <a href="beta-index.php"><strong>DGCyT</strong> Volver al inicio ></a>
@@ -91,7 +93,7 @@
       <div id="cont-central">
              <ul id="nav-inst"><!--
               --><li class="col-4"><a href="CPJ-historia.php">Historia</a></li><!-- 
-              --><li class="col-4"><a href="#">Salas</a><!-- 
+              --><li class="col-4"><a href="#">Espacios</a><!-- 
                 --><ul><!-- 
                     --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agustín Pío Barrios</a></li><!--
                     --><li><a href="CPJ-Sala-Seminario.php">Sala Seminario Branislava Susnik</a><!--
@@ -99,17 +101,7 @@
                     --><li><a href="CPJ-Sala-Exposicion.php">Sala de Exposiciones Jacinto Rivero</a></li><!--
                     --><li><a href="CPJ-Sala-Reuniones.php">Sala de Reuniones Agustina Miranda</a></li><!--
                     --><li><a href="CPJ-Sala-Biblioteca.php">Biblioteca Herib Campos Cervera</a></li><!--
-                    --><li><a href="CPJ-Sala-Fisioterapia.php">Sala de Fisioterapia y Rehabilitación</a></li><!--
                 --></ul><!-- 
-              --></li><!-- 
-              --><li class="col-4"><a href="CPJ-">Cursos</a><!-- 
-                --><ul><!-- 
-                   --><li><a href="CPJ-Cursos-Danza.php">Danza</a></li><!--
-                    --><li><a href="CPJ-Cursos-Musica.php">Musica</a><!--
-                    --><li><a href="CPJ-Cursos-Artes.php">Artes Visuales</a></li><!--
-                    --><li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio </a></li><!--
-                    --><li><a href="CPJ-Cursos-Gimnasia.php">En Gimnasia Artástica</a></li><!--
-              	--></ul><!-- 
               --></li><!-- 
               --><li class="col-4"><a href="CPJ-Contacto.php">Contacto</a></li><!-- 
            --></ul>
@@ -117,10 +109,26 @@
         <nav id="botones-entidad">
                 <ul id="botones-entidad-nav">
                     <li><a href="CPJ-Sala-Seminario.php">Salon Seminario</a></li>
-                    <li><a href="CPJ-Cursos.php">Cursos</a></li>
-                    <li><a href="CPJ-Sala-TeatroAPB.php">Sala Teatro</a></li>
-                    <li><a href="CPJ-Sala-Anfiteatro.php">Anfiteatro</a></li>
-                    <li><a href="CPJ-Sala-Biblioteca.php">Biblioteca</a></li>
+                    --><li><a href="CPJ-">Cursos</a><!-- 
+                      --><ul><!-- 
+                         --><li><a href="CPJ-Cursos-Danza.php">Idionas</a></li><!--
+                         --><li><a href="CPJ-Cursos-Danza.php">Danza</a></li><!--
+                          --><li><a href="CPJ-Cursos-Musica.php">Música</a><!--
+                      --></ul><!-- 
+                    --></li>
+                    --><li><a href="CPJ-">Cursos</a><!-- 
+                      --><ul><!-- 
+                          --><li><a href="CPJ-Cursos-Gimnasia-Artistica.php">Gimnasia Artística</a></li><!--
+                          --><li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio</a></li><!--
+                          --><li><a href="CPJ-Cursos-Artes-Marciales.php">Artes Marciales</a></li><!--
+                          --><li><a href="CPJ-Cursos-Fisioterapia.php">Fisioterapia</a></li><!--
+                    	--></ul><!-- 
+                    --></li><!-- 
+                    --><li><a href="CPJ-Sala-TeatroAPB.php">STeatro Agustín Pio Barrios</a></li><!-- 
+                    --><li><a href="CPJ-Sala-Seminario.php">Sala Seminario Branislava Susnik</a></li><!-- 
+                    --><li><a href="CPJ-Sala-Exposicion.php">Sala de Exposiciones Jacinto Rivero</a></li><!--
+                    --><li><a href="CPJ-Sala-Reuniones.php">Sala de Reuniones Agustina Miranda</a></li><!--
+                    --><li><a href="CPJ-Sala-Biblioteca.php">Biblioteca Herib Campos Cervera</a></li><!--
                 </ul>
 
                 <aside id="menu-social">
@@ -146,9 +154,17 @@
     </section> 
   </section>
  
-  <footer id="pie">
-
-  </footer>  
+  <footer>
+     <nav id="menu-Logos">
+       <ul id="nav-logos">   
+          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
+          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
+          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
+          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+      </ul>
+   </nav>
+  </footer> 
 
 </body>
 </html>

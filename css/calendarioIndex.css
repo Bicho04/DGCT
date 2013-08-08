@@ -1,5 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
+/*calendario INDEX*/
 
 #calendar {
     width: 535px;
@@ -34,12 +35,14 @@
 }
 
 .dia {
+     box-sizing: border-box;
     float: left;
     width: 14.2857142857%;
     font: bold 11px/20px ;
     color: #fff;
-    background: #333;
-    margin: 0 0 15px 0;
+    margin: 0 0 5px 0;
+    border-left:1px #91CD2E solid;
+    border-right:1px #91CD2E solid;
     text-align: center;
     vertical-align: center;
 }
@@ -58,20 +61,23 @@
 
 .event{
     background: #91CD2E;
+    border: solid #fff 2px;
+    color: #fff;
+}
+.event > a{
+    color:#fff; 
 }
 .today a{
     background: #F4882F;
 }
 .celdas   {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
     display: block;
-    color: #333;
 }
 .celdas  a {
     text-decoration: none;
     display: block;
-    color: #333;
     margin: 1px;
     position: relative;
 }

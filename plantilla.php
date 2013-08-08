@@ -13,15 +13,15 @@
     
  <?php $noscript=true;include("ajax.inc.php");?>
 
-     <script src="sliderengine/jquery.js"></script>
-    <script src="sliderengine/amazingslider.js"></script>
-    <script src="sliderengine/initslider-1.js"></script>
+    <script src="banner/jquery.js"></script>
+    <script src="banner/amazingslider.js"></script>
+    <script src="banner/initslider-1.js"></script>
     
        
 </head>
 
 <body>
-   <!-- ******************************* ANALYTICS ******************************************* 
+    <!-- ******************************* ANALYTICS *******************************************  -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -32,16 +32,16 @@
           ga('send', 'pageview');
 
         </script>
-    ************************************************************************************* -->
-  <section id="contenido">
+    <!-- *************************************************************************************  -->
     <header id="cabecera">
       <section id="logo-grupo">
 
-      <section id="logocult"> <a href="beta-index.php"><img src="imagenes/logo-08.png" alt="Direccion General de Cultura y Turismo" ></a></section>
-      <section id="logoasu"> <a href="beta-index.php"><img src="imagenes/logo.png" alt="logo Asu" widt="120"></a></section>
+            <section id="logocult"> <a href="beta-index.php"> <img src="imagenes/DGCT2.png" alt="Direccion General de Cultura y Turismo" ></a></section>
+            <section id="logoasu"> <a href="beta-index.php"> <img src="imagenes/Logo-Asu.png" alt="logo Asu"></a></section>
+            <section id="logoasurohayhu"> <a href="beta-index.php"> <img src="imagenes/Logo-Rohayhu-Asu.png" alt="logo Asu"></a></section>
 
      
-      </section>}
+      </section>
 
       <aside>
         <nav id="menu-social">
@@ -57,32 +57,29 @@
       </aside>
 
     </header>
+  <section id="contenido">
     <section id="banner">
 <!-- ******************************************************* -->
        
    <div id="amazingslider-1">
-        <ul class="amazingslider-slides">
-            <li><img src="images/Foto-1.jpg" alt="Foto-1" /></li>
-            <li><img src="images/Foto-2.jpg" alt="Foto-2" /></li>
-            <li><img src="images/Foto-3.jpg" alt="Foto-3" /></li>
-            <li><img src="images/Foto-4.jpg" alt="Foto-4" /></li>
+        <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="images/Foto-1.jpg" alt="Picaflor" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-2.jpg" alt="Panteon de los heroes" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-4.jpg" alt="Foto-4" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/la foto.JPG" alt="panteom de los heroes" data-description="Descripcion de la foto" /></li>
+        </ul>
+        <ul class="amazingslider-thumbnails" style="display:none; ">
+            <li><img src="images/Foto-1-tn.jpg" /></li>
+            <li><img src="images/Foto-2-tn.jpg" /></li>
+            <li><img src="images/Foto-4-tn.jpg" /></li>
+            <li><img src="images/la foto-tn.JPG" /></li>
         </ul>
     </div>
        
         
 <!-- ******************************************************* -->
-    </section>
-      <nav id="menu-logos">
-        <ul id="nav-logos">    
-         <li><a href="TeatroMunicipal.php"><img src="imagenes/logo-04.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
-         </ul>
-      </nav>
-
-
+            </section>
+      
     <section id="central">
     <section id="derecha">
       <section id="agenda">
@@ -112,21 +109,18 @@
           <div id="calendar">
              <?php include("calendario.inc.php");?> 
              
-              </div>
-                    <img src="imagenes/sombra2.png"  align="bottom"/>
-                  <!-- ************** Fin Calendario ********* -->
-
-
-
-                    <h2>Buscar por tema</h2>
-                         <nav id="menu-temas">
-                             <ul id="nav-temas">
-                                <?php include_once("listar.temas.inc.php");?>
-                              </ul>
-                        </nav>
-                    <img src="imagenes/sombra2.png"  align="bottom"/>
-                </section>
-              </div>
+          </div>
+            <img src="imagenes/sombra2.png"  align="bottom"/>
+          <!-- ************** Fin Calendario ********* -->
+            <h2>Buscar por tema</h2>
+                 <nav id="menu-temas">
+                     <ul id="nav-temas">
+                        <?php include_once("listar.temas.inc.php");?>
+                      </ul>
+                </nav>
+            <img src="imagenes/sombra2.png"  align="bottom"/>
+        </section>
+      </div>
                 <aside id="enlaces">               
                   <!-- <img src="imagenes/T-enlaces.png"> -->
                   <div class="titulo2 ">Mas eventos en...</div>
@@ -169,9 +163,17 @@
 
 
 
-       <footer id="pie">
-
-      </footer> 
+       <footer>
+           <nav id="menu-Logos">
+             <ul id="nav-logos">   
+                <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
+                <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
+                <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
+                <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
+                <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+            </ul>
+         </nav>
+        </footer>
 
 
 </body>

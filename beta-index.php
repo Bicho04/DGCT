@@ -6,13 +6,13 @@
      
 <title>Direcion General de Cultura y Turismo</title>
 
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link rel="stylesheet" type="text/css" href="css/calendarioIndex.css" />
+    <link rel="icon" type="ico" href="imagenes/favicon.ico" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="icon" type="ico" href="imagenes/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/calendarioIndex.css" />
 
     <?php include("ajax.inc.php");?>
 
@@ -21,6 +21,11 @@
     	font-family: maven_promedium;
     }
     </style>
+
+    <script src="banner/jquery.js"></script>
+    <script src="banner/amazingslider.js"></script>
+    <script src="banner/initslider-1.js"></script>
+
 </head>
 
 <body onLoad="cargado();"> 
@@ -36,16 +41,21 @@
 
         </script>
     <!-- ************************************************************************************* -->
+        
         <header id="cabecera">
           <section id="logo-grupo">
 
-                <section id="logocult"> <img src="imagenes/DGCT2.png" alt="Direccion General de Cultura y Turismo" ></section>
-                <section id="logoasu"> <img src="imagenes/logo2.png" alt="logo Asu"></section>
+            <section id="logocult"> <a href="beta-index.php"> <img src="imagenes/DGCT2.png" alt="Direccion General de Cultura y Turismo" ></a></section>
+            <section id="logoasu"> <a href="beta-index.php"> <img src="imagenes/Logo-Asu.png" alt="logo Asu"></a></section>
+            <section id="logoasurohayhu"> <a href="beta-index.php"> <img src="imagenes/Logo-Rohayhu-Asu.png" alt="logo Asu"></a></section>
+                
+            <div id="clima">
+            <!-- www.TuTiempo.net - Ancho:176px - Alto:36px -->
+            <div id="TT_thZgbhdhYQQ7n8GK7Azv1vkvkWllTKQ2LY1t1cC5qEz"><h3><a href="http://www.tutiempo.net">el tiempo</a></h3></div>
+            <script type="text/javascript" src="http://www.tutiempo.net/widget/eltiempo_thZgbhdhYQQ7n8GK7Azv1vkvkWllTKQ2LY1t1cC5qEz"></script>
+            </div>
 
-            </section>
-    
-            <aside>
-              <nav id="menu-social">
+                <nav id="menu-social">
                      <ul id="nav-social">
                         <li><a href="mailto:culturayturismoasu.com.py"><img src="imagenes/email.png" ></a></li>
                         <li><a href="https://www.facebook.com/CulturaAsu"><img src="imagenes/facebook.png" ></a></li>
@@ -55,64 +65,97 @@
                         <li><a href="#"><img src="imagenes/googleplus.png" width="45"></a></li> -->
                     </ul>
                 </nav>
-            </aside>
+
+            </section>
+
+
 
         </header>
-
+            <section id="banner">
+<!-- ******************************************************* -->
+       
+   <div id="amazingslider-1">
+        <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="images/Foto-1.jpg" alt="TITULO DE LA FOTO" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-2.jpg" alt="TITULO DE LA FOTO" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-4.jpg" alt="TITULO DE LA FOTO" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/la foto.JPG" alt="TITULO DE LA FOTO" data-description="Descripcion de la foto" /></li>
+        </ul>
+        <ul class="amazingslider-thumbnails" style="display:none; ">
+            <li><img src="images/Foto-1-tn.jpg" /></li>
+            <li><img src="images/Foto-2-tn.jpg" /></li>
+            <li><img src="images/Foto-4-tn.jpg" /></li>
+            <li><img src="images/la foto-tn.JPG" /></li>
+        </ul>
+    </div>
+       
+        
+<!-- ******************************************************* -->
+            </section>
+        <!-- <div id="borde"></div> -->
        <section id="contenido">
-                         <nav id="menu-Logos">
-                             <ul id="nav-logos">   
-                                <li><a href="TeatroMunicipal.php"><img src="imagenes/logo-04.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-                                <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
-                                <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
-                                <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-                                <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
-                            </ul>
-                         </nav>
+                      
             <section id="con-izq">
                 <section id="hoy">
                     <h2>HOY en Agenda</h2>
                     
-
                     <?php include_once('listar.ultimas.actividades.inc.php');?>
 
-
                 </section>
-
 
                 <aside id="Enlaces-interes">
                     <h2>Mas eventos en...</h2>
                     <ul>
-                        <li class="Enl-int"><a href="http://www.cabildoccr.gov.py/" target="_blanck"><img src="imagenes/enlace.png"> Centro Cultural el Cabildo</a></li>
+                        <li class="Enl-int"><a href="http://www.cabildoccr.gov.py/" target="_blanck"> Centro Cultural el Cabildo</a></li>
 
-                        <li class="Enl-int"><a href="http://www.latam.citibank.com/paraguay/lapyco/centro_cultural/main.htm" target="_blanck"><img src="imagenes/enlace.png"> Centro Cultural Citibank</a></li>
+                        <li class="Enl-int"><a href="http://www.latam.citibank.com/paraguay/lapyco/centro_cultural/main.htm" target="_blanck"> Centro Cultural Citibank</a></li>
 
-                        <li class="Enl-int"><a href="http://www.ccpa.edu.py/" target="_blanck"><img src="imagenes/enlace.png"> Centro Cultural Paraguayo Americano</a></li>
+                        <li class="Enl-int"><a href="http://www.ccpa.edu.py/" target="_blanck"> Centro Cultural Paraguayo Americano</a></li>
 
-                        <li class="Enl-int"><a href="http://www.goethe.de/ins/pa/asu/esindex.htm?wt_sc=asuncion" target="_blanck"><img src="imagenes/enlace.png"> Instituto Cultural Paraguayo Alem&aacute;n</a></li>
+                        <li class="Enl-int"><a href="http://www.goethe.de/ins/pa/asu/esindex.htm?wt_sc=asuncion" target="_blanck"> Instituto Cultural Paraguayo Alem&aacute;n</a></li>
 
-                        <li class="Enl-int"><a href="http://www.ambafrance-py.org/Alianza-Francesa-de-Asuncion" target="_blanck"><img src="imagenes/enlace.png"> Alianza Francesa</a></li>
+                        <li class="Enl-int"><a href="http://www.ambafrance-py.org/Alianza-Francesa-de-Asuncion" target="_blanck"> Alianza Francesa</a></li>
 
-                        <li class="Enl-int"><a href="http://www.juandesalazar.org.py/" target="_blanck"><img src="imagenes/enlace.png"> Centro Cultural Juan de Salazar</a></li>
+                        <li class="Enl-int"><a href="http://www.juandesalazar.org.py/" target="_blanck"> Centro Cultural Juan de Salazar</a></li>
 
-                        <li class="Enl-int"><a href="http://www.embajada-argentina.org.py/V2/cultura/" target="_blanck"><img src="imagenes/enlace.png"> Centro Cultural Embajada de Argentina</a></li>
+                        <li class="Enl-int"><a href="http://www.embajada-argentina.org.py/V2/cultura/" target="_blanck"> Centro Cultural Embajada de Argentina</a></li>
 
-                        <li class="Enl-int"><a href="http://www.cultura.gov.py/" target="_blanck"><img src="imagenes/enlace.png"> Secretaria Nacional de Cultura</a></li>
+                        <li class="Enl-int"><a href="http://www.cultura.gov.py/" target="_blanck"> Secretaria Nacional de Cultura</a></li>
 
-                        <li class="Enl-int"><a href="http://www.senatur.gov.py/" target="_blanck"><img src="imagenes/enlace.png"> Secretaria Nacional de Turismo</a></li>
+                        <li class="Enl-int"><a href="http://www.senatur.gov.py/" target="_blanck"> Secretaria Nacional de Turismo</a></li>
 
-                        <li class="Enl-int"><a href="http://www.asuncionconvention.com/" target="_blanck"><img src="imagenes/enlace.png"> Asunci&oacute;n Convention Bureau</a></li>
+                        <li class="Enl-int"><a href="http://www.asuncionconvention.com/" target="_blanck"> Asunci&oacute;n Convention Bureau</a></li>
 
-                        <li class="Enl-int"><a href="http://www.bcp.gov.py/" target="_blanck"><img src="imagenes/enlace.png"> Centro Cultural Banco Central</a></li>
+                        <li class="Enl-int"><a href="http://www.bcp.gov.py/" target="_blanck"> Centro Cultural Banco Central</a></li>
 
-                        <li class="Enl-int"><a href="http://www.quickguide.com.py/index.php?option=com_eventlist&view=categoryevents&id=1&Itemid=132" target="_blanck"><img src="imagenes/enlace.png"> Gu&iacute;a de Asunci&oacute;n</a></li>
+                        <li class="Enl-int"><a href="http://www.quickguide.com.py/index.php?option=com_eventlist&view=categoryevents&id=1&Itemid=132" target="_blanck"> Gu&iacute;a de Asunci&oacute;n</a></li>
 
-                        <li class="Enl-int"><a href="http://www.aihpy.org.py" target="_blanck"><img src="imagenes/enlace.png"> Asociaci&oacute;n de Industriales del Paraguay</a></li>
+                        <li class="Enl-int"><a href="http://www.aihpy.org.py" target="_blanck"> Asociaci&oacute;n de Industriales del Paraguay</a></li>
                     </ul>
                 </aside>
             </section>
             
             <section id="col-der">
+            <section id="cuadros">
+
+                <figure class="puerta x L">
+                  <figcaption class="R">Donde Dormir</figcaption>
+                  <img src="#" alt="">
+                </figure>
+
+                <figure class="puerta y R">
+                  <figcaption><span>Donde Comer</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                  <a href="#">#fugiat ipsam incidunt omnis</a>
+                  </figcaption>
+                  <img src="#" alt="">
+                </figure>
+
+                <figure class="puerta x L">
+                  <figcaption class="L">Vivi la Ciudad COmo turista</figcaption>
+                  <img src="#" alt="">
+                </figure>
+
+            </section>
                 <section id="calendario">
 
                     <h1><b>Agenda de Asunci&oacute;n</b></h1>
@@ -123,19 +166,16 @@
                         
                     </div>
 
-                        <div id="clear"></div>
-
-
-                         <nav id="menu-temas">
-                            <nav id="menu-temas">
-                             <ul id="nav-temas">
-                                <h2>Buscar por tema</h2>
-                            <?php include_once("listar.temas.inc.php");?>
-                            </ul>
-
-                        </nav> 
                 </section>
-                       
+
+                    <nav id="menu-temas">
+                        <ul id="nav-temas">
+                            <h2>Buscar por tema</h2>
+                            <?php include_once("listar.temas.inc.php");?>
+                        </ul>
+                    </nav> 
+                    
+
             <section id="Turismo">
                     <form class="form">
                         <h3>&iexcl;Recibí en tu correo todas las actividades de la Ciudad de Asunci&oacute;n!</h3>
@@ -155,10 +195,18 @@
           
 
         </section>
+        </section>
 
         <footer>
-            <!-- <p>Derechos reservados</p>
-            <p>Contactenos en info@&iquest;?.com</p> -->
+           <nav id="menu-Logos">
+             <ul id="nav-logos">   
+                <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
+                <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
+                <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
+                <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
+                <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+            </ul>
+         </nav>
         </footer>
 
 </body>

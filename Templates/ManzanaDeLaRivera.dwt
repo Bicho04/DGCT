@@ -18,7 +18,7 @@
 </head>
 
 <body>
-   <!-- ******************************* ANALYTICS ******************************************* 
+    <!-- ******************************* ANALYTICS *******************************************  -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -29,14 +29,15 @@
           ga('send', 'pageview');
 
         </script>
-    ************************************************************************************* -->
+    <!-- *************************************************************************************  -->
  
   <section id="contenido">
     <header id="cabecera">
       <section id="logo-grupo">
-        <section id="logocult"><a href="beta-index.php"><img src="imagenes/logo-03.png" alt="Manzana de la Rivera" ></a></section>
-         
-        <section id="logoasu"> <a href="beta-index.php"><img src="imagenes/logo.png" alt="logo Asu" widt="120"></a></section>
+
+            <section id="logocult"> <a href="beta-index.php"> <img src="imagenes/DGCT2.png" alt="Direccion General de Cultura y Turismo" ></a></section>
+            <section id="logoasu"> <a href="beta-index.php"> <img src="imagenes/Logo-Asu.png" alt="logo Asu"></a></section>
+            <section id="logoasurohayhu"> <a href="beta-index.php"> <img src="imagenes/Logo-Rohayhu-Asu.png" alt="logo Asu"></a></section>
 
         <aside id="inicio">
           <a href="beta-index.php"><strong>DGCyT</strong> Volver al inicio ></a>
@@ -89,8 +90,8 @@
              
       <div id="cont-central">
             <ul id="nav-inst"><!--
-              --><li class="col-4"><a href="MdlR-historia.php">Historia</a></li><!-- 
-              --><li class="col-4"><a href="#">9 casas</a><!-- 
+              --><li class="col-3"><a href="MdlR-historia.php">Historia</a></li><!-- 
+              --><li class="col-3"><a href="#">Las casas de la Manzana (historia,moradores)</a><!-- 
                 --><ul><!--  
                     --><li><a href="MdlR-C-Viola.php">Casa Viola</a></li><!-- 
                     --><li><a href="MdlR-C-Clari.php">Casa Clari</a></li><!--  
@@ -104,17 +105,22 @@
                     --><li><a href="MdlR-C-GarciaLorca.php">La Sala García Lorca</a></li><!--  
                 --></ul><!-- 
               --></li><!-- 
-              --><li class="col-4"><a href="MdlR-QuienFue.php">¿Quién Fue?</a></li><!-- 
-              --><li class="col-4"><a href="MdlR-Contacto.php">Contacto</a></li><!-- 
+              --><li class="col-3"><a href="MdlR-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
         <nav id="botones-entidad">
                 <ul id="botones-entidad-nav">
-                    <li><a href="MdlR-Biblioteca.php">Biblioteca</a></li>
-                    <li><a href="MdlR-Auditorio.php">Auditorio Rui Dia de Guzman</a></li>
-                    <li><a href="MdlR-C-GarciaLorca.php">Garcia Lorca</a></li>
-                    <li><a href="MdlR-p-Leonor.php">El Patio Leonor</a></li>
-                    <li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li>
+                    <li><a href="MdlR-Biblioteca.php">Biblioteca "Augusto Roa Bastos"</a></li>
+                    <li><a href="MdlR-Auditorio.php">Auditorio Ruí Diaz de Guzman</a></li>
+                    <li><a href="MdlR-Teatro-GarciaLorca.php">Teatro García Lorca</a></li>
+                    <li><a href="MdlR-Patio-Leonor.php">Patio Leonor</a></li>
+                    <li><a href="MdlR-Casa-Ballario.php">Casa Ballario</a></li>
+                    <li><a href="MdlR-Museo-memoria-de-la-ciudad.php">Museo "memoria de la ciudad"</a></li>
+                    <li><a href="MdlR-Bar-Casa-Clari.php">Bar Casa Clari</a></li>
+                    <li><a href="MdlR-Espacio-Miguel Acevedo.php">Espacio Miguel Acevedo</a></li>
+                    <li><a href="MdlR-La-aleria.php">La Galeria</a></li>
+                    <li><a href="MdlR-Casa-Castelví.php">Casa Castelví</a></li>
+                    <li><a href="MdlR-Casa-Ballario.php">Casa Ballario</a></li>
                 </ul>
 
                 <aside id="menu-social">
@@ -141,9 +147,17 @@
     </section> 
   </section>
  
-  <footer id="pie">
-
-  </footer>  
+  <footer>
+     <nav id="menu-Logos">
+       <ul id="nav-logos">   
+          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
+          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
+          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
+          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+      </ul>
+   </nav>
+  </footer> 
 
 </body>
 </html>

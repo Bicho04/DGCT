@@ -1,0 +1,64 @@
+@import url(http://fonts.googleapis.com/css?family=Quicksand:400,700);
+* {margin: 0; padding: 0; border: 0 none; position: relative;}
+*, *:after, *:before {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #efe3bd;
+  font-family: Quicksand, sans-serif;
+  font-size: 1rem;;
+  height: 100%;
+  text-align: center;
+  text-shadow: 0 0 1px #444;
+}
+.puerta {
+  background: #ff7361;
+  display: inline-block;
+  text-align: left;
+  box-shadow: 0 0 5px rgba(0,0,0,.4);
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  width: 600px;
+  height: 400px;
+  color: #fff;
+  margin: 1rem auto;
+}
+.puerta img {
+  position: absolute;
+  transition: .8s linear;
+  width: 100%;
+}
+figcaption {
+  position: absolute;
+}
+.x figcaption {
+  font-size: 6rem;
+  line-height: 400px;
+  text-align: center;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+.y figcaption {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  top: 120px;
+  left: 165px;
+  right: 165px;
+}
+
+.x img:nth-of-type(1) {clip: rect(0px,600px,200px,0px);}
+.x img:nth-of-type(2) {clip: rect(200px,600px,600px,0px);}
+.x:hover img:nth-of-type(1) {transform: translateY(-100px);}
+.x:hover img:nth-of-type(2) {transform: translateY(100px);}
+
+.y img:nth-of-type(1) {clip: rect(0px,300px,400px,0px);}
+.y img:nth-of-type(2) {clip: rect(0px,600px,400px,300px);}
+.y:hover img:nth-of-type(1) {transform: translateX(-150px);}
+.y:hover img:nth-of-type(2) {transform: translateX(150px);}
+
+figcaption span {font-weight: bold;}
+a {color: #fff;}  
