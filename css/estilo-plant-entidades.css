@@ -41,7 +41,7 @@ padding:0;
 }
 body{
     font-family: 'maven_promedium',;
-    background: #ddd;
+    background: #777;
     color: #333;
 }
 .ie7 body{
@@ -76,48 +76,58 @@ abbr,acronym { border:0;
  /*header*/
 
 #cabecera{
-    z-index:10;
-    width: 1024px;
-    height: 60px;
+    width: 100%;
+    height: 100px;
     background: #fff;
-    margin: 0;
     border-bottom: solid 5px #91CD2E;
+    z-index: 10;
+    -webkit-box-shadow: 5px 0 10px #444;
+    -moz-box-shadow: 5px 0 10px #444;
+    box-shadow: 5px 0 10px #444;
 }
-#logo-grupo{
-    z-index: 5;
-    width: 1024px;
-    height: 60px;
-    position: relative;
-}
+#logo-grupo {
+    width : 1024px;
+    position : relative;
+    margin: 0 auto;
 
-#logoasu{
+}
+#logoasu {
+    z-index : 10;
+    position : absolute;
+    top : 10px;
+    left :40px;
+
+}
+#logoasu img{
+    width: 80px;
+}
+#logoasurohayhu {
+    z-index : 10;
+    position : absolute;
+    top : 30px;
+    left :130px;
+
+}
+#logoasurohayhu img{
     width: 180px;
-    height: 180px;
-    position: absolute; 
-    top:10px;
-    z-index: 10;
-    right: 20px
 }
-
-
 #logocult {
-    position: absolute;
-    top:5px;
-    left:80px;
-    z-index: 10;
-    background: #fff;
-    padding: 5px;
-    border-radius: 15px;
-    border-bottom: solid 2px #333;
+    z-index : 10;
+    position : absolute;
+    right: 110px;
+    top : 15px;
 }
 #logocult img{
+    width: 160px;
+    margin: 0 auto;
+}
+#logoasu :hover {
+transform : scale(1.1);
+}
+#logocult :hover {
+transform : scale(1.1);
+}
 
-}
-#logoasu :hover{
-    transform:scale(1.1);
-    -webkit-transform:scale(1.1);
-    -moz-transform:scale(1.1);
-}
 
 
 /***************botones sociales*******************************************************/
@@ -160,34 +170,35 @@ abbr,acronym { border:0;
 
 /**********************contenidos*****************************************/
 #contenido{
-    margin: 20px auto 0 auto;
+    margin: 0 auto;
 	min-height: 500px;
     width: 1024px;
     padding: 0;
     background: #fff;
-    box-shadow:0 -2px 4px rgba(0,0,0, .7);
-    -moz-box-shadow:0 -2px 4px rgba(0,0,0, .7);
-    -webkit-box-shadow:0 -2px 4px rgba(0,0,0, .7);
+    box-shadow:0 -2px 7px rgba(0,0,0, .7);
+    -moz-box-shadow:0 -2px 7px rgba(0,0,0, .7);
+    -webkit-box-shadow:0 -2px 7px rgba(0,0,0, .7);
 
 }   
 
 #banner{
-    z-index: 1;
+    position: relative;
     width: 1024px;
-    height:300px; 
+    margin: 0 auto 20px auto;
+    background: #444;
+    border-bottom: 3px #91CD2E solid;
  
 }
 
-#banner:after{
+/*#banner:after{
     position: absolute;
-    top: 85px;
+    top: 125px;
     z-index: 2;
     width: 1024px;
-    height:300px; 
+    height:400px; 
    content: '';
     background: transparent url(../imagenes/bsg.png) repeat top left; 
-}
-
+}*/
 
 #menu-Logos {
     margin: 0px auto;
@@ -240,12 +251,13 @@ abbr,acronym { border:0;
     transform:scale(1.1);
     -webkit-transform:scale(1.1);
     -moz-transform:scale(1.1);
-    background: #fff;
     border-radius:3px;
 
     filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
     -webkit-filter: grayscale(0%);
 }
+
+
 
 
 #inicio{
@@ -273,7 +285,7 @@ abbr,acronym { border:0;
 
 #central{
     position: relative;
-    margin: 40px 0 0 -20px;
+    margin: 20px 0 0 -20px;
     width: 1064px;
     min-height: 300px;
     display: inline-block;
@@ -322,8 +334,7 @@ abbr,acronym { border:0;
     font-family: 'maven_probold';
     text-align: center;
     margin: 0px 0px 0 0px;
-
-
+    z-index: 10;
 }
 #nav-inst .col-2{
     width: 50%;
@@ -350,14 +361,13 @@ abbr,acronym { border:0;
     transition: all .8s ease-in-out;
 }
 #nav-inst ul {
-    
     display: none;
-
+    z-index: 10;
 }
 
 #nav-inst li:hover > ul {
     display: block;
-
+    z-index: 10;
 }
 
 #nav-inst {
@@ -381,6 +391,7 @@ abbr,acronym { border:0;
     background: #E6E6E6;
     text-align: center;
     float: left;
+    line-height: 30px;
     border-bottom: solid 2px #91CD2E;
 }
 
@@ -392,13 +403,12 @@ abbr,acronym { border:0;
     text-decoration: none;
 }
 
-#nav-inst .col-5 a:hover , #nav-inst li a:hover , #nav-inst .col-5 a:active , #nav-inst li a:active{
+#nav-inst li:hover , #nav-inst li:active{
     background: #91CD2E;
 
 }
 
 #nav-inst ul {
-
     border-radius: 0px; 
     padding: 0;
     position: absolute; 
@@ -406,7 +416,6 @@ abbr,acronym { border:0;
 }
 
 #nav-inst ul li {
-
     min-width: 100px;
     background: #ccc;
     float: none; 
@@ -424,7 +433,8 @@ abbr,acronym { border:0;
 }   
 
 #nav-inst ul li a:hover {
-    background: #91CD2E;
+    background: #444;
+    color:#91CD2E;
 }
 
 #nav-inst ul ul {
@@ -439,25 +449,41 @@ abbr,acronym { border:0;
     min-width: 130px;
 }
 /***************************************************************/
+#botones-entidad *{
+    -moz-transition: all .8s ease-in-out;
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out;
+}
 #botones-entidad{
     font-family: 'maven_probold';
     width: 310px;
+    height: 800px;
     margin: 25px 0 0 -10px;
-    padding: 15px 0 30px 0;
     display: inline-block;
     vertical-align: top;
-    
     border-right: solid 1px #91CD2E; 
-
 }
+#botones-entidad-nav li ul{
+    display: none;  
+}
+#botones-entidad-nav li{
+    min-height: 50px;
+}
+
+
+#botones-entidad-nav li:hover > ul {
+    display: block;
+    z-index: 10;
+}
+
 #botones-entidad-nav {
     display:inline-block;
 }
-#botones-entidad-nav a {
+#botones-entidad-nav  a {
     box-sizing: border-box;
     font-family: 'maven_promedium';
     font-size: 17px;
-    height: 35px;
+    height: 40px;
     padding: 8px 0;
     color: #91CD2E;
     text-decoration:none;
@@ -465,17 +491,30 @@ abbr,acronym { border:0;
 
 }
 
-#botones-entidad-nav li {
-    width:  260px;
-    height:50px;
-    margin-bottom: 25px; 
-    background: url(../imagenes/boton-bg.png);
+#botones-entidad-nav > li {
+    width:  290px;
+    margin-bottom: 10px; 
+    background: url(../imagenes/boton-bg.png) no-repeat;
+    /*background-position: 0 0;*/
+    background-size: 100%;
     list-style: none;
     text-align: center;
 }
 
+#botones-entidad-nav li ul li {
+    width:  250px;
+    margin: 15px; 
+    /*background: url(../imagenes/boton-bg.png);*/
+    background-size: 100%;
+    list-style: none;
+    text-align: center;
+}
+#botones-entidad-nav li ul li a{
 
-#botones-entidad-nav .current a, #botones-entidad-nav li:hover > a {
+}
+
+
+#botones-entidad-nav .current a, #botones-entidad-nav>li:hover > a {
     background: #91CD2E;
     color:#fff;
 }
@@ -676,7 +715,6 @@ abbr,acronym { border:0;
     box-sizing: border-box;
     width:100%;
     min-height: 170px;
-    border-bottom:solid #A7D758 1px;
     border-top:solid #6D9A23 1px;
     color: #333;
     line-height: 18px;
@@ -826,8 +864,8 @@ abbr,acronym { border:0;
     height: 450px;
     background: #fff;
     -moz-box-shadow: -1px 1px 3px #555;
-     -webkit-box-shadow: -1px 1px 3px #555;
-     box-shadow: -1px 1px 3px #555;
+    -webkit-box-shadow: -1px 1px 3px #555;
+    box-shadow: -1px 1px 3px #555;
 
 }
 

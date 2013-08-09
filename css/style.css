@@ -43,7 +43,7 @@ padding:0;
 body {
     font-family: 'maven_promedium';
     margin: 0 auto;
-    background: #efefef;
+    background: #777;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -287,7 +287,7 @@ transform : scale(1.1);
 }
 .nota{
     width: 319px;
-    padding: 10px 20px;
+    padding: 10px;
     border-bottom:solid #A7D758 1px;
     border-top:solid #6D9A23 1px;
     color: #333;
@@ -349,29 +349,28 @@ transform : scale(1.1);
     position: relative;
 }
 
-#col-der h1{
-    font-size: 30px;
-    text-align: center;
-}
-
 #calendario{
+    width: 303px;
     text-align: center;
-    margin: 0 7px 10px 7px;
+    margin: 0 10px 10px 5px ;
     color:#91CD2E;
     background: #444;
     border-radius: 5px;
-    padding: 10px 0;
-    
+    padding: 5px 0;
     border: solid 1px #666;
+    display: inline-block;
+    vertical-align: top;
 
 }
 #calendario h1{
     margin-bottom: 5px;
+    font-size: 22px;
 }
 
 
 #menu-temas {
-    margin: 0 7px;
+    width: 303px;
+    margin: 0 5px 10px 10px ;
     text-align:center;
     border: 1px #ddd solid;
     border-radius: 5px;  
@@ -379,17 +378,22 @@ transform : scale(1.1);
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     background: #91CD2E;
-    padding: 10px;
+    padding:0;
+    display: inline-block;
+    vertical-align: top;
 }
 
 
-}
-#nav-temas h2{
+#menu-temas > h2{
     font-family: 'maven_probold';
-    font-size: 28px;
-    color: #444;
-    margin: 10px auto;
+    font-size: 22px;
+    line-height: 30px;
+    width: 100%;
+    color: #91CD2E;
+    padding: 5px auto;
     display: block;
+    background: #444;
+    border-radius: 5px 5px 0 0;
 
 }
 
@@ -404,9 +408,9 @@ transform : scale(1.1);
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    width:25%;
+    width:50%;
     float: left;
-    margin: 10px 0;
+    margin: 15px 0;
     padding: 2px 0  2px 10px ;
     position: relative;
     text-align: left;
@@ -417,8 +421,7 @@ transform : scale(1.1);
 #nav-temas li a {
     text-decoration:none;
     display:block;
-    color: #fff;
-    font-size: 15px;
+    color: #333;
     font-size: 15px;
 }
 
@@ -469,9 +472,9 @@ transform : scale(1.1);
 
 }
 #nav-logos li a{
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+   /* filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
     filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(100%) ;
+    -webkit-filter: grayscale(100%) ;*/
 }
 
 
@@ -550,20 +553,15 @@ transform : scale(1.1);
     margin: 20px 7px;
     color:#91CD2E;
     background: #444;
-    position: relative;
-    display:block;   
 }
 
 
 footer{
     width: 100%;
-    background: #1f1f1f;
+    background: #333;
     border-top: 5px #91CD2E solid; 
     border-bottom: 5px #91CD2E solid; 
 }
-
-
-
 
 
 #cuadros{
@@ -601,7 +599,7 @@ figcaption{
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     display: block;
-    padding: 3px;
+    padding: 5px;
     background: #444;
     color: #e1e1e1;
     border-radius: 5px;

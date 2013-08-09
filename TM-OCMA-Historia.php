@@ -1,10 +1,13 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?> 
 <!DOCTYPE html>
 <html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" -->
+<?php $entidad="c4ca4";?>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
     <!-- InstanceBeginEditable name="doctitle" -->
     <title>Teatro Municioal Ignacio A. Pane</title> 
 	<!-- InstanceEndEditable -->
+    <link rel="icon" type="ico" href="imagenes/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -13,14 +16,14 @@
 
     <?php $noscript=true;include("ajax.inc.php");?>
 
-    <script src="sliderengine/jquery.js"></script>
-    <script src="sliderengine/amazingslider.js"></script>
-    <script src="sliderengine/initslider-1.js"></script>
+    <script src="banner/jquery.js"></script>
+    <script src="banner/amazingslider.js"></script>
+    <script src="banner/initslider-1.js"></script>
 
 </head>
 
 <body>
- <!-- ******************************* ANALYTICS ******************************************* 
+  <!-- ******************************* ANALYTICS *******************************************  -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -31,46 +34,42 @@
           ga('send', 'pageview');
 
         </script>
-    ************************************************************************************* -->
- 
-  <section id="contenido">
+    <!-- *************************************************************************************  -->
     <header id="cabecera">
       <section id="logo-grupo">
-        <section id="logocult"><a href="beta-index.php"><img src="imagenes/logo-04.png" alt="Teatro municipal Ig"></a></section>
-         
-        <section id="logoasu"> <a href="beta-index.php"><img src="imagenes/logo.png" alt="logo Asu" widt="120"></a></section>
 
-        <aside id="inicio">
-          <a href="beta-index.php"><strong>DGCyT</strong> Volver al inicio ></a>
-        </aside>
+            <section id="logocult"> <a href="beta-index.php"> <img src="imagenes/DGCT2.png" alt="Direccion General de Cultura y Turismo" ></a></section>
+            <section id="logoasu"> <a href="beta-index.php"> <img src="imagenes/Logo-Asu.png" alt="logo Asu"></a></section>
+            <section id="logoasurohayhu"> <a href="beta-index.php"> <img src="imagenes/Logo-Rohayhu-Asu.png" alt="logo Asu"></a></section>
 
+     
       </section>
 
-    </header>
+      
+
+</header>
+  <section id="contenido">
     <section id="banner">
 <!-- ******************************************************* -->
-
-      <div id="amazingslider-1">
-        <ul class="amazingslider-slides">
-            <li><img src="images/Foto-1-E.jpg" alt="Foto-1-E" /></li>
-            <li><img src="images/Foto-2-E.jpg" alt="Foto-2-E" /></li>
-            <li><img src="images/Foto-3-E.jpg" alt="Foto-3-E" /></li>
-            <li><img src="images/Foto-4-E.jpg" alt="Foto-4-E" /></li>
+       
+   <div id="amazingslider-1">
+        <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="images/Foto-1.jpg" alt="Picaflor" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-2.jpg" alt="Panteon de los heroes" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-4.jpg" alt="Foto-4" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/la foto.JPG" alt="panteom de los heroes" data-description="Descripcion de la foto" /></li>
         </ul>
-      </div>
-   
+        <ul class="amazingslider-thumbnails" style="display:none; ">
+            <li><img src="images/Foto-1-tn.jpg" /></li>
+            <li><img src="images/Foto-2-tn.jpg" /></li>
+            <li><img src="images/Foto-4-tn.jpg" /></li>
+            <li><img src="images/la foto-tn.JPG" /></li>
+        </ul>
+    </div>
+       
+        
 <!-- ******************************************************* -->
-    </section>
-
-      <nav id="menu-logos">
-        <ul id="nav-logos">    
-          <li><a href="TeatroMunicipal.php"><img src="imagenes/logo-04.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="DiercciÃ³n de AcciÃ³n Cultural y Turismo"></a></li>
-        </ul>
-      </nav>
+            </section>
 
     <section id="central">
       <div class="titulo"><h1>Teatro Municipal Ignacio A. Pane</h1></div>
@@ -92,49 +91,40 @@
              
       <div id="cont-central">
             <ul id="nav-inst"><!--
-              --><li class="col-5"><a href="#">Teatro Municipal</a><!-- 
-                --><ul><!--
-                  --><li><a href="TM-historia.php">Historia</a></li><!-- 
-                  --><li><a href="TM-organigrama.php">Organigrama</a></li><!-- 
-                  --><li><a href="TM-sala.php">Salas</a><!--
-                    --><ul><!-- 
-                          --><li><a href="TM-TgnacioA.Pane.php">Ignacio A. Pane</a></li><!-- 
-                          --><li><a href="TM-Baudio-Alio.php">Baudilio Alio</a></li><!-- 
-                          --><li><a href="TM-Jacinto-Herrera.php">Jacinto Herrera</a></li><!-- 
-                          --><li><a href="TM-Integrantes.php">Integrantes</a></li><!--
-                    --></ul><!-- 
-                  --></li><!--
-                  --></ul><!-- 
-              --></li><!-- 
-              --><li class="col-5"><a href="#">OSCA</a><!--
+              --><li class="col-3"><a href="TM-historia.php">Historia</a></li><!--
+              --><li class="col-3"><a href="TM-sala.php">Escacios</a><!--
                 --><ul><!-- 
-                    --><li><a href="TM-OSCA-Historia.php">Historia</a></li><!-- 
-                    --><li><a href="TM-OSCA-Luis-Zsaran.php">Luis Zsaran</a></li><!--
-                    --><li><a href="TM-OSCA-Integrantes.php">Integrantes</a></li><!--
+                    --><li><a href="TM-TgnacioA.Pane.php">Ignacio A. Pane</a></li><!-- 
+                    --><li><a href="TM-Baudio-Alio.php">Baudilio Alio</a></li><!-- 
+                    --><li><a href="TM-Jacinto-Herrera.php">Jacinto Herrera</a></li><!-- 
                 --></ul><!-- 
               --></li><!-- 
-              --><li class="col-5"><a href="#">OCMA</a><!--
-              	--><ul><!-- 
-                	--><li><a href="TM-OCMA-Historia.php">Historia</a></li><!--  
-                    --><li><a href="TM-OCMA-Director.php">Biografia del direcctor</a></li><!-- 
-              		--><li><a href="TM-OCMA-Integrantes.php">Integrantes</a></li><!--
-                --></ul><!-- 
-              --></li><!-- 
-              
-              --><li class="col-5"><a href="#">Ballet Municipal</a><!-- 
-                --><ul><!-- 
-                    --><li><a href="TM-BM-historia.php">Historia</a></li><!-- 
-                --></ul><!-- 
-              --></li><!--
-              --><li class="col-5"><a href="TM-Contactos.php">Contactos</a></li><!-- 
+              --><li class="col-3"><a href="TM-Contactos.php">Contactos</a></li><!-- 
            --></ul>
 
         <nav id="botones-entidad">
                 <ul id="botones-entidad-nav">
-                    <li><a href="TM-.php">OSCA</a></li>
-                    <li><a href="TM-.php">Ballet</a></li>
-                    <li><a href="TM-.php">Sala </a></li>
-                    <li><a href="TM-.php">Sala Baudilio</a></li>
+                    <li><a href="#">OSCA</a>
+                      <ul> 
+                        <li><a href="TM-OSCA-Historia.php">Historia</a></li>  
+                        <li><a href="TM-OSCA-Director.php">Direcctor</a></li> 
+                        <li><a href="TM-OSCA-Integrantes.php">Integrantes</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">OCMA</a>
+                      <ul> 
+                        <li><a href="TM-OCMA-Historia.php">Historia</a></li>  
+                        <li><a href="TM-OCMA-Director.php">Direcctor</a></li> 
+                        <li><a href="TM-OCMA-Integrantes.php">Integrantes</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Ballet Cl&aacute;sico y Folcl&oacute;rico Municipal</a>
+                      <ul> 
+                        <li><a href="TM-BCYFM-Historia.php">Historia</a></li>  
+                        <li><a href="TM-BCYFM-Director.php">Direcctor</a></li> 
+                        <li><a href="TM-BCYFM-Integrantes.php">Integrantes</a></li>
+                      </ul>
+                    </li>
                 </ul>
 
                 <aside id="menu-social">
@@ -152,20 +142,28 @@
               <!-- InstanceBeginEditable name="INFO" -->
               <section id="cont-info">
                 <div class="info">
-                 <h3>ReseÃ±a Historica</h3>
-                 <h2>Orquesta SinfÃ³nica de la Ciudad de AsunciÃ³n</h2>
-                 <p>La primera referencia acerca de la existencia de orquestas en el Paraguay data del aÃ±o 1945, con la formaciÃ³n de un grupo musical integrado por los espaÃ±oles Juan de Xara, Gregorio de Acosta y otros. Luego de este periodo se destacan las experiencias de los Jesuitas, quienes organizaron orquestas y coros conformados por indÃ­genas en las cÃ©lebres reducciones. Y que alcanzaron niveles extraordinarios. En tiempos de la independencia (1881 en adelante) florecieron conjuntos musicales populares que entonaban los primeros aires con acento nacional derivados de la mÃºsica espaÃ±ola, ademÃ¡s de las bandas de mÃºsica impulsadas principalmente por instituciones militares. A mediados de la dÃ©cada de 1850, el gobierno de Don Carlos Antonio LÃ³pez contrata, con rango de ministro, al mÃºsico francÃ©s Francisco Sauvageot de Dupuis, para la creaciÃ³n de escuelas y bandas de mÃºsica, llegando en pocos aÃ±os a consolidar unas treinta agrupaciones.-</p>
-                 <p> EsporÃ¡dicamente se conformaban grupos orquestales para actuar junto a compaÃ±Ã­as de zarzuelas espaÃ±olas y Ã³peras italianas que visitaban el paÃ­s hacia fines del siglo. El Semanario del 9 de mayo de 1863, referÃ­a: &quot;siguen con notables adelantos las lecciones de la nueva orquesta que esta bajo la direcciÃ³n del joven inteligente Cantalicio Guerrero, sargento de la banda de mÃºsica de Dragones&quot;. En 1980 se creo la orquesta nacional dirigida por el citado Guerrero, gozando de apoyo estatal. Esta agrupaciÃ³n de cuarenta mÃºsicos participaba en las representaciones lÃ­ricas del teatro nacional.-</p>
-                    <p>Con el correr de los aÃ±os se organizaban agrupaciones orquestales de menores dimensiones, y tambiÃ©n de efÃ­mera existencia con el apoyo de entidades culturales como el Instituto Paraguayo, el Gimnasio Paraguayo con la direcciÃ³n de Nicolino Pellegrini, Fernando CenturiÃ³n y otros. En 1912 se creÃ³ la Banda de MÃºsicos de la PolicÃ­a de la Capital, instituciÃ³n que supliÃ³ durante dÃ©cadas la falta de una orquesta sinfÃ³nica estable a travÃ©s de sus cÃ©lebres retretas (conciertos al aire libre en plazas pÃºblicas). En 1928 Remberto GimÃ©nez organizÃ³ la primera orquesta sinfÃ³nica, de vida breve y presentaciones esporÃ¡dicas. En 1945, bajo propuesta del Concejal Municipal Honorio Campuzano, se creo la Orquesta SinfÃ³nica de AsunciÃ³n, dependiente del municipio capitalino, pero sin lograrse su puesta en ejecuciÃ³n. Igual, su situaciÃ³n se debatiÃ³ ese aÃ±o en el Parlamento para la creaciÃ³n de la Orquesta SinfÃ³nica Nacional, proyecto truncado por los sucesos polÃ­ticos del momento. Luego de numerosos intentos la AsociaciÃ³n de MÃºsicos del Paraguay creÃ³ la Orquesta FolklÃ³rica, convertida a partir de 1950 en la Orquesta SinfÃ³nica de la AMP, con histÃ³ricas actuaciones bajo la direcciÃ³n de Carlos Lara Bareiro. En 1957 siendo Intendente Municipal de AsunciÃ³n el Ing. NicolÃ¡s de Bari Flecha, se creo la Orquesta SinfÃ³nica de la Ciudad de AsunciÃ³n (OSCA), su primer director fue Remberto GimÃ©nez hasta 1973, luego FlorentÃ­n JimÃ©nez hasta 1990 y en la actualidad Luis SzarÃ¡n. En los Ãºltimos aÃ±os, mediante un convenio entre la Municipalidad de AsunciÃ³n y la Sociedad FilarmÃ³nica de AsunciÃ³n, esta Ãºltima instituciÃ³n cultural sin fines de lucro, asumiÃ³ la responsabilidad de organizar, administrar y promocionar las actividades de la OSCA.-</p>
+                 <h3>Resena Historica</h3>
+                 <h2>Orquesta Sinfónica de la Ciudad de Asunción</h2>
+                 <p>La primera referencia acerca de la existencia de orquestas en el Paraguay data del ano 1945, con la formación de un grupo musical integrado por los espanoles Juan de Xara, Gregorio de Acosta y otros. Luego de este periodo se destacan las experiencias de los Jesuitas, quienes organizaron orquestas y coros conformados por indígenas en las célebres reducciones. Y que alcanzaron niveles extraordinarios. En tiempos de la independencia (1881 en adelante) florecieron conjuntos musicales populares que entonaban los primeros aires con acento nacional derivados de la música espanola, además de las bandas de música impulsadas principalmente por instituciones militares. A mediados de la década de 1850, el gobierno de Don Carlos Antonio López contrata, con rango de ministro, al músico francés Francisco Sauvageot de Dupuis, para la creación de escuelas y bandas de música, llegando en pocos anos a consolidar unas treinta agrupaciones.-</p>
+                 <p> Esporádicamente se conformaban grupos orquestales para actuar junto a companías de zarzuelas espanolas y óperas italianas que visitaban el país hacia fines del siglo. El Semanario del 9 de mayo de 1863, refería: &quot;siguen con notables adelantos las lecciones de la nueva orquesta que esta bajo la dirección del joven inteligente Cantalicio Guerrero, sargento de la banda de música de Dragones&quot;. En 1980 se creo la orquesta nacional dirigida por el citado Guerrero, gozando de apoyo estatal. Esta agrupación de cuarenta músicos participaba en las representaciones líricas del teatro nacional.-</p>
+                    <p>Con el correr de los anos se organizaban agrupaciones orquestales de menores dimensiones, y también de efímera existencia con el apoyo de entidades culturales como el Instituto Paraguayo, el Gimnasio Paraguayo con la dirección de Nicolino Pellegrini, Fernando Centurión y otros. En 1912 se creó la Banda de Músicos de la Policía de la Capital, institución que suplió durante décadas la falta de una orquesta sinfónica estable a través de sus célebres retretas (conciertos al aire libre en plazas públicas). En 1928 Remberto Giménez organizó la primera orquesta sinfónica, de vida breve y presentaciones esporádicas. En 1945, bajo propuesta del Concejal Municipal Honorio Campuzano, se creo la Orquesta Sinfónica de Asunción, dependiente del municipio capitalino, pero sin lograrse su puesta en ejecución. Igual, su situación se debatió ese ano en el Parlamento para la creación de la Orquesta Sinfónica Nacional, proyecto truncado por los sucesos políticos del momento. Luego de numerosos intentos la Asociación de Músicos del Paraguay creó la Orquesta Folklórica, convertida a partir de 1950 en la Orquesta Sinfónica de la AMP, con históricas actuaciones bajo la dirección de Carlos Lara Bareiro. En 1957 siendo Intendente Municipal de Asunción el Ing. Nicolás de Bari Flecha, se creo la Orquesta Sinfónica de la Ciudad de Asunción (OSCA), su primer director fue Remberto Giménez hasta 1973, luego Florentín Jiménez hasta 1990 y en la actualidad Luis Szarán. En los últimos anos, mediante un convenio entre la Municipalidad de Asunción y la Sociedad Filarmónica de Asunción, esta última institución cultural sin fines de lucro, asumió la responsabilidad de organizar, administrar y promocionar las actividades de la OSCA.-</p>
                 </div>
               </section>
               <!-- InstanceEndEditable --></div>  
     </section> 
   </section>
  
-  <footer id="pie">
-
-  </footer>  
+  <footer>
+     <nav id="menu-Logos">
+       <ul id="nav-logos">   
+          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
+          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
+          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
+          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+      </ul>
+   </nav>
+  </footer>
 
 </body>
 <!-- InstanceEnd --></html>

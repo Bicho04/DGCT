@@ -41,8 +41,8 @@ padding:0;
 }
 body{
     font-family: 'maven_promedium',;
-    background: #efefef;
     color: #333;
+    background: #777;
 }
 .ie7 body{
     overflow:hidden;
@@ -172,9 +172,9 @@ transform : scale(1.1);
     padding: 0;
     background: #fff;
     z-index: -5;
-    box-shadow:0 2px 4px rgba(0,0,0, .7);
-    -moz-box-shadow:0 2px 4px rgba(0,0,0, .7);
-    -webkit-box-shadow:0 2px 4px rgba(0,0,0, .7);
+    box-shadow:0 4px 7px rgba(0,0,0, .7);
+    -moz-box-shadow:0 4px 7px rgba(0,0,0, .7);
+    -webkit-box-shadow:0 4px 7px rgba(0,0,0, .7);
 
 }   
 
@@ -183,7 +183,7 @@ transform : scale(1.1);
     width: 1024px;
     margin: 0 auto 20px auto;
     background: #444;
-    border-bottom: 1px #91CD2E solid;
+    border-bottom: 3px #91CD2E solid;
  
 }
 
@@ -401,7 +401,7 @@ transform : scale(1.1);
 .nota img{
     float: left;
     width: 160px;
-    height: 180px;
+    max-height: 180px;
     margin: 0 5px 5px 5px;
 }
 
@@ -627,7 +627,7 @@ transform : scale(1.1);
 /******************************************************************/
 footer{
     width: 100%;
-    background: #444;
+    background: #666;
     border-bottom: 5px #91CD2E solid; 
     position: relative;
 }
@@ -635,7 +635,7 @@ footer{
 
 footer:after{
     content: "";
-    background: #444;
+    background: #666;
     border-top: 5px #91CD2E solid; 
     position: absolute;
     top: -100px;

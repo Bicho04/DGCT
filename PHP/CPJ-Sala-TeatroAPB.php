@@ -1,8 +1,11 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?> 
 <!DOCTYPE html>
 <html lang="es"><!-- InstanceBegin template="/Templates/centroParaguayoJapones.dwt" codeOutsideHTMLIsLocked="false" -->
+<?php $entidad="a87ff";?> 
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>Centro Paraguayo Japon茅s</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
+<title>Centro Paraguayo Japon&eacute;s</title> 
+	<link rel="icon" type="ico" href="imagenes/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,14 +14,14 @@
 
     <?php $noscript=true;include("ajax.inc.php");?>
 
-    <script src="sliderengine/jquery.js"></script>
-    <script src="sliderengine/amazingslider.js"></script>
-    <script src="sliderengine/initslider-1.js"></script>
+    <script src="banner/jquery.js"></script>
+    <script src="banner/amazingslider.js"></script>
+    <script src="banner/initslider-1.js"></script>
 
 </head>
 
 <body>
-   <!-- ******************************* ANALYTICS ******************************************* 
+    <!-- ******************************* ANALYTICS *******************************************  -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -29,49 +32,45 @@
           ga('send', 'pageview');
 
         </script>
-    ************************************************************************************* -->
- 
-  <section id="contenido">
+    <!-- *************************************************************************************  -->
     <header id="cabecera">
       <section id="logo-grupo">
-        <section id="logocult"><a href="beta-index.php"><img src="imagenes/logo-01.png" alt="Centro Paraguayo Japones" ></a></section>
-         
-        <section id="logoasu"> <a href="beta-index.php"><img src="imagenes/logo.png" alt="logo Asu" widt="120"></a></section>
 
-        <aside id="inicio">
-          <a href="beta-index.php"><strong>DGCyT</strong> Volver al inicio ></a>
-        </aside>
+            <section id="logocult"> <a href="beta-index.php"> <img src="imagenes/DGCT2.png" alt="Direccion General de Cultura y Turismo" ></a></section>
+            <section id="logoasu"> <a href="beta-index.php"> <img src="imagenes/Logo-Asu.png" alt="logo Asu"></a></section>
+            <section id="logoasurohayhu"> <a href="beta-index.php"> <img src="imagenes/Logo-Rohayhu-Asu.png" alt="logo Asu"></a></section>
+
+     
       </section>
 
-    </header>
+    
+
+</header>
+  <section id="contenido">
     <section id="banner">
 <!-- ******************************************************* -->
-
-      <div id="amazingslider-1">
-        <ul class="amazingslider-slides">
-            <li><img src="images/Foto-1-E.jpg" alt="Foto-1-E" /></li>
-            <li><img src="images/Foto-2-E.jpg" alt="Foto-2-E" /></li>
-            <li><img src="images/Foto-3-E.jpg" alt="Foto-3-E" /></li>
-            <li><img src="images/Foto-4-E.jpg" alt="Foto-4-E" /></li>
-          
+       
+   <div id="amazingslider-1">
+        <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="images/Foto-1.jpg" alt="Picaflor" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-2.jpg" alt="Panteon de los heroes" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-4.jpg" alt="Foto-4" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/la foto.JPG" alt="panteom de los heroes" data-description="Descripcion de la foto" /></li>
         </ul>
-      </div>
-   
+        <ul class="amazingslider-thumbnails" style="display:none; ">
+            <li><img src="images/Foto-1-tn.jpg" /></li>
+            <li><img src="images/Foto-2-tn.jpg" /></li>
+            <li><img src="images/Foto-4-tn.jpg" /></li>
+            <li><img src="images/la foto-tn.JPG" /></li>
+        </ul>
+    </div>
+       
+        
 <!-- ******************************************************* -->
-    </section>
-
-      <nav id="menu-logos">
-        <ul id="nav-logos">    
-          <li><a href="TeatroMunicipal.php"><img src="imagenes/logo-04.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercci贸n de Acci贸n Cultural y Turismo"></a></li>
-        </ul>
-      </nav>
+            </section>
 
     <section id="central">
-      <div class="titulo"><h1>Centro Paraguayo Japon茅s</h1></div>
+      <div class="titulo"><h1>Centro Paraguayo Japon&eacute;s</h1></div>
       <ul class="hovercal">
         <li>
           <div class="titulo2">Ver Calendario</div>
@@ -91,36 +90,43 @@
       <div id="cont-central">
              <ul id="nav-inst"><!--
               --><li class="col-4"><a href="CPJ-historia.php">Historia</a></li><!-- 
-              --><li class="col-4"><a href="#">Salas</a><!-- 
+              --><li class="col-4"><a href="CPJ-Contacto.php">Asocia&oacute;n Paraguayo Japonesa</a></li><!-- 
+              --><li class="col-4"><a href="#">Espacios</a><!-- 
                 --><ul><!-- 
-                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust铆n P铆o Barrios</a></li><!--
+                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust&iacute;n P&iacute;o Barrios</a></li><!--
                     --><li><a href="CPJ-Sala-Seminario.php">Sala Seminario Branislava Susnik</a><!--
                     --><li><a href="CPJ-Sala-Anfiteatro.php">Anfiteatro Oscar Cardozo Ocampo</a></li><!--
                     --><li><a href="CPJ-Sala-Exposicion.php">Sala de Exposiciones Jacinto Rivero</a></li><!--
                     --><li><a href="CPJ-Sala-Reuniones.php">Sala de Reuniones Agustina Miranda</a></li><!--
                     --><li><a href="CPJ-Sala-Biblioteca.php">Biblioteca Herib Campos Cervera</a></li><!--
-                    --><li><a href="CPJ-Sala-Fisioterapia.php">Sala de Fisioterapia y Rehabilitaci贸n</a></li><!--
                 --></ul><!-- 
-              --></li><!-- 
-              --><li class="col-4"><a href="CPJ-">Cursos</a><!-- 
-                --><ul><!-- 
-                   --><li><a href="CPJ-Cursos-Danza.php">Danza</a></li><!--
-                    --><li><a href="CPJ-Cursos-Musica.php">Musica</a><!--
-                    --><li><a href="CPJ-Cursos-Artes.php">Artes Visuales</a></li><!--
-                    --><li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio </a></li><!--
-                    --><li><a href="CPJ-Cursos-Gimnasia.php">En Gimnasia Art谩stica</a></li><!--
-              	--></ul><!-- 
               --></li><!-- 
               --><li class="col-4"><a href="CPJ-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
         <nav id="botones-entidad">
                 <ul id="botones-entidad-nav">
-                    <li><a href="CPJ-Sala-Seminario.php">Salon Seminario</a></li>
-                    <li><a href="CPJ-Cursos.php">Cursos</a></li>
-                    <li><a href="CPJ-Sala-TeatroAPB.php">Sala Teatro</a></li>
-                    <li><a href="CPJ-Sala-Anfiteatro.php">Anfiteatro</a></li>
-                    <li><a href="CPJ-Sala-Biblioteca.php">Biblioteca</a></li>
+                    <li><a href="CPJ-Sala-Seminario.php">Salon Seminario</a></li><!--
+                    --><li><a href="CPJ-">Cursos</a><!-- 
+                      --><ul><!-- 
+                          --><li><a href="CPJ-Cursos-Computacion.php">Computacion</a></li><!--
+                         --><li><a href="CPJ-Cursos-Idiomas.php">Idiomas</a></li><!--
+                         --><li><a href="CPJ-Cursos-Danza.php">Danza</a></li><!--
+                          --><li><a href="CPJ-Cursos-Musica.php">M&uacute;sica</a><!--
+                      --></ul><!-- 
+                    --></li><!-- 
+                    --><li><a href="CPJ-">Cursos</a><!-- 
+                      --><ul><!-- 
+                          --><li><a href="CPJ-Cursos-Gimnasia-Artistica.php">Gimnasia Art&iacute;stica</a></li><!--
+                          --><li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio</a></li><!--
+                          --><li><a href="CPJ-Cursos-Artes-Marciales.php">Artes Marciales</a></li><!--
+                    	--></ul><!-- 
+                    --></li><!-- 
+                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust&iacute;n Pio Barrios</a></li><!-- 
+                    --><li><a href="CPJ-Sala-Seminario.php">Sal&oacute;n Seminario Branislava Susnik</a></li><!-- 
+                    --><li><a href="CPJ-Sala-Exposicion.php">Sala de Exposiciones Jacinto Rivero</a></li><!--
+                    --><li><a href="CPJ-Sala-Reuniones.php">Sala de Reuniones Agustina Miranda</a></li><!--
+                    --><li><a href="CPJ-Sala-Biblioteca.php">Biblioteca Herib Campo Cervera</a></li><!--
                 </ul>
 
                 <aside id="menu-social">
@@ -139,22 +145,30 @@
              <section id="cont-info">
                 <div class="info">
                     <h3>Sala</h3>
-                   <h2>Teatro Agust铆n P铆o Barrios</h2><p>Cuenta con platea con 468 c贸modas y modernas butacas con asientos rebatibles y 2 palcos con 10 butacas cada uno. Totalmente climatizada.</p>
+                   <h2>Teatro Agust韓 P韔 Barrios</h2><p>Cuenta con platea con 468 c髆odas y modernas butacas con asientos rebatibles y 2 palcos con 10 butacas cada uno. Totalmente climatizada.</p>
 <p>Con camarines grupales e individuales con  sanitarios y duchas.</p>
-<p>Con sistema de sonido e iluminaci贸n de 煤ltima generaci贸n.</p>
-<p>Sistema de audio compuesto por "line array" de la marca Electro Voice que entrega 16.000 watts de potencia. Mesa de audio digital  Yamaha LSQ para monitoreo y Yamaha M7CL para sala. Micr贸fonos de la linea SEINHEISER y SHUERE de uso profesional.</p>
+<p>Con sistema de sonido e iluminaci髇 de 鷏tima generaci髇.</p>
+<p>Sistema de audio compuesto por "line array" de la marca Electro Voice que entrega 16.000 watts de potencia. Mesa de audio digital  Yamaha LSQ para monitoreo y Yamaha M7CL para sala. Micr骹onos de la linea SEINHEISER y SHUERE de uso profesional.</p>
 <p>Amplio Foyer de acceso totalmente alfombrado y sistema independiente de acondicionamiento de aire.</p>
-<p>Sistema de Iluminaci贸n compuesto por Gabinete de 96 canales de 2,5 KW digital norma DMX 512 de la marca STRAND, consola de control de iluminaci贸n digital de la marca MA LIGHTING, artefactos elipsoidales planos, convexos, asim茅tricos todos de 1000 W; cabezales m贸viles Spot y Wash de 700 W de la marca VARILITE.</p>
-<p>Proyector multimedia de 7500 l煤menes y ojo de pez para abarcar gran amplitud a corta distancia NEC; spliter de 48 canales para realizaci贸n de monitoreo en escenario de 20 mts de longitud marca  Wirwind.</p>
+<p>Sistema de Iluminaci髇 compuesto por Gabinete de 96 canales de 2,5 KW digital norma DMX 512 de la marca STRAND, consola de control de iluminaci髇 digital de la marca MA LIGHTING, artefactos elipsoidales planos, convexos, asim閠ricos todos de 1000 W; cabezales m髒iles Spot y Wash de 700 W de la marca VARILITE.</p>
+<p>Proyector multimedia de 7500 l鷐enes y ojo de pez para abarcar gran amplitud a corta distancia NEC; spliter de 48 canales para realizaci髇 de monitoreo en escenario de 20 mts de longitud marca  Wirwind.</p>
                 </div>
               </section>
                   <!-- InstanceEndEditable --></div>  
     </section> 
   </section>
  
-  <footer id="pie">
-
-  </footer>  
+  <footer>
+     <nav id="menu-Logos">
+       <ul id="nav-logos">   
+          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
+          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
+          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
+          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercci髇 de Acci髇 Cultural y Turismo"></a></li>
+      </ul>
+   </nav>
+  </footer> 
 
 </body>
 <!-- InstanceEnd --></html>

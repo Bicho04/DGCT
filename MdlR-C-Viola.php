@@ -1,8 +1,11 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?> 
 <!DOCTYPE html>
 <html lang="es"><!-- InstanceBegin template="/Templates/ManzanaDeLaRivera.dwt" codeOutsideHTMLIsLocked="false" -->
+<?php $entidad="eccbc";?>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>Manzana de la Rivera, Centro Cultural de la Ciudad de Asucni√≥n</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
+<title>Manzana de la Rivera, Centro Cultural de la Ciudad de Asucni&oacute;n</title> 
+	<link rel="icon" type="ico" href="imagenes/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,14 +14,14 @@
 
     <?php $noscript=true;include("ajax.inc.php");?>
 
-    <script src="sliderengine/jquery.js"></script>
-    <script src="sliderengine/amazingslider.js"></script>
-    <script src="sliderengine/initslider-1.js"></script>
+    <script src="banner/jquery.js"></script>
+    <script src="banner/amazingslider.js"></script>
+    <script src="banner/initslider-1.js"></script>
 
 </head>
 
 <body>
-   <!-- ******************************* ANALYTICS ******************************************* 
+    <!-- ******************************* ANALYTICS *******************************************  -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -29,45 +32,42 @@
           ga('send', 'pageview');
 
         </script>
-    ************************************************************************************* -->
- 
-  <section id="contenido">
+    <!-- *************************************************************************************  -->
     <header id="cabecera">
       <section id="logo-grupo">
-        <section id="logocult"><a href="beta-index.php"><img src="imagenes/logo-03.png" alt="Manzana de la Rivera" ></a></section>
-         
-        <section id="logoasu"> <a href="beta-index.php"><img src="imagenes/logo.png" alt="logo Asu" widt="120"></a></section>
 
-        <aside id="inicio">
-          <a href="beta-index.php"><strong>DGCyT</strong> Volver al inicio ></a>
-        </aside>
+            <section id="logocult"><a href="beta-index.php"><img src="imagenes/DGCT2.png" alt="Direccion General de Cultura y Turismo" ></a></section>
+            <section id="logoasu"> <a href="beta-index.php"> <img src="imagenes/Logo-Asu.png" alt="logo Asu"></a></section>
+            <section id="logoasurohayhu"> <a href="beta-index.php"> <img src="imagenes/Logo-Rohayhu-Asu.png" alt="logo Asu"></a></section>
+
+     
       </section>
 
-    </header>
+     
+
+</header>
+  <section id="contenido">
     <section id="banner">
 <!-- ******************************************************* -->
-
-      <div id="amazingslider-1">
-        <ul class="amazingslider-slides">
-            <li><img src="images/Foto-1-E.jpg" alt="Foto-1-E" /></li>
-            <li><img src="images/Foto-2-E.jpg" alt="Foto-2-E" /></li>
-            <li><img src="images/Foto-3-E.jpg" alt="Foto-3-E" /></li>
-            <li><img src="images/Foto-4-E.jpg" alt="Foto-4-E" /></li>
+       
+   <div id="amazingslider-1">
+        <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="images/Foto-1.jpg" alt="Picaflor" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-2.jpg" alt="Panteon de los heroes" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-4.jpg" alt="Foto-4" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/la foto.JPG" alt="panteom de los heroes" data-description="Descripcion de la foto" /></li>
         </ul>
-      </div>
-   
+        <ul class="amazingslider-thumbnails" style="display:none; ">
+            <li><img src="images/Foto-1-tn.jpg" /></li>
+            <li><img src="images/Foto-2-tn.jpg" /></li>
+            <li><img src="images/Foto-4-tn.jpg" /></li>
+            <li><img src="images/la foto-tn.JPG" /></li>
+        </ul>
+    </div>
+       
+        
 <!-- ******************************************************* -->
-    </section>
-
-      <nav id="menu-logos">
-        <ul id="nav-logos">    
-          <li><a href="TeatroMunicipal.php"><img src="imagenes/logo-04.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercci√≥n de Acci√≥n Cultural y Turismo"></a></li>
-        </ul>
-      </nav>
+            </section>
 
     <section id="central">
       <div class="titulo"><h1>Manzana de la Rivera</h1></div>
@@ -89,32 +89,38 @@
              
       <div id="cont-central">
             <ul id="nav-inst"><!--
-              --><li class="col-4"><a href="MdlR-historia.php">Historia</a></li><!-- 
-              --><li class="col-4"><a href="#">9 casas</a><!-- 
+              --><li class="col-3"><a href="MdlR-historia.php">Historia</a></li><!-- 
+              --><li class="col-3"><a href="#">Las casas de la Manzana</a><!-- 
                 --><ul><!--  
                     --><li><a href="MdlR-C-Viola.php">Casa Viola</a></li><!-- 
                     --><li><a href="MdlR-C-Clari.php">Casa Clari</a></li><!--  
                     --><li><a href="MdlR-C-Clari-Mestre.php">Casa Clari-Mestre</a></li><!--  
-                    --><li><a href="MdlR-C-Vertua.php">Casa Vert√∫a</a></li><!--  
+                    --><li><a href="MdlR-C-Vertua.php">Casa Vert&uacute;a</a></li><!--  
                     --><li><a href="MdlR-C-Emesa.php">Casa Emesa</a></li><!--  
-                    --><li><a href="MdlR-C-Castelvi.php">Casa Castelv√≠</a></li><!--  
+                    --><li><a href="MdlR-C-Castelvi.php">Casa Castelv&iacute;</a></li><!--  
                     --><li><a href="MdlR-C-Serra.php">Casa Serra I y II</a></li><!--  
                     --><li><a href="MdlR-p-Leonor.php">Patio Leonor</a></li><!--  
                     --><li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li><!--  
-                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala Garc√≠a Lorca</a></li><!--  
+                    --><li><a href="MdlR-C-GarciaLorca.php">La Sala Garc&iacute;a Lorca</a></li><!--  
                 --></ul><!-- 
               --></li><!-- 
-              --><li class="col-4"><a href="MdlR-QuienFue.php">¬øQui√©n Fue?</a></li><!-- 
-              --><li class="col-4"><a href="MdlR-Contacto.php">Contacto</a></li><!-- 
+              --><li class="col-3"><a href="MdlR-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
         <nav id="botones-entidad">
                 <ul id="botones-entidad-nav">
-                    <li><a href="MdlR-Biblioteca.php">Biblioteca</a></li>
-                    <li><a href="MdlR-Auditorio.php">Auditorio Rui Dia de Guzman</a></li>
-                    <li><a href="MdlR-C-GarciaLorca.php">Garcia Lorca</a></li>
-                    <li><a href="MdlR-p-Leonor.php">El Patio Leonor</a></li>
-                    <li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li>
+                    <li><a href="MdlR-Biblioteca.php">Biblioteca "Augusto Roa Bastos"</a></li>
+                    <li><a href="MdlR-Auditorio.php">Auditorio Ru&iacute; Diaz de Guzman</a></li>
+                    <li><a href="MdlR-Teatro-GarciaLorca.php">Teatro Garc&iacute;a Lorca</a></li>
+                    <li><a href="MdlR-Patio-Leonor.php">Patio Leonor</a></li>
+                    <li><a href="MdlR-Casa-Ballario.php">Casa Ballario</a></li>
+                    <li><a href="MdlR-Museo-memoria-de-la-ciudad.php">Museo "memoria de la ciudad"</a></li>
+                    <li><a href="MdlR-Bar-Casa-Clari.php">Bar Casa Clari</a></li>
+                    <li><a href="MdlR-Espacio-Miguel Acevedo.php">Espacio Miguel Acevedo</a></li>
+                    <li><a href="MdlR-La-aleria.php">La Galeria</a></li>
+                    <li><a href="MdlR-Casa-CastelvÌ.php">Casa Castelv&iacute;</a></li>
+                    <li><a href="MdlR-Casa-Ballario.php">Patio Arecaya</a></li>
+                    <li><a href="MdlR-Casa-Ballario.php">Casa Ballario</a></li>
                 </ul>
 
                 <aside id="menu-social">
@@ -132,25 +138,33 @@
               <!-- InstanceBeginEditable name="INFO" -->
               <section id="cont-info"><div class="info"><h3>9 Casas</h3>
                  <h2>CASA VIOLA</h2>
-                 <p>La primera casa, conocida como CASA VIOLA (data del siglo  XVIII), es la primera casa restaurada. Fue inaugurada en 1991. &nbsp;El t√©rmino  de recuperaci√≥n se da porque realmente la casa hab√≠a sido muy modificada a  trav√©s del tiempo y lo que quedaba de ella era un caparaz√≥n (que es lo que se  puede apreciar ahora), porque lo interno se perdi√≥ totalmente, salvo la √∫ltima  pieza del ala izquierda. La Casa Viola es una t√≠pica construcci√≥n colonial de  1750-1758, y responde todav√≠a a la ciudad pre-francista, y es testimonio de la  disposici√≥n de las calles antes que el Dr. Gaspar Rodr√≠guez de Francia  cuadriculara la ciudad.</p>
-                 <p>La CASA VIOLA tiene techo de tejas a dos aguas y una  galer√≠a adelante, la herrer√≠a es posterior y est√° hecha sobre vigas y columnas  de madera. Antiguamente ten√≠a tres grandes habitaciones, se puede ver en<br>
-                   el piso las marcas de las paredes que ya no se pueden reconstruir.  La √∫nica habitaci√≥n que qued√≥ intacta es la que est√° ubicada frente al Palacio  de Gobierno, tiene atr√°s una galer√≠a corredor, que queda como<br>
-                   resabio de la &ldquo;culata yovai&rdquo; de la tipolog√≠a antigua de  las casas paraguayas. &nbsp;La estructura del techo est√° hecha con palma y tacuarilla,  las tejas est√°n montadas con una argamasa hecha con barro y sangre vacuna, que  era el elemento para homogeneizar la masa. </p>
-                 <p>Actualmente, en este sitio funciona el Museo Memoria de  la Ciudad que re√∫ne textos, mapas, objetos, pinturas, gr√°ficos y elementos cotidianos  de la vida de la ciudad de diversas √©pocas, que van<br>
-                   contando la historia de Asunci√≥n desde su fundaci√≥n  &nbsp;hasta nuestros d√≠as.</p>
-                 <p>Este Museo, inaugurado el 14 de agosto de 1996, &nbsp;fue  estructurado pensando en los ni√±os y j√≥venes. Tiene una doble lectura: una a  trav√©s de los hechos ocurridos desde su fundaci√≥n y, otra, a partir de la<br>
-                   cr√≥nica de sus protagonistas. En el a√±o 2005, con los  auspicios de la Embajada de los Estados Unidos de Am√©rica, se realiz√≥ el proyecto  de conservaci√≥n y restauraci√≥n de su acervo. En el 2009 fueron incorporadas  cinco obras (pinturas al √≥leo) de artistas nacionales.</p>
-                 <p>El horario del Museo es el siguiente: lunes a viernes, de  8 a 20 h; s√°bados y domingos, de 9 a 18 h. Entrada libre y gratuita. <br>
-                   En 1993 se termina la restauraci√≥n de la segunda fase de  la Manzana de la Rivera, con la inauguraci√≥n de las casas Clari, Clari Mestre, Vert√∫a  y Emasa.</p>
+                 <p>La primera casa, conocida como CASA VIOLA (data del siglo  XVIII), es la primera casa restaurada. Fue inaugurada en 1991. &nbsp;El tÈrmino  de recuperaciÛn se da porque realmente la casa habÌa sido muy modificada a  travÈs del tiempo y lo que quedaba de ella era un caparazÛn (que es lo que se  puede apreciar ahora), porque lo interno se perdiÛ totalmente, salvo la ˙ltima  pieza del ala izquierda. La Casa Viola es una tÌpica construcciÛn colonial de  1750-1758, y responde todavÌa a la ciudad pre-francista, y es testimonio de la  disposiciÛn de las calles antes que el Dr. Gaspar RodrÌguez de Francia  cuadriculara la ciudad.</p>
+                 <p>La CASA VIOLA tiene techo de tejas a dos aguas y una  galerÌa adelante, la herrerÌa es posterior y est· hecha sobre vigas y columnas  de madera. Antiguamente tenÌa tres grandes habitaciones, se puede ver en<br>
+                   el piso las marcas de las paredes que ya no se pueden reconstruir.  La ˙nica habitaciÛn que quedÛ intacta es la que est· ubicada frente al Palacio  de Gobierno, tiene atr·s una galerÌa corredor, que queda como<br>
+                   resabio de la &ldquo;culata yovai&rdquo; de la tipologÌa antigua de  las casas paraguayas. &nbsp;La estructura del techo est· hecha con palma y tacuarilla,  las tejas est·n montadas con una argamasa hecha con barro y sangre vacuna, que  era el elemento para homogeneizar la masa. </p>
+                 <p>Actualmente, en este sitio funciona el Museo Memoria de  la Ciudad que re˙ne textos, mapas, objetos, pinturas, gr·ficos y elementos cotidianos  de la vida de la ciudad de diversas Èpocas, que van<br>
+                   contando la historia de AsunciÛn desde su fundaciÛn  &nbsp;hasta nuestros dÌas.</p>
+                 <p>Este Museo, inaugurado el 14 de agosto de 1996, &nbsp;fue  estructurado pensando en los ninos y jÛvenes. Tiene una doble lectura: una a  travÈs de los hechos ocurridos desde su fundaciÛn y, otra, a partir de la<br>
+                   crÛnica de sus protagonistas. En el ano 2005, con los  auspicios de la Embajada de los Estados Unidos de AmÈrica, se realizÛ el proyecto  de conservaciÛn y restauraciÛn de su acervo. En el 2009 fueron incorporadas  cinco obras (pinturas al Ûleo) de artistas nacionales.</p>
+                 <p>El horario del Museo es el siguiente: lunes a viernes, de  8 a 20 h; s·bados y domingos, de 9 a 18 h. Entrada libre y gratuita. <br>
+                   En 1993 se termina la restauraciÛn de la segunda fase de  la Manzana de la Rivera, con la inauguraciÛn de las casas Clari, Clari Mestre, Vert˙a  y Emasa.</p>
                </div>
               </section>
               <!-- InstanceEndEditable --></div>  
     </section> 
   </section>
  
-  <footer id="pie">
-
-  </footer>  
+  <footer>
+     <nav id="menu-Logos">
+       <ul id="nav-logos">   
+          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
+          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
+          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
+          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="DiercciÛn de AcciÛn Cultural y Turismo"></a></li>
+      </ul>
+   </nav>
+  </footer> 
 
 </body>
 <!-- InstanceEnd --></html>

@@ -3,25 +3,26 @@
 /*calendario INDEX*/
 
 #calendar {
-    width: 535px;
-    min-height: 440px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
     padding: 0;
     margin: 0 auto;
     font: normal 12px;
     text-align: right;
     vertical-align: center;
-    display: inline;
+    display: inline-block;
 }
 
  
 #calendar h2 {
     margin: auto 0 10px;
-    padding: 0;
-    height: 30px;
+    line-height: 20px;
     width: 100%;
     background: #fff;
-    color: #91CD2E;     
-    font: bold 15px ;
+    color: #91CD2E;   
+    font-size: 18px;
     text-align: center;
     vertical-align: center;
 }
@@ -35,28 +36,32 @@
 }
 
 .dia {
-     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     float: left;
     width: 14.2857142857%;
     font: bold 11px/20px ;
     color: #fff;
-    margin: 0 0 5px 0;
+    margin: 0 0px 5px 0px;
     border-left:1px #91CD2E solid;
     border-right:1px #91CD2E solid;
     text-align: center;
     vertical-align: center;
+    font-size: 13px;
 }
 .celdas, .today a, .celdas, .today a:link, .today a:visited {
-    width: 85px;
-    height: 85px;
+    width: 13.6057142857%;
+    height: 41px;
+    padding: 1px;
+    margin: 1px;
     float: left;
-    padding: 3px 3px;
-    margin: 3px 2px 2px 3px;
     color: #333;
     background: #fff;
     border: solid #91CD2E 2px;
-     box-sizing: border-box;
+    -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 .event{
@@ -72,25 +77,22 @@
 }
 .celdas   {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 12px;
     display: block;
 }
 .celdas  a {
     text-decoration: none;
     display: block;
-    margin: 1px;
     position: relative;
 }
 
 .event a img {
-    position: relative;
-    top:5px;
-    right: 15px;
+    width: 90%;
+    position: absolute;
+    top:-10px;
+    left:0px;
 }
 .event a img:hover{
-    transform : scale(1.1);
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out;
+    width: 95 %;
 }
 

@@ -1,9 +1,11 @@
 <?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
 <!DOCTYPE html>
-<html lang="es"><?php $entidad="c81e7";?><!-- InstanceBegin template="/Templates/InstitutoMunicipalDeArte.dwt" codeOutsideHTMLIsLocked="false" -->
+<html lang="es"><!-- InstanceBegin template="/Templates/InstitutoMunicipalDeArte.dwt" codeOutsideHTMLIsLocked="false" -->
+<?php $entidad="c81e7";?>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>Instituto Musnicipal de Arte</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
+<title>Instituto Musnicipal de Arte</title> 
+	<link rel="icon" type="ico" href="imagenes/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -12,14 +14,14 @@
 
     <?php $noscript=true;include("ajax.inc.php");?>
 
-    <script src="sliderengine/jquery.js"></script>
-    <script src="sliderengine/amazingslider.js"></script>
-    <script src="sliderengine/initslider-1.js"></script>
+    <script src="banner/jquery.js"></script>
+    <script src="banner/amazingslider.js"></script>
+    <script src="banner/initslider-1.js"></script>
 
 </head>
 
 <body>
-   <!-- ******************************* ANALYTICS ******************************************* 
+   <!-- ******************************* ANALYTICS *******************************************  -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -30,46 +32,42 @@
           ga('send', 'pageview');
 
         </script>
-    ************************************************************************************* -->
- 
-  <section id="contenido">
+    <!-- *************************************************************************************  -->
     <header id="cabecera">
       <section id="logo-grupo">
-        <section id="logocult"><a href="beta-index.php"><img src="imagenes/logo-09.png" alt="Instituto municipal de arte de la ciudad de Asunci贸n" ></a></section>
-         
-        <section id="logoasu"> <a href="beta-index.php"><img src="imagenes/logo.png" alt="logo Asu" widt="120"></a></section>
 
-        <aside id="inicio">
-          <a href="beta-index.php"><strong>DGCyT</strong> Volver al inicio ></a>
-        </aside>
+            <section id="logocult"><a href="beta-index.php"><img src="imagenes/DGCT2.png" alt="Direccion General de Cultura y Turismo" ></a></section>
+            <section id="logoasu"> <a href="beta-index.php"> <img src="imagenes/Logo-Asu.png" alt="logo Asu"></a></section>
+            <section id="logoasurohayhu"> <a href="beta-index.php"> <img src="imagenes/Logo-Rohayhu-Asu.png" alt="logo Asu"></a></section>
+
+     
       </section>
 
-    </header>
+      
+
+</header>
+  <section id="contenido">
     <section id="banner">
 <!-- ******************************************************* -->
-
-      <div id="amazingslider-1">
-        <ul class="amazingslider-slides">
-            <li><img src="images/Foto-1-E.jpg" alt="Foto-1-E" /></li>
-            <li><img src="images/Foto-2-E.jpg" alt="Foto-2-E" /></li>
-            <li><img src="images/Foto-3-E.jpg" alt="Foto-3-E" /></li>
-            <li><img src="images/Foto-4-E.jpg" alt="Foto-4-E" /></li>
-          
+       
+   <div id="amazingslider-1">
+        <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="images/Foto-1.jpg" alt="Picaflor" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-2.jpg" alt="Panteon de los heroes" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-4.jpg" alt="Foto-4" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/la foto.JPG" alt="panteom de los heroes" data-description="Descripcion de la foto" /></li>
         </ul>
-      </div>
-   
+        <ul class="amazingslider-thumbnails" style="display:none; ">
+            <li><img src="images/Foto-1-tn.jpg" /></li>
+            <li><img src="images/Foto-2-tn.jpg" /></li>
+            <li><img src="images/Foto-4-tn.jpg" /></li>
+            <li><img src="images/la foto-tn.JPG" /></li>
+        </ul>
+    </div>
+       
+        
 <!-- ******************************************************* -->
-    </section>
-
-      <nav id="menu-logos">
-        <ul id="nav-logos">    
-          <li><a href="TeatroMunicipal.php"><img src="imagenes/logo-04.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercci贸n de Acci贸n Cultural y Turismo"></a></li>
-        </ul>
-      </nav>
+            </section>
 
     <section id="central">
       <div class="titulo"><h1>Instituto Municipal de Arte</h1></div>
@@ -91,39 +89,84 @@
              
       <div id="cont-central">
             <ul id="nav-inst"><!--
-              --><li class="col-2"><a href="#">EL IMA</a><!-- 
-                --><ul><!-- 
-                    --><li><a href="IMA-Resena-Historica.php">Rese帽a hist贸rica</a></li><!-- 
-                    --><li><a href="IMA-Mision-Vision.php">Misi贸n/Visi贸n</a></li><!-- 
-                --></ul><!-- 
-              --></li><!-- 
-              --><li class="col-2"><a href="IMA-Contacto.php">Contacto</a></li><!-- 
+              --><li class="col-4"><a href="IMA-Resena-Historica.php">Historia</a></li><!-- 
+              --><li class="col-4"><a href="IMA-Espacios.php">Espacios</a></li><!-- 
+              --><li class="col-4"><a href="IMA-Futura-Sede.php">Futura sede</a></li><!-- 
+              --><li class="col-4"><a href="IMA-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
         <nav id="botones-entidad">
-                <ul id="botones-entidad-nav">
-                    <li><a href="IMA-Escuela-de-Arte-Infantil.php">Escuela de Arte Infantil</a></li>
-                    <li><a href="IMA-Escuela-de-Arte-Dram谩tico.php">Escuela de Arte Dram谩tico</a></li>
-                    <li><a href="IMA-Escuela-de-Danza.php">Escuela de Danza</a></li>
-                    <li><a href="IMA-Conservatorio-de-M煤sica.php">Conservatorio de M煤sica</a></li>
-                    <li><a href="IMA-Escuela-de-Locuci贸n.php">Escuela de Locuci贸n</a></li>
-                    <li><a href="IMA-Escuela-de-Canto.php">Escuela de Canto</a></li>
-                    <li><a href="IMA-Taller-Teatro.php">Taller Teatro</a></li>
-                  
-                </ul>
+                  <ul id="botones-entidad-nav">
+                      <li><a href="IMA-Escuela-de-Arte-Infantil.php">Escuela de Arte Infantil</a><!--
+                      --><ul><!--
+                        --><li><a href="IMA-EAI-historia">Historia</a></li><!--
+                        --><li><a href="IMA-EAI-Contenido">Contenido</a></li><!--
+                        --><li><a href="IMA-EAI-Requisitos">Requisitos</a></li><!--
+                        --><li><a href="IMA-EAI-Ubicacion">Ubicaci&oacute;n</a></li><!--
+                      --></ul><!--
+                    --></li><!--
+                    --><li><a href="IMA-Escuela-de-Arte-Dram醫ico.php">Escuela de Arte Dram&aacute;tico</a><!--
+                      --><ul><!--
+                        --><li><a href="IMA-AD-historia">Historia</a></li><!--
+                        --><li><a href="IMA-AD-Contenido">Contenido</a></li><!--
+                        --><li><a href="IMA-AD-Requisitos">Requisitos</a></li><!--
+                        --><li><a href="IMA-AD-Ubicacion">Ubicaci&oacute;n</a></li><!--
+                      --></ul><!--
+                    --></li><!--
+                    --><li><a href="IMA-Escuela-de-Danza.php">Escuela de Danza</a><!--
+                      --><ul><!--
+                        --><li><a href="IMA-ED-historia">Historia</a></li><!--
+                        --><li><a href="IMA-ED-Contenido">Contenido</a></li><!--
+                        --><li><a href="IMA-ED-Requisitos">Requisitos</a></li><!--
+                        --><li><a href="IMA-ED-Ubicacion">Ubicaci&oacute;n</a></li><!--
+                      --></ul><!--
+                    --></li><!--
+                    --><li><a href="IMA-Conservatorio-de-M鷖ica.php">Conservatorio de M&uacute;sica</a><!--
+                      --><ul><!--
+                        --><li><a href="IMA-CM-historia">Historia</a></li><!--
+                        --><li><a href="IMA-CM-Contenido">Contenido</a></li><!--
+                        --><li><a href="IMA-CM-Requisitos">Requisitos</a></li><!--
+                        --><li><a href="IMA-CM-Ubicacion">Ubicaci&oacute;n</a></li><!--
+                      --></ul><!--
+                    --></li><!--
+                    --><li><a href="IMA-Escuela-de-Locuci髇.php">Escuela de Locuci&oacute;n</a><!--
+                      --><ul><!--
+                        --><li><a href="IMA-EL-historia">Historia</a></li><!--
+                        --><li><a href="IMA-EL-Contenido">Contenido</a></li><!--
+                        --><li><a href="IMA-EL-Requisitos">Requisitos</a></li><!--
+                        --><li><a href="IMA-EL-Ubicacion">Ubicaci&oacute;n</a></li><!--
+                      --></ul><!--
+                    --></li><!--
+                    --><li><a href="IMA-Escuela-de-Canto.php">Escuela de Canto</a><!--
+                      --><ul><!--
+                        --><li><a href="IMA-EC-historia">Historia</a></li><!--
+                        --><li><a href="IMA-EC-Contenido">Contenido</a></li><!--
+                        --><li><a href="IMA-EC-Requisitos">Requisitos</a></li><!--
+                        --><li><a href="IMA-EC-Ubicacion">Ubicaci&oacute;n</a></li><!--
+                      --></ul><!--
+                    --></li><!--
+                    --><li><a href="IMA-Taller-Teatro.php">Taller Teatro</a><!--
+                      --><ul><!--
+                        --><li><a href="IMA-TT-historia">Historia</a></li><!--
+                        --><li><a href="IMA-TT-Contenido">Contenido</a></li><!--
+                        --><li><a href="IMA-TT-Requisitos">Requisitos</a></li><!--
+                        --><li><a href="IMA-TT-Ubicacion">Ubicaci&oacute;n</a></li><!--
+                      --></ul><!--
+                    --></li><!--
+                --></ul>
 
                 <aside id="menu-social">
                   <ul id="nav-social">
                     <li><a href="mailto:direcciondeturismo@mca.gov.py"><img src="imagenes/email.png" width="45"></a></li>
                     <li><a href="https://www.facebook.com/CulturaAsu"><img src="imagenes/facebook.png" width="45"></a></li>
-                    <!--<li><a href="#"><img src="imagenes/twitter.png" width="45"></a></li>
+                    <li><a href="#"><img src="imagenes/twitter.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/skype.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/youtube.png" width="45"></a></li>
-                    <li><a href="#"><img src="imagenes/googleplus.png" width="45"></a></li> -->
+                    <li><a href="#"><img src="imagenes/googleplus.png" width="45"></a></li> 
                   </ul>
                 </aside>
-
               </nav>
+
         <!-- InstanceBeginEditable name="INFO" -->
        
                   <?php 
@@ -153,9 +196,17 @@
     </section> 
   </section>
  
-  <footer id="pie">
-
-  </footer>  
+  <footer>
+     <nav id="menu-Logos">
+       <ul id="nav-logos">   
+          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
+          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
+          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
+          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercci髇 de Acci髇 Cultural y Turismo"></a></li>
+      </ul>
+   </nav>
+  </footer>
 
 </body>
 <!-- InstanceEnd --></html>

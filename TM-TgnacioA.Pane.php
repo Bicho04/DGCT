@@ -1,10 +1,13 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?> 
 <!DOCTYPE html>
 <html lang="es"><!-- InstanceBegin template="/Templates/TeatroMunicipal.dwt" codeOutsideHTMLIsLocked="false" -->
+<?php $entidad="c4ca4";?>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
     <!-- InstanceBeginEditable name="doctitle" -->
     <title>Teatro Municioal Ignacio A. Pane</title> 
 	<!-- InstanceEndEditable -->
+    <link rel="icon" type="ico" href="imagenes/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -13,14 +16,14 @@
 
     <?php $noscript=true;include("ajax.inc.php");?>
 
-    <script src="sliderengine/jquery.js"></script>
-    <script src="sliderengine/amazingslider.js"></script>
-    <script src="sliderengine/initslider-1.js"></script>
+    <script src="banner/jquery.js"></script>
+    <script src="banner/amazingslider.js"></script>
+    <script src="banner/initslider-1.js"></script>
 
 </head>
 
 <body>
- <!-- ******************************* ANALYTICS ******************************************* 
+  <!-- ******************************* ANALYTICS *******************************************  -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
           (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -31,46 +34,42 @@
           ga('send', 'pageview');
 
         </script>
-    ************************************************************************************* -->
- 
-  <section id="contenido">
+    <!-- *************************************************************************************  -->
     <header id="cabecera">
       <section id="logo-grupo">
-        <section id="logocult"><a href="beta-index.php"><img src="imagenes/logo-04.png" alt="Teatro municipal Ig"></a></section>
-         
-        <section id="logoasu"> <a href="beta-index.php"><img src="imagenes/logo.png" alt="logo Asu" widt="120"></a></section>
 
-        <aside id="inicio">
-          <a href="beta-index.php"><strong>DGCyT</strong> Volver al inicio ></a>
-        </aside>
+            <section id="logocult"> <a href="beta-index.php"> <img src="imagenes/DGCT2.png" alt="Direccion General de Cultura y Turismo" ></a></section>
+            <section id="logoasu"> <a href="beta-index.php"> <img src="imagenes/Logo-Asu.png" alt="logo Asu"></a></section>
+            <section id="logoasurohayhu"> <a href="beta-index.php"> <img src="imagenes/Logo-Rohayhu-Asu.png" alt="logo Asu"></a></section>
 
+     
       </section>
 
-    </header>
+      
+
+</header>
+  <section id="contenido">
     <section id="banner">
 <!-- ******************************************************* -->
-
-      <div id="amazingslider-1">
-        <ul class="amazingslider-slides">
-            <li><img src="images/Foto-1-E.jpg" alt="Foto-1-E" /></li>
-            <li><img src="images/Foto-2-E.jpg" alt="Foto-2-E" /></li>
-            <li><img src="images/Foto-3-E.jpg" alt="Foto-3-E" /></li>
-            <li><img src="images/Foto-4-E.jpg" alt="Foto-4-E" /></li>
+       
+   <div id="amazingslider-1">
+        <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="images/Foto-1.jpg" alt="Picaflor" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-2.jpg" alt="Panteon de los heroes" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-4.jpg" alt="Foto-4" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/la foto.JPG" alt="panteom de los heroes" data-description="Descripcion de la foto" /></li>
         </ul>
-      </div>
-   
+        <ul class="amazingslider-thumbnails" style="display:none; ">
+            <li><img src="images/Foto-1-tn.jpg" /></li>
+            <li><img src="images/Foto-2-tn.jpg" /></li>
+            <li><img src="images/Foto-4-tn.jpg" /></li>
+            <li><img src="images/la foto-tn.JPG" /></li>
+        </ul>
+    </div>
+       
+        
 <!-- ******************************************************* -->
-    </section>
-
-      <nav id="menu-logos">
-        <ul id="nav-logos">    
-          <li><a href="TeatroMunicipal.php"><img src="imagenes/logo-04.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
-        </ul>
-      </nav>
+            </section>
 
     <section id="central">
       <div class="titulo"><h1>Teatro Municipal Ignacio A. Pane</h1></div>
@@ -92,49 +91,40 @@
              
       <div id="cont-central">
             <ul id="nav-inst"><!--
-              --><li class="col-5"><a href="#">Teatro Municipal</a><!-- 
-                --><ul><!--
-                  --><li><a href="TM-historia.php">Historia</a></li><!-- 
-                  --><li><a href="TM-organigrama.php">Organigrama</a></li><!-- 
-                  --><li><a href="TM-sala.php">Salas</a><!--
-                    --><ul><!-- 
-                          --><li><a href="TM-TgnacioA.Pane.php">Ignacio A. Pane</a></li><!-- 
-                          --><li><a href="TM-Baudio-Alio.php">Baudilio Alio</a></li><!-- 
-                          --><li><a href="TM-Jacinto-Herrera.php">Jacinto Herrera</a></li><!-- 
-                          --><li><a href="TM-Integrantes.php">Integrantes</a></li><!--
-                    --></ul><!-- 
-                  --></li><!--
-                  --></ul><!-- 
-              --></li><!-- 
-              --><li class="col-5"><a href="#">OSCA</a><!--
+              --><li class="col-3"><a href="TM-historia.php">Historia</a></li><!--
+              --><li class="col-3"><a href="TM-sala.php">Escacios</a><!--
                 --><ul><!-- 
-                    --><li><a href="TM-OSCA-Historia.php">Historia</a></li><!-- 
-                    --><li><a href="TM-OSCA-Luis-Zsaran.php">Luis Zsaran</a></li><!--
-                    --><li><a href="TM-OSCA-Integrantes.php">Integrantes</a></li><!--
+                    --><li><a href="TM-TgnacioA.Pane.php">Ignacio A. Pane</a></li><!-- 
+                    --><li><a href="TM-Baudio-Alio.php">Baudilio Alio</a></li><!-- 
+                    --><li><a href="TM-Jacinto-Herrera.php">Jacinto Herrera</a></li><!-- 
                 --></ul><!-- 
               --></li><!-- 
-              --><li class="col-5"><a href="#">OCMA</a><!--
-              	--><ul><!-- 
-                	--><li><a href="TM-OCMA-Historia.php">Historia</a></li><!--  
-                    --><li><a href="TM-OCMA-Director.php">Biografia del direcctor</a></li><!-- 
-              		--><li><a href="TM-OCMA-Integrantes.php">Integrantes</a></li><!--
-                --></ul><!-- 
-              --></li><!-- 
-              
-              --><li class="col-5"><a href="#">Ballet Municipal</a><!-- 
-                --><ul><!-- 
-                    --><li><a href="TM-BM-historia.php">Historia</a></li><!-- 
-                --></ul><!-- 
-              --></li><!--
-              --><li class="col-5"><a href="TM-Contactos.php">Contactos</a></li><!-- 
+              --><li class="col-3"><a href="TM-Contactos.php">Contactos</a></li><!-- 
            --></ul>
 
         <nav id="botones-entidad">
                 <ul id="botones-entidad-nav">
-                    <li><a href="TM-.php">OSCA</a></li>
-                    <li><a href="TM-.php">Ballet</a></li>
-                    <li><a href="TM-.php">Sala </a></li>
-                    <li><a href="TM-.php">Sala Baudilio</a></li>
+                    <li><a href="#">OSCA</a>
+                      <ul> 
+                        <li><a href="TM-OSCA-Historia.php">Historia</a></li>  
+                        <li><a href="TM-OSCA-Director.php">Direcctor</a></li> 
+                        <li><a href="TM-OSCA-Integrantes.php">Integrantes</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">OCMA</a>
+                      <ul> 
+                        <li><a href="TM-OCMA-Historia.php">Historia</a></li>  
+                        <li><a href="TM-OCMA-Director.php">Direcctor</a></li> 
+                        <li><a href="TM-OCMA-Integrantes.php">Integrantes</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="#">Ballet Cl&aacute;sico y Folcl&oacute;rico Municipal</a>
+                      <ul> 
+                        <li><a href="TM-BCYFM-Historia.php">Historia</a></li>  
+                        <li><a href="TM-BCYFM-Director.php">Direcctor</a></li> 
+                        <li><a href="TM-BCYFM-Integrantes.php">Integrantes</a></li>
+                      </ul>
+                    </li>
                 </ul>
 
                 <aside id="menu-social">
@@ -152,7 +142,7 @@
               <!-- InstanceBeginEditable name="INFO" -->Sala
               <section id="cont-info"><div class="info"><h3>&nbsp;</h3>
                  <h2>Ignacio A. Pane</h2>
-                     <p>El salón principal, con capacidad para 600  personas (600 butacas). La sala se divide en: Platea, Palcos Vip, Palco  Tertulia y Palco Paraíso. Además cuenta cuatro camerinos individuales con baños  privados y dos camerinos colectivos. El mismo posee 12 varas totalmente  computarizadas para subir y bajar escenografías y telones panorámicos. También  cuenta con una sala de luces y sonido totalmente equipada. </p>
+                     <p>El sal�n principal, con capacidad para 600  personas (600 butacas). La sala se divide en: Platea, Palcos Vip, Palco  Tertulia y Palco Para�so. Adem�s cuenta cuatro camerinos individuales con banos  privados y dos camerinos colectivos. El mismo posee 12 varas totalmente  computarizadas para subir y bajar escenograf�as y telones panor�micos. Tambi�n  cuenta con una sala de luces y sonido totalmente equipada. </p>
                    
                  </ul>
                  <p>&nbsp;</p>
@@ -162,9 +152,17 @@
     </section> 
   </section>
  
-  <footer id="pie">
-
-  </footer>  
+  <footer>
+     <nav id="menu-Logos">
+       <ul id="nav-logos">   
+          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
+          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
+          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
+          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercci�n de Acci�n Cultural y Turismo"></a></li>
+      </ul>
+   </nav>
+  </footer>
 
 </body>
 <!-- InstanceEnd --></html>

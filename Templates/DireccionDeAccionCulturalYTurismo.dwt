@@ -1,8 +1,11 @@
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?> 
 <!DOCTYPE html>
 <html lang="es">
+<?php $entidad="e4da3  ";?>
 <head>
-    <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>Diercci贸n de Acci贸n Cultural y Turismo</title> 
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
+<title>Diercci&oacute;n de Acci&oacute;n Cultural y Turismo</title> 
+	<link rel="icon" type="ico" href="imagenes/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -11,9 +14,9 @@
  
     <?php $noscript=true;include("ajax.inc.php");?>
 
-    <script src="sliderengine/jquery.js"></script>
-    <script src="sliderengine/amazingslider.js"></script> 
-    <script src="sliderengine/initslider-1.js"></script>
+    <script src="banner/jquery.js"></script>
+    <script src="banner/amazingslider.js"></script>
+    <script src="banner/initslider-1.js"></script>
 
 </head>
 
@@ -30,49 +33,44 @@
 
         </script>
     <!-- *************************************************************************************  -->
- 
-  <section id="contenido">
     <header id="cabecera">
       <section id="logo-grupo">
 
-            <section id="logocult"> <a href="beta-index.php"> <img src="imagenes/DGCT2.png" alt="Direccion General de Cultura y Turismo" ></a></section>
+            <section id="logocult"><a href="beta-index.php"><img src="imagenes/DGCT2.png" alt="Direccion General de Cultura y Turismo" ></a></section>
             <section id="logoasu"> <a href="beta-index.php"> <img src="imagenes/Logo-Asu.png" alt="logo Asu"></a></section>
             <section id="logoasurohayhu"> <a href="beta-index.php"> <img src="imagenes/Logo-Rohayhu-Asu.png" alt="logo Asu"></a></section>
 
-
-        <aside id="inicio">
-          <a href="beta-index.php"><strong>DGCyT</strong> Volver al inicio ></a>
-        </aside>
+     
       </section>
 
-    </header>
+      
+
+</header>
+  <section id="contenido">
     <section id="banner">
 <!-- ******************************************************* -->
-
-      <div id="amazingslider-1">
-        <ul class="amazingslider-slides">
-            <li><img src="images/Foto-1-E.jpg" alt="Foto-1-E" /></li>
-            <li><img src="images/Foto-2-E.jpg" alt="Foto-2-E" /></li>
-            <li><img src="images/Foto-3-E.jpg" alt="Foto-3-E" /></li>
-            <li><img src="images/Foto-4-E.jpg" alt="Foto-4-E" /></li>
+       
+   <div id="amazingslider-1">
+        <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="images/Foto-1.jpg" alt="Picaflor" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-2.jpg" alt="Panteon de los heroes" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/Foto-4.jpg" alt="Foto-4" data-description="Descripcion de la foto" /></li>
+            <li><img src="images/la foto.JPG" alt="panteom de los heroes" data-description="Descripcion de la foto" /></li>
         </ul>
-      </div>
-   
+        <ul class="amazingslider-thumbnails" style="display:none; ">
+            <li><img src="images/Foto-1-tn.jpg" /></li>
+            <li><img src="images/Foto-2-tn.jpg" /></li>
+            <li><img src="images/Foto-4-tn.jpg" /></li>
+            <li><img src="images/la foto-tn.JPG" /></li>
+        </ul>
+    </div>
+       
+        
 <!-- ******************************************************* -->
-    </section>
-
-      <nav id="menu-logos">
-        <ul id="nav-logos">    
-          <li><a href="TeatroMunicipal.php"><img src="imagenes/logo-04.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/logo-09.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/logo-03.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/logo-01.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/logo-07.png" alt="Diercci贸n de Acci贸n Cultural y Turismo"></a></li>
-        </ul>
-      </nav>
+            </section>
 
     <section id="central">
-      <div class="titulo"><h1>Dirercci贸n de Acci贸n Cultural y Turismo</h1></div>
+      <div class="titulo"><h1>Dirercci&oacute;n de Acci&oacute;n Cultural y Turismo</h1></div>
       <ul class="hovercal">
         <li>
           <div class="titulo2">Ver Calendario</div>
@@ -98,21 +96,21 @@
 
         <nav id="botones-entidad">
                 <ul id="botones-entidad-nav">
-                    <li><a href="#">Banda Folcl贸rico Municipal</a>
+                    <li><a href="#">Banda Folcl&oacute;rico Municipal</a>
                       <ul> 
                         <li><a href="DACT-Banda-folclorico-municipal-Historia.php">Historia</a></li>  
                         <li><a href="DACT-Banda-folclorico-municipal-Director.php">Direcctor</a></li> 
                         <li><a href="DACT-Banda-folclorico-municipal-Integrantes.php">Integrantes</a></li>
                       </ul>
                     </li>
-                    <li><a href="#">Ballet Folcl贸rico Municipal</a>
+                    <li><a href="#">Ballet Folcl&oacute;rico Municipal</a>
                       <ul> 
                         <li><a href="DACT-Ballet-folclorico-municipal-Historia.php">Historia</a></li>  
                         <li><a href="DACT-Ballet-folclorico-municipal-Director.php">Direcctor</a></li> 
                         <li><a href="DACT-Ballet-folclorico-municipal-Integrantes.php">Integrantes</a></li>
                       </ul>
                     </li>
-                    <li><a href="#">Conjunto Folcl贸rico Municipal</a>
+                    <li><a href="#">Conjunto Folcl&oacute;rico Municipal</a>
                       <ul> 
                         <li><a href="DACT-Conjunto-folclorico-municipal-Historia.php">Historia</a></li>  
                         <li><a href="DACT-Conjunto-folclorico-municipal-Director.php">Direcctor</a></li> 
@@ -122,9 +120,9 @@
                     <li><a href="DACT-Evento-Turismo.php">Evento y Turismo</a></li>
                     <li><a href="#">Plazas tematicas</a>
                       <ul>
-                        <li1><a href="DACT-Plaza-Uruguaya.php">Plaza Uruguaya</a></li1>
-                        <li2><a href="DACT-Plaza-Italia.php">Plaza Italia</a></li2>
-                        <li3><a href="DACT-Plaza-Infante Rivarola.php">Plaza Infante Rivarola</a></li3>
+                        <li><a href="DACT-Plaza-Uruguaya.php">Plaza Uruguaya</a></li>
+                        <li><a href="DACT-Plaza-Italia.php">Plaza Italia</a></li>
+                        <li><a href="DACT-Plaza-Infante Rivarola.php">Plaza Infante Rivarola</a></li>
                       </ul>
                     </li>
                   
@@ -160,7 +158,7 @@
           <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
           <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
           <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercci贸n de Acci贸n Cultural y Turismo"></a></li>
+          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercci髇 de Acci髇 Cultural y Turismo"></a></li>
       </ul>
    </nav>
   </footer> 

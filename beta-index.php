@@ -136,47 +136,43 @@
             </section>
             
             <section id="col-der">
-            <section id="cuadros">
+                <section id="cuadros">
 
-                <figure class="puerta x L">
-                  <figcaption class="R">Donde Dormir</figcaption>
-                  <img src="#" alt="">
-                </figure>
+                    <figure class="puerta x L">
+                      <figcaption class="R">Donde Dormir</figcaption>
+                      <img src="#" alt="">
+                    </figure>
 
-                <figure class="puerta y R">
-                  <figcaption><span>Donde Comer</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                  <a href="#">#fugiat ipsam incidunt omnis</a>
-                  </figcaption>
-                  <img src="#" alt="">
-                </figure>
+                    <figure class="puerta y R">
+                      <figcaption><span>Donde Comer</span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                      <a href="#">#fugiat ipsam incidunt omnis</a>
+                      </figcaption>
+                      <img src="#" alt="">
+                    </figure>
 
-                <figure class="puerta x L">
-                  <figcaption class="L">Vivi la Ciudad COmo turista</figcaption>
-                  <img src="#" alt="">
-                </figure>
-
-            </section>
-                <section id="calendario">
-
-                    <h1><b>Agenda de Asunci&oacute;n</b></h1>
-
-                    <div id="calendar">
-                        
-                        <?php include("calendario.inc.php");?>
-                        
-                    </div>
+                    <figure class="puerta x L">
+                      <figcaption class="L">Vivi la Ciudad Como Turista</figcaption>
+                      <img src="#" alt="">
+                    </figure>
 
                 </section>
 
-                    <nav id="menu-temas">
-                        <ul id="nav-temas">
-                            <h2>Buscar por tema</h2>
-                            <?php include_once("listar.temas.inc.php");?>
-                        </ul>
-                    </nav> 
+                <section id="menu-temas">
+                        <h2>Buscar por tema</h2>
+                    <ul id="nav-temas">
+                        <?php include_once("listar.temas.inc.php");?>
+                    </ul>
+                </section> 
                     
+                <section id="calendario">
+                    <h1><b>Agenda de Asunci&oacute;n</b></h1>
+                    <div id="calendar">
+                        <?php include("calendario.inc.php");?>
+                    </div>
+                </section>
 
-            <section id="Turismo">
+
+                <section id="Turismo">
                     <form class="form">
                         <h3>&iexcl;Recibí en tu correo todas las actividades de la Ciudad de Asunci&oacute;n!</h3>
                         <p class="name">
@@ -190,21 +186,20 @@
                             <input type="submit" value="ENVIAR" />
                         </p>
                     </form>
+                </section>
+
+        
             </section>
-
-          
-
-        </section>
         </section>
 
         <footer>
            <nav id="menu-Logos">
              <ul id="nav-logos">   
-                <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-                <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
-                <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
-                <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
-                <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+                <li><a href="TeatroMunicipal.php"><img src="imagenes/BW-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
+                <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/BW-IMA.png" ></a></li>
+                <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/BW-Manzana.png" ></a></li>
+                <li><a href="CentroParaguayoJapones.php"><img src="imagenes/BW-CPJ.png" ></a></li>
+                <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/BW-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
             </ul>
          </nav>
         </footer>
