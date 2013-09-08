@@ -91,7 +91,7 @@
             <ul id="nav-inst"><!--
               --><li class="col-3"><a href="MdlR-historia.php">Historia</a></li><!-- 
               --><li class="col-3"><a href="#">Las casas de la Manzana</a><!-- 
-                --><ul><!--  
+                --><ul class="col-3"><!--  
                     --><li><a href="MdlR-C-Viola.php">Casa Viola</a></li><!-- 
                     --><li><a href="MdlR-C-Clari.php">Casa Clari</a></li><!--  
                     --><li><a href="MdlR-C-Clari-Mestre.php">Casa Clari-Mestre</a></li><!--  
@@ -99,7 +99,8 @@
                     --><li><a href="MdlR-C-Emesa.php">Casa Emesa</a></li><!--  
                     --><li><a href="MdlR-C-Castelvi.php">Casa Castelv&iacute;</a></li><!--  
                     --><li><a href="MdlR-C-Serra.php">Casa Serra I y II</a></li><!--  
-                    --><li><a href="MdlR-p-Leonor.php">Patio Leonor</a></li><!--  
+                    -->
+            <li><a href="MdlR-p-Leonor.php">Patio Leonor</a></li><!--  
                     --><li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li><!--  
                     --><li><a href="MdlR-C-GarciaLorca.php">La Sala Garc&iacute;a Lorca</a></li><!--  
                 --></ul><!-- 
@@ -169,14 +170,14 @@
   <footer>
      <nav id="menu-Logos">
        <ul id="nav-logos">   
-          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li class="logoentidad"><a class="TeatroMunicipal" href="TeatroMunicipal.php"></a></li>
+          <li class="logoentidad"><a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a></li>
+          <li class="logoentidad"><a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a></li>
+          <li class="logoentidad"><a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a></li>
+          <li class="logoentidad"><a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a></li>
       </ul>
    </nav>
-  </footer> 
+  </footer>
 
 </body>
 <!-- InstanceEnd --></html>

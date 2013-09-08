@@ -92,9 +92,9 @@
       <div id="cont-central">
             <ul id="nav-inst"><!--
               --><li class="col-3"><a href="TM-historia.php">Historia</a></li><!--
-              --><li class="col-3"><a href="TM-sala.php">Escacios</a><!--
-                --><ul><!-- 
-                    --><li><a href="TM-TgnacioA.Pane.php">Ignacio A. Pane</a></li><!-- 
+              --><li class="col-3"><a href="#">Espacios</a><!--
+                --><ul class="col-3"><!-- 
+                    --><li><a href="TM-IgnacioA.Pane.php">Ignacio A. Pane</a></li><!-- 
                     --><li><a href="TM-Baudio-Alio.php">Baudilio Alio</a></li><!-- 
                     --><li><a href="TM-Jacinto-Herrera.php">Jacinto Herrera</a></li><!-- 
                 --></ul><!-- 
@@ -142,12 +142,17 @@
               <!-- InstanceBeginEditable name="INFO" -->
               <section id="cont-info">
                 <div class="info">
-                 <h3>Resena Historica</h3>
-                 <h2>Orquesta Sinfónica de la Ciudad de Asunción</h2>
-                 <p>La primera referencia acerca de la existencia de orquestas en el Paraguay data del ano 1945, con la formación de un grupo musical integrado por los espanoles Juan de Xara, Gregorio de Acosta y otros. Luego de este periodo se destacan las experiencias de los Jesuitas, quienes organizaron orquestas y coros conformados por indígenas en las célebres reducciones. Y que alcanzaron niveles extraordinarios. En tiempos de la independencia (1881 en adelante) florecieron conjuntos musicales populares que entonaban los primeros aires con acento nacional derivados de la música espanola, además de las bandas de música impulsadas principalmente por instituciones militares. A mediados de la década de 1850, el gobierno de Don Carlos Antonio López contrata, con rango de ministro, al músico francés Francisco Sauvageot de Dupuis, para la creación de escuelas y bandas de música, llegando en pocos anos a consolidar unas treinta agrupaciones.-</p>
-                 <p> Esporádicamente se conformaban grupos orquestales para actuar junto a companías de zarzuelas espanolas y óperas italianas que visitaban el país hacia fines del siglo. El Semanario del 9 de mayo de 1863, refería: &quot;siguen con notables adelantos las lecciones de la nueva orquesta que esta bajo la dirección del joven inteligente Cantalicio Guerrero, sargento de la banda de música de Dragones&quot;. En 1980 se creo la orquesta nacional dirigida por el citado Guerrero, gozando de apoyo estatal. Esta agrupación de cuarenta músicos participaba en las representaciones líricas del teatro nacional.-</p>
-                    <p>Con el correr de los anos se organizaban agrupaciones orquestales de menores dimensiones, y también de efímera existencia con el apoyo de entidades culturales como el Instituto Paraguayo, el Gimnasio Paraguayo con la dirección de Nicolino Pellegrini, Fernando Centurión y otros. En 1912 se creó la Banda de Músicos de la Policía de la Capital, institución que suplió durante décadas la falta de una orquesta sinfónica estable a través de sus célebres retretas (conciertos al aire libre en plazas públicas). En 1928 Remberto Giménez organizó la primera orquesta sinfónica, de vida breve y presentaciones esporádicas. En 1945, bajo propuesta del Concejal Municipal Honorio Campuzano, se creo la Orquesta Sinfónica de Asunción, dependiente del municipio capitalino, pero sin lograrse su puesta en ejecución. Igual, su situación se debatió ese ano en el Parlamento para la creación de la Orquesta Sinfónica Nacional, proyecto truncado por los sucesos políticos del momento. Luego de numerosos intentos la Asociación de Músicos del Paraguay creó la Orquesta Folklórica, convertida a partir de 1950 en la Orquesta Sinfónica de la AMP, con históricas actuaciones bajo la dirección de Carlos Lara Bareiro. En 1957 siendo Intendente Municipal de Asunción el Ing. Nicolás de Bari Flecha, se creo la Orquesta Sinfónica de la Ciudad de Asunción (OSCA), su primer director fue Remberto Giménez hasta 1973, luego Florentín Jiménez hasta 1990 y en la actualidad Luis Szarán. En los últimos anos, mediante un convenio entre la Municipalidad de Asunción y la Sociedad Filarmónica de Asunción, esta última institución cultural sin fines de lucro, asumió la responsabilidad de organizar, administrar y promocionar las actividades de la OSCA.-</p>
-                </div>
+                <h3>Resena Historica</h3>
+                <h2>Orquesta de Camara de la Ciudad de Asunción</h2>
+                <p>La OCMA es dependiente del Teatro Municipal y de la Dirección General de Cultura y Turismo de la Municipalidad de Asunción, y cuenta con el apoyo de la Sociedad Filarmónica de Asunción, organización sin fines de lucro encargada de gestionar proyectos de desarrollo cultural de la orquesta para contribuir con su mejoramiento técnico y artístico.</p>
+
+                <p>Entre los objetivos de la Orquesta de Cámara Municipal de Asunción se destaca la difusión de la música de cámara, especialmente la música antigua, la barroca, la clásica, así como la música paraguaya.</p>
+
+                <p>Está compuesta por 18 músicos, siendo su actual Director el maestro Miguel Ángel Echeverría. La OCMA es la precursora de la Orquesta Sinfónica y está conformada por instrumentos de cuerdas (violín, violas, violoncellos y contrabajos). Además cuenta con flauta y clarinete (ambos instrumentos de viento) utilizados en la interpretación de obras que los requieran, especialmente la música paraguaya a la cual le da un colorido especial.</p>
+
+                <p>La OCMA cada año presenta una Temporada cultural intensa que está compuesta por el Ciclo de Conciertos de Temporada,   seis conciertos en forma mensuales de junio, con la presencia de directores y solistas nacionales e internacionales, realizados en la Sala Manuel de Falla del Centro Cultural de España “Juan de Salazar” y el Ciclo de Conciertos de Extensión Cultural en los barrios (centros educativos, parroquias, polideportivos, clubes sociales, universidades entre otros). Este ciclo de carácter popular va dirigido a niños, jóvenes y  la familia en general, ya que en forma didáctica son presentados las distintas obras que componen el repertorio de la Orquesta. Ambos ciclos son de acceso libre y gratuito, como una forma de facilitar a la ciudadanía el acceso a importantes  manifestaciones culturales en el ámbito musical.</p>
+
+                 </div>
               </section>
               <!-- InstanceEndEditable --></div>  
     </section> 
@@ -156,11 +161,11 @@
   <footer>
      <nav id="menu-Logos">
        <ul id="nav-logos">   
-          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li class="logoentidad"><a class="TeatroMunicipal" href="TeatroMunicipal.php"></a></li>
+          <li class="logoentidad"><a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a></li>
+          <li class="logoentidad"><a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a></li>
+          <li class="logoentidad"><a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a></li>
+          <li class="logoentidad"><a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a></li>
       </ul>
    </nav>
   </footer>

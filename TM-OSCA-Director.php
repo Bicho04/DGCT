@@ -92,9 +92,9 @@
       <div id="cont-central">
             <ul id="nav-inst"><!--
               --><li class="col-3"><a href="TM-historia.php">Historia</a></li><!--
-              --><li class="col-3"><a href="TM-sala.php">Escacios</a><!--
-                --><ul><!-- 
-                    --><li><a href="TM-TgnacioA.Pane.php">Ignacio A. Pane</a></li><!-- 
+              --><li class="col-3"><a href="#">Espacios</a><!--
+                --><ul class="col-3"><!-- 
+                    --><li><a href="TM-IgnacioA.Pane.php">Ignacio A. Pane</a></li><!-- 
                     --><li><a href="TM-Baudio-Alio.php">Baudilio Alio</a></li><!-- 
                     --><li><a href="TM-Jacinto-Herrera.php">Jacinto Herrera</a></li><!-- 
                 --></ul><!-- 
@@ -142,22 +142,12 @@
               <!-- InstanceBeginEditable name="INFO" -->
               <section id="cont-info">
                 <div class="info">
-                 <h3>MIGUEL ANGEL ECHEVERRIA</h3>
+                 <h3>LUIS SZARAN</h3>
                  <h2>Director OCMA</h2>
-                 <p>Director de  Orquesta, violinista y violista, es también autor de varias obras de aires  nacionales estrenadas con la OSCA  y la OCM. Realizó  estudios de perfeccionamiento de violín y viola en la Facultad de Música de la Universidad de Laval  de Québec (Canadá) durante dos anos, donde también  cursó otros estudios musicales. En varias  ocasiones actuó con la   Orquesta Sinfónica de Québec y la Orquesta de Cámara del  maestro André Martin.<br>
-                   A su  regreso a Paraguay, fue invitado a ingresar en la Orquesta Sinfónica  y la Orquesta  de Cámara del Estado de Paraíba (Brasil) donde permaneció por dos anos,  matriculándose en la Facultad  de Música de Paraíba, donde siguió estudios de perfeccionamiento de armonía,  contrapunto, arreglos orquestales y dirección orquestal. Entre 1989 y 1990 se  desempenó como Director del Conservatorio Municipal de Música de Asunción,  creando la primera Orquesta Juvenil de la Institución. Fue  el primer director del Conservatorio Amati de Filadelfia (Chaco Paraguayo). En  1992 actuó con Philomúsica en la Expo-Sevilla (Espana). En 1993 fue invitado a  integrar y dirigir la   Orquesta Sinfónica y de Cámara de Hutchinson, Kansas (Estados  Unidos). Ese mismo ano se presenta en el Centro Cultural San Martín de Buenos  Aires (Argentina).<br>
-                   Fue el  primer presidente de Juventudes Musicales del Paraguay. Es concertino de la Orquesta Sinfónica  de la Ciudad  de Asunción (OSCA) y Director Titular de la Orquesta de Cámara Municipal (OCM).<br>
-                   Ha  realizado varias grabaciones fonográficas como solista, arreglador o director  de orquesta. Es formador de varios jóvenes violinistas.<br>
-                   En 1999 fue  invitado por la   Symphonicum Europae Fundation, para integrar la gran Orquesta  Sinfónica con más de 100 músicos provenientes de 50 países para ofrecer el 'Concierto  del Milenio' en el<br>
-                   Lincoln  Center de Nueva York, bajo la dirección del maestro Piero Gamba.<br>
-                   Desde el  ano 2002 se desempena como profesor itinerante del proyecto 'Sonidos de la Tierra'.<br>
-                   En el ano 2003 ha sido galardonado  con el premio 'Oscar Trinidad'.<br>
-                   En el ano  2004 presentó el primer disco compacto de la Orquesta de Cámara  Municipal.<br>
-                   En el ano  2006 fue declarado 'Hijo Dilecto de la Ciudad de Asunción' por la Junta Municipal.<br>
-                   En febrero  del 2009 fue invitado como solista de violín por la Orquesta Sinfónica  de la Universidad  de Saint Louis, Missouri, dirigida por el maestro León Burke III y la Saint Louis Civic  Orchestra dirigida por Edward Dolbashian.<br>
-                   Actualmente  es Vice-Presidente de Autores Paraguayos Asociados (APA) y docente de la Facultad de Música de la Universidad Evangélica  del Paraguay.<br>
-                   En  el ano 2010 ha colaborado de la Orquesta de Cuerdas de la ciudad de  Formosa  Argentina.<br>
-                  En el 2011 fue distinguido  por&nbsp;la Universidad Evangélica&nbsp;del Paraguay con el título de &ldquo;DR.  HONORIS CAUSA&rdquo; por su larga y fructífera labor docente, así como su importante  apoyo por quince anos ininterrumpidos a&nbsp;la Facultad&nbsp;de Música del  CEMTA (Centro de Estudios Teológicos Menonitas de Asunción).</p>
+                 <img src="imagenes/fotos/luisSzaran.JPG" alt="Luis Szaran" class="central">
+                 <p>Estudió música en Asunción con José Luis Miranda, luego en el Conservatorio de Santa Cecilia, Roma con Massimo Pradella y Piero Belluggi. Se perfeccionó en cursos internacionales como: Teatro Colón de Buenos Aires con Hans Swarowsky, Academia Chigiana de Siena  con Franco Ferrara, Instituto Francesco Cannetti con Luciano Berio, Bayreuth con Zwinieg Rudzinsky y otros. Desde 1990 es director titular de la Orquesta Sinfónica de la Ciudad de Asunción (OSCA) y director de la Orquesta de Cámara Philomusica de Asunción. Dirigió prestigiosas orquestas en el mundo como: Orquesta Sinfónica de Sao Paulo, Orquesta Sinfónica de Santiago, Orquesta de la Comunidad de Madrid, Nueva Filarmónica de Hamburgo; South East Symphony, Hutchinson Symphony y Lawrence Chambers Players de Estados Unidos; Orquesta Nacional de Cámara del Uruguay, Orquesta de Cámara Mayo de Buenos Aires, Cappella Civica de Trieste, Italia, Orquesta Filarmónica de Valencia, España, Orquesta Sinfonietta de Paris, Orquesta Filarmónica Polaca y otras. Fue director artístico del Festival Internacional de Música de Cascavel, Brasil entre 1990 y 1995. En recientes temporadas sus composiciones fueron estrenadas por la Orquesta Sinfonietta de Paris, La Orquesta Sinfónica de Berlin y la Orquesta Filarmónica de Venecia. En el año 2002 recibió la Medalla Vivaldi del Festival Internacional de Venecia, siendo el primer compositor latinoamericano y quinto en el mundo en recibirla. Desde 1997 es Director Artístico del grupo vocal e instrumental Ensamble Zipoli de Venecia. Por su labor en la cultura recibió numerosos premios y reconocimientos nacionales e internacionales entre los que se incluyen: Caballero Oficial de la República Italiana, Orden de la Ciencia y las Letras de Francia, Orbis Guaraníticus de la UNESCO, Orden Nacional del Mérito del Paraguay, forma parte de la galería de “Maestros del Arte” del Gongreso Nacional. Es miembro correspondiente de la Real Academia Española de la Historia. En el 2005, en la Universidad de Oxford recibió el galardón “Skoll Award for Social Entrepreneurship” de la Fundación Skoll de California, por su labor al frente del programa de educación cívica a través de la música: Sonidos de la Tierra. Desde el 2006 es director fundador de la Orquesta Mundial “Weltweite Klänge” en Nurenberg, Alemania. </p>
+
+
 </div>
               </section>
               <!-- InstanceEndEditable --></div>  
@@ -167,11 +157,11 @@
   <footer>
      <nav id="menu-Logos">
        <ul id="nav-logos">   
-          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li class="logoentidad"><a class="TeatroMunicipal" href="TeatroMunicipal.php"></a></li>
+          <li class="logoentidad"><a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a></li>
+          <li class="logoentidad"><a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a></li>
+          <li class="logoentidad"><a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a></li>
+          <li class="logoentidad"><a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a></li>
       </ul>
    </nav>
   </footer>

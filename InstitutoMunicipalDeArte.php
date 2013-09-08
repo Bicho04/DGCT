@@ -1,4 +1,4 @@
-<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?>
+<?php header('Content-Type: text/html; charset=ISO-8859-15'); ?> 
 <!DOCTYPE html>
 <html lang="es"><!-- InstanceBegin template="/Templates/InstitutoMunicipalDeArte.dwt" codeOutsideHTMLIsLocked="false" -->
 <?php $entidad="c81e7";?>
@@ -96,102 +96,81 @@
            --></ul>
 
         <nav id="botones-entidad">
-                  <ul id="botones-entidad-nav">
-                      <li><a href="IMA-Escuela-de-Arte-Infantil.php">Escuela de Arte Infantil</a><!--
-                      --><ul><!--
-                        --><li><a href="IMA-EAI-historia">Historia</a></li><!--
-                        --><li><a href="IMA-EAI-Contenido">Contenido</a></li><!--
-                        --><li><a href="IMA-EAI-Requisitos">Requisitos</a></li><!--
-                        --><li><a href="IMA-EAI-Ubicacion">Ubicaci&oacute;n</a></li><!--
-                      --></ul><!--
-                    --></li><!--
-                    --><li><a href="IMA-Escuela-de-Arte-Dramático.php">Escuela de Arte Dram&aacute;tico</a><!--
-                      --><ul><!--
-                        --><li><a href="IMA-AD-historia">Historia</a></li><!--
-                        --><li><a href="IMA-AD-Contenido">Contenido</a></li><!--
-                        --><li><a href="IMA-AD-Requisitos">Requisitos</a></li><!--
-                        --><li><a href="IMA-AD-Ubicacion">Ubicaci&oacute;n</a></li><!--
-                      --></ul><!--
-                    --></li><!--
-                    --><li><a href="IMA-Escuela-de-Danza.php">Escuela de Danza</a><!--
-                      --><ul><!--
-                        --><li><a href="IMA-ED-historia">Historia</a></li><!--
-                        --><li><a href="IMA-ED-Contenido">Contenido</a></li><!--
-                        --><li><a href="IMA-ED-Requisitos">Requisitos</a></li><!--
-                        --><li><a href="IMA-ED-Ubicacion">Ubicaci&oacute;n</a></li><!--
-                      --></ul><!--
-                    --></li><!--
-                    --><li><a href="IMA-Conservatorio-de-Música.php">Conservatorio de M&uacute;sica</a><!--
-                      --><ul><!--
-                        --><li><a href="IMA-CM-historia">Historia</a></li><!--
-                        --><li><a href="IMA-CM-Contenido">Contenido</a></li><!--
-                        --><li><a href="IMA-CM-Requisitos">Requisitos</a></li><!--
-                        --><li><a href="IMA-CM-Ubicacion">Ubicaci&oacute;n</a></li><!--
-                      --></ul><!--
-                    --></li><!--
-                    --><li><a href="IMA-Escuela-de-Locución.php">Escuela de Locuci&oacute;n</a><!--
-                      --><ul><!--
-                        --><li><a href="IMA-EL-historia">Historia</a></li><!--
-                        --><li><a href="IMA-EL-Contenido">Contenido</a></li><!--
-                        --><li><a href="IMA-EL-Requisitos">Requisitos</a></li><!--
-                        --><li><a href="IMA-EL-Ubicacion">Ubicaci&oacute;n</a></li><!--
-                      --></ul><!--
-                    --></li><!--
-                    --><li><a href="IMA-Escuela-de-Canto.php">Escuela de Canto</a><!--
-                      --><ul><!--
-                        --><li><a href="IMA-EC-historia">Historia</a></li><!--
-                        --><li><a href="IMA-EC-Contenido">Contenido</a></li><!--
-                        --><li><a href="IMA-EC-Requisitos">Requisitos</a></li><!--
-                        --><li><a href="IMA-EC-Ubicacion">Ubicaci&oacute;n</a></li><!--
-                      --></ul><!--
-                    --></li><!--
-                    --><li><a href="IMA-Taller-Teatro.php">Taller Teatro</a><!--
-                      --><ul><!--
-                        --><li><a href="IMA-TT-historia">Historia</a></li><!--
-                        --><li><a href="IMA-TT-Contenido">Contenido</a></li><!--
-                        --><li><a href="IMA-TT-Requisitos">Requisitos</a></li><!--
-                        --><li><a href="IMA-TT-Ubicacion">Ubicaci&oacute;n</a></li><!--
-                      --></ul><!--
-                    --></li><!--
-                --></ul>
+                <ul id="botones-entidad-nav">
+                      <li><a href="IMA-Escuela-de-Arte-Infantil.php">Escuela Municipal de Arte Infantil</a><!--
+                      <ul>
+                        <li><a href="IMA-EAI-historia">Historia</a></li>
+                        <li><a href="IMA-EAI-Contenido">Contenido</a></li>
+                        <li><a href="IMA-EAI-Requisitos">Requisitos</a></li>
+                        <li><a href="IMA-EAI-Ubicacion">Ubicaci&oacute;n</a></li>
+                      </ul>
+                   --> </li>
+                    <li><a href="IMA-Escuela-de-Arte-Dramatico.php">Escuela Municipal de Arte Dram&aacute;tico</a>
+                     <!--  <ul>
+                        <li><a href="IMA-AD-historia">Historia</a></li>
+                        <li><a href="IMA-AD-Contenido">Contenido</a></li>
+                        <li><a href="IMA-AD-Requisitos">Requisitos</a></li>
+                        <li><a href="IMA-AD-Ubicacion">Ubicaci&oacute;n</a></li>
+                      </ul> -->
+                    </li>
+                    <li><a href="IMA-Escuela-de-Danza.php">Escuela Municipal de Danza</a>
+                     <!--  <ul>
+                        <li><a href="IMA-ED-historia">Historia</a></li>
+                        <li><a href="IMA-ED-Contenido">Contenido</a></li>
+                        <li><a href="IMA-ED-Requisitos">Requisitos</a></li>
+                        <li><a href="IMA-ED-Ubicacion">Ubicaci&oacute;n</a></li>
+                      </ul> -->
+                    </li>
+                    <li><a href="IMA-Conservatorio-de-Musica.php">Conservatorio Municipal de M&uacute;sica</a>
+                      <!-- <ul>
+                        <li><a href="IMA-CM-historia">Historia</a></li>
+                        <li><a href="IMA-CM-Contenido">Contenido</a></li>
+                        <li><a href="IMA-CM-Requisitos">Requisitos</a></li>
+                        <li><a href="IMA-CM-Ubicacion">Ubicaci&oacute;n</a></li>
+                      </ul> -->
+                    </li>
+                    <li><a href="IMA-Escuela-de-Locucion.php">Escuela Municipal de Locuci&oacute;n</a>
+                     <!--  <ul>
+                        <li><a href="IMA-EL-historia">Historia</a></li>
+                        <li><a href="IMA-EL-Contenido">Contenido</a></li>
+                        <li><a href="IMA-EL-Requisitos">Requisitos</a></li>
+                        <li><a href="IMA-EL-Ubicacion">Ubicaci&oacute;n</a></li>
+                      </ul> -->
+                    </li>
+                    <li><a href="IMA-Escuela-de-Canto.php">Escuela Municipal de Canto</a>
+                      <!-- <ul>
+                        <li><a href="IMA-EC-historia">Historia</a></li>
+                        <li><a href="IMA-EC-Contenido">Contenido</a></li>
+                        <li><a href="IMA-EC-Requisitos">Requisitos</a></li>
+                        <li><a href="IMA-EC-Ubicacion">Ubicaci&oacute;n</a></li>
+                      </ul> -->
+                    </li>
+                    <li><a href="IMA-Taller-Teatro.php">Taller Municipal de Teatro</a>
+                      <!-- <ul>
+                        <li><a href="IMA-TT-historia">Historia</a></li>
+                        <li><a href="IMA-TT-Contenido">Contenido</a></li>
+                        <li><a href="IMA-TT-Requisitos">Requisitos</a></li>
+                        <li><a href="IMA-TT-Ubicacion">Ubicaci&oacute;n</a></li>
+                      </ul> -->
+                    </li>
+                </ul>
 
                 <aside id="menu-social">
                   <ul id="nav-social">
                     <li><a href="mailto:direcciondeturismo@mca.gov.py"><img src="imagenes/email.png" width="45"></a></li>
                     <li><a href="https://www.facebook.com/CulturaAsu"><img src="imagenes/facebook.png" width="45"></a></li>
-                    <li><a href="#"><img src="imagenes/twitter.png" width="45"></a></li>
+                    <!--<li><a href="#"><img src="imagenes/twitter.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/skype.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/youtube.png" width="45"></a></li>
-                    <li><a href="#"><img src="imagenes/googleplus.png" width="45"></a></li> 
+                    <li><a href="#"><img src="imagenes/googleplus.png" width="45"></a></li> -->
                   </ul>
                 </aside>
-              </nav>
 
+              </nav>
         <!-- InstanceBeginEditable name="INFO" -->
-       
-                  <?php 
-                      $pagina="actividadesdeldia.inc.php";
-                      if(isset($_GET['codigoevento']))
-					  {
-						?>
-                          <section id="cont-info">
-								  <?php  
-                      $pagina="ampliar.actividadesdeldia.inc.php";
-					
-                              include("$pagina");
-                           ?></section>
-                           <?php
-					  }
-					  else
-					  {
-						  ?>
-                          <section id="cont-nota">
-								  <?php
-                              include("$pagina");
-                              ?></section>
-                              <?php
-					  }
-					  ?>
+        <section id="cont-nota">
+            <?php $entidad="c81e7";include("actividadesdeldia.inc.php");?>
+        </section>
         <!-- InstanceEndEditable --></div>  
     </section> 
   </section>
@@ -199,11 +178,11 @@
   <footer>
      <nav id="menu-Logos">
        <ul id="nav-logos">   
-          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li class="logoentidad"><a class="TeatroMunicipal" href="TeatroMunicipal.php"></a></li>
+          <li class="logoentidad"><a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a></li>
+          <li class="logoentidad"><a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a></li>
+          <li class="logoentidad"><a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a></li>
+          <li class="logoentidad"><a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a></li>
       </ul>
    </nav>
   </footer>

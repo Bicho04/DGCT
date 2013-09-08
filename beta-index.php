@@ -4,7 +4,7 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
      
-<title>Direcion General de Cultura y Turismo</title>
+<title>Direcci&oacute;n General de Cultura y Turismo</title>
 
     <link rel="icon" type="ico" href="imagenes/favicon.ico" />
 
@@ -76,17 +76,45 @@
        
    <div id="amazingslider-1">
         <ul class="amazingslider-slides" style="display:none;">
-            <li><img src="images/Foto-1.jpg" alt="TITULO DE LA FOTO" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-2.jpg" alt="TITULO DE LA FOTO" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-4.jpg" alt="TITULO DE LA FOTO" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/la foto.JPG" alt="TITULO DE LA FOTO" data-description="Descripcion de la foto" /></li>
+            <!-- <li><img src="images/Foto-1.jpg" alt="TITULO DE LA FOTO" data-description="Descripcion de la foto" /></li> -->
+            <li><img src="imagenes/banner/1.jpg" alt="1"></li><!-- 
+            <li><img src="imagenes/banner/2.jpg" alt="2"></li> -->
+            <li><img src="imagenes/banner/3.jpg" alt="3"></li>
+            <li><img src="imagenes/banner/4.jpg" alt="4"></li>
+            <li><img src="imagenes/banner/5.jpg" alt="5"></li><!-- 
+            <li><img src="imagenes/banner/6.jpg" alt="6"></li> --><!-- 
+            <li><img src="imagenes/banner/7.jpg" alt="7"></li> -->
+            <li><img src="imagenes/banner/8.jpg" alt="8"></li>
+            <li><img src="imagenes/banner/9.jpg" alt="9"></li><!-- 
+            <li><img src="imagenes/banner/10.jpg" alt="10"></li> --><!-- 
+            <li><img src="imagenes/banner/11.jpg" alt="11"></li> -->
+            <li><img src="imagenes/banner/12.jpg" alt="12"></li>
+            <li><img src="imagenes/banner/13.jpg" alt="13"></li>
+            <li><img src="imagenes/banner/14.jpg" alt="14"></li>
+            <li><img src="imagenes/banner/15.jpg" alt="15"></li><!-- 
+            <li><img src="imagenes/banner/16.jpg" alt="16"></li>
+            <li><img src="imagenes/banner/17.jpg" alt="17"></li> -->
+            <li><img src="imagenes/banner/18.jpg" alt="18"></li>
         </ul>
         <ul class="amazingslider-thumbnails" style="display:none; ">
-            <li><img src="images/Foto-1-tn.jpg" /></li>
-            <li><img src="images/Foto-2-tn.jpg" /></li>
-            <li><img src="images/Foto-4-tn.jpg" /></li>
-            <li><img src="images/la foto-tn.JPG" /></li>
-        </ul>
+            <li><img src="imagenes/banner/1-tn.jpg" alt="1"></li><!-- 
+            <li><img src="imagenes/banner/2-tn.jpg" alt="2"></li> -->
+            <li><img src="imagenes/banner/3-tn.jpg" alt="3"></li>
+            <li><img src="imagenes/banner/4-tn.jpg" alt="4"></li>
+            <li><img src="imagenes/banner/5-tn.jpg" alt="5"></li><!-- 
+            <li><img src="imagenes/banner/6-tn.jpg" alt="6"></li> --><!-- 
+            <li><img src="imagenes/banner/7-tn.jpg" alt="7"></li> -->
+            <li><img src="imagenes/banner/8-tn.jpg" alt="8"></li>
+            <li><img src="imagenes/banner/9-tn.jpg" alt="9"></li><!-- 
+            <li><img src="imagenes/banner/10-tn.jpg" alt="10"></li> --><!-- 
+            <li><img src="imagenes/banner/11-tn.jpg" alt="11"></li> -->
+            <li><img src="imagenes/banner/12-tn.jpg" alt="12"></li>
+            <li><img src="imagenes/banner/13-tn.jpg" alt="13"></li>
+            <li><img src="imagenes/banner/14-tn.jpg" alt="14"></li>
+            <li><img src="imagenes/banner/15-tn.jpg" alt="15"></li><!-- 
+            <li><img src="imagenes/banner/16-tn.jpg" alt="16"></li>
+            <li><img src="imagenes/banner/17-tn.jpg" alt="17"></li> -->
+            <li><img src="imagenes/banner/18-tn.jpg" alt="18"></li>
     </div>
        
         
@@ -171,10 +199,11 @@
                     </div>
                 </section>
 
+            </section>
 
                 <section id="Turismo">
                     <form class="form">
-                        <h3>&iexcl;Recibí en tu correo todas las actividades de la Ciudad de Asunci&oacute;n!</h3>
+                        <h3>&iexcl;Recibi en tu correo todas las actividades de la Ciudad de Asunci&oacute;n!</h3>
                         <p class="name">
                             <input type="text" placeholder="Nombre y Apellido"name="nombre" id="name" />
                         </p>
@@ -189,17 +218,16 @@
                 </section>
 
         
-            </section>
         </section>
 
         <footer>
            <nav id="menu-Logos">
              <ul id="nav-logos">   
-                <li><a href="TeatroMunicipal.php"><img src="imagenes/BW-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-                <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/BW-IMA.png" ></a></li>
-                <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/BW-Manzana.png" ></a></li>
-                <li><a href="CentroParaguayoJapones.php"><img src="imagenes/BW-CPJ.png" ></a></li>
-                <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/BW-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+                <li class="logoentidad"><a class="TeatroMunicipal" href="TeatroMunicipal.php"></a></li>
+                <li class="logoentidad"><a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a></li>
+                <li class="logoentidad"><a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a></li>
+                <li class="logoentidad"><a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a></li>
+                <li class="logoentidad"><a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a></li>
             </ul>
          </nav>
         </footer>

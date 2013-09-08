@@ -93,7 +93,7 @@
             <ul id="nav-inst"><!--
               --><li class="col-3"><a href="TM-historia.php">Historia</a></li><!--
               --><li class="col-3"><a href="TM-sala.php">Escacios</a><!--
-                --><ul><!-- 
+                --><ul class="col-3"><!-- 
                     --><li><a href="TM-TgnacioA.Pane.php">Ignacio A. Pane</a></li><!-- 
                     --><li><a href="TM-Baudio-Alio.php">Baudilio Alio</a></li><!-- 
                     --><li><a href="TM-Jacinto-Herrera.php">Jacinto Herrera</a></li><!-- 
@@ -139,13 +139,14 @@
                 </aside>
 
             </nav>
-              <!-- InstanceBeginEditable name="INFO" -->Sala
-              <section id="cont-info"><div class="info"><h3>&nbsp;</h3>
-                 <h2>Ignacio A. Pane</h2>
-                     <p>El salón principal, con capacidad para 600  personas (600 butacas). La sala se divide en: Platea, Palcos Vip, Palco  Tertulia y Palco Paraíso. Además cuenta cuatro camerinos individuales con banos  privados y dos camerinos colectivos. El mismo posee 12 varas totalmente  computarizadas para subir y bajar escenografías y telones panorámicos. También  cuenta con una sala de luces y sonido totalmente equipada. </p>
+              <!-- InstanceBeginEditable name="INFO" -->
+              <section id="cont-info">
+                <div class="info">
+                  <h3>Teatro Municipal</h3>
+                  <h2>Ignacio A. Pane</h2>
+                  <img src="imagenes/fotos/Teatro interior 1.jpg" alt="Interior teatro" class="central">  
+                  <p>El salón principal, con capacidad para 600  personas (600 butacas). La sala se divide en: Platea, Palcos Vip, Palco  Tertulia y Palco Paraíso. Además cuenta cuatro camerinos individuales con banos  privados y dos camerinos colectivos. El mismo posee 12 varas totalmente  computarizadas para subir y bajar escenografías y telones panorámicos. También  cuenta con una sala de luces y sonido totalmente equipada. </p>
                    
-                 </ul>
-                 <p>&nbsp;</p>
                 </div>
               </section>
               <!-- InstanceEndEditable --></div>  

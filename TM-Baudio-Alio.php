@@ -92,9 +92,9 @@
       <div id="cont-central">
             <ul id="nav-inst"><!--
               --><li class="col-3"><a href="TM-historia.php">Historia</a></li><!--
-              --><li class="col-3"><a href="TM-sala.php">Escacios</a><!--
-                --><ul><!-- 
-                    --><li><a href="TM-TgnacioA.Pane.php">Ignacio A. Pane</a></li><!-- 
+              --><li class="col-3"><a href="#">Espacios</a><!--
+                --><ul class="col-3"><!-- 
+                    --><li><a href="TM-IgnacioA.Pane.php">Ignacio A. Pane</a></li><!-- 
                     --><li><a href="TM-Baudio-Alio.php">Baudilio Alio</a></li><!-- 
                     --><li><a href="TM-Jacinto-Herrera.php">Jacinto Herrera</a></li><!-- 
                 --></ul><!-- 
@@ -144,7 +144,8 @@
                 <div class="info">
                  <h3>Sala</h3>
                  <h2>Baudilio Alio</h2>
-                 <p>Con capacidad para 100 personas, el mismo está destinado para conciertos, conferencias, lanzamientos, reuniones, congresos, y es utilizada por la OSCA y la OCMA para sus ensayos diarios.</p>
+                 <img src="imagenes/fotos/Teatro Foyer.jpg" alt="" class="central">
+                 <p>Con capacidad para 100 personas, el mism o está destinado para conciertos, conferencias, lanzamientos, reuniones, congresos, y es utilizada por la OSCA y la OCMA para sus ensayos diarios.</p>
                 </div>
               </section>
               <!-- InstanceEndEditable --></div>  
@@ -154,11 +155,11 @@
   <footer>
      <nav id="menu-Logos">
        <ul id="nav-logos">   
-          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li class="logoentidad"><a class="TeatroMunicipal" href="TeatroMunicipal.php"></a></li>
+          <li class="logoentidad"><a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a></li>
+          <li class="logoentidad"><a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a></li>
+          <li class="logoentidad"><a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a></li>
+          <li class="logoentidad"><a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a></li>
       </ul>
    </nav>
   </footer>

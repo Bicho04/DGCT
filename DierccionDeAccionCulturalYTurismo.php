@@ -120,9 +120,9 @@
                     <li><a href="DACT-Evento-Turismo.php">Evento y Turismo</a></li>
                     <li><a href="#">Plazas tematicas</a>
                       <ul>
-                        <li1><a href="DACT-Plaza-Uruguaya.php">Plaza Uruguaya</a></li1>
-                        <li2><a href="DACT-Plaza-Italia.php">Plaza Italia</a></li2>
-                        <li3><a href="DACT-Plaza-Infante Rivarola.php">Plaza Infante Rivarola</a></li3>
+                        <li><a href="DACT-Plaza-Uruguaya.php">Plaza Uruguaya</a></li>
+                        <li><a href="DACT-Plaza-Italia.php">Plaza Italia</a></li>
+                        <li><a href="DACT-Plaza-Infante Rivarola.php">Plaza Infante Rivarola</a></li>
                       </ul>
                     </li>
                   
@@ -171,14 +171,14 @@
   <footer>
      <nav id="menu-Logos">
        <ul id="nav-logos">   
-          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li class="logoentidad"><a class="TeatroMunicipal" href="TeatroMunicipal.php"></a></li>
+          <li class="logoentidad"><a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a></li>
+          <li class="logoentidad"><a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a></li>
+          <li class="logoentidad"><a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a></li>
+          <li class="logoentidad"><a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a></li>
       </ul>
    </nav>
-  </footer> 
+  </footer>
 
 </body>
 <!-- InstanceEnd --></html>

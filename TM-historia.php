@@ -92,9 +92,9 @@
       <div id="cont-central">
             <ul id="nav-inst"><!--
               --><li class="col-3"><a href="TM-historia.php">Historia</a></li><!--
-              --><li class="col-3"><a href="TM-sala.php">Escacios</a><!--
-                --><ul><!-- 
-                    --><li><a href="TM-TgnacioA.Pane.php">Ignacio A. Pane</a></li><!-- 
+              --><li class="col-3"><a href="#">Espacios</a><!--
+                --><ul class="col-3"><!-- 
+                    --><li><a href="TM-IgnacioA.Pane.php">Ignacio A. Pane</a></li><!-- 
                     --><li><a href="TM-Baudio-Alio.php">Baudilio Alio</a></li><!-- 
                     --><li><a href="TM-Jacinto-Herrera.php">Jacinto Herrera</a></li><!-- 
                 --></ul><!-- 
@@ -144,13 +144,14 @@
                 <div class="info">
                  <h3>Teatro Municipal</h3>
                  <h2>Historia</h2>
+                 <img class="central"src="imagenes/fotos/Teatro Fachada 1.jpg" alt="Teatro Municipal">
                  <p>La historia del Teatro Municipal Ignacio A. Pane comienza cuando la sala de sesiones del Congreso Nacional, construida en 1843, cambia su destina administrativo por uno vinculado con las artes. En 1853, el Maestro Francisco Dupuis recibe licencia para ensenar música en las oficinas y en los corredores, y dos anos después el edificio quedo convertido en Teatro Municipal. La inauguración se realizó el 04 de noviembre de 1855.</p>
                   <p>El Teatro Nacional desde entonces el mayor centro de irradiación de la cultura en términos de teatro y música para los asuncenos. Incluso en la guerra de la Triple Alianza, el teatro nacional siguió funcionando en las medidas de sus ya reducidas posibilidades, como un faro de la cultura y,también, de sentido y sentimiento de patria. Desde términos de la guerra hasta mil novecientos ochenta y tantos, actuaron en el Teatro Nacional numerosos artistas paraguayos y extranjeros.</p>
                   <p>Gracias a que Asunción tiene su teatro abierto, artistas y músicos en gira llegan y contribuyen notablemente a la formación del gusto en el cada día más exigente público paraguayo.</p>
                   <p>Es solo un acto de justicia recordar que durante la primera mitad del siglo XX no  existió en Asunción un edificio destinado a la cultura con las glorias del Teatro Municipal. Más aún entre 1940 y 1960, el escenario del Teatro Municipal reunió a los mayores representantes de las artes escénicas en el Paraguay. En esa época el viejo Teatro Municipal era conocido ya por todos como él. Teatro Municipal Ignacio A. Pane.</p>
                   <p>En términos de historia edilicia, la segunda mitad del siglo XX vio en el Teatro Municipal un edificio que mantuvo sus características esenciales, pero que progresivamente fue objeto de adiciones al margen de su estilo constructivo. Una parte considerable de la madera usada en la construcción del teatro se hallaba en avanzad deterioro en las dos últimas décadas del siglo XX. Por otra arte. Crecían los del uso del edificio. Todo esto motivo el cierre del teatro durante muchos anos.</p>
-                  <p>En 1997 comenzó el proceso restaurativo del edificio. Se comenzaron excavaciones en lo que fue el primer teatro en tiempos de la presidencia de Don Carlos Antonio López. Junto con los trabajos arqueológicos se realizaron también investigaciones históricas que demostraron que en ese lugar Los Trabajos prosiguieron hasta completar las obras en su totalidad, y de esa manera en 2006, el teatro quedo oficialmente habilitado para su uso.</p>
-                  <p> Al poco tiempo de su habilitación el Teatro Municipal recobraba el brillo de sus antiguas glorias con un remozamiento edilicio que hoy es orgullo de la ciudad y con una programación que goza del entusiasta apoyo del público. </p>
+                  <p> <img class="lateral"src="imagenes/fotos/Teatro Fachada 2.jpg" alt="Teatro Municipal" >En 1997 comenzó el proceso restaurativo del edificio. Se comenzaron excavaciones en lo que fue el primer teatro en tiempos de la presidencia de Don Carlos Antonio López. Junto con los trabajos arqueológicos se realizaron también investigaciones históricas que demostraron que en ese lugar Los Trabajos prosiguieron hasta completar las obras en su totalidad, y de esa manera en 2006, el teatro quedo oficialmente habilitado para su uso.</p>
+                  <p>Al poco tiempo de su habilitación el Teatro Municipal recobraba el brillo de sus antiguas glorias con un remozamiento edilicio que hoy es orgullo de la ciudad y con una programación que goza del entusiasta apoyo del público. </p>
                   <p>Senoras y Senores El edificio cuenta con las siguientes instrucciones de salida de emergencia.</p>
                   <p>En el sector de platea se encuentran ubicadas dos puertas de salida de emergencia. A la derecha, con solo pulsar podrá acceder a la calle chile. Por el lado izquierdo, se puede acceder a la calle de Alberdi. </p>
                   <p>A demás de las puertas de ingreso y de salida cuentan con amplias puertas para la evacuación </p>
@@ -167,11 +168,11 @@
   <footer>
      <nav id="menu-Logos">
        <ul id="nav-logos">   
-          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          <li class="logoentidad"><a class="TeatroMunicipal" href="TeatroMunicipal.php"></a></li>
+          <li class="logoentidad"><a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a></li>
+          <li class="logoentidad"><a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a></li>
+          <li class="logoentidad"><a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a></li>
+          <li class="logoentidad"><a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a></li>
       </ul>
    </nav>
   </footer>

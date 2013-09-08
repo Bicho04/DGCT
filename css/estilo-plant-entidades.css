@@ -41,7 +41,7 @@ padding:0;
 }
 body{
     font-family: 'maven_promedium',;
-    background: #777;
+    background: #ddd;
     color: #333;
 }
 .ie7 body{
@@ -229,7 +229,7 @@ transform : scale(1.1);
     color: #91CD2E;
     text-align: center;
 }
-#nav-logos li {
+#nav-logos .logoentidad {
     box-sizing: border-box; 
     width: 160px;
     height: 92px;
@@ -240,21 +240,64 @@ transform : scale(1.1);
     text-align: center;
 
 }
-#nav-logos li a{
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(100%) ;
+#nav-logos .logoentidad a{
+    width: 100%;
+    height: 100%;
 }
-
-
-#nav-logos .current a, #nav-logos li:hover > a {
-    transform:scale(1.1);
-    -webkit-transform:scale(1.1);
-    -moz-transform:scale(1.1);
-    border-radius:3px;
-
-    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 1 0\'/></filter></svg>#grayscale");
-    -webkit-filter: grayscale(0%);
+.TeatroMunicipal{
+    background: url(../imagenes/BG-TeatroMunicipal.png);
+    overflow: hidden;
+    background-position: 0 100px;
+}
+.TeatroMunicipal:hover{
+    background-position: 0 0px;
+    border: 1px #444 solid;
+    border-radius: 15px;
+    
+}
+.InstitutoMunicipalDeArte{
+    background: url(../imagenes/BG-IMA.png);
+    overflow: hidden;
+    background-position: 0 100px;
+}
+.InstitutoMunicipalDeArte:hover{
+    background-position: 0 0px;
+    border: 1px #444 solid;
+    border-radius: 15px;
+    
+}
+.ManzanaDeLaRivera{
+    background: url(../imagenes/BG-Manzana.png);
+    overflow: hidden;
+    background-position: 0 100px;
+}
+.ManzanaDeLaRivera:hover{
+    background-position: 0 0px;
+    border: 1px #444 solid;
+    border-radius: 15px;
+    
+}
+.CentroParaguayoJapones{
+    background: url(../imagenes/BG-CPJ.png);
+    overflow: hidden;
+    background-position: 0 100px;
+}
+.CentroParaguayoJapones:hover{
+    background-position: 0 0px;
+    border: 1px #444 solid;
+    border-radius: 15px;
+    
+}
+.DierccionDeAccionCulturalYTurismo{
+    background: url(../imagenes/BG-DACT.png);
+    overflow: hidden;
+    background-position: 0 100px;
+}
+.DierccionDeAccionCulturalYTurismo:hover{
+    background-position: 0 0px;
+    border: 1px #444 solid;
+    border-radius: 15px;
+    
 }
 
 
@@ -356,9 +399,9 @@ transform : scale(1.1);
 }
 
 #nav-inst * {
-    -moz-transition: all .8s ease-in-out;
-    -webkit-transition: all .8s ease-in-out;
-    transition: all .8s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 #nav-inst ul {
     display: none;
@@ -450,9 +493,9 @@ transform : scale(1.1);
 }
 /***************************************************************/
 #botones-entidad *{
-    -moz-transition: all .8s ease-in-out;
-    -webkit-transition: all .8s ease-in-out;
-    transition: all .8s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
 }
 #botones-entidad{
     font-family: 'maven_probold';
@@ -504,12 +547,12 @@ transform : scale(1.1);
 #botones-entidad-nav li ul li {
     width:  250px;
     margin: 15px; 
-    /*background: url(../imagenes/boton-bg.png);*/
     background-size: 100%;
     list-style: none;
     text-align: center;
 }
-#botones-entidad-nav li ul li a{
+#botones-entidad-nav li ul li a:hover{
+    background: #333;
 
 }
 
@@ -703,7 +746,7 @@ transform : scale(1.1);
 #cont-info{
     box-sizing: border-box;
     width: 720px;
-    margin: 25px 0 25px -3px;
+    margin: 10px 0 25px -3px;
     padding: 15px 0 10px 0;
     display: inline-block;
     vertical-align: top;
@@ -737,7 +780,6 @@ transform : scale(1.1);
     font-style: none;
     color:#91CD2E;
 
-
 }
 .info span{
     width: 150px;
@@ -758,19 +800,30 @@ transform : scale(1.1);
 }
 
 .info p{
+    position: relative;
     font-family: 'maven_promedium';
-    margin: 5px 40px 3px 40px;
+    margin: 5px 40px 5px 40px;
     font-size: 16px;
-    line-height: 19px;
+    line-height: 20px;
 
 }
 .info a:hover{
-	color: #039;
+    color: #039;
 }
-.info img{
+.info .central{
+    display: block;
+    width: 80%;
     margin: 15px auto;
     padding: 0 10px;
     text-align: center;
+}
+.info .lateral{
+    display: block;
+    width: 40%;
+    margin: 10px auto;
+    padding: 0 7px;
+    right: 0;
+    float: right;
 }
 #iconos{
     width: 
@@ -874,7 +927,7 @@ transform : scale(1.1);
 /******************************************************************/
 footer{
     width: 100%;
-    background: #444;
+    background: #333;
     border-bottom: 5px #91CD2E solid; 
     position: relative;
 }
@@ -882,7 +935,7 @@ footer{
 
 footer:after{
     content: "";
-    background: #444;
+    background: #333;
     border-top: 5px #91CD2E solid; 
     position: absolute;
     top: -100px;
