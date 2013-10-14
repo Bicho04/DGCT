@@ -50,18 +50,30 @@
     <section id="banner">
 <!-- ******************************************************* -->
        
-   <div id="amazingslider-1">
+    <div id="amazingslider-1">
         <ul class="amazingslider-slides" style="display:none;">
-            <li><img src="images/Foto-1.jpg" alt="Picaflor" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-2.jpg" alt="Panteon de los heroes" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-4.jpg" alt="Foto-4" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/la foto.JPG" alt="panteom de los heroes" data-description="Descripcion de la foto" /></li>
+            <li><img src="imagenes/banner/MDLR-1.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-2.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-3.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-4.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-5.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-6.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-7.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-8.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-9.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-10.jpg" alt=""></li>
         </ul>
         <ul class="amazingslider-thumbnails" style="display:none; ">
-            <li><img src="images/Foto-1-tn.jpg" /></li>
-            <li><img src="images/Foto-2-tn.jpg" /></li>
-            <li><img src="images/Foto-4-tn.jpg" /></li>
-            <li><img src="images/la foto-tn.JPG" /></li>
+            <li><img src="imagenes/banner/MDLR-1-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-2-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-3-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-4-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-5-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-6-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-7-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-8-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-9-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-10-tn.jpg" alt=""></li>
         </ul>
     </div>
        
@@ -113,15 +125,25 @@
                     <li><a href="MdlR-Biblioteca.php">Biblioteca "Augusto Roa Bastos"</a></li>
                     <li><a href="MdlR-Auditorio.php">Auditorio Ru&iacute; Diaz de Guzman</a></li>
                     <li><a href="MdlR-Teatro-GarciaLorca.php">Teatro Garc&iacute;a Lorca</a></li>
+                    <li><a href="MdlR-p-Leonor.php">Patio Leonor</a></li>
+                    <li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li>
+                    <li><a href="MdlR-C-Viola.php">Museo "memoria de la ciudad"</a></li>
+                    <li><a href="MdlR-C-Clari.php">Bar Casa Clari</a></li>
+                    <li><a href="MdlR-Espacio-Miguel-Acevedo.php">Espacio Miguel Acevedo</a></li>
+                    <li><a href="MdlR-La-aleria.php">La Galeria</a></li>
+                    <li><a href="MdlR-C-Castelvi.php">Casa Castelv&iacute;</a></li>
+                    <li><a href="MdlR-Casa-Ballario.php">Patio Arecaya</a></li>
+                    <!-- <li><a href="MdlR-Biblioteca.php">Biblioteca "Augusto Roa Bastos"</a></li>
+                    <li><a href="MdlR-Auditorio.php">Auditorio Ru&iacute; Diaz de Guzman</a></li>
+                    <li><a href="MdlR-Teatro-GarciaLorca.php">Teatro Garc&iacute;a Lorca</a></li>
                     <li><a href="MdlR-Patio-Leonor.php">Patio Leonor</a></li>
                     <li><a href="MdlR-Casa-Ballario.php">Casa Ballario</a></li>
                     <li><a href="MdlR-Museo-memoria-de-la-ciudad.php">Museo "memoria de la ciudad"</a></li>
                     <li><a href="MdlR-Bar-Casa-Clari.php">Bar Casa Clari</a></li>
-                    <li><a href="MdlR-Espacio-Miguel Acevedo.php">Espacio Miguel Acevedo</a></li>
+                    <li><a href="MdlR-Espacio-Miguel-Acevedo.php">Espacio Miguel Acevedo</a></li>
                     <li><a href="MdlR-La-aleria.php">La Galeria</a></li>
-                    <li><a href="MdlR-Casa-Castelví.php">Casa Castelv&iacute;</a></li>
-                    <li><a href="MdlR-Casa-Ballario.php">Patio Arecaya</a></li>
-                    <li><a href="MdlR-Casa-Ballario.php">Casa Ballario</a></li>
+                    <li><a href="MdlR-Casa-Castelvi.php">Casa Castelv&iacute;</a></li>
+                    <li><a href="MdlR-Casa-Ballario.php">Patio Arecaya</a></li> -->
                 </ul>
 
                 <aside id="menu-social">
@@ -139,11 +161,12 @@
               <!-- InstanceBeginEditable name="INFO" -->
                <section id="cont-info">
                <div class="info">
-                 <h3>9 Casas</h3>
+                 <h3>Las Casas de la Manzana</h3>
                  <h2>CASA BALLARIO</h2>
-                 <p>La última casa restaurada es la CASA  BALLARIO, de estilo neoclásico, fue construida en 1901. &nbsp;Con la  habilitación de esta casa, el 7 de junio de 1996, quedó completa la obra de  restauración y recuperación de la Manzana histórica. Actualmente funcionan aquí  oficinas administrativas de la Dirección General de Cultura y Turismo y del Centro  Cultural de la Ciudad.</p>
+                 <img class="central"src="imagenes/fotos/casa-ballario.jpg" alt="Casa Ballario">                 
+                 <p>La &uacute;ltima casa restaurada es la CASA  BALLARIO, de estilo neocl&aacute;sico, fue construida en 1901. &nbsp;Con la  habilitaci&oacute;n de esta casa, el 7 de junio de 1996, qued&oacute; completa la obra de  restauraci&oacute;n y recuperaci&oacute;n de la Manzana hist&oacute;rica. Actualmente funcionan aqu&iacute;  oficinas administrativas de la Direcci&oacute;n General de Cultura y Turismo y del Centro  Cultural de la Ciudad.</p>
                  <p>&nbsp;</p>
-                 <p>Asimismo, se encuentra en esta casa el  Taller de Restauración y Mantenimiento que forma parte del Museo Memoria de la  Ciudad, a cargo de una profesional en Restauración.</p>
+                 <p>Asimismo, se encuentra en esta casa el  Taller de Restauraci&oacute;n y Mantenimiento que forma parte del Museo Memoria de la  Ciudad, a cargo de una profesional en Restauraci&oacute;n.</p>
                </div>
               </section>
               <!-- InstanceEndEditable --></div>  
@@ -151,15 +174,35 @@
   </section>
  
   <footer>
-     <nav id="menu-Logos">
+  <nav id="menu-Logos">
        <ul id="nav-logos">   
-          <li class="logoentidad"><a class="TeatroMunicipal" href="TeatroMunicipal.php"></a></li>
-          <li class="logoentidad"><a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a></li>
-          <li class="logoentidad"><a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a></li>
-          <li class="logoentidad"><a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a></li>
-          <li class="logoentidad"><a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a></li>
+          
+          <li class="logoentidad">
+            <a class="TeatroMunicipal" href="TeatroMunicipal.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+         
+          <li class="logoentidad">
+            <a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
       </ul>
-   </nav>
+
   </footer>
 
 </body>

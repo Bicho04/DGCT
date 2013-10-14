@@ -50,20 +50,29 @@
 </header>
   <section id="contenido">
     <section id="banner">
+
 <!-- ******************************************************* -->
        
    <div id="amazingslider-1">
         <ul class="amazingslider-slides" style="display:none;">
-            <li><img src="images/Foto-1.jpg" alt="Picaflor" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-2.jpg" alt="Panteon de los heroes" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-4.jpg" alt="Foto-4" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/la foto.JPG" alt="panteom de los heroes" data-description="Descripcion de la foto" /></li>
+            <li><img src="imagenes/banner/TM-1.jpg" alt=""></li>
+            <li><img src="imagenes/banner/TM-2.jpg" alt=""></li>
+            <li><img src="imagenes/banner/TM-3.jpg" alt=""></li>
+            <li><img src="imagenes/banner/TM-4.jpg" alt=""></li>
+            <li><img src="imagenes/banner/TM-5.jpg" alt=""></li>
+            <li><img src="imagenes/banner/TM-6.jpg" alt=""></li>
+            <li><img src="imagenes/banner/TM-7.jpg" alt=""></li>
+            <li><img src="imagenes/banner/TM-8.jpg" alt=""></li>
         </ul>
         <ul class="amazingslider-thumbnails" style="display:none; ">
-            <li><img src="images/Foto-1-tn.jpg" /></li>
-            <li><img src="images/Foto-2-tn.jpg" /></li>
-            <li><img src="images/Foto-4-tn.jpg" /></li>
-            <li><img src="images/la foto-tn.JPG" /></li>
+            <li><img src="imagenes/banner/TM-1-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/TM-2-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/TM-3-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/TM-4-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/TM-5-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/TM-6-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/TM-7-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/TM-8-tn.jpg" alt=""></li>
         </ul>
     </div>
        
@@ -107,22 +116,22 @@
                     <li><a href="#">OSCA</a>
                       <ul> 
                         <li><a href="TM-OSCA-Historia.php">Historia</a></li>  
-                        <li><a href="TM-OSCA-Director.php">Direcctor</a></li> 
+                        <li><a href="TM-OSCA-Director.php">Director</a></li> 
                         <li><a href="TM-OSCA-Integrantes.php">Integrantes</a></li>
                       </ul>
                     </li>
                     <li><a href="#">OCMA</a>
                       <ul> 
                         <li><a href="TM-OCMA-Historia.php">Historia</a></li>  
-                        <li><a href="TM-OCMA-Director.php">Direcctor</a></li> 
+                        <li><a href="TM-OCMA-Director.php">Director</a></li> 
                         <li><a href="TM-OCMA-Integrantes.php">Integrantes</a></li>
                       </ul>
                     </li>
-                    <li><a href="#">Ballet Cl&aacute;sico y Folcl&oacute;rico Municipal</a>
+                    <li><a href="#">Ballet Cl&aacute;sico y Moderno Municipal</a>
                       <ul> 
                         <li><a href="TM-BCYFM-Historia.php">Historia</a></li>  
-                        <li><a href="TM-BCYFM-Director.php">Direcctor</a></li> 
-                        <li><a href="TM-BCYFM-Integrantes.php">Integrantes</a></li>
+                        <!-- <li><a href="TM-BCYFM-Director.php">Director</a></li>  -->
+                        <!-- <li><a href="TM-BCYFM-Integrantes.php">Integrantes</a></li> -->
                       </ul>
                     </li>
                 </ul>
@@ -152,15 +161,35 @@
   </section>
  
   <footer>
-     <nav id="menu-Logos">
+  <nav id="menu-Logos">
        <ul id="nav-logos">   
-          <li class="logoentidad"><a class="TeatroMunicipal" href="TeatroMunicipal.php"></a></li>
-          <li class="logoentidad"><a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a></li>
-          <li class="logoentidad"><a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a></li>
-          <li class="logoentidad"><a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a></li>
-          <li class="logoentidad"><a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a></li>
+          
+          <li class="logoentidad">
+            <a class="TeatroMunicipal" href="TeatroMunicipal.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+         
+          <li class="logoentidad">
+            <a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
       </ul>
-   </nav>
+
   </footer>
 
 </body>

@@ -50,18 +50,22 @@
     <section id="banner">
 <!-- ******************************************************* -->
        
-   <div id="amazingslider-1">
+    <div id="amazingslider-1">
         <ul class="amazingslider-slides" style="display:none;">
-            <li><img src="images/Foto-1.jpg" alt="Picaflor" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-2.jpg" alt="Panteon de los heroes" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-4.jpg" alt="Foto-4" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/la foto.JPG" alt="panteom de los heroes" data-description="Descripcion de la foto" /></li>
+            <li><img src="imagenes/banner/CPJ-1.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-2.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-3.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-4.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-5.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-6.jpg" alt=""></li>
         </ul>
         <ul class="amazingslider-thumbnails" style="display:none; ">
-            <li><img src="images/Foto-1-tn.jpg" /></li>
-            <li><img src="images/Foto-2-tn.jpg" /></li>
-            <li><img src="images/Foto-4-tn.jpg" /></li>
-            <li><img src="images/la foto-tn.JPG" /></li>
+            <li><img src="imagenes/banner/CPJ-1-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-2-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-3-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-4-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-5-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-6-tn.jpg" alt=""></li>
         </ul>
     </div>
        
@@ -104,35 +108,22 @@
               --><li class="col-4"><a href="CPJ-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
+         
+
         <nav id="botones-entidad">
                 <ul id="botones-entidad-nav">
-                    <li><a href="CPJ-Sala-Seminario.php">Salon Seminario</a></li><!--
-                    --><li><a href="CPJ-">Cursos</a><!-- 
-                      --><ul><!-- 
-                          --><li><a href="CPJ-Cursos-Computacion.php">Computacion</a></li><!--
-                         --><li><a href="CPJ-Cursos-Idiomas.php">Idiomas</a></li><!--
-                         --><li><a href="CPJ-Cursos-Danza.php">Danza</a></li><!--
-                          --><li><a href="CPJ-Cursos-Musica.php">M&uacute;sica</a><!--
-                      --></ul><!-- 
-                    --></li><!-- 
-                    --><li><a href="CPJ-">Cursos</a><!-- 
-                      --><ul><!-- 
-                          --><li><a href="CPJ-Cursos-Gimnasia-Artistica.php">Gimnasia Art&iacute;stica</a></li><!--
-                          --><li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio</a></li><!--
-                          --><li><a href="CPJ-Cursos-Artes-Marciales.php">Artes Marciales</a></li><!--
-                    	--></ul><!-- 
-                    --></li><!-- 
-                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust&iacute;n Pio Barrios</a></li><!-- 
-                    --><li><a href="CPJ-Sala-Seminario.php">Sal&oacute;n Seminario Branislava Susnik</a></li><!-- 
-                    --><li><a href="CPJ-Sala-Exposicion.php">Sala de Exposiciones Jacinto Rivero</a></li><!--
-                    --><li><a href="CPJ-Sala-Reuniones.php">Sala de Reuniones Agustina Miranda</a></li><!--
-                    --><li><a href="CPJ-Sala-Biblioteca.php">Biblioteca Herib Campo Cervera</a></li><!--
-                </ul>
+                    <li><a href="CPJ-Cursos-Musica.php">Conservatorio de M&uacute;sica</a></li>
+                    <li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio</a></li>
+                    <li><a href="CPJ-Cursos-Danza.php">Academia de Danza</a></li>
+                    <li><a href="CPJ-Cursos-Idiomas.php">Idiomas</a></li>
+                    <li><a href="CPJ-Cursos-Artes.php">Artes</a></li>
+                    <li><a href="CPJ-Cursos-Computacion.php">Computaci&oacute;n</a></li>
+                    
 
                 <aside id="menu-social">
                   <ul id="nav-social">
-                    <li><a href="mailto:direcciondeturismo@mca.gov.py"><img src="imagenes/email.png" width="45"></a></li>
-                    <li><a href="https://www.facebook.com/CulturaAsu"><img src="imagenes/facebook.png" width="45"></a></li>
+                    <li><a href="mailto:centroparaguayojapones@gmail.com"><img src="imagenes/email.png" width="45"></a></li>
+                    <li><a href="https://www.facebook.com/pages/Centro-Paraguayo-Japon%C3%A9s/258898532086?fref=ts"><img src="imagenes/facebook.png" width="45"></a></li>
                     <!--<li><a href="#"><img src="imagenes/twitter.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/skype.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/youtube.png" width="45"></a></li>
@@ -145,11 +136,11 @@
              <section id="cont-info">
                <div class="info">
                     <h3>Contacto</h3>
-                    <h2>Información de contacto</h2><p>
-El Centro Paraguayo Japonés se encuentra ubicado en el Barrio
-Mburucuya de Asunción, en las calles Julio Correa y Domingo Portillo.
-Horario de Atención telefónica de 07:00 a 19:00 horas. Cursos manana
-tarde y noche de lunes a viernes y sábados en horario manana y tarde.</p>
+                    <h2>Informaci&oacute;n de contacto</h2><p>
+El Centro Paraguayo Japon&eacute;s se encuentra ubicado en el Barrio
+Mburucuya de Asunci&oacute;n, en las calles Julio Correa y Domingo Portillo.
+Horario de Atenci&oacute;n telef&oacute;nica de 07:00 a 19:00 horas. Cursos manana
+tarde y noche de lunes a viernes y s&aacute;bados en horario manana y tarde.</p>
 
 <div id="iconos">
 
@@ -159,7 +150,7 @@ tarde y noche de lunes a viernes y sábados en horario manana y tarde.</p>
 <a href="mailto:centroparaguayojapones@gmail.com" target="_blank" class="icono"><img src="imagenes/email.png"></br><p>centroparaguayojapones@gmail.com</p></a>
 
 
-<a href="https://www.facebook.com/pages/Centro-Paraguayo-Japon%C3%A9s/258898532086?ref=ts&fref=ts" target="_blank" class="icono"><img src="imagenes/facebook.png"></br><p>Centro Paraguayo Japonés</p></a>
+<a href="https://www.facebook.com/pages/Centro-Paraguayo-Japon%C3%A9s/258898532086?ref=ts&fref=ts" target="_blank" class="icono"><img src="imagenes/facebook.png"></br><p>Centro Paraguayo Japon&eacute;s</p></a>
 
 
 <a href="https://twitter.com/CPJ_Asu" target="_blank" class="icono"><img src="imagenes/twitter.png"></br><p>@CPJ_Asu</p></a>
@@ -173,16 +164,36 @@ tarde y noche de lunes a viernes y sábados en horario manana y tarde.</p>
   </section>
  
   <footer>
-     <nav id="menu-Logos">
+  <nav id="menu-Logos">
        <ul id="nav-logos">   
-          <li><a href="TeatroMunicipal.php"><img src="imagenes/Logo-TeatroMunicipal.png" alt="Teatro Municipal Ignacio A. Pane"></a></li>
-          <li><a href="InstitutoMunicipalDeArte.php"><img src="imagenes/Logo-IMA.png" ></a></li>
-          <li><a href="ManzanaDeLaRivera.php"><img src="imagenes/Logo-Manzana.png" ></a></li>
-          <li><a href="CentroParaguayoJapones.php"><img src="imagenes/Logo-CPJ.png" ></a></li>
-          <li><a href="DierccionDeAccionCulturalYTurismo.php"><img src="imagenes/Logo-DACT.png" alt="Diercción de Acción Cultural y Turismo"></a></li>
+          
+          <li class="logoentidad">
+            <a class="TeatroMunicipal" href="TeatroMunicipal.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+         
+          <li class="logoentidad">
+            <a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
       </ul>
-   </nav>
-  </footer> 
+
+  </footer>
 
 </body>
 <!-- InstanceEnd --></html>

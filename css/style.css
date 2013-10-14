@@ -43,7 +43,7 @@ padding:0;
 body {
     font-family: 'maven_promedium';
     margin: 0 auto;
-    background: #ddd;
+    background: #ccc;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -68,9 +68,9 @@ a {
     padding: 0 0 0 0;
     position: relative;
     border-bottom : 5px solid #91CD2E;
-    -webkit-box-shadow: 5px 0 10px #444;
-    -moz-box-shadow: 5px 0 10px #444;
-    box-shadow: 5px 0 10px #444;
+    -webkit-box-shadow: 5px 0 10px #252525;
+    -moz-box-shadow: 5px 0 10px #252525;
+    box-shadow: 5px 0 10px #252525;
 }
 
 #logo-grupo {
@@ -138,7 +138,7 @@ transform : scale(1.1);
 #nav-social {
     position : absolute;
     top:105px;
-    right : 80px;
+    right :65px;
     display : inline-block;
     z-index: 20;
 }
@@ -223,7 +223,7 @@ transform : scale(1.1);
 #hoy h2{
     
     color:#91CD2E;
-    background: #444;
+    background: #252525;
     padding: 15px 30px 5px 20px;
     border-radius: 5px 5px 0 0;
 }
@@ -253,7 +253,7 @@ transform : scale(1.1);
 }
 #Enlaces-interes h2{
     color:#91CD2E;
-    background: #444;
+    background: #252525;
     border-radius: 5px 5px 0 0;
     font-family: 'maven_probold';
     padding: 5px 0 5px 30px;
@@ -270,12 +270,15 @@ transform : scale(1.1);
 .Enl-int{
     border-bottom:solid #A7D758 1px;
     border-top:solid #6D9A23 1px;
+
     
 }
 .Enl-int:before{
     color: #666;
-    content: "☺"
-}
+    content: "-";
+    background: url(../imagenes/vinheta.png) no-repeat;
+    background-position: center;
+
 }
 .Enl-int a{
     
@@ -335,7 +338,6 @@ transform : scale(1.1);
 }
 .nota img{
     width: 120px;
-    height: 140px;
     margin: 5px 8px 0 0;
     background: #ddd;
     float: left;
@@ -355,7 +357,7 @@ transform : scale(1.1);
     text-align: center;
     margin: 15px 10px 10px 5px ;
     color:#91CD2E;
-    background: #444;
+    background: #252525;
     border-radius: 5px;
     padding: 5px 0;
     border: solid 1px #666;
@@ -395,14 +397,14 @@ transform : scale(1.1);
     color: #91CD2E;
     padding: 5px auto;
     display: block;
-    background: #444;
+    background: #252525;
     border-radius: 5px 5px 0 0;
 
 }
 
 #nav-temas {
     width:100%;
-    color: #444;
+    color: #252525;
     display:inline-block;
     font-size: 14px;
 }
@@ -414,12 +416,13 @@ transform : scale(1.1);
     width:50%;
     float: left;
     margin: 12px 0 12px 0px;
-    padding: 2px 0  2px 20px ;
+    padding: 2px 0  2px 10px ;
     position: relative;
     text-align: left;
     text-decoration: none;
-    list-style-position: inside;
+    list-style:none;
     line-height: 10px;
+
 }
 #nav-temas li a {
     text-decoration:none;
@@ -428,11 +431,21 @@ transform : scale(1.1);
     font-size: 15px;
     list-style: none;
 }
+#nav-temas li:before{
+    color: #666;
+    float: left;
+    margin: 0 5px 0 0;
+    content: " ";
+    width: 1em;
+    height: .7em;
+    background: url(../imagenes/vinheta.png) no-repeat;
+    background-position: center;
 
+}
 #nav-temas .current a, #nav-temas a:hover {
     text-shadow:0 2px 2px rgba(255,255,255, 0.7);
     font-size: 16px;
-    color:#444;
+    color:#252525;
 }
 
 #menu-Logos {
@@ -486,7 +499,7 @@ transform : scale(1.1);
 }
 .TeatroMunicipal:hover{
     background-position: 0 0px;
-    border: 1px #444 solid;
+    border: 1px #252525 solid;
     border-radius: 15px;
     
 }
@@ -497,7 +510,7 @@ transform : scale(1.1);
 }
 .InstitutoMunicipalDeArte:hover{
     background-position: 0 0px;
-    border: 1px #444 solid;
+    border: 1px #252525 solid;
     border-radius: 15px;
     
 }
@@ -508,7 +521,7 @@ transform : scale(1.1);
 }
 .ManzanaDeLaRivera:hover{
     background-position: 0 0px;
-    border: 1px #444 solid;
+    border: 1px #252525 solid;
     border-radius: 15px;
     
 }
@@ -519,7 +532,7 @@ transform : scale(1.1);
 }
 .CentroParaguayoJapones:hover{
     background-position: 0 0px;
-    border: 1px #444 solid;
+    border: 1px #252525 solid;
     border-radius: 15px;
     
 }
@@ -530,7 +543,7 @@ transform : scale(1.1);
 }
 .DierccionDeAccionCulturalYTurismo:hover{
     background-position: 0 0px;
-    border: 1px #444 solid;
+    border: 1px #252525 solid;
     border-radius: 15px;
     
 }
@@ -599,7 +612,7 @@ transform : scale(1.1);
     padding: 10px;
     margin: 20px 7px;
     color:#91CD2E;
-    background: #444;
+    background: #252525;
 }
 
 
@@ -609,7 +622,28 @@ footer{
     border-top: 5px #91CD2E solid; 
     border-bottom: 5px #91CD2E solid; 
 }
-
+#nav-logos .logoentidad{
+    text-align: center;
+    position: relative;
+}
+#nav-logos .logoentidad .icono{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    opacity: .0;
+}
+#nav-logos .logoentidad:hover >.icono{
+    opacity: .5;
+}
+#nav-logos .logoentidad .icono:hover{
+    opacity: 1;
+}
+#nav-logos .logoentidad .icono a img{
+    width: 100%
+}
 
 #cuadros{
     margin: 10px 7px 0px 7px;
@@ -622,8 +656,7 @@ footer{
     box-sizing: border-box;
     display: inline-block;
     vertical-align: top;
-    background: #91CD2E;
-    border: 2px #91CD2E solid;
+    border: 1px #999 solid;
     border-radius: 5px;
 }
 .puerta img{
@@ -640,16 +673,20 @@ footer{
     position: absolute;
     border: blue blue transparent transparent;
     content: " ";
+    z-index: 99;
 }
 figcaption{
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    display: block;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
     padding: 5px;
-    background: #444;
+    background: #252525;
     color: #e1e1e1;
     border-radius: 5px;
+    font-size: 24px;
 }
 figcaption a{
     color: #91CD2E;
@@ -664,7 +701,7 @@ figcaption a:hover{
     display: inline-block;
     margin: 5px;
     width: 410.666666667px;
-    height: 95px;
+    height: 245px;
 }
 .y{
     -webkit-box-sizing: border-box;
@@ -672,16 +709,24 @@ figcaption a:hover{
     box-sizing: border-box;
     margin: 5px;
     width: 200.333333333px;
-    height: 200px;
+    height: 500px;
 }
 .x figcaption{
     width: 40%;
     height: 100%;
+    padding-top:80px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
 
 }
 .y figcaption{
     height: 40%;
     width: 100%;
+    padding-top:60px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
     
 }
 .x img{

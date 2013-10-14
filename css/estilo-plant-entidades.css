@@ -41,7 +41,7 @@ padding:0;
 }
 body{
     font-family: 'maven_promedium',;
-    background: #ddd;
+    background: #666;
     color: #333;
 }
 .ie7 body{
@@ -184,6 +184,8 @@ transform : scale(1.1);
 #banner{
     position: relative;
     width: 1024px;
+    height: 300px;
+    overflow: hidden;
     margin: 0 auto 20px auto;
     background: #444;
     border-bottom: 3px #91CD2E solid;
@@ -551,7 +553,12 @@ transform : scale(1.1);
     list-style: none;
     text-align: center;
 }
+#botones-entidad-nav li ul li a{
+    color: #333;
+
+}
 #botones-entidad-nav li ul li a:hover{
+    color: #91CD2E;
     background: #333;
 
 }
@@ -577,8 +584,7 @@ transform : scale(1.1);
 .nota{
     box-sizing: border-box;
     width:650px;
-    min-height: 170px;
-    min-height: 120px;
+    min-height: 220px;
     border-bottom:solid #A7D758 1px;
     border-top:solid #6D9A23 1px;
     padding: 10px 5px 5px 5px;
@@ -643,8 +649,7 @@ transform : scale(1.1);
 .nota img{
     display: block;
     float: left;
-    width: 200px;
-    max-height: 160px;
+    width: 160px;
     margin: 0 5px 5px 5px;
 }
 
@@ -653,10 +658,9 @@ transform : scale(1.1);
     display:inline-block; 
     text-align: center;
 }
-.nota .icono{
-    display: inline-block;
-    
-    margin: 7px;
+#iconos.icono{
+    float: left;
+    margin: 5px 2px;
     padding: auto;
     text-align: center;
 }
@@ -802,9 +806,10 @@ transform : scale(1.1);
 .info p{
     position: relative;
     font-family: 'maven_promedium';
-    margin: 5px 40px 5px 40px;
+    margin: 5px 40px 20px 40px;
     font-size: 16px;
-    line-height: 20px;
+    color: #444;
+    line-height: 22px;
 
 }
 .info a:hover{
@@ -891,7 +896,7 @@ transform : scale(1.1);
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
-    width:285px;
+    width:225px;
     height: 50px;
     overflow: hidden;
     text-align: right;
@@ -931,7 +936,28 @@ footer{
     border-bottom: 5px #91CD2E solid; 
     position: relative;
 }
-
+#nav-logos .logoentidad{
+    text-align: center;
+    position: relative;
+}
+#nav-logos .logoentidad .icono{
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0 auto;
+    opacity: .0;
+}
+#nav-logos .logoentidad:hover >.icono{
+    opacity: .5;
+}
+#nav-logos .logoentidad .icono:hover{
+    opacity: 1;
+}
+#nav-logos .logoentidad .icono a img{
+    width: 100%
+}
 
 footer:after{
     content: "";

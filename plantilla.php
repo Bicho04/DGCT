@@ -4,7 +4,6 @@
 <head>
     <meta http-equiv="content-type" content="text/html;charset=8859-2"/>
     <title>Direccion General de Cultura y Cultura</title>
-
     <link rel="icon" type="ico" href="imagenes/favicon.ico" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 

@@ -50,18 +50,22 @@
     <section id="banner">
 <!-- ******************************************************* -->
        
-   <div id="amazingslider-1">
+    <div id="amazingslider-1">
         <ul class="amazingslider-slides" style="display:none;">
-            <li><img src="images/Foto-1.jpg" alt="Picaflor" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-2.jpg" alt="Panteon de los heroes" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-4.jpg" alt="Foto-4" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/la foto.JPG" alt="panteom de los heroes" data-description="Descripcion de la foto" /></li>
+            <li><img src="imagenes/banner/CPJ-1.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-2.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-3.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-4.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-5.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-6.jpg" alt=""></li>
         </ul>
         <ul class="amazingslider-thumbnails" style="display:none; ">
-            <li><img src="images/Foto-1-tn.jpg" /></li>
-            <li><img src="images/Foto-2-tn.jpg" /></li>
-            <li><img src="images/Foto-4-tn.jpg" /></li>
-            <li><img src="images/la foto-tn.JPG" /></li>
+            <li><img src="imagenes/banner/CPJ-1-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-2-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-3-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-4-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-5-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/CPJ-6-tn.jpg" alt=""></li>
         </ul>
     </div>
        
@@ -104,35 +108,22 @@
               --><li class="col-4"><a href="CPJ-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
+         
+
         <nav id="botones-entidad">
                 <ul id="botones-entidad-nav">
-                    <li><a href="CPJ-Sala-Seminario.php">Salon Seminario</a></li><!--
-                    --><li><a href="CPJ-">Cursos</a><!-- 
-                      --><ul><!-- 
-                          --><li><a href="CPJ-Cursos-Computacion.php">Computacion</a></li><!--
-                         --><li><a href="CPJ-Cursos-Idiomas.php">Idiomas</a></li><!--
-                         --><li><a href="CPJ-Cursos-Danza.php">Danza</a></li><!--
-                          --><li><a href="CPJ-Cursos-Musica.php">M&uacute;sica</a><!--
-                      --></ul><!-- 
-                    --></li><!-- 
-                    --><li><a href="CPJ-">Cursos</a><!-- 
-                      --><ul><!-- 
-                          --><li><a href="CPJ-Cursos-Gimnasia-Artistica.php">Gimnasia Art&iacute;stica</a></li><!--
-                          --><li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio</a></li><!--
-                          --><li><a href="CPJ-Cursos-Artes-Marciales.php">Artes Marciales</a></li><!--
-                    	--></ul><!-- 
-                    --></li><!-- 
-                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust&iacute;n Pio Barrios</a></li><!-- 
-                    --><li><a href="CPJ-Sala-Seminario.php">Sal&oacute;n Seminario Branislava Susnik</a></li><!-- 
-                    --><li><a href="CPJ-Sala-Exposicion.php">Sala de Exposiciones Jacinto Rivero</a></li><!--
-                    --><li><a href="CPJ-Sala-Reuniones.php">Sala de Reuniones Agustina Miranda</a></li><!--
-                    --><li><a href="CPJ-Sala-Biblioteca.php">Biblioteca Herib Campo Cervera</a></li><!--
-                </ul>
+                    <li><a href="CPJ-Cursos-Musica.php">Conservatorio de M&uacute;sica</a></li>
+                    <li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio</a></li>
+                    <li><a href="CPJ-Cursos-Danza.php">Academia de Danza</a></li>
+                    <li><a href="CPJ-Cursos-Idiomas.php">Idiomas</a></li>
+                    <li><a href="CPJ-Cursos-Artes.php">Artes</a></li>
+                    <li><a href="CPJ-Cursos-Computacion.php">Computaci&oacute;n</a></li>
+                    
 
                 <aside id="menu-social">
                   <ul id="nav-social">
-                    <li><a href="mailto:direcciondeturismo@mca.gov.py"><img src="imagenes/email.png" width="45"></a></li>
-                    <li><a href="https://www.facebook.com/CulturaAsu"><img src="imagenes/facebook.png" width="45"></a></li>
+                    <li><a href="mailto:centroparaguayojapones@gmail.com"><img src="imagenes/email.png" width="45"></a></li>
+                    <li><a href="https://www.facebook.com/pages/Centro-Paraguayo-Japon%C3%A9s/258898532086?fref=ts"><img src="imagenes/facebook.png" width="45"></a></li>
                     <!--<li><a href="#"><img src="imagenes/twitter.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/skype.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/youtube.png" width="45"></a></li>
@@ -145,7 +136,12 @@
              <section id="cont-info">
                 <div class="info">
                     <h3>Cursos</h3>
-                    <h2>Gimnasio</h2><p>El gimnasio del Centro Paraguayo Japonés es el más completo de nuestro medio para la práctica de artes marciales y Gimnasia Artística. Clases de: Aikido, Karate Do, Judo, Taekwondo, Jiu Jitsu, Kung Fu, Bozen Do, Yawara Undo, Hap Kido y IAI DO (manejo de la espada japonesa o katana). </p>
+                    <h2>Gimnasio</h2>
+                    <img src="imagenes/fotos/SDC14119.jpg" class="central">
+              <p>El gimnasio del Centro Paraguayo Japon&eacute;s es el m&aacute;s completo de nuestro medio para la pr&aacute;ctica de artes marciales y Gimnasia Art&iacute;stica. Clases de: Aikido, Karate Do, Judo, Taekwondo, Jiu Jitsu, Kung Fu, Bozen Do, Yawara Undo, Hap Kido y IAI DO (manejo de la espada japonesa o katana). </p>
+                    <h2>En Gimnasia Art&iacute;stica</h2>
+                    <img src="imagenes/fotos/SDC14138.jpg" class="central">
+                  <p> tenemos el gimnasio mejor equipado del pa&iacute;s para la pr&aacute;ctica de &eacute;sta disciplina. Con equipos reglamentarios utilizados y recomendados por la Federaci&oacute;n Internacional de Gimnasia Art&iacute;stica, de la marca Senoh, para pr&aacute;cticas en suelo, anillas caballetes de salto, trampolines, vigas. </p>
                 </div>
               </section>
                   <!-- InstanceEndEditable --></div>  
@@ -153,15 +149,35 @@
   </section>
  
   <footer>
-     <nav id="menu-Logos">
+  <nav id="menu-Logos">
        <ul id="nav-logos">   
-          <li class="logoentidad"><a class="TeatroMunicipal" href="TeatroMunicipal.php"></a></li>
-          <li class="logoentidad"><a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a></li>
-          <li class="logoentidad"><a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a></li>
-          <li class="logoentidad"><a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a></li>
-          <li class="logoentidad"><a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a></li>
+          
+          <li class="logoentidad">
+            <a class="TeatroMunicipal" href="TeatroMunicipal.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+         
+          <li class="logoentidad">
+            <a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
       </ul>
-   </nav>
+
   </footer>
 
 </body>

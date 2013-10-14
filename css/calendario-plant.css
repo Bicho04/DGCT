@@ -8,7 +8,7 @@
     padding: 0;
     margin: 0 auto;
     font: normal 12px;
-    text-align: right;
+    text-align: left;
     vertical-align: center;
     display: inline;
     -webkit-box-shadow: 0 15px 16px -8px #333;
@@ -38,19 +38,19 @@
     float: left;
     width: 14.2857142857%;
     font-size: .7em ;
-    color: #333;
+    color: #fff;
     background: #91CD2E;
     text-align: center;
     vertical-align: center;
     margin-bottom: 3px;
 }
-.celdas, .today a, .today a:link, .today a:visited {
+.celdas{
     width:  48px;
     height: 48px;
     float: left;
-    padding: 1px 2px 0 0;
     margin: 2px;
-    color: #333;
+    color: #fff;
+    padding: 1px 2px 0 0;
     font-weight: normal;
     background: #fff;
     border: solid #91CD2E 1px;
@@ -60,7 +60,11 @@
 
 .event{
     background: #D3EBAB;
+    color: #fff;
 
+}
+.event > a{
+    color:#fff; 
 }
 .today a{
     background: #F4882F;
@@ -68,7 +72,7 @@
 
 .celdas   {
     text-decoration: none;
-    font-size: 10px;
+    font-size: 13px;
     display: block;
     color: #333;
     margin-top: 1px;
@@ -76,8 +80,8 @@
 .celdas  a {
     text-decoration: none;
     display: block;
-    color: #333;
     margin-top: 1px;
+    color:#fff;
     position: relative;
 }
 .event a img {
@@ -92,4 +96,7 @@
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
 }
-}
+
+
+
+

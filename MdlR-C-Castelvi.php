@@ -50,18 +50,30 @@
     <section id="banner">
 <!-- ******************************************************* -->
        
-   <div id="amazingslider-1">
+    <div id="amazingslider-1">
         <ul class="amazingslider-slides" style="display:none;">
-            <li><img src="images/Foto-1.jpg" alt="Picaflor" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-2.jpg" alt="Panteon de los heroes" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-4.jpg" alt="Foto-4" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/la foto.JPG" alt="panteom de los heroes" data-description="Descripcion de la foto" /></li>
+            <li><img src="imagenes/banner/MDLR-1.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-2.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-3.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-4.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-5.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-6.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-7.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-8.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-9.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-10.jpg" alt=""></li>
         </ul>
         <ul class="amazingslider-thumbnails" style="display:none; ">
-            <li><img src="images/Foto-1-tn.jpg" /></li>
-            <li><img src="images/Foto-2-tn.jpg" /></li>
-            <li><img src="images/Foto-4-tn.jpg" /></li>
-            <li><img src="images/la foto-tn.JPG" /></li>
+            <li><img src="imagenes/banner/MDLR-1-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-2-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-3-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-4-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-5-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-6-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-7-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-8-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-9-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-10-tn.jpg" alt=""></li>
         </ul>
     </div>
        
@@ -113,15 +125,25 @@
                     <li><a href="MdlR-Biblioteca.php">Biblioteca "Augusto Roa Bastos"</a></li>
                     <li><a href="MdlR-Auditorio.php">Auditorio Ru&iacute; Diaz de Guzman</a></li>
                     <li><a href="MdlR-Teatro-GarciaLorca.php">Teatro Garc&iacute;a Lorca</a></li>
+                    <li><a href="MdlR-p-Leonor.php">Patio Leonor</a></li>
+                    <li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li>
+                    <li><a href="MdlR-C-Viola.php">Museo "memoria de la ciudad"</a></li>
+                    <li><a href="MdlR-C-Clari.php">Bar Casa Clari</a></li>
+                    <li><a href="MdlR-Espacio-Miguel-Acevedo.php">Espacio Miguel Acevedo</a></li>
+                    <li><a href="MdlR-La-aleria.php">La Galeria</a></li>
+                    <li><a href="MdlR-C-Castelvi.php">Casa Castelv&iacute;</a></li>
+                    <li><a href="MdlR-Casa-Ballario.php">Patio Arecaya</a></li>
+                    <!-- <li><a href="MdlR-Biblioteca.php">Biblioteca "Augusto Roa Bastos"</a></li>
+                    <li><a href="MdlR-Auditorio.php">Auditorio Ru&iacute; Diaz de Guzman</a></li>
+                    <li><a href="MdlR-Teatro-GarciaLorca.php">Teatro Garc&iacute;a Lorca</a></li>
                     <li><a href="MdlR-Patio-Leonor.php">Patio Leonor</a></li>
                     <li><a href="MdlR-Casa-Ballario.php">Casa Ballario</a></li>
                     <li><a href="MdlR-Museo-memoria-de-la-ciudad.php">Museo "memoria de la ciudad"</a></li>
                     <li><a href="MdlR-Bar-Casa-Clari.php">Bar Casa Clari</a></li>
-                    <li><a href="MdlR-Espacio-Miguel Acevedo.php">Espacio Miguel Acevedo</a></li>
+                    <li><a href="MdlR-Espacio-Miguel-Acevedo.php">Espacio Miguel Acevedo</a></li>
                     <li><a href="MdlR-La-aleria.php">La Galeria</a></li>
-                    <li><a href="MdlR-Casa-Castelví.php">Casa Castelv&iacute;</a></li>
-                    <li><a href="MdlR-Casa-Ballario.php">Patio Arecaya</a></li>
-                    <li><a href="MdlR-Casa-Ballario.php">Casa Ballario</a></li>
+                    <li><a href="MdlR-Casa-Castelvi.php">Casa Castelv&iacute;</a></li>
+                    <li><a href="MdlR-Casa-Ballario.php">Patio Arecaya</a></li> -->
                 </ul>
 
                 <aside id="menu-social">
@@ -137,13 +159,14 @@
 
             </nav>
               <!-- InstanceBeginEditable name="INFO" -->
-              <section id="cont-info"><div class="info"><h3>9 Casas</h3>
-               <h2>CASA  CASTELVÍ</h2>
-                 <p>La , que antiguamente se llamaba Casa Serra, es una construcción de 1804, realizada  todavía con el sistema colonial y es la mejor conservada de la Manzana.  &nbsp;Tiene las puertas, las ventanas, las rejas y uno de los pisos originales.  &nbsp;Es una casa pre-francista, ubicada a 15 metros de la calle; extranamente  tiene un jardín exterior que se integró al área urbana eliminando la muralla  (Patio Arecayá). El catalán que construye esta casa, el senor José Castelví,  era vice alcalde de la ciudad de Asunción en 1800. &nbsp;Esta casa ha sido restaurada  muy criteriosamente por el Centro Histórico, trabajando especialmente en esa  restauración la Arq. Beatriz Chase.</p>
-                 <p>En Casa  Castelví funcionan los espacios Domingo Martínez de Irala (tres salas, una de  ellas con aire acondicionado split), Samudio (una sala) y Julia Elena Bibolini  (una sala), destinadas a exposiciones de artes visuales (pintura, grabado,  dibujo, fotografías, instalación, esculturas), a disposición de artistas  nacionales y extranjeros con trayectoria conocida. Las obras son colocadas  sobre paneles de madera (resguardando las originales), y cuenta con luces spots  y dicroicas. Personal capacitado para realizar los montajes.</p>
-                 <p>El Patio  Arecayá, llamado así recordando la rebelión de los indios Arecayá, es el jardín  de la casa Castelví, donde se realizan actividades al aire libre.</p>
-                 <p>Las  exposiciones son de acceso libre y gratuito, en el horario de: lunes a viernes,  8 a 20 h, sábados y domingos, de 8 a 18 h.</p>
-                 <p>(Los  artistas plásticos interesados en exponer deben dirigirse a la Unidad de  Espacios del CCC, para retirar requisitos y condiciones de uso. Teléfonos  442-448, 447-683, int. 109; de lunes a viernes, de 7:30 a 15:30 h. E-mail: <a href="mailto:direccion.manzana.rivera@gmail.com">direccion.manzana.rivera@gmail.com</a>; <a href="http://www.facebook.com/">www.facebook.com</a>).</p>
+              <section id="cont-info"><div class="info"><h3>Las Casas de la Manzana</h3>
+               <h2>CASA  CASTELV&iacute;</h2>
+                 <img class="central"src="imagenes/fotos/casa-castelvi.jpg" alt="Casa Castelvi"> 
+                 <p>La , que antiguamente se llamaba Casa Serra, es una construcci&oacute;n de 1804, realizada  todav&iacute;a con el sistema colonial y es la mejor conservada de la Manzana.  &nbsp;Tiene las puertas, las ventanas, las rejas y uno de los pisos originales.  &nbsp;Es una casa pre-francista, ubicada a 15 metros de la calle; extranamente  tiene un jard&iacute;n exterior que se integr&oacute; al &aacute;rea urbana eliminando la muralla  (Patio Arecay&aacute;). El catal&aacute;n que construye esta casa, el senor Jos&eacute; Castelv&iacute;,  era vice alcalde de la ciudad de Asunci&oacute;n en 1800. &nbsp;Esta casa ha sido restaurada  muy criteriosamente por el Centro Hist&oacute;rico, trabajando especialmente en esa  restauraci&oacute;n la Arq. Beatriz Chase.</p>
+                 <p>En Casa  Castelv&iacute; funcionan los espacios Domingo Mart&iacute;nez de Irala (tres salas, una de  ellas con aire acondicionado split), Samudio (una sala) y Julia Elena Bibolini  (una sala), destinadas a exposiciones de artes visuales (pintura, grabado,  dibujo, fotograf&iacute;as, instalaci&oacute;n, esculturas), a disposici&oacute;n de artistas  nacionales y extranjeros con trayectoria conocida. Las obras son colocadas  sobre paneles de madera (resguardando las originales), y cuenta con luces spots  y dicroicas. Personal capacitado para realizar los montajes.</p>
+                 <p><img class="lateral"src="imagenes/fotos/casa-castelvi1.jpg" alt="Casa Castelvi"> El Patio  Arecay&aacute;, llamado as&iacute; recordando la rebeli&oacute;n de los indios Arecay&aacute;, es el jard&iacute;n  de la casa Castelv&iacute;, donde se realizan actividades al aire libre.</p>
+                 <p>Las  exposiciones son de acceso libre y gratuito, en el horario de: lunes a viernes,  8 a 20 h, s&aacute;bados y domingos, de 8 a 18 h.</p>
+                 <p>(Los  artistas pl&aacute;sticos interesados en exponer deben dirigirse a la Unidad de  Espacios del CCC, para retirar requisitos y condiciones de uso. Tel&eacute;fonos  442-448, 447-683, int. 109; de lunes a viernes, de 7:30 a 15:30 h. E-mail: <a href="mailto:direccion.manzana.rivera@gmail.com">direccion.manzana.rivera@gmail.com</a>; <a href="http://www.facebook.com/">www.facebook.com</a>).</p>
                </div>
               </section>
               <!-- InstanceEndEditable --></div>  
@@ -151,15 +174,35 @@
   </section>
  
   <footer>
-     <nav id="menu-Logos">
+  <nav id="menu-Logos">
        <ul id="nav-logos">   
-          <li class="logoentidad"><a class="TeatroMunicipal" href="TeatroMunicipal.php"></a></li>
-          <li class="logoentidad"><a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a></li>
-          <li class="logoentidad"><a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a></li>
-          <li class="logoentidad"><a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a></li>
-          <li class="logoentidad"><a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a></li>
+          
+          <li class="logoentidad">
+            <a class="TeatroMunicipal" href="TeatroMunicipal.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+         
+          <li class="logoentidad">
+            <a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
       </ul>
-   </nav>
+
   </footer>
 
 </body>

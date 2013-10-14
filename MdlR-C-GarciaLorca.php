@@ -50,18 +50,30 @@
     <section id="banner">
 <!-- ******************************************************* -->
        
-   <div id="amazingslider-1">
+    <div id="amazingslider-1">
         <ul class="amazingslider-slides" style="display:none;">
-            <li><img src="images/Foto-1.jpg" alt="Picaflor" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-2.jpg" alt="Panteon de los heroes" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-4.jpg" alt="Foto-4" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/la foto.JPG" alt="panteom de los heroes" data-description="Descripcion de la foto" /></li>
+            <li><img src="imagenes/banner/MDLR-1.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-2.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-3.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-4.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-5.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-6.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-7.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-8.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-9.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-10.jpg" alt=""></li>
         </ul>
         <ul class="amazingslider-thumbnails" style="display:none; ">
-            <li><img src="images/Foto-1-tn.jpg" /></li>
-            <li><img src="images/Foto-2-tn.jpg" /></li>
-            <li><img src="images/Foto-4-tn.jpg" /></li>
-            <li><img src="images/la foto-tn.JPG" /></li>
+            <li><img src="imagenes/banner/MDLR-1-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-2-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-3-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-4-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-5-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-6-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-7-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-8-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-9-tn.jpg" alt=""></li>
+            <li><img src="imagenes/banner/MDLR-10-tn.jpg" alt=""></li>
         </ul>
     </div>
        
@@ -113,15 +125,25 @@
                     <li><a href="MdlR-Biblioteca.php">Biblioteca "Augusto Roa Bastos"</a></li>
                     <li><a href="MdlR-Auditorio.php">Auditorio Ru&iacute; Diaz de Guzman</a></li>
                     <li><a href="MdlR-Teatro-GarciaLorca.php">Teatro Garc&iacute;a Lorca</a></li>
+                    <li><a href="MdlR-p-Leonor.php">Patio Leonor</a></li>
+                    <li><a href="MdlR-C-Ballario.php">Casa Ballario</a></li>
+                    <li><a href="MdlR-C-Viola.php">Museo "memoria de la ciudad"</a></li>
+                    <li><a href="MdlR-C-Clari.php">Bar Casa Clari</a></li>
+                    <li><a href="MdlR-Espacio-Miguel-Acevedo.php">Espacio Miguel Acevedo</a></li>
+                    <li><a href="MdlR-La-aleria.php">La Galeria</a></li>
+                    <li><a href="MdlR-C-Castelvi.php">Casa Castelv&iacute;</a></li>
+                    <li><a href="MdlR-Casa-Ballario.php">Patio Arecaya</a></li>
+                    <!-- <li><a href="MdlR-Biblioteca.php">Biblioteca "Augusto Roa Bastos"</a></li>
+                    <li><a href="MdlR-Auditorio.php">Auditorio Ru&iacute; Diaz de Guzman</a></li>
+                    <li><a href="MdlR-Teatro-GarciaLorca.php">Teatro Garc&iacute;a Lorca</a></li>
                     <li><a href="MdlR-Patio-Leonor.php">Patio Leonor</a></li>
                     <li><a href="MdlR-Casa-Ballario.php">Casa Ballario</a></li>
                     <li><a href="MdlR-Museo-memoria-de-la-ciudad.php">Museo "memoria de la ciudad"</a></li>
                     <li><a href="MdlR-Bar-Casa-Clari.php">Bar Casa Clari</a></li>
-                    <li><a href="MdlR-Espacio-Miguel Acevedo.php">Espacio Miguel Acevedo</a></li>
+                    <li><a href="MdlR-Espacio-Miguel-Acevedo.php">Espacio Miguel Acevedo</a></li>
                     <li><a href="MdlR-La-aleria.php">La Galeria</a></li>
-                    <li><a href="MdlR-Casa-Castelví.php">Casa Castelv&iacute;</a></li>
-                    <li><a href="MdlR-Casa-Ballario.php">Patio Arecaya</a></li>
-                    <li><a href="MdlR-Casa-Ballario.php">Casa Ballario</a></li>
+                    <li><a href="MdlR-Casa-Castelvi.php">Casa Castelv&iacute;</a></li>
+                    <li><a href="MdlR-Casa-Ballario.php">Patio Arecaya</a></li> -->
                 </ul>
 
                 <aside id="menu-social">
@@ -139,13 +161,13 @@
               <!-- InstanceBeginEditable name="INFO" -->
                <section id="cont-info">
                <div class="info">
-                 <h3>9 Casas</h3>
-                 <h2>GARCÍA LORCA</h2>
-                 <p>Como ya lo mencionamos, la Manzana de la  Rivera estaba compuesta por nueve casas y un predio baldío, donde en 1993 se  pensó construir un teatro experimental como culminación &nbsp;del Proyecto  Manzana de la Rivera. Para esto se convocó a un concurso de ideas para  arquitectos jóvenes, el premio Ricardo Boettner, y resultó ganadora la idea presentada  por el Arq. Javier Corvalán. En 1997 se iniciaron los trabajos y el Salón  Multiuso &ldquo;García Lorca&rdquo; fue inaugurado el 26 de junio de 1999, con la visita  del presidente del gobierno espanol José María Aznar.</p>
+                 <h3>Las Casas de la Manzana</h3>
+                 <h2>GARC&iacute;A LORCA</h2>
+                 <p>Como ya lo mencionamos, la Manzana de la  Rivera estaba compuesta por nueve casas y un predio bald&iacute;o, donde en 1993 se  pens&oacute; construir un teatro experimental como culminaci&oacute;n &nbsp;del Proyecto  Manzana de la Rivera. Para esto se convoc&oacute; a un concurso de ideas para  arquitectos j&oacute;venes, el premio Ricardo Boettner, y result&oacute; ganadora la idea presentada  por el Arq. Javier Corval&aacute;n. En 1997 se iniciaron los trabajos y el Sal&oacute;n  Multiuso &ldquo;Garc&iacute;a Lorca&rdquo; fue inaugurado el 26 de junio de 1999, con la visita  del presidente del gobierno espanol Jos&eacute; Mar&iacute;a Aznar.</p>
                  <p>&nbsp;</p>
-                 <p>La Sala García Lorca es utilizada para  espectáculos de danza, teatro, música, encuentros culturales y otros. Tiene  capacidad para 250 personas (sillas movibles) y personal técnico capacitado en  luces y sonido (equipamiento básico). Tiene un costo de usufructo, regido por ordenanza  municipal tributaria.</p>
+                 <p>La Sala Garc&iacute;a Lorca es utilizada para  espect&aacute;culos de danza, teatro, m&uacute;sica, encuentros culturales y otros. Tiene  capacidad para 250 personas (sillas movibles) y personal t&eacute;cnico capacitado en  luces y sonido (equipamiento b&aacute;sico). Tiene un costo de usufructo, regido por ordenanza  municipal tributaria.</p>
                  <p>(Los interesados en usufructuar deben  dirigirse a la Unidad de Espacios del CCC, para retirar requisitos y  condiciones de uso. <br>
-                   Teléfonos 442-448, 447-683, int. 109;  de lunes a viernes, de 7:30 a<br>
+                   Tel&eacute;fonos 442-448, 447-683, int. 109;  de lunes a viernes, de 7:30 a<br>
                    15:30 h. E-mail: <a href="mailto:direccion.manzana.rivera@gmail.com">direccion.manzana.rivera@gmail.com</a>;<br>
   <a href="http://www.facebook.com/">www.facebook.com</a>).</p>
                </div>
@@ -155,15 +177,35 @@
   </section>
  
   <footer>
-     <nav id="menu-Logos">
+  <nav id="menu-Logos">
        <ul id="nav-logos">   
-          <li class="logoentidad"><a class="TeatroMunicipal" href="TeatroMunicipal.php"></a></li>
-          <li class="logoentidad"><a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a></li>
-          <li class="logoentidad"><a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a></li>
-          <li class="logoentidad"><a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a></li>
-          <li class="logoentidad"><a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a></li>
+          
+          <li class="logoentidad">
+            <a class="TeatroMunicipal" href="TeatroMunicipal.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+         
+          <li class="logoentidad">
+            <a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
       </ul>
-   </nav>
+
   </footer>
 
 </body>

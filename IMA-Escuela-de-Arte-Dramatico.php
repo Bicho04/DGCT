@@ -4,7 +4,7 @@
 <?php $entidad="c81e7";?>
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2"/>
-<title>Instituto Musnicipal de Arte</title> 
+<title>Instituto Minicipal de Arte</title> 
 	<link rel="icon" type="ico" href="imagenes/favicon.ico" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -52,17 +52,45 @@
        
    <div id="amazingslider-1">
         <ul class="amazingslider-slides" style="display:none;">
-            <li><img src="images/Foto-1.jpg" alt="Picaflor" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-2.jpg" alt="Panteon de los heroes" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/Foto-4.jpg" alt="Foto-4" data-description="Descripcion de la foto" /></li>
-            <li><img src="images/la foto.JPG" alt="panteom de los heroes" data-description="Descripcion de la foto" /></li>
+            <!-- <li><img src="images/Foto-1.jpg" alt="TITULO DE LA FOTO" data-description="Descripcion de la foto" /></li> -->
+            <li><img src="imagenes/banner/1.jpg" alt=""></li><!-- 
+            <li><img src="imagenes/banner/2.jpg" alt=""></li> -->
+            <li><img src="imagenes/banner/3.jpg" alt=""></li>
+            <li><img src="imagenes/banner/4.jpg" alt=""></li>
+            <li><img src="imagenes/banner/5.jpg" alt=""></li><!-- 
+            <li><img src="imagenes/banner/6.jpg" alt=""></li> --><!-- 
+            <li><img src="imagenes/banner/7.jpg" alt=""></li> -->
+            <li><img src="imagenes/banner/8.jpg" alt=""></li>
+            <li><img src="imagenes/banner/9.jpg" alt=""></li><!-- 
+            <li><img src="imagenes/banner/10.jpg" alt=""></li> --><!-- 
+            <li><img src="imagenes/banner/11.jpg" alt=""></li> -->
+            <li><img src="imagenes/banner/12.jpg" alt=""></li>
+            <li><img src="imagenes/banner/13.jpg" alt=""></li>
+            <li><img src="imagenes/banner/14.jpg" alt=""></li>
+            <li><img src="imagenes/banner/15.jpg" alt=""></li><!-- 
+            <li><img src="imagenes/banner/16.jpg" alt=""></li>
+            <li><img src="imagenes/banner/17.jpg" alt=""></li> -->
+            <li><img src="imagenes/banner/18.jpg" alt=""></li>
         </ul>
         <ul class="amazingslider-thumbnails" style="display:none; ">
-            <li><img src="images/Foto-1-tn.jpg" /></li>
-            <li><img src="images/Foto-2-tn.jpg" /></li>
-            <li><img src="images/Foto-4-tn.jpg" /></li>
-            <li><img src="images/la foto-tn.JPG" /></li>
-        </ul>
+            <li><img src="imagenes/banner/1-tn.jpg" alt="1"></li><!-- 
+            <li><img src="imagenes/banner/2-tn.jpg" alt="2"></li> -->
+            <li><img src="imagenes/banner/3-tn.jpg" alt="3"></li>
+            <li><img src="imagenes/banner/4-tn.jpg" alt="4"></li>
+            <li><img src="imagenes/banner/5-tn.jpg" alt="5"></li><!-- 
+            <li><img src="imagenes/banner/6-tn.jpg" alt="6"></li> --><!-- 
+            <li><img src="imagenes/banner/7-tn.jpg" alt="7"></li> -->
+            <li><img src="imagenes/banner/8-tn.jpg" alt="8"></li>
+            <li><img src="imagenes/banner/9-tn.jpg" alt="9"></li><!-- 
+            <li><img src="imagenes/banner/10-tn.jpg" alt="10"></li> --><!-- 
+            <li><img src="imagenes/banner/11-tn.jpg" alt="11"></li> -->
+            <li><img src="imagenes/banner/12-tn.jpg" alt="12"></li>
+            <li><img src="imagenes/banner/13-tn.jpg" alt="13"></li>
+            <li><img src="imagenes/banner/14-tn.jpg" alt="14"></li>
+            <li><img src="imagenes/banner/15-tn.jpg" alt="15"></li><!-- 
+            <li><img src="imagenes/banner/16-tn.jpg" alt="16"></li>
+            <li><img src="imagenes/banner/17-tn.jpg" alt="17"></li> -->
+            <li><img src="imagenes/banner/18-tn.jpg" alt="18"></li>
     </div>
        
         
@@ -89,10 +117,10 @@
              
       <div id="cont-central">
             <ul id="nav-inst"><!--
-              --><li class="col-4"><a href="IMA-Resena-Historica.php">Historia</a></li><!-- 
-              --><li class="col-4"><a href="IMA-Espacios.php">Espacios</a></li><!-- 
-              --><li class="col-4"><a href="IMA-Futura-Sede.php">Futura sede</a></li><!-- 
-              --><li class="col-4"><a href="IMA-Contacto.php">Contacto</a></li><!-- 
+              --><li class="col-2"><a href="IMA-Resena-Historica.php">Historia</a></li><!-- 
+              <li class="col-4"><a href="IMA-Espacios.php">Espacios</a></li>
+              <li class="col-4"><a href="IMA-Futura-Sede.php">Futura sede</a></li>
+              --><li class="col-2"><a href="IMA-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
         <nav id="botones-entidad">
@@ -170,27 +198,27 @@
         <!-- InstanceBeginEditable name="INFO" -->
         <section id="cont-info">
             <div class="info">
-           <h3>Escuela de Arte Dramático “Roque Centurión Miranda”</h3>
-            <p>Su objetivo es la formación de actores y profesores de teatro.</p>
-            <ul>
-              <li>Contenido:</li>
-              <li>-Expresión teatral</li>
-              <li>-Apoyo al teatro</li>
-              <li>-Teatro y sociedad</li>
-              <li>-Historia del teatro </li> 
-              <li>-Expresión corporal</li>
-              <li>-Dicción    </li>
-              <li>-Lenguajes parateatrales</li>
-            </ul>
+           <h3>Escuela de Arte Dram&aacute;tico &quot;€œRoque Centuri&oacute;n Miranda&quot;€</h3>
+            <p>Su objetivo es la formaci&oacute;n de actores y profesores de teatro.</p>
+            <p>Contenido:</p>
+            <p>-Expresi&oacute;n teatral       
+            -Apoyo al teatro</p>
+            <p>-Teatro y sociedad      
+            -Historia del teatro</p>
+            <p>-Expresi&oacute;n corporal     
+            -Dicci&oacute;n</p>
+            <p>-Lenguajes parateatrales</p>
             <p>Edad: Bachilleres</p>
             <p>Horarios: Lunes a Viernes de 19:00 a 21:50 horas.</p>
-            <p>Requisitos: *Fotocopia de certificado de nacimiento o cédula de identidad acompañado del original.<br>*Certificado de estudios del nivel medio concluido visado por el MEC.</p>
-            Título otorgado:
-            <li>-Actor/actriz.</li> 
-            <li>-Profesor de Arte Dramático.</li>
-            Local: Economistas Graduados.Mariscal López c/ Tacuary.
-
-            
+            <p>Requisitos: *Fotocopia de certificado de nacimiento o c&eacute;dula de identidad acompa&ntilde;ado del </p>
+            <p>original.</p>
+            <p>*Certificado de estudios del nivel medio concluido visado por el MEC.</p>
+            <p>T&iacute;tulo otorgado:  -Actor/actriz. </p>
+            <p>-Profesor de Arte Dram&aacute;tico.</p>
+            <p>Local: Economistas Graduados.Mariscal L&oacute;pez c/ Tacuary.</p>
+            <ul>
+              <li></li>
+            </ul>
           </div>
         </section><em></em>
         <!-- InstanceEndEditable --></div>  
@@ -198,15 +226,35 @@
   </section>
  
   <footer>
-     <nav id="menu-Logos">
+  <nav id="menu-Logos">
        <ul id="nav-logos">   
-          <li class="logoentidad"><a class="TeatroMunicipal" href="TeatroMunicipal.php"></a></li>
-          <li class="logoentidad"><a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a></li>
-          <li class="logoentidad"><a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a></li>
-          <li class="logoentidad"><a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a></li>
-          <li class="logoentidad"><a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a></li>
+          
+          <li class="logoentidad">
+            <a class="TeatroMunicipal" href="TeatroMunicipal.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+          
+          <li class="logoentidad">
+            <a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
+         
+          <li class="logoentidad">
+            <a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a>
+            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
+          </li>
       </ul>
-   </nav>
+
   </footer>
 
 </body>
