@@ -1,0 +1,457 @@
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900);
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-size: .9em;
+}
+/* entypo */
+[class*="entypo-"]:before {
+  font-family: 'entypo', sans-serif;
+}
+body {
+    background: #ddd;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: #333;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 400;
+    margin: 0 auto;
+}
+h1, h2{
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 900; 
+    font-style: normal;
+}
+h3, h4, h5, h6{
+   font-family: 'Maven Pro', sans-serif;
+   font-weight: 700;
+}
+a{
+	text-decoration: none;
+	color:#333;
+}
+a:hover{
+	text-decoration: underline;
+}
+footer{
+	width: 100%;
+    background: #333;
+    border-top: 5px rgb(165,207,76) solid; 
+    border-bottom: 5px rgb(165,207,76) solid; 
+    text-align: center;
+}
+header{
+	background: #fff;
+	border-bottom: 5px #669900 solid;
+  box-shadow: 5px 0 10px #000;
+	height: 100px;
+	position: relative;
+	top: 0;
+	width: 100%;
+}
+#banner{
+    background: rgba(50,50,50,.8);
+    height:400px; 
+    margin: 0 auto;
+	width: 1024px;
+}
+#calendario{
+	overflow: hidden;
+	height: 300px;
+	background: #669900;
+	border-radius: 7px;
+    text-align: center;
+
+}
+#calendario h1{
+    color:#006600;
+    font-size: 1.2em;
+    font-weight: 900;
+    background: #669900;
+    border-radius: 7px 7px 0 0;
+    margin: 0;
+    padding:0;
+    z-index: 2;
+    line-height: 1.8em;
+}
+#contenido{
+	padding-top: 10px;
+	margin: 0 auto 3em;
+	width: 1024px;
+}
+#cont-header{
+	border-bottom: 5px #690 solid;
+	height: 100px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	width: 1024px;
+}
+#cont-header *{
+	display: inline-block;
+	vertical-align: middle;
+}
+#cont-header>figure>img{
+	width: 100%;
+	height: 100%;
+}
+#cont-header #logo-asu{
+	left: 40px;
+	top:5px;
+	height: 80px; 
+	position: absolute;
+	width:80px; 
+}
+#cont-header #logo-rohayhu-asu{
+	position: absolute;
+	height: auto; 
+	left: 120px;
+	top: 25px;
+	width:200px; 
+	height: 44px;
+}
+#cont-header #logo-DGCT{
+	position: absolute;
+	right: 40px;
+	margin: 10px;
+	width: 170px;
+	height: 72px;
+}
+#cont-header #clima{
+	position: absolute;
+	top: 25px;
+	right: 330px;
+	color: #fff;
+}
+#enlaces{
+	background: rgb(145,205,47);
+	width: 100%;
+	border-radius: 7px;
+	padding: 10px;
+}
+#enlaces h2{
+	color:rgb(0,99,0);
+	margin: 0;
+	padding: 0;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+#lat{
+	display: inline-block;
+	width: 33.3%;
+	vertical-align: top;
+	padding: 0 0 0 10px;
+	margin: 0;
+}
+#mailign{
+	background: rgb(157,189,92);
+	border-radius: 7px;
+	padding: 10px;
+	margin: 0;
+}
+#mailign h3{
+	text-align: center;
+	color: #006400;
+	margin: 0;
+	padding: 0;
+	line-height: 1em;
+	font-size: 1em;
+	padding: 0 5px 20px 5px;
+}
+#mailign .form .name input, #mailign .form .email input{ 
+    text-align: center;
+    outline: 0;
+    width: 100%;
+    height: 25px;
+    margin: 2px 0;
+    border: solid 1px #eee;
+    border-radius: 3px;
+    background: #FFFFFF url('bg_form.png') left top repeat-x;
+    background: -webkit-gradient(linear, left top, left 25, from(#FFFFFF), color-stop(4%, #EEEEEE), to(#FFFFFF));
+    background: -moz-linear-gradient(top, #FFFFFF, #EEEEEE 1px, #FFFFFF 25px);
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px;}
+    }
+
+
+#mailign .form input:hover, #mailign .form input:focus{ 
+    border-color: #fc3; 
+    -webkit-box-shadow: #fc3 0px 0px 8px;
+    }
+
+#mailign .form .submit input{
+    text-align: center;
+    width: 100%;
+    height: 25px;
+    padding: 0 auto;
+    background: #ccc;
+    border: 0;
+    color: #000;
+    border-radius: 5px;
+    font-size:.8em;
+    }
+#mailign .form .submit input:hover, #mailign .form .submit input:hover:focus{
+    color:#333;
+    background: #999;
+    }
+
+#mailign .form .submit{
+	display: inline-block;
+	width: 25%;
+	margin: 0;
+	padding: 0;
+	margin: 0 0 0 3%;
+}
+#mailign .form .name,#mailign .form .email{
+	display: inline-block;
+	width:70%;
+	margin: 0;
+	padding: 0;
+}
+#principal{
+	display: inline-block;	
+	width: 66.6%;
+	vertical-align: top;
+}
+#social{
+	margin-top: 5px;
+	right: 50px;
+	position: absolute;
+	text-align: center;
+	top: 100%;
+	width: 170px;
+}
+#social .btn-social{
+	background: #ccc;
+	border-radius:0 0 5px 5px;
+	display: inline-block;
+	color:#690;
+	font-size: 1.3em;
+	height: 30px;
+	-webkit-transition: all .5s;
+	-moz-transition: all .5s;
+	-ms-transition: all .5s;
+	-o-transition: all .5s;
+	transition: all .5s;
+	vertical-align: top;
+	width: 30px;
+}
+#social .btn-social:hover{
+	background:#690;
+	color:#fff;
+	height: 45px;
+	padding-top: 15px;
+	
+}
+#social .btn-social a{
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+}
+#temas{
+	background: #b7b7b7;
+	border-radius: 7px;
+	margin: 10px 0;
+	padding-bottom: 1px;
+	text-align: center;
+}
+#temas h3{
+	background: #a4a4a4;
+	border-radius: 7px 7px 0 0;
+	color: #666;
+	font-size: 1.2em;
+	font-weight: 900;
+	line-height: 1.8em;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+#temas>ul{
+	text-transform: uppercase;
+	margin: 10px;
+	text-align: left;
+	padding: 0
+}
+#temas>ul>li{
+	display: inline-block;
+	width: 49.1%;
+	margin: 2px 0;
+	list-style: none;
+	text-align: center;
+}
+#temas>ul>li>a{
+	display:block;
+	background: #c2c2c2;
+	font-size: .75em;
+	font-weight: 700;
+	line-height: 2.4em;
+}
+#temas:hover h3{
+	color: gold;
+}
+
+#temas>ul>li>a:hover{
+	background: gold;
+}
+
+.clr{
+	clear: both;
+}
+.enlace{
+	display: inline-block;
+	width: 19.2%;
+	background: rgb(222,240,192);
+	margin: 1px 0;
+	height: 60px;
+	overflow: hidden;
+}
+.enlace>a{
+	display: inline-block;
+	vertical-align: middle;
+	height: 100%;
+	width: 49%;
+}
+.enlace figcaption{
+	display: inline-block;
+	vertical-align: middle;
+	text-transform: uppercase;
+	font-size: .48em;
+	font-weight: 700;
+	white-space: normal;
+	width: 46%;
+}
+.enlace a img{
+	color: #fff;
+	height: 100%;
+	width: 100%;
+	display: block;
+}
+.entidad a{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+.evento{
+	background: rgb(16,199,59);
+	display: inline-block;
+	border-radius: 7px;
+	padding: 10px;
+	width: 49%;
+	height: 230px;
+	margin-bottom: 15px; 
+}
+.evento:nth-child(2n){
+	float: right;
+	background: rgb(79,175,251);
+}
+.evento:nth-child(4n+1){
+	background: rgb(255,137,21);
+}
+.evento:nth-child(4n){
+	background: rgb(222,6,151);
+}
+.evento figure{
+	display:block;
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	background: #fff url(../img/bg-img.png) no-repeat;
+	background-size:  100%;
+}
+.evento figure img{
+	display: inline-block;
+	width: 100%;
+	height: auto;
+}
+.evento h2{
+	margin: 0;
+	font-size: 1.1em;
+	padding: 0;
+	font-weight: 700;
+	line-height: 1.5em;
+	padding-top: 3px;
+	text-transform: capitalize;
+	white-space:nowrap; 
+	overflow:hidden; 
+	text-overflow: ellipsis; 
+	color:#fff;
+}
+/*.evento h2:hover{
+	width: 300px;
+	position: absolute;
+	background: #333;
+	text-overflow:inherit;
+	overflow:visible;
+}*/
+.evento h2 a{
+	color: white;
+
+}
+.evento p{
+	margin: 0;
+	padding: 0;
+	font-size: .78em;
+	line-height: 1.3em;
+	text-transform: capitalize;
+}
+.evento .blod{
+	font-weight: 700;
+}
+.evento .mark{
+	background: rgb(165,207,76);
+}
+
+
+.TM{
+    background: url(../img/BG-TeatroMunicipal.png);
+}
+.IMA{
+    background: url(../img/BG-IMA.png);
+}
+.MR{
+    background: url(../img/BG-Manzana.png);
+}
+.CPJ{
+    background: url(../img/BG-CPJ.png);
+}
+.DACT{
+    background: url(../img/BG-DACT.png);
+}
+.TM,.IMA,.MR,.CPJ,.DACT{
+	overflow: hidden;
+    background-position: 0 100px;
+    -webkit-transition: top 1s, height .5s;
+    -moz-transition: top 1s, height .5s;
+    -ms-transition: top 1s, height .5s;
+    -o-transition: top 1s, height .5s;
+    transition: top 1s, height .5s;
+}
+.TM:hover,.IMA:hover,.MR:hover,.CPJ:hover,.DACT:hover{
+	background-position: 0 0px;
+    border-radius: 15px;
+    position: relative;
+}
+
+#nav-logos .entidad {
+    box-sizing: border-box; 
+    width: 160px;
+    height: 100px;
+    display: inline-block;
+    margin: 7px;
+    border-radius: 5px;
+    list-style: none;
+    text-align: center;
+
+}
+#nav-logos .entidad a{
+    width: 100%;
+    height: 100%;
+}

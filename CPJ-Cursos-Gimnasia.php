@@ -92,20 +92,19 @@
       </ul>
              
       <div id="cont-central">
-             <ul id="nav-inst"><!--
-              --><li class="col-4"><a href="CPJ-historia.php">Historia</a></li><!-- 
-              --><li class="col-4"><a href="CPJ-Contacto.php">asocia&oacute;n Paraguayo Japonesa</a></li><!-- 
-              --><li class="col-4"><a href="#">Espacios</a><!-- 
-                --><ul class="col-4"><!-- 
-                    --><li><a href="CPJ-Sala-TeatroaPB.php">Teatro agust&iacute;n P&iacute;o Barrios</a></li><!--
+            <ul id="nav-inst"><!--
+              --><li class="col-3"><a href="CPJ-historia.php">Historia</a></li><!-- 
+              --><li class="col-3"><a href="#">Espacios</a><!-- 
+                --><ul class="col-3"><!-- 
+                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust&iacute;n P&iacute;o Barrios</a></li><!--
                     --><li><a href="CPJ-Sala-Seminario.php">Sala Seminario Branislava Susnik</a><!--
-                    --><li><a href="CPJ-Sala-anfiteatro.php">anfiteatro Oscar Cardozo Ocampo</a></li><!--
+                    --><li><a href="CPJ-Sala-Anfiteatro.php">Anfiteatro Oscar Cardozo Ocampo</a></li><!--
                     --><li><a href="CPJ-Sala-Exposicion.php">Sala de Exposiciones Jacinto Rivero</a></li><!--
-                    --><li><a href="CPJ-Sala-Reuniones.php">Sala de Reuniones agustina Miranda</a></li><!--
+                    --><li><a href="CPJ-Sala-Reuniones.php">Sala de Reuniones Agustina Miranda</a></li><!--
                     --><li><a href="CPJ-Sala-Biblioteca.php">Biblioteca Herib Campos Cervera</a></li><!--
                 --></ul><!-- 
               --></li><!-- 
-              --><li class="col-4"><a href="CPJ-Contacto.php">Contacto</a></li><!-- 
+              --><li class="col-3"><a href="CPJ-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
          
@@ -154,27 +153,22 @@ salto, trampolines, vigas.
           
           <li class="logoentidad">
             <a class="TeatroMunicipal" href="TeatroMunicipal.php"></a>
-            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
           </li>
           
           <li class="logoentidad">
             <a class="InstitutoMunicipalDearte" href="InstitutoMunicipalDearte.php"></a>
-            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
           </li>
           
           <li class="logoentidad">
             <a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a>
-            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
           </li>
           
           <li class="logoentidad">
             <a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a>
-            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
           </li>
          
           <li class="logoentidad">
             <a class="DierccionDeaccionCulturalYTurismo" href="DierccionDeaccionCulturalYTurismo.php"></a>
-            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
           </li>
       </ul>
 

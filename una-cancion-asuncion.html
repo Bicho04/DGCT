@@ -3,7 +3,7 @@
 <html lang="es">
 <head>
     <meta http-equiv="content-type" content="text/html;charset=8859-2"/>
-    <title>Direccion General de Cultura y Cultura</title>
+    <title>Direccion General de Cultura y Turismo</title>
 
     <link rel="icon" type="ico" href="imagenes/favicon.ico" />
 

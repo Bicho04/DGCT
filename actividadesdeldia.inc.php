@@ -12,7 +12,7 @@ if(isset($_GET['entidad']))
 	$codentidad=$_GET['entidad'];
 	//$codentidad=$codentidad[0];
 	$filtro="WHERE  no.origen_noticias =  '$codentidad' ";
-	$tituloH3="Listado por Entidad";
+	$tituloH3="Actividades";
 }
 if(isset($entidad))
 {
@@ -23,7 +23,7 @@ AND (Fecha_noticias >=  '".date('Y')."-".date('m')."-".date('d')."'
 OR
 fecha_fin >=  '".date('Y')."-".date('m')."-".date('d')."') ";
 	$filtroentidad=" AND no.origen_noticias =  '$entidad' ";
-	$tituloH3="Listado por Entidad";
+	$tituloH3="Actividades";
 }
 	
 if(isset($_GET['dia']))
@@ -76,7 +76,7 @@ $orden="ORDER BY no.Cod_noticias desc";
 	$totalRows_areaCono = mysql_num_rows($areaCono);
 	if ($totalRows_areaCono==0)
 	{
-		echo "No hay eventos";
+		echo "<p>No hay eventos</p>";
 	}
 	else
 	{ // inicio si existen datos
@@ -98,7 +98,7 @@ $orden="ORDER BY no.Cod_noticias desc";
            <!--a href="#"><?php  echo $row_areaCono['Responsable_noticias']; ?></a-->
            <a href="<?php echo $vinculoampliacion ?>?tema=<?php echo $row_areaCono['Cod_categoria'] ?>#actividades"><?php  echo ($row_areaCono['Descripcion_categoria']); ?></a>
          </span>
-        <h4 id="hora"><?php  echo strlen($row_areaCono['hora_noticias'])>0?" ".$row_areaCono['hora_noticias']:''; ?></h4> <h4><?php  echo convertirfecha($row_areaCono['Fecha_noticias']); ?>
+        <h4 id="hora">Hora: <?php  echo strlen($row_areaCono['hora_noticias'])>0?" ".$row_areaCono['hora_noticias']:''; ?></h4> <h4>Fecha: <?php  echo convertirfecha($row_areaCono['Fecha_noticias']); ?>
 						<?php  
 						if(strlen($row_areaCono['fecha_fin'])>0 && $row_areaCono['Fecha_noticias']!=$row_areaCono['fecha_fin'])
 						echo strlen($row_areaCono['fecha_fin'])>0?" al ".convertirfecha($row_areaCono['fecha_fin']):''; 

@@ -108,7 +108,7 @@
                     --><li><a href="MdlR-C-Clari.php">Casa Clari</a></li><!--  
                     --><li><a href="MdlR-C-Clari-Mestre.php">Casa Clari-Mestre</a></li><!--  
                     --><li><a href="MdlR-C-Vertua.php">Casa Vert&uacute;a</a></li><!--  
-                    --><li><a href="MdlR-C-Emesa.php">Casa Emesa</a></li><!--  
+                    --><li><a href="MdlR-C-Emasa.php">Casa Emasa</a></li><!--  
                     --><li><a href="MdlR-C-Castelvi.php">Casa Castelv&iacute;</a></li><!--  
                     --><li><a href="MdlR-C-Serra.php">Casa Serra I y II</a></li><!--  
                     -->
@@ -149,7 +149,7 @@
                 <aside id="menu-social">
                   <ul id="nav-social">
                     <li><a href="mailto:direcciondeturismo@mca.gov.py"><img src="imagenes/email.png" width="45"></a></li>
-                    <li><a href="https://www.facebook.com/CulturaAsu"><img src="imagenes/facebook.png" width="45"></a></li>
+                    <li><a href="https://www.facebook.com/pages/Centro-Cultural-Manzana-de-la-Rivera/349291535084596?fref=pb"><img src="imagenes/facebook.png" width="45"></a></li>
                     <!--<li><a href="#"><img src="imagenes/twitter.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/skype.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/youtube.png" width="45"></a></li>
@@ -159,16 +159,31 @@
 
             </nav>
               <!-- InstanceBeginEditable name="INFO" -->
-               <section id="cont-info">
-               <div class="info">
-                 <h3>Las Casas de la Manzana</h3> 
-                 <h2>CASA EMASA</h2>
-                 <p>Al  &nbsp;lado de esta casa, est&aacute; la , antigua imprenta y papelera. La  m&aacute;s destruida de la Manzana, porque para poder implementar la imprenta tuvieron  que echar una parte del techo. &nbsp;En un primer lugar fue un sitio de  despachos aduaneros, quedando solamente un grupo de habitaciones muy amplias,  que son las que bordean una especie de corredor que habr&aacute; existido y que hoy se  hizo una especie de &quot;impluvium&quot; con columnas de hormig&oacute;n. Este lugar  se convirti&oacute; en un espacio de exposiciones de arte denominado La Galer&iacute;a. En  esta casa funcionan adem&aacute;s parte de las oficinas administrativas de la Manzana de  la Rivera.</p>
-                 <p>La  Galer&iacute;a fue un sitio pensado para muestras de esculturas, instalaciones,  fotograf&iacute;as, pinturas, disciplinas desarrolladas desde la habilitaci&oacute;n de la  Manzana de la Rivera. Hace m&aacute;s de diez anos, este espacio est&aacute; dirigido a  j&oacute;venes que se inician en el arte, en el marco de un proyecto desarrollado por  el CCC, denominado Manzana Joven, que cuenta actualmente con el apoyo de la  Cooperativa Universitaria Ltda.</p>
-                 <p> Las obras son colocadas sobre pared o paneles  de madera, en una galer&iacute;a semi cerrada, cuenta con luces spots y dicroicas, y  un pequeno espacio con piletas de agua y piedras que se pueden integrar a cada muestra.  Personal capacitado para realizar los montajes.</p>
-                 <p> Las exposiciones son de acceso libre y  gratuito, en el horario de: lunes a viernes, 8 a 20 h, s&aacute;bados y domingos, de 8  a 18 h.</p>
-                 <p>(Los  interesados en exponer deben dirigirse a la Unidad de Espacios del CCC, para  retirar requisitos y condiciones de uso. Tel&eacute;fonos 442-448, 447-683, int. 109;  de lunes a viernes, de 7:30 a 15:30 h. E-mail: <a href="mailto:direccion.manzana.rivera@gmail.com">direccion.manzana.rivera@gmail.com</a>; <a href="http://www.facebook.com/">www.facebook.com</a>).</p>
-               </div>
+              <section id="cont-info">
+
+                <div class="info">
+
+                 <h3>Contacto</h3>
+
+                 <h2>HORARIO DE ATENCI&oacute;N</h2>
+
+                    <p>La Manza atiende en el siguiente horario:</p>
+
+                    <p>de lunes a viernes, de 7:30 a 15:30 h.</p>
+
+                    <h2>CONTACTOS</h2>
+
+                        <div id="iconos">
+                          <a href="" class="icono"><img src="imagenes/phone.png"></br><p>021 442 448, 021 447-683,</p></a>
+
+                    <a href="mailto:direccion.manzana.rivera@gmail.com" target="_blank" class="icono"><img src="imagenes/email.png"></br><p>direccion.manzana.rivera@gmail.com</p></a>
+                    <a href="https://www.facebook.com/pages/Centro-Cultural-Manzana-de-la-Rivera/349291535084596?fref=ts" target="_blank" class="icono"><img src="imagenes/facebook.png"></br><p>Manzana de la Rivera</p></a>
+                    <a href="https://twitter.com/riveramanzana" target="_blank" class="icono"><img src="imagenes/twitter.png"></br><p>@Triveramanzana</p></a>
+
+                    </a>
+                        </div>
+                 </div>
+
               </section>
               <!-- InstanceEndEditable --></div>  
     </section> 

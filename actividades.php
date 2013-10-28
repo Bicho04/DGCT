@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
     <meta charset="utf-8" />
-    <title>Direccion General de Cultura y Cultura</title>
+    <title>Direccion General de Cultura y Turismo</title>
     <link href="css/estilo-plant.css" rel="stylesheet" type="text/css" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">

@@ -186,7 +186,7 @@
                 <aside id="menu-social">
                   <ul id="nav-social">
                     <li><a href="mailto:direcciondeturismo@mca.gov.py"><img src="imagenes/email.png" width="45"></a></li>
-                    <li><a href="https://www.facebook.com/CulturaAsu"><img src="imagenes/facebook.png" width="45"></a></li>
+                    <li><a href="https://www.facebook.com/pages/Instituto-Municipal-de-Arte/154944157891993"><img src="imagenes/facebook.png" width="45"></a></li>
                     <!--<li><a href="#"><img src="imagenes/twitter.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/skype.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/youtube.png" width="45"></a></li>

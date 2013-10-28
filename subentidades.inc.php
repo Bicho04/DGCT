@@ -36,9 +36,6 @@ $etiquetas[$indice][]="La Galeria";
 $etiquetas[$indice][]="Casa Castelví";
 $etiquetas[$indice][]="Patio Arecaya";
 $etiquetas[$indice][]="Espacios del CCCCC.";
-$etiquetas[$indice][]="Sala Seminario Branislava Susnik";
-$etiquetas[$indice][]="Sala de Exposiciones Jacinto Rivero";
-$etiquetas[$indice][]="Sala de Reuniones Agustina Miranda";
 
 $origennatural++;
 $indice=substr(md5($origennatural),0,5); //4. CPJ
@@ -51,6 +48,9 @@ $etiquetas[$indice][]="Computación";
 $etiquetas[$indice][]="Teatro Pio Barrios";
 $etiquetas[$indice][]="Anfiteatro Cardozo Ocampo";
 $etiquetas[$indice][]="Biblioteca";
+$etiquetas[$indice][]="Sala Seminario Branislava Susnik";
+$etiquetas[$indice][]="Sala de Exposiciones Jacinto Rivero";
+$etiquetas[$indice][]="Sala de Reuniones Agustina Miranda";
 
 
 $origennatural++;

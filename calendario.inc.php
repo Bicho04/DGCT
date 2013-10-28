@@ -62,10 +62,10 @@ endwhile;
                               <div class="dia" title="Domingo">Dom</div>
                             <div class="dia" title="Lunes">Lun</div>
                             <div class="dia" title="Martes">Mar</div>
-                            <div class="dia" title="Miercoles">Mier</div>
+                            <div class="dia" title="Mi&oecute;rcoles">Mier</div>
                             <div class="dia" title="Jueves">Juev</div>
                             <div class="dia" title="Viernes">Vier</div>
-                            <div class="dia" title="Sabado">Sab</div>
+                            <div class="dia" title="S&aacute;bado">Sab</div>
                          
                          </div>
 

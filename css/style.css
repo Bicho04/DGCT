@@ -369,6 +369,7 @@ transform : scale(1.1);
 #calendario h1{
     margin-bottom: 5px;
     font-size: 22px;
+    z-index: 2;
 }
 
 
@@ -499,7 +500,6 @@ transform : scale(1.1);
 }
 .TeatroMunicipal:hover{
     background-position: 0 0px;
-    border: 1px #252525 solid;
     border-radius: 15px;
     
 }
@@ -510,7 +510,6 @@ transform : scale(1.1);
 }
 .InstitutoMunicipalDeArte:hover{
     background-position: 0 0px;
-    border: 1px #252525 solid;
     border-radius: 15px;
     
 }
@@ -521,7 +520,6 @@ transform : scale(1.1);
 }
 .ManzanaDeLaRivera:hover{
     background-position: 0 0px;
-    border: 1px #252525 solid;
     border-radius: 15px;
     
 }
@@ -532,7 +530,6 @@ transform : scale(1.1);
 }
 .CentroParaguayoJapones:hover{
     background-position: 0 0px;
-    border: 1px #252525 solid;
     border-radius: 15px;
     
 }
@@ -543,7 +540,6 @@ transform : scale(1.1);
 }
 .DierccionDeAccionCulturalYTurismo:hover{
     background-position: 0 0px;
-    border: 1px #252525 solid;
     border-radius: 15px;
     
 }

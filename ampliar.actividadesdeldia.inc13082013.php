@@ -43,7 +43,10 @@ $totalRows_areaCono = mysql_num_rows($areaCono);
                    <a href="<?php echo $vinculoampliacion ?>?tema=<?php echo $row_areaCono['Cod_categoria'] ?>#actividades"><?php  echo utf8_decode($row_areaCono['Descripcion_categoria']); ?></a>
                    <a href="<?php  echo $Lorigen[$row_areaCono['origen_noticias']]; ?>"><?php  echo $Torigen[$row_areaCono['origen_noticias']]; ?> </a>
                 
-                 </span><h4 id="hora"><?php  echo strlen($row_areaCono['hora_noticias'])>0?"hora : ".$row_areaCono['hora_noticias']:''; ?></h4>
+                 </span>
+				<br/>
+				<br/>
+                 <h4 id="hora"><?php  echo strlen($row_areaCono['hora_noticias'])>0?"hora : ".$row_areaCono['hora_noticias']:''; ?></h4>
      <h4><?php  echo convertirfecha($row_areaCono['Fecha_noticias']); ?><?php  echo strlen($row_areaCono['fecha_fin'])>0?" al ".convertirfecha($row_areaCono['fecha_fin']):''; ?> </h4>
 			 <?php funcionbuscarimagen($row_areaCono['Cod_noticias']);?> <p>
          <?php 

@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Maven+Pro:400,500,700,900);
+@import url(http://fonts.googleapis.com/css?family=Actor);
 @charset "utf-8";
 /* CSS Document */
 @font-face {
@@ -11,7 +13,8 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'maven_probold';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500; 
     src: url('fonts/mavenpro-bold-webfont.eot');
     src: url('fonts/mavenpro-bold-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/mavenpro-bold-webfont.woff') format('woff'),
@@ -22,7 +25,8 @@
 
 }
 @font-face {
-    font-family: 'maven_promedium';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 300; 
     src: url('fonts/mavenpro-medium-webfont.eot');
     src: url('fonts/mavenpro-medium-webfont.eot?#iefix') format('embedded-opentype'),
          url('fonts/mavenpro-medium-webfont.woff') format('woff'),
@@ -48,12 +52,14 @@ body{
 }
 
 h1, h2{
-    font-family: 'maven_probold';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700; 
     font-style: normal;
     font-weight:normal;
 }
 h3, h4, h5, h6{
-    font-family: 'maven_probold';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700; 
     font-weight:normal;
 }
 a {
@@ -69,6 +75,7 @@ caption,th {
 }
 p{
    color:#000;
+   font-family: 'Actor', sans-serif;
 }
 abbr,acronym { border:0;
 }
@@ -219,7 +226,8 @@ transform : scale(1.1);
 }
 
 #nav-logos h2{
-    font-family: 'maven_probold';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700; 
     font-size: 24px;
     margin: 0 auto;
     color: #91CD2E;
@@ -247,7 +255,6 @@ transform : scale(1.1);
 }
 .TeatroMunicipal:hover{
     background-position: 0 0px;
-    border: 1px #444 solid;
     border-radius: 15px;
     
 }
@@ -258,7 +265,6 @@ transform : scale(1.1);
 }
 .InstitutoMunicipalDeArte:hover{
     background-position: 0 0px;
-    border: 1px #444 solid;
     border-radius: 15px;
     
 }
@@ -269,7 +275,6 @@ transform : scale(1.1);
 }
 .ManzanaDeLaRivera:hover{
     background-position: 0 0px;
-    border: 1px #444 solid;
     border-radius: 15px;
     
 }
@@ -280,7 +285,6 @@ transform : scale(1.1);
 }
 .CentroParaguayoJapones:hover{
     background-position: 0 0px;
-    border: 1px #444 solid;
     border-radius: 15px;
     
 }
@@ -291,7 +295,6 @@ transform : scale(1.1);
 }
 .DierccionDeAccionCulturalYTurismo:hover{
     background-position: 0 0px;
-    border: 1px #444 solid;
     border-radius: 15px;
     
 }
@@ -322,7 +325,8 @@ transform : scale(1.1);
     box-sizing: border-box;
     padding: 3px 30px 0 30px; 
     height: 50px;
-    font-family: 'maven_probold';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700; 
     font-size: 27px;
     background: url(../imagenes/T-bg.png) no-repeat;
     background-size: 100% 100% ;
@@ -331,14 +335,16 @@ transform : scale(1.1);
 
 .titulo2{
     height: 50px;
-    font-family: 'maven_probold';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700; 
     font-size: 27px;
     background: url(../imagenes/T-bg2.png) no-repeat;
     background-size: 100% 100% ;
     background-position: bottom;
     }
-.titulo2 h1{
-    font-size: 24px;
+.titulo2 h1{x|
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 700; 
     font-style: normal;
 }
     
@@ -363,13 +369,13 @@ transform : scale(1.1);
 
     
 .nota{
-    font-family: 'maven_promedium';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 300; 
     box-sizing: border-box;
     min-height: 220px;
     width:607px;
     margin: 0px 0px 0 25px;
     padding:10px 15px 15px 0;
-    font-family: 'maven_promedium';
     font-size: .9em;  
     line-height: 18px;
     border-bottom: solid 1px #91CD2E;
@@ -404,7 +410,7 @@ transform : scale(1.1);
     text-decoration:underline;
 }
 .nota h4{
-    display: inline-block;
+    display: block;
     margin: 5px 13px;
     color: #81BD1E;
     font-size:14px;
@@ -432,8 +438,9 @@ transform : scale(1.1);
 }
 .nota p{
     font-size: 16px;
-    font-family: 'maven_promedium';
-    margin: 3px 20px 3px 20px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 300; 
+    margin: 3px 20px 3px 14px;
 }
 
 .nota a{
@@ -443,7 +450,8 @@ transform : scale(1.1);
 .nota img{
     float: left;
     width: 160px;
-    margin: 0 5px 5px 5px;
+    max-height: 200px;
+    margin: 0 20px 5px 5px;
 }
 
 .ampliacion-nota {
@@ -465,7 +473,7 @@ transform : scale(1.1);
     padding: 5px 15px;
     background: #444;
     font-size:24px;
-     line-height: 24px;
+    line-height: 24px;
 }
 .ampliacion-nota h2 a:hover{
     color: #004000;
@@ -473,25 +481,26 @@ transform : scale(1.1);
 
 .ampliacion-nota h4{
     color: #91CD2E;
-    margin: 10px 0;
-    padding: 3px 15px;
+    margin: 0px 0 0px 20px;
+    padding: 0px 15px;
     font-size:16px;
      line-height: 24px;
+     display: block;
 }
 
 
 .ampliacion-nota span{
-    font-family: 'maven_promedium';
-    width: 150px;
-    margin-left: 30px;
-    margin: 5px 10px;
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500; 
+    margin: 5px 10px 20px 35px;
+    display: block;
 
 }
 
 .ampliacion-nota span a{
     font-size: 12px;
     width: 100%;
-    margin: 0 3px;
+    margin: 0 3px 20px;
     padding: 2px 3px;
     background: #eee;
     color:#333;
@@ -504,7 +513,8 @@ transform : scale(1.1);
     color: #333;
 }
 .ampliacion-nota p{
-    font-family: 'maven_promedium';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500; 
     margin: 5px 35px 10px 35px;
     font-size: 16px;
     line-height: 24px;
@@ -531,7 +541,8 @@ transform : scale(1.1);
 
 #izquierda{
     right: 0;
-    font-family: 'maven_promedium';
+    font-family: 'Maven Pro', sans-serif;
+    font-weight: 500; 
     width: 406px;
     min-height: 400px;
     text-align: right;

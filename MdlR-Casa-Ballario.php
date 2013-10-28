@@ -109,7 +109,7 @@
                     --><li><a href="MdlR-C-Clari.php">Casa Clari</a></li><!--  
                     --><li><a href="MdlR-C-Clari-Mestre.php">Casa Clari-Mestre</a></li><!--  
                     --><li><a href="MdlR-C-Vertua.php">Casa Vert&uacute;a</a></li><!--  
-                    --><li><a href="MdlR-C-Emesa.php">Casa Emesa</a></li><!--  
+                    --><li><a href="MdlR-C-Emasa.php">Casa Emasa</a></li><!--  
                     --><li><a href="MdlR-C-Castelvi.php">Casa Castelv&iacute;</a></li><!--  
                     --><li><a href="MdlR-C-Serra.php">Casa Serra I y II</a></li><!--  
                     -->
@@ -150,7 +150,7 @@
                 <aside id="menu-social">
                   <ul id="nav-social">
                     <li><a href="mailto:direcciondeturismo@mca.gov.py"><img src="imagenes/email.png" width="45"></a></li>
-                    <li><a href="https://www.facebook.com/CulturaAsu"><img src="imagenes/facebook.png" width="45"></a></li>
+                    <li><a href="https://www.facebook.com/pages/Centro-Cultural-Manzana-de-la-Rivera/349291535084596?fref=pb"><img src="imagenes/facebook.png" width="45"></a></li>
                     <!--<li><a href="#"><img src="imagenes/twitter.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/skype.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/youtube.png" width="45"></a></li>

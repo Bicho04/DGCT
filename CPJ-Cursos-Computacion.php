@@ -146,27 +146,22 @@
           
           <li class="logoentidad">
             <a class="TeatroMunicipal" href="TeatroMunicipal.php"></a>
-            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
           </li>
           
           <li class="logoentidad">
             <a class="InstitutoMunicipalDeArte" href="InstitutoMunicipalDeArte.php"></a>
-            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
           </li>
           
           <li class="logoentidad">
             <a class="ManzanaDeLaRivera" href="ManzanaDeLaRivera.php"></a>
-            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
           </li>
           
           <li class="logoentidad">
             <a class="CentroParaguayoJapones" href="CentroParaguayoJapones.php"></a>
-            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
           </li>
          
           <li class="logoentidad">
             <a class="DierccionDeAccionCulturalYTurismo" href="DierccionDeAccionCulturalYTurismo.php"></a>
-            <figure class="icono" ><a href="" ><img src="imagenes/facebook2.png" alt=""></a></figure>
           </li>
       </ul>
 

@@ -3,7 +3,7 @@
 <html lang="es"><!-- InstanceBegin template="/Templates/DGCT.dwt" codeOutsideHTMLIsLocked="false" -->
 <head>
     <meta http-equiv="content-type" content="text/html;charset=utf-8"/>
-    <title>Direccion General de Cultura y Cultura</title>
+    <title>Direccion General de Cultura y Turismo</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 

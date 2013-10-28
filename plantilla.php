@@ -3,7 +3,7 @@
 <html lang="es">
 <head>
     <meta http-equiv="content-type" content="text/html;charset=8859-2"/>
-    <title>Direccion General de Cultura y Cultura</title>
+    <title>Direcci&oacute;n General de Cultura y Turismo</title>
     <link rel="icon" type="ico" href="imagenes/favicon.ico" />
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
@@ -131,7 +131,7 @@
 
     <section id="izquierda">
       
-        <div class="titulo2 "><h1>Agenda Asunci&oacute;n</h1></div>
+        <div class="titulo2 "><h1>Agenda Cultural</h1></div>
 
       <div id="cal">
         <section id="calendario">
@@ -141,7 +141,7 @@
           </div>
             <img src="imagenes/sombra2.png"  align="bottom"/>
           <!-- ************** Fin Calendario ********* -->
-            <h2>Buscar por tema</h2>
+            <h2>Actividades por Tema</h2>
                  <nav id="menu-temas">
                      <ul id="nav-temas">
                         <?php include_once("listar.temas.inc.php");?>

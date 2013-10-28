@@ -92,10 +92,9 @@
       </ul>
              
       <div id="cont-central">
-             <ul id="nav-inst"><!--
+            <ul id="nav-inst"><!--
               --><li class="col-3"><a href="CPJ-historia.php">Historia</a></li><!-- 
               --><li class="col-3"><a href="#">Espacios</a><!-- 
-              --><li class="col-3"><a href="#">cursos</a><!-- 
                 --><ul class="col-3"><!-- 
                     --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust&iacute;n P&iacute;o Barrios</a></li><!--
                     --><li><a href="CPJ-Sala-Seminario.php">Sala Seminario Branislava Susnik</a><!--
@@ -108,35 +107,22 @@
               --><li class="col-3"><a href="CPJ-Contacto.php">Contacto</a></li><!-- 
            --></ul>
 
+         
+
         <nav id="botones-entidad">
                 <ul id="botones-entidad-nav">
-                    <li><a href="CPJ-Sala-Seminario.php">Salon Seminario</a></li><!--
-                    --><li><a href="CPJ-">Cursos</a><!-- 
-                      --><ul><!-- 
-                          --><li><a href="CPJ-Cursos-Computacion.php">Computacion</a></li><!--
-                         --><li><a href="CPJ-Cursos-Idiomas.php">Idiomas</a></li><!--
-                         --><li><a href="CPJ-Cursos-Danza.php">Danza</a></li><!--
-                          --><li><a href="CPJ-Cursos-Musica.php">M&uacute;sica</a><!--
-                      --></ul><!-- 
-                    --></li><!-- 
-                    --><li><a href="CPJ-">Gimnasio</a><!-- 
-                      --><ul><!-- 
-                          --><li><a href="CPJ-Cursos-Gimnasia-Artistica.php">Gimnasia Art&iacute;stica</a></li><!--
-                          --><li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio</a></li><!--
-                          --><li><a href="CPJ-Cursos-Artes-Marciales.php">Artes Marciales</a></li><!--
-                    	--></ul><!-- 
-                    --></li><!-- 
-                    --><li><a href="CPJ-Sala-TeatroAPB.php">Teatro Agust&iacute;n Pio Barrios</a></li><!-- 
-                    --><li><a href="CPJ-Sala-Seminario.php">Sal&oacute;n Seminario Branislava Susnik</a></li><!-- 
-                    --><li><a href="CPJ-Sala-Exposicion.php">Sala de Exposiciones Jacinto Rivero</a></li><!--
-                    --><li><a href="CPJ-Sala-Reuniones.php">Sala de Reuniones Agustina Miranda</a></li><!--
-                    --><li><a href="CPJ-Sala-Biblioteca.php">Biblioteca Herib Campo Cervera</a></li><!--
-                --></ul>
+                    <li><a href="CPJ-Cursos-Musica.php">Conservatorio de M&uacute;sica</a></li>
+                    <li><a href="CPJ-Cursos-Gimnasio.php">Gimnasio</a></li>
+                    <li><a href="CPJ-Cursos-Danza.php">Academia de Danza</a></li>
+                    <li><a href="CPJ-Cursos-Idiomas.php">Idiomas</a></li>
+                    <li><a href="CPJ-Cursos-Artes.php">Artes</a></li>
+                    <li><a href="CPJ-Cursos-Computacion.php">Computaci&oacute;n</a></li>
+                    
 
                 <aside id="menu-social">
                   <ul id="nav-social">
-                    <li><a href="mailto:direcciondeturismo@mca.gov.py"><img src="imagenes/email.png" width="45"></a></li>
-                    <li><a href="https://www.facebook.com/CulturaAsu"><img src="imagenes/facebook.png" width="45"></a></li>
+                    <li><a href="mailto:centroparaguayojapones@gmail.com"><img src="imagenes/email.png" width="45"></a></li>
+                    <li><a href="https://www.facebook.com/pages/Centro-Paraguayo-Japon%C3%A9s/258898532086?fref=ts"><img src="imagenes/facebook.png" width="45"></a></li>
                     <!--<li><a href="#"><img src="imagenes/twitter.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/skype.png" width="45"></a></li>
                     <li><a href="#"><img src="imagenes/youtube.png" width="45"></a></li>
